@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<attachment-stock-xls-validation kind="stock" type="xls">
+	<!-- 버전 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmVersionValidationItem</item>
+	<!-- 고객 정보 체크 -->
+	<!-- <item>kr.go.kofiu.str.validation.attach.ConFirmCustomerValidationItem</item> -->
+	<!-- 계좌 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmAccountValidationItem</item>
+	<!-- 조회 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmInquiryValidationItem</item>
+	<!-- 거래 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmTransactionValidationItem</item>
+	<!-- 거래 정보 상세 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.stock.excel.StockTransDetailValidationItem</item>
+</attachment-stock-xls-validation>

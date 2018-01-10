@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<attachment-bank-xml-validation kind="bank" type="xml">
+	<!-- 외환거래 체크 -->
+	<item>fiuft.str.userclass.ra.validation.attach.bank.xml.BankForeignTxValidationItem</item>
+	<!-- 지급금액 체크 -->
+	<!--<item>fiuft.str.userclass.ra.validation.attach.bank.xml.BankPayAmtValidationItem</item> -->
+	<!-- 입금금액 체크 -->
+	<item>fiuft.str.userclass.ra.validation.attach.bank.xml.BankDpstAmtValidationItem</item>
+	<!-- 의뢰인실명번호 체크-->
+	<item>fiuft.str.userclass.ra.validation.attach.bank.xml.BankRqstrRealNoValidationItem</item>
+</attachment-bank-xml-validation>

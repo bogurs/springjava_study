@@ -1,0 +1,980 @@
+[2014/12/28 12:16:16,465] ERROR kr.go.kofiu.ctr.service.MessageEraserJob ½ÇÇà Áß¿¡ ¾Ë ¼ö ¾ø´Â ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
+[2014/12/28 12:16:29,156] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:20:00,469] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:25:00,503] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:30:00,477] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:33:25,720] ERROR ÇöÀç Áß°è ±â°üÀÇ  º¸°í ¹®¼­ Á¢¼ö ¼­ºñ½º Á¦°ø¿¡ ¹®Á¦°¡ ÀÖ½À´Ï´Ù. ¿¬°è¸ğµâÀ» 600ÃÊ°£ ÁßÁöÇÕ´Ï´Ù.
+[2014/12/28 12:33:25,720] INFO ¿¬°è ¸ğµâ ½ºÄÉÁÙ·¯°¡ Sleep ¸ğµå·Î µé¾î°©´Ï´Ù.
+[2014/12/28 12:33:25,720] INFO ¿¬°è ¸ğµâ ½ºÄÉÁÙ·¯°¡ ¼º°øÀûÀ¸·Î  Sleep ¸ğµå·Î µÇ¾ú½À´Ï´Ù.
+[2014/12/28 12:33:25,720] INFO 600ÃÊ µ¿¾È ¿¬°è ¸ğµâÀÇ µ¿ÀÛÀ» ÀÏ½Ã ÁßÁö ÇÕ´Ï´Ù.
+[2014/12/28 12:34:09,895] INFO configuration file: ./str_config/config.xml
+[2014/12/28 12:34:09,989] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 12:34:09,989] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:34:09,989] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:34:10,004] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 12:34:12,110] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 12:34:12,126] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 12:34:12,126] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:34:12,126] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 12:34:12 KST 2014
+[2014/12/28 12:34:12,141] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:34:12,141] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 12:34:12,158] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 12:34:12,174] INFO RAMJobStore initialized.
+[2014/12/28 12:34:12,174] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 12:34:12,174] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 12:34:12,236] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 12:34:12,236] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 12:35:00,943] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:35:58,030] INFO configuration file: ./str_config/config.xml
+[2014/12/28 12:35:58,108] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 12:35:58,108] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:35:58,108] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:35:58,123] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 12:35:59,529] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 12:35:59,545] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 12:35:59,545] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:35:59,545] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 12:35:59 KST 2014
+[2014/12/28 12:35:59,545] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:35:59,545] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 12:35:59,577] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 12:35:59,577] INFO RAMJobStore initialized.
+[2014/12/28 12:35:59,577] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 12:35:59,577] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 12:35:59,624] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 12:35:59,624] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 12:36:30,031] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:36:30,656] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:36:30,656] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:36:33,979] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:36:33,979] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:36:34,246] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:36:34,246] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:36:34,262] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:36:34,356] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 12:36:34,371] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228123634||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(string value '200910181' does not match pattern for type of ContractDate element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str || string value '201012121' does not match pattern for type of MaturityDate element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 12:36:57,414] INFO configuration file: ./str_config/config.xml
+[2014/12/28 12:36:57,508] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 12:36:57,508] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:36:57,508] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:36:57,508] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 12:36:59,084] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 12:36:59,099] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 12:36:59,099] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:36:59,116] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 12:36:59 KST 2014
+[2014/12/28 12:36:59,116] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:36:59,116] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 12:36:59,132] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 12:36:59,147] INFO RAMJobStore initialized.
+[2014/12/28 12:36:59,147] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 12:36:59,147] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 12:36:59,194] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 12:36:59,194] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 12:37:15,033] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:37:15,814] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:37:15,814] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:37:16,313] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:37:16,313] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:37:16,626] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:37:16,626] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:37:16,642] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:37:18,155] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 12:37:18,155] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob ½ÇÇà Áß¿¡ ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
+kr.go.kofiu.common.agent.AgentException: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at java.lang.String.substring(Unknown Source)
+	at kr.go.kofiu.str.util.STRDocumentSenderUtil.error(STRDocumentSenderUtil.java:27)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:100)
+	... 4 more
+[2014/12/28 12:37:23,522] INFO Áõ¼­¼ö½Å = ûï¾ø ÓÊ	.şûï¾0?	*†H†÷ ‚???10	+ 0m	*†H†÷?^STRSTART||06||99||9400||94005108900111||20091014||20141228124256||00||µµÂøÁõ¼­¹ß¼Û¼º°ø||STREND ‚0?0??Yi?0	*†H†÷ 0N10	UKR10U
+	TradeSign10UAccreditedCA10UTradeSignCA0070503020443Z080503023443Z0s10	UKR10U
+	TradeSign10UAccreditedCA10UKTNET1)0'U ê¸ˆìœµ?•ë³´ë¶„ì„??00000816550Ÿ0	*†H†÷  0‰ ´Ú-¥a?v??JÔöƒ¡??’RÀŒ?w—Cj´“-Ù¥??<e›C>$´pŞ¸c??crÏ¯?ÑĞPœß†”?‡f?-n??hV¿Ui?”ı?&J???}‹¢=)PqW+??1èºıÔŠç £‚R0?N0U#‡0„?+v®‚\}?‘?[¹â?©¯¡h¤f0d10	UKR10U
+KISA1.0,U%Korea Certification Authority Central10UKISA RootCA 1?'d0U‡ÇR2Æ·z??º¶b??0U??zU ?p0n0l	*?ŒšLo0_0.+0" ?  ???²”  ?????  ?²È²ä0-+!http://www.tradesign.net/cps.html0dU]0[ Y	*?ŒšD
+ L0Jê¸ˆìœµ?•ë³´ë¶„ì„??10/
+*?ŒšD
+0!0+?¾q??>ZéÍ?Pw.?Éç0dU]0[0Y W U†Sldap://ldap.tradesign.net:389/cn=crl1dp59,ou=crldp,ou=AccreditedCA,o=TradeSign,c=KR0C+70503+0?http://ocsp.tradesign.net:80/OCSPServer0	*†H†÷ ? aFw?vØ¶5??*Èø?[/Âsa!KV4PEW?¨â8t?‡Û?ÛÌ?PlN?H°?¥ë šO?Oüì)?{—r!ôÄ?Àr:?úÇ«¸¸Ù«eTJ?Q??še’¦R?„?Ôú[@x??c???£EveZ%²h"???Ø¬½ï¦1?i(äú?!??šür#o?X??j—aa?\?‚·u?”ùöö*³Ä?‹Xo?P?–Ö¢°·D-?o???¥åÑº9•r? î?ŒUV•u??Y0?U0V0N10	UKR10U
+	TradeSign10UAccreditedCA10UTradeSignCAYi?0	+ ?0	*†H†÷	1	*†H†÷0	*†H†÷	1141228034256Z0#	*†H†÷	1Yc5Äş?x?|²r5?7V0	*†H†÷?g.Ç²¦§l?øµ?†¡?o)QrBKX??ÖüX±ş\r=jBw1H%„¼›’_£R?Øà$má°?†±???P‰Sg%§nt^OºÙj\_ ?˜zo?Â“šÚáÈœ˜òâœL??£ü5ğÍ»¬Ÿ“ÌÄ…8
+[2014/12/28 12:37:30,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:37:30,047] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:37:30,047] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:40:11,104] INFO configuration file: ./str_config/config.xml
+[2014/12/28 12:40:11,198] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 12:40:11,198] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:40:11,198] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 12:40:11,198] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 12:40:13,039] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 12:40:13,054] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 12:40:13,054] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:40:13,054] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 12:40:13 KST 2014
+[2014/12/28 12:40:13,054] INFO *---------------------------------------------------------------------------*
+[2014/12/28 12:40:13,054] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 12:40:13,086] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 12:40:13,102] INFO RAMJobStore initialized.
+[2014/12/28 12:40:13,102] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 12:40:13,102] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 12:40:13,133] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 12:40:13,133] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 12:40:15,036] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:40:15,552] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:40:15,552] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:40:16,053] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:40:16,053] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:40:16,460] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:40:16,460] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:40:16,476] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:40:17,835] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 12:40:17,835] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||99||9400||94005108900111||20091014||20141228124017||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 12:40:17,850] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 12:40:23,531] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||99||9400||94005108900111||20091014||20141228124556||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 12:41:23,500] INFO °¡Á¢¼öÁõ¼­¼ö½Å = STRSTART||07||01||9400||94005107900108||20091014||20141228124653||00||°¡Á¢¼öÁ¤»ó¹ß¼Û¿Ï·á(Á¢¼ö Deamon RA DB Ã³¸® ¿¡·¯)||STREND
+[2014/12/28 12:45:00,612] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:48:45,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:48:45,048] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:48:45,048] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:48:45,985] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:48:45,985] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:48:46,219] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:48:46,219] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:48:46,219] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:48:47,078] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 12:48:47,078] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228124847||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 12:48:47,078] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 12:48:53,507] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108922221||20091014||20141228125425||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 12:50:00,468] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 12:50:15,010] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:50:15,042] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:50:15,043] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:50:15,511] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:50:15,511] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:50:15,713] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:50:15,713] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:50:15,713] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:50:15,745] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 12:50:15,745] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228125015||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(string value '00082008112222;' does not match pattern for type of FiuDocNum element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 12:52:15,020] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:52:15,035] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:52:15,035] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:52:15,941] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:52:15,941] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:52:16,175] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:52:16,175] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:52:16,175] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:52:17,019] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 12:52:17,019] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228125217||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 12:52:17,019] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 12:52:23,493] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108922221||20091014||20141228125754||00||µµÂøÁõ¼­¹ß¼Û¼º°ø||STREND
+[2014/12/28 12:53:15,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:53:15,039] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:53:15,039] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:53:15,508] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:53:15,508] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:53:15,695] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:53:15,695] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:53:15,711] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:53:15,711] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 12:53:15,711] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228125315||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(decimal value (-1,000,000) is less than minInclusive facet (0) for type of OuterUSDAmount element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 12:54:00,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:54:00,035] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 12:54:00,035] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 12:54:04,404] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 12:54:04,404] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 12:54:04,592] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 12:54:04,592] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 12:54:04,592] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 12:54:04,607] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 12:54:04,607] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228125404||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(decimal value (-1,000,000) is less than minInclusive facet (0) for type of OuterUSDAmount element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 12:54:30,025] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 12:54:30,040] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 12:54:30,040] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||02||9400||94005108922221||20091014||20141228125430||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) ¸Ş¼¼ÁöÅ¸ÀÔÄÚµåInvalid : ¸Ş¼¼Áö Å¸ÀÔ ÄÚµå¸¦ È®ÀÎÇÏ¿© ÁÖ½Ê½Ã¿À.)||STREND
+[2014/12/28 12:55:00,493] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:00:00,012] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:00:00,044] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 13:00:00,044] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 13:00:00,465] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:00:00,933] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 13:00:00,933] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 13:00:01,120] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 13:00:01,120] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 13:00:01,136] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 13:00:01,136] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:00:01,136] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228130001||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(Expected element 'BranchOfficeScore' before the end of the content in element SuspicionReport)||STREND
+[2014/12/28 13:01:00,015] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:01:00,031] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 13:01:00,031] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 13:01:04,354] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 13:01:04,354] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 13:01:04,558] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 13:01:04,558] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 13:01:04,574] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 13:01:04,589] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:01:04,589] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228130104||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(Expected element 'Seq' instead of 'Date' here in element Transaction || Expected element 'Seq' instead of 'Time' here in element Transaction || Expected element 'Seq' instead of 'Channel' here in element Transaction || Expected element 'Seq' instead of 'Mean' here in element Transaction || Expected element 'Seq' instead of 'Method' here in element Transaction || Expected element 'Seq' instead of 'Goods' here in element Transaction || Expected element 'Seq' instead of 'MoneyType' here in element Transaction || Expected element 'Seq' instead of 'KRWAmount' here in element Transaction || Expected element 'Seq' instead of 'ForeignAmount' here in element Transaction || Expected element 'Seq' instead of 'USDAmount' here in element Transaction || Expected element 'Seq' instead of 'OrgName' here in element Transaction || Expected element 'Seq' instead of 'BranchOffice' here in element Transaction || Expected element 'Seq' instead of 'UserRelation' here in element Transaction || Expected element 'Seq' instead of 'UserRelation' here in element Transaction || Expected element 'Seq' instead of 'UserRelation' here in element Transaction || Expected element 'Seq' instead of 'Securities' here in element Transaction || Expected element 'Seq' instead of 'ForeignExchange' here in element Transaction || Expected element 'Seq' instead of 'Stock' here in element Transaction || Expected element 'Seq' instead of 'Insurance' here in element Transaction || Expected element 'Seq' before the end of the content in element Transaction)||STREND
+[2014/12/28 13:02:18,089] INFO configuration file: ./str_config/config.xml
+[2014/12/28 13:02:18,183] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 13:02:18,183] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:02:18,183] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:02:18,198] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 13:02:19,979] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 13:02:20,010] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 13:02:20,010] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:02:20,010] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 13:02:20 KST 2014
+[2014/12/28 13:02:20,010] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:02:20,010] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 13:02:20,042] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 13:02:20,042] INFO RAMJobStore initialized.
+[2014/12/28 13:02:20,042] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 13:02:20,042] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 13:02:20,089] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 13:02:20,089] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 13:03:00,033] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:03:00,549] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 13:03:00,549] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 13:03:03,984] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 13:03:03,984] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 13:03:04,267] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 13:03:04,267] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 13:03:04,267] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 13:03:04,345] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:03:04,345] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228130304||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(Expected element 'Seq' instead of 'Date' here in element Transaction)||STREND
+[2014/12/28 13:05:00,480] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:10:00,484] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:15:00,491] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:15:45,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:15:45,032] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 13:15:45,032] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 13:15:45,516] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 13:15:45,516] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 13:15:45,719] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 13:15:45,719] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 13:15:45,719] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 13:15:46,983] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 13:15:46,983] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228131546||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 13:15:46,983] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 13:15:53,492] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108922221||20091014||20141228132124||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 13:17:30,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:17:30,047] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:17:30,047] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228131730||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '12' is not a valid enumeration value for type of Code attribute in type of Channel element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 13:19:00,013] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:19:00,028] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob ½ÇÇà Áß¿¡ ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
+kr.go.kofiu.common.agent.AgentException: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at java.lang.String.substring(Unknown Source)
+	at kr.go.kofiu.str.util.STRDocumentSenderUtil.error(STRDocumentSenderUtil.java:27)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:100)
+	... 4 more
+[2014/12/28 13:19:15,068] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:19:15,099] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob ½ÇÇà Áß¿¡ ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
+kr.go.kofiu.common.agent.AgentException: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at java.lang.String.substring(Unknown Source)
+	at kr.go.kofiu.str.util.STRDocumentSenderUtil.error(STRDocumentSenderUtil.java:27)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:100)
+	... 4 more
+[2014/12/28 13:19:21,762] INFO configuration file: ./str_config/config.xml
+[2014/12/28 13:19:21,840] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 13:19:21,840] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:19:21,840] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:19:21,856] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 13:19:23,587] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 13:19:23,618] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 13:19:23,618] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:19:23,618] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 13:19:23 KST 2014
+[2014/12/28 13:19:23,618] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:19:23,618] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 13:19:23,651] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 13:19:23,666] INFO RAMJobStore initialized.
+[2014/12/28 13:19:23,666] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 13:19:23,666] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 13:19:23,729] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 13:19:23,729] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 13:19:30,032] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:19:46,524] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob ½ÇÇà Áß¿¡ ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
+kr.go.kofiu.common.agent.AgentException: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at java.lang.String.substring(Unknown Source)
+	at kr.go.kofiu.str.util.STRDocumentSenderUtil.error(STRDocumentSenderUtil.java:62)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:100)
+	... 4 more
+[2014/12/28 13:20:00,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:20:00,537] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:21:03,285] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:21:03,285] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228132103||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 13:21:45,020] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:22:18,532] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 13:22:18,532] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228132218||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 13:22:30,015] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 13:25:00,481] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 13:30:54,106] INFO configuration file: ./str_config/config.xml
+[2014/12/28 13:30:54,200] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 13:30:54,200] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:30:54,200] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 13:30:54,200] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 13:30:55,806] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 13:30:55,822] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 13:30:55,822] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:30:55,822] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 13:30:55 KST 2014
+[2014/12/28 13:30:55,822] INFO *---------------------------------------------------------------------------*
+[2014/12/28 13:30:55,822] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 13:30:55,854] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 13:30:55,854] INFO RAMJobStore initialized.
+[2014/12/28 13:30:55,870] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 13:30:55,870] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 13:30:55,901] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 13:30:55,901] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 15:03:24,498] INFO configuration file: ./str_config/config.xml
+[2014/12/28 15:03:24,654] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 15:03:24,654] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:03:24,654] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:03:24,669] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 15:03:26,652] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 15:03:26,667] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 15:03:26,667] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:03:26,684] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 15:03:26 KST 2014
+[2014/12/28 15:03:26,684] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:03:26,684] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 15:03:26,715] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 15:03:26,746] INFO RAMJobStore initialized.
+[2014/12/28 15:03:26,746] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 15:03:26,746] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 15:03:26,918] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 15:03:26,918] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 15:03:30,055] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:03:30,634] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:03:30,649] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108922221||20091014||20141228150330||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 15:03:45,018] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:03:45,034] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:03:45,034] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108923333||20091014||20141228150345||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 15:04:15,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:04:15,052] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:04:15,052] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108923333||20091014||20141228150415||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 15:04:21,936] INFO configuration file: ./str_config/config.xml
+[2014/12/28 15:04:22,045] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 15:04:22,045] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:04:22,045] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:04:22,061] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 15:04:23,511] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 15:04:23,527] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 15:04:23,527] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:04:23,527] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 15:04:23 KST 2014
+[2014/12/28 15:04:23,527] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:04:23,527] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 15:04:23,559] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 15:04:23,575] INFO RAMJobStore initialized.
+[2014/12/28 15:04:23,575] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 15:04:23,575] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 15:04:23,637] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 15:04:23,637] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 15:04:45,027] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:05:00,515] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:05:51,970] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:05:51,986] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108923333||20091014||20141228150551||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 15:06:00,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:06:00,196] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:06:00,196] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:06:04,174] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:06:04,174] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:06:04,580] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:06:04,580] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:06:04,596] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:06:06,171] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:06:06,171] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228150606||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:06:06,171] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:06:13,504] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228151144||00||µµÂøÁõ¼­¹ß¼Û¼º°ø||STREND
+[2014/12/28 15:09:33,475] INFO °¡Á¢¼öÁõ¼­¼ö½Å = STRSTART||07||01||9400||94005108924444||20091014||20141228151502||00||°¡Á¢¼öÁ¤»ó¹ß¼Û¿Ï·á(¼º°ø)||STREND
+[2014/12/28 15:10:00,479] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:13:15,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:13:15,050] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:13:15,050] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:13:15,738] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:13:15,738] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:13:16,003] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:13:16,003] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:13:16,018] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:13:28,701] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:13:28,701] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228151328||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯_CREATE_STR(string value '201412261' does not match pattern for type of StartDate element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 15:14:30,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:14:32,498] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:14:32,513] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228151432||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '12' is not a valid enumeration value for type of Code attribute in type of Channel element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 15:15:00,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:15:00,488] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:18:05,887] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:18:12,581] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:18:12,581] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228151812||99||¾Ë¼ö¾ø´Â ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.(SYSTEM_ERROR)||STREND
+[2014/12/28 15:18:30,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:18:33,629] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:18:33,629] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228151833||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: Code in element Channel)||STREND
+[2014/12/28 15:19:32,157] INFO configuration file: ./str_config/config.xml
+[2014/12/28 15:19:32,235] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 15:19:32,235] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:19:32,235] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 15:19:32,235] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 15:19:34,123] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 15:19:34,138] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 15:19:34,138] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:19:34,138] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 15:19:34 KST 2014
+[2014/12/28 15:19:34,138] INFO *---------------------------------------------------------------------------*
+[2014/12/28 15:19:34,138] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 15:19:34,171] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 15:19:34,202] INFO RAMJobStore initialized.
+[2014/12/28 15:19:34,202] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 15:19:34,202] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 15:19:34,249] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 15:19:34,249] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 15:20:00,535] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:25:00,507] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:30:00,487] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:31:30,027] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:31:34,975] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:31:34,975] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153134||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: Code in element Method)||STREND
+[2014/12/28 15:32:00,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:32:00,062] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:32:00,062] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153200||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: ZipCode in element BranchOffice)||STREND
+[2014/12/28 15:32:15,024] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:32:15,212] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:32:15,212] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:32:16,117] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:32:16,117] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:32:16,461] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:32:16,461] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:32:16,477] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:32:17,772] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:32:17,787] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153217||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:32:17,787] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:32:23,513] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228153755||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:32:30,020] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:32:30,052] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:32:30,052] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:32:33,905] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:32:33,905] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:32:34,109] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:32:34,109] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:32:34,124] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:32:35,014] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:32:35,014] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153235||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:32:35,014] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:32:43,533] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228153812||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:33:45,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:33:45,043] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:33:45,043] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153345||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) °ü°è¼³¸íinvalid : °Å·¡¿ªÇÒÄÚµå°¡ '03','09','12','15'(°Å·¡ ´ë¸®ÀÎ,°èÁÂ°³¼³ ´ë¸®ÀÎ,´çÇà¼Û¼öÃë °èÁÂ°³¼³ ´ë¸®ÀÎ,ÁÖÇÇº¸ÇèÀÚ)ÀÏ °æ¿ì ÇÊ¼öÀÔ·Â ÀÔ´Ï´Ù. <InsuRelDesc> Á¦¾àÁ¶°ÇÀ» È®ÀÎ ÇÏ½Ê½Ã¿À..)||STREND
+[2014/12/28 15:34:15,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:34:15,049] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:34:15,049] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153415||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) °Å·¡¿¡´ëÇÑ°Å·¡ÀÚ¿ªÇÒinvalid : <UserRelation>Á¤º¸°¡ ¿©·¯ ¹ø ¹İº¹µÉ ¶§ °Å·¡¿ªÇÒÄÚµå°¡ Áßº¹µÇ¸é ¾ÈµË´Ï´Ù. <UserRelation> Á¦¾àÁ¶°ÇÀ» È®ÀÎ ÇÏ½Ê½Ã¿À.)||STREND
+[2014/12/28 15:34:45,013] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:34:45,046] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:34:45,046] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:34:45,529] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:34:45,529] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:34:45,732] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:34:45,732] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:34:45,748] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:34:46,637] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:34:46,652] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153446||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:34:46,652] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:34:53,519] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154024||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:35:00,478] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:35:15,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:35:15,051] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:35:15,051] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:35:15,504] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:35:15,504] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:35:15,722] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:35:15,722] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:35:15,738] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:35:16,596] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:35:16,596] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153516||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:35:16,596] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:35:23,511] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154054||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:36:30,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:36:30,051] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:36:30,051] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:36:34,356] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:36:34,356] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:36:34,591] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:36:34,591] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:36:34,607] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:36:35,481] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:36:35,481] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153635||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:36:35,496] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:36:43,531] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154213||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:37:30,012] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:37:30,044] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:37:30,044] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:37:33,928] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:37:33,928] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:37:34,132] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:37:34,132] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:37:34,132] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:37:34,990] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:37:34,990] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153734||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:37:35,006] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:37:43,509] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154312||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:37:45,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:37:45,039] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:37:45,039] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:37:45,508] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:37:45,508] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:37:45,679] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:37:45,679] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:37:45,695] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:37:46,537] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:37:46,537] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153746||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:37:46,553] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:37:53,511] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154324||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:38:15,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:38:15,027] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:38:15,027] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:38:15,496] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:38:15,496] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:38:15,683] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:38:15,683] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:38:15,683] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:38:16,572] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:38:16,572] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153816||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:38:16,572] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:38:23,734] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154354||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:38:45,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:38:45,046] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:38:45,046] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:38:45,514] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:38:45,514] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:38:45,717] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:38:45,717] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:38:45,717] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:38:46,591] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:38:46,606] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153846||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:38:46,606] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:38:53,520] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154424||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:39:15,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:39:15,034] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:39:15,034] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:39:15,519] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:39:15,519] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:39:15,737] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:39:15,737] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:39:15,753] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:39:16,595] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:39:16,595] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153916||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:39:16,611] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:39:23,556] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154454||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:39:45,025] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:39:45,040] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:39:45,040] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:39:45,509] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:39:45,509] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:39:45,681] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:39:45,697] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:39:45,697] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:39:46,555] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:39:46,570] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228153946||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:39:46,570] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:39:53,513] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154524||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:40:00,503] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:41:45,018] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:41:45,033] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:41:45,033] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154145||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '1532111' does not match pattern for type of Time element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 15:42:00,010] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:42:00,026] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:42:00,026] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154200||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '' does not match pattern for type of Time element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 15:43:00,015] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:43:00,030] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:43:00,030] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:43:04,353] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:43:04,353] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:43:04,556] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:43:04,556] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:43:04,556] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:43:05,414] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:43:05,430] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154305||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:43:05,430] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:43:13,529] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228154843||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:43:45,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:43:45,046] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:43:45,047] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:43:45,515] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 99 | °á°ú : µî·ÏµÇÁö ¾ÊÀº »ç¿ëÀÚÀÔ´Ï´Ù.)
+[2014/12/28 15:43:45,515] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:43:45,515] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154345||98||À¯È¿ÇÏÁö ¾ÊÀº ¶Ç´Â,UserId||STREND
+[2014/12/28 15:44:30,033] ERROR STR_9400_20141228_00000017.xml ±âÁØÁ¤º¸ Parsing Áß ¿¡·¯°¡ ¹ß»ıÇß½À´Ï´Ù. XML Çü½ÄÀÌ ¿Ã¹Ù¸¥Áö È®ÀÎÇÏ½Ê½Ã¿À. ÆÄÀÏÀ» ARCHIVE·Î ÀûÀçÇÕ´Ï´Ù.
+[2014/12/28 15:45:00,480] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:47:15,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:47:15,038] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:47:15,038] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154715||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected element 'SuspicionReport' before the end of the content in element Master)||STREND
+[2014/12/28 15:48:00,018] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:48:00,049] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:48:00,050] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:48:04,326] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:48:04,326] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:48:04,530] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:48:04,530] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:48:04,530] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:48:05,372] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:48:05,372] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154805||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:48:05,388] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:48:13,501] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228155343||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:48:45,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:48:45,016] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:48:45,016] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154845||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '' does not match pattern for type of BranchOfficeScore element in type of SuspicionReport element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 15:49:30,013] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:49:30,045] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:49:30,045] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228154930||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) ±âÅ¸Æ¯Â¡¹×À¯Çüinvalid : ÀÇ½É½º·¯¿î °Å·¡À¯Çü(Suspicion)ÀÌ ¾øÀ» °æ¿ì ±âÅ¸ Æ¯Â¡ ¹× À¯ÇüÁ¤º¸°¡ ÀÖ¾î¾ß ÇÕ´Ï´Ù. <EtcPecularityType> Á¦¾àÁ¶°ÇÀ» È®ÀÎ ÇÏ½Ê½Ã¿À.)||STREND
+[2014/12/28 15:50:00,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:50:00,048] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 15:50:00,048] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 15:50:00,485] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 15:50:00,984] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 15:50:00,984] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 15:50:01,203] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 15:50:01,203] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 15:50:01,203] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 15:50:05,431] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 15:50:05,431] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228155005||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 15:50:05,447] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 15:50:14,979] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228155543||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 15:50:15,012] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 15:50:15,012] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 15:50:15,012] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228155015||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string length (12) is greater than maxLength facet (10) for type of BranchOfficeScore element in type of SuspicionReport element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:06:20,428] INFO configuration file: ./str_config/config.xml
+[2014/12/28 16:06:20,506] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 16:06:20,522] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 16:06:20,522] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 16:06:20,522] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.23)             ****
+[2014/12/28 16:06:22,238] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.23))
+[2014/12/28 16:06:22,253] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 16:06:22,253] INFO *---------------------------------------------------------------------------*
+[2014/12/28 16:06:22,270] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.23) init  Sun Dec 28 16:06:22 KST 2014
+[2014/12/28 16:06:22,270] INFO *---------------------------------------------------------------------------*
+[2014/12/28 16:06:22,270] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 16:06:22,286] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 16:06:22,301] INFO RAMJobStore initialized.
+[2014/12/28 16:06:22,301] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 16:06:22,301] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 16:06:22,348] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 16:06:22,348] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 16:06:30,040] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:06:30,493] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:06:30,493] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228160630||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '' does not match pattern for type of BranchOfficeScore element in type of SuspicionReport element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:10:00,475] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:15:00,490] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:19:00,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:19:00,050] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:19:00,050] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228161900||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: Code in element RealNumber)||STREND
+[2014/12/28 16:20:00,490] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:20:15,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:20:15,033] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:20:15,033] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228162015||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '14' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:21:00,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:21:00,026] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:21:00,026] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228162100||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '14' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:21:30,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:21:30,186] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:21:30,186] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:21:34,351] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:21:34,351] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:21:34,664] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:21:34,664] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:21:34,664] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:21:35,944] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:21:35,944] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228162135||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:21:35,959] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:21:43,511] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228162713||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 16:25:00,465] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:30:00,489] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:35:00,478] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:40:00,481] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:40:15,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:40:15,037] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:40:15,037] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164015||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '14' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:41:00,018] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:41:00,050] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:41:00,050] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164100||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) °Å·¡¿¡´ëÇÑ °Å·¡ÀÚ¿ªÇÒ ½Ç¸í¹øÈ£invalid : ½Ç¸í¹øÈ£±¸ºĞÄÚµå°¡ '01','02','03'ÀÏ °æ¿ì ½Ç¸í¹øÈ£¸¦ È®ÀÎ ÇÏ½Ê½Ã¿À. <RealNumber> Á¦¾àÁ¶°ÇÀ» È®ÀÎ ÇÏ½Ê½Ã¿À.)||STREND
+[2014/12/28 16:41:30,019] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:41:30,052] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:41:30,052] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:41:34,358] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:41:34,358] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:41:34,594] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:41:34,594] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:41:34,594] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:41:35,452] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:41:35,452] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164135||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:41:35,468] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:41:43,503] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005108924444||20091014||20141228164713||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 16:42:15,022] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:42:15,054] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:42:15,054] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164215||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) °ü°è¼³¸íinvalid : °Å·¡¿ªÇÒÄÚµå°¡ '03','09','12','15'(°Å·¡ ´ë¸®ÀÎ,°èÁÂ°³¼³ ´ë¸®ÀÎ,´çÇà¼Û¼öÃë °èÁÂ°³¼³ ´ë¸®ÀÎ,ÁÖÇÇº¸ÇèÀÚ)ÀÏ °æ¿ì ÇÊ¼öÀÔ·Â ÀÔ´Ï´Ù. <InsuRelDesc> Á¦¾àÁ¶°ÇÀ» È®ÀÎ ÇÏ½Ê½Ã¿À..)||STREND
+[2014/12/28 16:43:00,016] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:43:00,032] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:43:00,032] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164300||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '19' is not a valid enumeration value for type of Code attribute in type of RelationRole element in type of UserRelation element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:44:45,015] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:44:45,048] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:44:45,048] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:44:45,641] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:44:45,641] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:44:45,843] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:44:45,843] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:44:45,859] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:44:46,717] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:44:46,733] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164446||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:44:46,733] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:45:00,493] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:45:06,547] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005107900108||20091014||20141228165041||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 16:45:15,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:45:15,054] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:45:15,054] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:45:15,600] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:45:15,600] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:45:15,802] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:45:15,802] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:45:15,802] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:45:16,863] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:45:16,879] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164516||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:45:16,894] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:47:00,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:47:00,037] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:47:00,037] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164700||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: Code in element SecuritiesType)||STREND
+[2014/12/28 16:47:30,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:47:30,039] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:47:30,039] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164730||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(Expected attribute: Code in element SecuritiesType)||STREND
+[2014/12/28 16:48:00,013] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:48:00,028] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:48:00,028] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164800||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '10' is not a valid enumeration value for type of Code attribute in type of SecuritiesType element in type of Securities element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:48:30,012] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:48:30,045] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:48:30,045] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:48:34,179] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:48:34,179] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:48:34,398] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:48:34,398] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:48:34,414] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:48:35,272] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:48:35,287] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164835||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:48:35,304] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:48:45,010] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:48:45,026] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:48:45,026] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164845||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string length (16) is greater than maxLength facet (15) for type of SecuritiesNumber element in type of Securities element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:49:15,012] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:49:15,027] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:49:15,044] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:49:15,561] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:49:15,561] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:49:15,764] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:49:15,764] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:49:15,764] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:49:16,622] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:49:16,622] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228164916||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:49:16,653] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:50:00,500] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:50:15,025] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:50:15,040] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:50:15,056] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:50:15,605] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:50:15,605] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:50:15,808] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:50:15,808] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:50:15,808] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:50:16,650] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:50:16,666] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165016||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:50:16,666] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:50:45,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:50:45,045] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:50:45,061] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:50:45,623] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:50:45,623] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:50:45,826] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:50:45,826] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:50:45,826] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:50:46,700] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:50:46,700] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165046||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:50:46,715] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:51:00,023] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:51:00,039] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:51:00,039] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165100||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string length (0) does not match length facet (4) for type of Code attribute in type of OrgName element in type of Securities element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:51:30,013] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:51:30,029] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:51:30,029] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:51:33,914] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:51:33,914] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:51:34,118] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:51:34,118] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:51:34,134] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:51:34,976] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:51:34,976] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165134||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:51:34,992] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 16:52:15,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:52:15,044] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:52:15,044] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165215||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯((STRValidation) À¯°¡Áõ±ÇInvalid : Áö±ŞÀºÇà°ú ¹ßÇàÀºÇà Áß ÇÏ³ª´Â ÇÊ¼ö ±âÀçÇØ¾ßÇÕ´Ï´Ù.)||STREND
+[2014/12/28 16:55:00,494] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 16:55:45,022] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:55:45,022] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:55:45,037] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165545||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(decimal value (-123,123) is less than minInclusive facet (0) for type of IssueAmount element in type of Securities element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:56:30,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:56:30,033] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:56:30,033] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165630||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '18990203' does not match pattern for type of IssuerDate element in type of Securities element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:57:30,024] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:57:30,040] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:57:30,040] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165730||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '20' is not a valid enumeration value for type of Code attribute in type of Purpose element in type of ForeignExchange element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:57:45,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:57:45,017] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 16:57:45,032] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165745||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '20' is not a valid enumeration value for type of Code attribute in type of Purpose element in type of ForeignExchange element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 16:58:15,018] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 16:58:15,034] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 16:58:15,034] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 16:58:15,909] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 16:58:15,909] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 16:58:16,111] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 16:58:16,111] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 16:58:16,127] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 16:58:16,971] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 16:58:16,971] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228165816||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 16:58:16,987] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 17:00:00,501] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:04:05,274] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005107900108||20091014||20141228170939||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 17:05:00,473] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:05:45,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:05:45,032] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 17:05:45,032] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 17:05:45,565] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 17:05:45,565] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 17:05:45,768] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 17:05:45,768] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 17:05:45,768] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 17:05:46,672] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 17:05:46,672] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228170546||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 17:05:46,705] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 17:06:15,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:06:15,036] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 17:06:15,036] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 17:06:15,570] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 17:06:15,585] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 17:06:15,788] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 17:06:15,788] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 17:06:15,788] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 17:06:16,617] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 17:06:16,632] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228170616||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 17:06:16,648] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 17:07:05,134] INFO µµÂøÁõ¼­¼ö½Å = STRSTART||06||01||9400||94005107900108||20091014||20141228171239||01||¹®¼­¹øÈ£(FiuDocNum) Áßº¹ ¿¡·¯||STREND
+[2014/12/28 17:09:30,010] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:09:30,025] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:09:30,025] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228170930||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string length (80) is greater than maxLength facet (30) for type of StockName element in type of Stock element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:10:00,469] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:15:00,473] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:20:00,488] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:21:00,021] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:21:00,036] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:21:00,036] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172100||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(The total digits (24) of value '555555555555555555555555' is greater than the totalDigits facet (10) for type of Quantity element in type of Stock element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:21:45,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:21:45,033] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 17:21:45,049] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 17:21:45,783] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 17:21:45,783] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 17:21:46,001] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 17:21:46,001] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 17:21:46,017] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 17:21:46,922] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 17:21:46,922] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172146||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 17:21:46,937] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 17:22:30,017] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:22:30,032] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:22:30,032] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172230||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '200910181' does not match pattern for type of ContractDate element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:22:45,025] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:22:45,041] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:22:45,041] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172245||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '18091018' does not match pattern for type of ContractDate element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:23:15,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:23:15,027] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:23:15,027] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172315||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string length (4) is greater than maxLength facet (3) for type of Code attribute in type of ChargeMethod element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:23:45,014] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 17:23:45,030] INFO Proc ÆÄÀÏÀÌµ¿ ¼º°ø
+[2014/12/28 17:23:45,030] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228172345||97||±âÁØÁ¤º¸ Vaildation ¿¡·¯(string value '06' is not a valid enumeration value for type of Code attribute in type of ChargeMethod element in type of Insurance element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/28 17:25:00,464] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:30:00,465] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:35:00,467] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:40:00,466] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:45:00,472] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:50:00,467] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 17:55:00,481] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 18:00:00,481] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 18:05:00,484] INFO STR HEARTBEAT 300ÃÊ ÁÖ±â ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ESB Server OK)
+[2014/12/28 18:05:15,011] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 18:05:15,027] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 18:05:15,027] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 18:05:15,511] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 18:05:15,511] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 18:05:15,792] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 18:05:15,792] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 18:05:15,792] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 18:05:16,634] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 18:05:16,634] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228180516||00||¹ß¼ÛÁõ¼­¼ö½Å¼º°ø||STREND
+[2014/12/28 18:05:16,682] INFO Proc ÆÄÀÏÁ¦°Å ¼º°ø
+[2014/12/28 18:06:30,025] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà
+[2014/12/28 18:06:30,040] INFO Áßº¹ ÆÄÀÏ¸í Ã¼Å©
+[2014/12/28 18:06:30,056] INFO »ç¿ëÀÚ °ËÁõ ¼öÇà
+[2014/12/28 18:06:34,363] INFO STR USERCHECK ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : »ç¿ëÀÚ °ËÁõ ¼º°ø)
+[2014/12/28 18:06:34,363] INFO STR Ã·ºÎÆÄÀÏ °ËÁõ ¼öÇà
+[2014/12/28 18:06:34,614] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà ¿Ï·á
+[2014/12/28 18:06:34,614] INFO ¼Û½Å ÇÁ·Î¼¼½º ebXML »ı¼º ½ÃÀÛ
+[2014/12/28 18:06:34,630] INFO STR ebXML Àü¼Û ¼öÇà
+[2014/12/28 18:06:35,519] INFO ¹ß¼ÛÁõ¼­ ¼ö½Å¼º°ø
+[2014/12/28 18:06:35,519] INFO ¹ß¼ÛÁõ¼­¼ö½Å = STRSTART||05||01||9400||94005108924444||20091014||20141228180635||98||¸ğµâ¹öÀüÀÌ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.||STREND
+[2014/12/28 18:06:35,614] INFO #######################################################
+[2014/12/28 18:06:35,614] INFO #### STR ¿¬°è¸ğµâ ¾÷µ¥ÀÌÆ®¸¦ ½ÃÀÛÇÏ´Â ÁßÀÔ´Ï´Ù.    ####
+[2014/12/28 18:06:35,614] INFO #### Àá½Ã¸¸ ±â´Ù·ÁÁÖ¼¼¿ä.                          ####
+[2014/12/28 18:06:35,614] INFO #######################################################
+[2014/12/28 18:06:35,614] INFO STR ¿¬°è ¸ğµâ ¾÷µ¥ÀÌÆ® ÆÄÀÏ ´Ù¿î·Îµå ½ÃÀÛ.
+[2014/12/28 18:06:35,614] INFO ¿¬°è ¸ğµâ ¶óÀÌºê·¯¸® ÆÄÀÏ ´Ù¿î·Îµå ½ÃÀÛ
+[2014/12/28 18:06:47,392] INFO STR MODULEUPATE ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ¸ğµâ ¾÷µ¥ÀÌÆ® ÀÀ´ä ¼ö½Å ¼º°ø)
+[2014/12/28 18:06:47,596] INFO ¿¬°è ¸ğµâ ¶óÀÌºê·¯¸® ÆÄÀÏ À¥À¸·Î ´Ù¿î·Îµå ¿Ï·á. Update Response : 0
+New Module Version : 201410.01.24 
+ MdlLib file size : 1727424
+ PblKey file size : 1232
+
+[2014/12/28 18:06:47,596] INFO STR ¿¬°è ¸ğµâ ÇöÀç ¹öÁ¯(201410.01.23)À» »õ ¹öÁ¯(201410.01.24)À¸·Î ¾÷µ¥ÀÌÆ® ÇÕ´Ï´Ù. 
+[2014/12/28 18:06:47,596] INFO LIB ÆÄÀÏ ¾÷µ¥ÀÌÆ® ¸ñ·Ï 
+[2014/12/28 18:06:47,596] INFO Extracting: schemas.jar ,  size : 1366449
+[2014/12/28 18:06:47,611] INFO Extracting: agent.jar ,  size : 384351
+[2014/12/28 18:06:47,611] INFO Extracting: ctrutil.jar ,  size : 1250735
+[2014/12/28 18:06:47,627] INFO ¾ÏÈ£È­ °ø°³Å° ¾÷µ¥ÀÌÆ® 
+[2014/12/28 18:06:47,658] INFO #### STR ¿¬°è ¸ğµâ ¹öÁ¯À» 201410.01.24 °ªÀ¸·Î º¯°æÇÕ´Ï´Ù.
+[2014/12/28 18:06:47,658] INFO #### STR ¿¬°è ¸ğµâ ¾÷µ¥ÀÌÆ®°¡ ¼º°øÀûÀ¸·Î ¿Ï·á µÇ¾ú½À´Ï´Ù.
+[2014/12/28 18:06:47,658] INFO #### STR ¿¬°è ¸ğµâÀ» Àç½ÃÀÛÇÕ´Ï´Ù.
+[2014/12/28 18:06:47,658] INFO *----------------------------------------------------------------------------*
+[2014/12/28 18:06:47,658] INFO *  STR ¿¬°è ¸ğµâ  (Ver : 201410.01.24) restart Sun Dec 28 18:06:47 KST 2014
+[2014/12/28 18:06:47,658] INFO *----------------------------------------------------------------------------*
+[2014/12/28 18:06:47,658] INFO STR ¿¬°è ¸ğµâÀ» Àç ½ÃÀÛ ÇÕ´Ï´Ù.
+[2014/12/28 18:06:47,658] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+[2014/12/28 18:06:47,658] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+[2014/12/28 18:06:47,658] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2014/12/28 18:07:30,593] INFO configuration file: ./str_config/config.xml
+[2014/12/28 18:07:30,687] WARN °­Á¦ ½ÃÀÛ. ´Ù¸¥ STR ¿¬°è ¸ğµâ ÇÁ·Î¼¼½º°¡ ½ÇÇàµÇ°í ÀÖÀ» ¼ö ÀÖ½À´Ï´Ù.
+[2014/12/28 18:07:30,702] INFO ***	JMS ¸ğµâÀ» ÃÊ±âÈ­ ÇÕ´Ï´Ù.                 ****
+[2014/12/28 18:07:30,702] INFO ***	STR µğ·ºÅä¸®¸¦ Ã¼Å©ÇÕ´Ï´Ù.                 ****
+[2014/12/28 18:07:30,702] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©ÇÕ´Ï´Ù(ÇöÀç¹öÀü:201410.01.24)             ****
+[2014/12/28 18:07:32,294] INFO STR CHECKAGENT ¼­ºñ½º Ã³¸® (ÄÚµå : 00 | °á°ú : ModuleVersion OK (NowVersion:201410.01.24))
+[2014/12/28 18:07:32,326] INFO ***	STR ¸ğµâ ¹öÀüÀ» Ã¼Å©¸¦ ¿Ï·áÇß½À´Ï´Ù...        ****
+[2014/12/28 18:07:32,326] INFO *---------------------------------------------------------------------------*
+[2014/12/28 18:07:32,326] INFO *   STR ¿¬°è ¸ğµâ  (Ver : 201410.01.24) init  Sun Dec 28 18:07:32 KST 2014
+[2014/12/28 18:07:32,326] INFO *---------------------------------------------------------------------------*
+[2014/12/28 18:07:32,326] INFO STR Agent¸¦ ±âµ¿ÇÕ´Ï´Ù.
+[2014/12/28 18:07:32,357] INFO Job execution threads will use class loader of thread: main
+[2014/12/28 18:07:32,373] INFO RAMJobStore initialized.
+[2014/12/28 18:07:32,373] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/28 18:07:32,373] INFO Quartz scheduler version: 1.4.5
+[2014/12/28 18:07:32,419] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/28 18:07:32,419] INFO STR ¿¬°è ¸ğµâÀÌ ¼º°øÀûÀ¸·Î ½ÃÀÛ µÇ¾ú½À´Ï´Ù.
+[2014/12/28 18:07:45,026] INFO STR ¹®¼­ Á¤Çü¼º °Ë»ç ¼öÇà

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by tyr (odin) -->
+<xsd:schema targetNamespace="urn:kr:gov:kofiu:data:RootSchemaModule:1:1" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:ccts="urn:un:unece:uncefact:documentation:CoreComponetTypeSchemaModule:1:1" xmlns:ram="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:qdt="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" xmlns:rsm="urn:kr:gov:kofiu:data:RootSchemaModule:1:1">
+	<xsd:import namespace="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1" schemaLocation="AggregateBusinessInformationEntities.xsd"/>
+	<xsd:import namespace="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" schemaLocation="QualifiedDataTypes.xsd"/>
+	<xsd:element name="CurrencyTransactionReport" type="rsm:CurrencyTransactionReportType"/>
+	<xsd:complexType name="CurrencyTransactionReportType">
+		<xsd:sequence>
+			<xsd:element name="DocumentID">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:restriction base="qdt:DocumentIdentifierType"/>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="MessageCode">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:restriction base="qdt:TypeCodeType"/>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Date">
+				<xsd:simpleType>
+					<xsd:restriction base="qdt:YearMonthDayDateType"/>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="FormerDocumentID" minOccurs="0">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:restriction base="qdt:DocumentIdentifierType"/>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Order" type="qdt:OrderTextType"/>
+			<xsd:element name="MainDocumentID" type="qdt:DocumentIdentifierType"/>
+			<xsd:element name="PersonName" type="qdt:GeneralNameType"/>
+			<xsd:element name="ReportAdministrationParty" type="ram:ReportAdministrationPartyType"/>
+			<xsd:element name="TransactionParty" type="ram:TransactionPartyType" minOccurs="0"/>
+			<xsd:element name="EnterpriseOrganization" type="ram:EnterpriseOrganizationType" minOccurs="0"/>
+			<xsd:element name="Transaction" type="ram:TransactionType"/>
+			<xsd:element name="SecuritiesDocument" type="ram:SecuritiesDocumentType" minOccurs="0"/>
+			<xsd:element name="CounterPartParty" type="ram:CounterPartPartyType" minOccurs="0"/>
+			<xsd:element name="CancellationReason" type="qdt:LongFreeTextType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

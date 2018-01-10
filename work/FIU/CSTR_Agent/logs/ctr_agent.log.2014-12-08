@@ -1,0 +1,1327 @@
+[2014/12/08 10:45:58,486] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 10:45:58,486] INFO *---------------------------------------------------------------------------*
+[2014/12/08 10:45:58,496] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 10:45:58 KST 2014
+[2014/12/08 10:45:58,496] INFO *---------------------------------------------------------------------------*
+[2014/12/08 10:45:58,496] INFO CTR Agent를 기동합니다.
+[2014/12/08 10:45:58,496] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 10:45:59,776] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 10:45:59,927] INFO Time : 08:00
+[2014/12/08 10:45:59,927] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 10:45:59,927] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 10:45:59,997] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 10:46:00,007] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 10:46:00,007] INFO 보고문서 권한을 변경완료
+[2014/12/08 10:46:00,027] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 10:46:00,037] INFO RAMJobStore initialized.
+[2014/12/08 10:46:00,037] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 10:46:00,037] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 10:46:00,077] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 10:46:00,077] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 10:46:00,077] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:00,547] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:00,637] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:46:10,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:10,469] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:10,549] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:46:20,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:20,419] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:20,499] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:46:30,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:30,444] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:30,524] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:46:40,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:40,441] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:40,521] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:46:50,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:46:50,444] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:46:50,524] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:00,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:00,498] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:00,578] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:10,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:10,416] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:10,496] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:20,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:20,460] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:20,540] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:30,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:30,412] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:30,492] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:40,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:40,442] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:40,542] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:47:50,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:47:50,405] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:47:50,485] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:00,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:00,486] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:00,566] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:10,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:10,397] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:10,477] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:20,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:20,439] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:20,519] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:30,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:30,437] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:30,517] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:40,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:40,419] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:40,499] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:48:50,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:48:50,401] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:48:50,481] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:00,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:00,477] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:00,557] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:10,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:10,438] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:10,518] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:20,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:20,436] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:20,516] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:30,436] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:30,516] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:40,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:40,399] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:40,489] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:49:50,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:49:50,427] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:49:50,507] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:00,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:00,496] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:00,576] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:10,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:10,408] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:10,488] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:20,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:20,394] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:20,484] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:30,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:30,396] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:30,476] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:40,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:40,416] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:40,496] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:50:50,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:50:50,397] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:50:50,477] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:00,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:00,465] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:00,545] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:10,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:10,393] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:10,473] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:20,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:20,421] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:20,501] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:30,422] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:30,512] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:40,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:40,398] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:40,478] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:51:50,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:51:50,399] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:51:50,479] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:00,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:00,521] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:00,601] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:10,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:10,400] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:10,480] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:20,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:20,397] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:20,477] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:30,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:30,407] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:30,477] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:40,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:40,416] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:40,496] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:52:50,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:52:50,438] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:52:50,518] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:00,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:00,449] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:00,529] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:10,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:10,421] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:10,501] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:20,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:20,402] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:20,482] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:30,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:30,433] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:30,513] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:40,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:40,395] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:40,475] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:53:50,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:53:50,423] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:53:50,503] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:00,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:00,454] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:00,534] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:10,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:10,410] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:10,487] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:20,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:20,401] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:20,471] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:30,425] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:30,505] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:40,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:40,432] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:40,512] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:54:50,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:54:50,410] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:54:50,490] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:00,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:00,494] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:00,574] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:10,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:10,399] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:10,482] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:20,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:20,411] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:20,481] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:30,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:30,403] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:30,483] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:40,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:40,395] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:40,478] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:55:50,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:55:50,391] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:55:50,471] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:00,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:00,492] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:00,572] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:10,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:10,393] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:10,473] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:20,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:20,410] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:20,490] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:30,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:30,398] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:30,478] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:40,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:40,439] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:40,519] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:56:50,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:56:50,393] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:56:50,473] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:00,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:00,478] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:00,558] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:10,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:10,424] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:10,504] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:20,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:20,437] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:20,517] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:30,395] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:30,475] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:40,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:40,409] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:40,489] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:57:50,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:57:50,399] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:57:50,479] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:00,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:00,472] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:00,552] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:10,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:10,393] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:10,473] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:20,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:20,394] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:20,474] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:30,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:30,396] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:30,476] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:40,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:40,406] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:40,486] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:58:50,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:58:50,427] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:58:50,507] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:00,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:00,475] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:00,555] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:10,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:10,431] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:10,511] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:20,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:20,422] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:20,512] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:30,395] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:30,475] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:40,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:40,393] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:40,473] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 10:59:50,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 10:59:50,396] INFO ESB에 주기적 신호 송신
+[2014/12/08 10:59:50,476] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:00,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:00,553] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:00,633] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:10,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:10,526] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:10,686] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:20,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:20,394] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:20,474] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:30,415] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:30,505] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:40,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:46,588] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:46,689] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:00:50,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:00:50,410] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:00:50,490] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:00,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:00,451] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:00,531] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:10,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:10,411] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:10,481] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:20,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:20,450] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:20,540] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:30,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:30,505] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:30,605] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:40,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:40,425] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:40,505] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:01:50,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:01:50,535] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:01:50,625] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:02:00,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:02:00,488] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:02:00,568] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:02:10,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:02:10,436] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:02:10,556] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:02:20,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:02:20,408] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:02:20,488] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:02:30,018] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:02:30,399] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:02:30,479] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 11:02:40,010] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 11:02:40,441] INFO ESB에 주기적 신호 송신
+[2014/12/08 11:02:40,521] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 13:07:53,549] ERROR Parse Fatal Error at line 99 column 35: The element type "schedule" must be terminated by the matching end-tag "</schedule>".
+org.xml.sax.SAXParseException: The element type "schedule" must be terminated by the matching end-tag "</schedule>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.ctr.conf.Configure.<init>(Configure.java:74)
+	at kr.go.kofiu.ctr.conf.Configure.<clinit>(Configure.java:50)
+	at kr.go.kofiu.common.agent.CTRAgent.<init>(CTRAgent.java:85)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:612)
+[2014/12/08 13:07:53,559] ERROR Error while Parsinng config.xml file!
+org.xml.sax.SAXParseException: The element type "schedule" must be terminated by the matching end-tag "</schedule>".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.ctr.conf.Configure.<init>(Configure.java:74)
+	at kr.go.kofiu.ctr.conf.Configure.<clinit>(Configure.java:50)
+	at kr.go.kofiu.common.agent.CTRAgent.<init>(CTRAgent.java:85)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:612)
+[2014/12/08 13:07:53,559] ERROR AGENT 시작 실패. 동작을 정지합니다. : null
+[2014/12/08 13:07:53,559] INFO *---------------------------------------------------*
+[2014/12/08 13:07:53,559] INFO *      AGENT 연계 모듈  Mon Dec 08 13:07:53 KST 2014
+[2014/12/08 13:07:53,559] INFO *---------------------------------------------------*
+[2014/12/08 13:07:53,559] INFO shutdown ......
+[2014/12/08 13:08:30,082] ERROR Parse Fatal Error at line 99 column 9: Element type "tim" must be followed by either attribute specifications, ">" or "/>".
+org.xml.sax.SAXParseException: Element type "tim" must be followed by either attribute specifications, ">" or "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.ctr.conf.Configure.<init>(Configure.java:74)
+	at kr.go.kofiu.ctr.conf.Configure.<clinit>(Configure.java:50)
+	at kr.go.kofiu.common.agent.CTRAgent.<init>(CTRAgent.java:85)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:612)
+[2014/12/08 13:08:30,082] ERROR Error while Parsinng config.xml file!
+org.xml.sax.SAXParseException: Element type "tim" must be followed by either attribute specifications, ">" or "/>".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.ctr.conf.Configure.<init>(Configure.java:74)
+	at kr.go.kofiu.ctr.conf.Configure.<clinit>(Configure.java:50)
+	at kr.go.kofiu.common.agent.CTRAgent.<init>(CTRAgent.java:85)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:612)
+[2014/12/08 13:08:30,092] ERROR AGENT 시작 실패. 동작을 정지합니다. : null
+[2014/12/08 13:08:30,092] INFO *---------------------------------------------------*
+[2014/12/08 13:08:30,092] INFO *      AGENT 연계 모듈  Mon Dec 08 13:08:30 KST 2014
+[2014/12/08 13:08:30,092] INFO *---------------------------------------------------*
+[2014/12/08 13:08:30,092] INFO shutdown ......
+[2014/12/08 13:08:44,543] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 13:08:44,553] INFO *---------------------------------------------------------------------------*
+[2014/12/08 13:08:44,553] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 13:08:44 KST 2014
+[2014/12/08 13:08:44,553] INFO *---------------------------------------------------------------------------*
+[2014/12/08 13:08:44,553] INFO CTR Agent를 기동합니다.
+[2014/12/08 13:08:44,553] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 13:08:46,045] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 13:08:46,476] INFO Time : 08:00
+[2014/12/08 13:08:46,476] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 13:08:46,476] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 13:08:46,516] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 13:08:46,516] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 13:08:46,516] INFO 보고문서 권한을 변경완료
+[2014/12/08 13:08:46,546] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 13:08:46,566] INFO RAMJobStore initialized.
+[2014/12/08 13:08:46,566] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 13:08:46,566] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 13:08:46,606] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 13:08:46,606] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 15:55:48,110] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 15:55:48,110] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:55:48,110] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 15:55:48 KST 2014
+[2014/12/08 15:55:48,110] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:55:48,110] INFO CTR Agent를 기동합니다.
+[2014/12/08 15:55:48,120] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 15:55:49,402] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 15:55:49,553] INFO Time : 08:00
+[2014/12/08 15:55:49,553] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 15:55:49,553] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 15:55:49,583] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 15:55:49,583] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 15:55:49,583] INFO 보고문서 권한을 변경완료
+[2014/12/08 15:55:49,613] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 15:55:49,623] INFO RAMJobStore initialized.
+[2014/12/08 15:55:49,623] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 15:55:49,623] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 15:55:49,633] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 15:55:49,633] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 15:55:50,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:55:50,433] INFO ESB에 주기적 신호 송신
+[2014/12/08 15:55:50,514] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 15:56:00,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:56:00,444] INFO ESB에 주기적 신호 송신
+[2014/12/08 15:56:00,524] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 15:56:10,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:56:10,290] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:56:20,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:56:20,045] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:56:30,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:56:30,046] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:57:36,623] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 15:57:36,623] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:57:36,623] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 15:57:36 KST 2014
+[2014/12/08 15:57:36,623] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:57:36,623] INFO CTR Agent를 기동합니다.
+[2014/12/08 15:57:36,633] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 15:57:38,053] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 15:57:38,614] INFO Time : 08:00
+[2014/12/08 15:57:38,614] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 15:57:38,614] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 15:57:38,644] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 15:57:38,644] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 15:57:38,644] INFO 보고문서 권한을 변경완료
+[2014/12/08 15:57:38,674] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 15:57:38,684] INFO RAMJobStore initialized.
+[2014/12/08 15:57:38,684] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 15:57:38,684] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 15:57:38,704] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 15:57:38,704] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 15:57:40,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:57:40,465] INFO ESB에 주기적 신호 송신
+[2014/12/08 15:57:40,555] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 15:57:50,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:57:50,165] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:58:00,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:58:00,043] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:58:10,013] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:58:10,046] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:58:20,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:58:20,047] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:58:27,151] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 15:58:27,161] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:58:27,161] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 15:58:27 KST 2014
+[2014/12/08 15:58:27,161] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:58:27,161] INFO CTR Agent를 기동합니다.
+[2014/12/08 15:58:27,161] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 15:58:27,771] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 15:58:27,771] INFO *----------------------------------------------------------------------------*
+[2014/12/08 15:58:27,771] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 15:58:27 KST 2014
+[2014/12/08 15:58:27,771] INFO *----------------------------------------------------------------------------*
+[2014/12/08 15:58:27,771] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 15:58:27,781] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 15:58:41,003] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 15:58:41,003] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:58:41,013] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 15:58:41 KST 2014
+[2014/12/08 15:58:41,013] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:58:41,013] INFO CTR Agent를 기동합니다.
+[2014/12/08 15:58:41,013] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 15:58:42,303] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 15:58:42,654] INFO Time : 08:00
+[2014/12/08 15:58:42,654] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 15:58:42,654] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 15:58:42,684] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 15:58:42,684] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 15:58:42,684] INFO 보고문서 권한을 변경완료
+[2014/12/08 15:58:42,714] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 15:58:42,724] INFO RAMJobStore initialized.
+[2014/12/08 15:58:42,724] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 15:58:42,724] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 15:58:42,734] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 15:58:42,734] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 15:58:50,014] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:58:50,485] INFO ESB에 주기적 신호 송신
+[2014/12/08 15:58:50,565] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 15:59:00,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:59:00,183] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:59:23,125] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 15:59:23,125] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:59:23,135] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 15:59:23 KST 2014
+[2014/12/08 15:59:23,135] INFO *---------------------------------------------------------------------------*
+[2014/12/08 15:59:23,135] INFO CTR Agent를 기동합니다.
+[2014/12/08 15:59:23,135] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 15:59:24,435] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 15:59:24,577] INFO Time : 08:00
+[2014/12/08 15:59:24,577] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 15:59:24,577] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 15:59:24,607] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 15:59:24,607] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 15:59:24,607] INFO 보고문서 권한을 변경완료
+[2014/12/08 15:59:24,627] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 15:59:24,647] INFO RAMJobStore initialized.
+[2014/12/08 15:59:24,647] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 15:59:24,647] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 15:59:24,657] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 15:59:24,657] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 15:59:30,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:59:30,458] INFO ESB에 주기적 신호 송신
+[2014/12/08 15:59:30,548] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 15:59:40,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:59:40,233] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 15:59:50,012] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 15:59:50,043] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:00,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:00,050] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:10,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:10,036] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:20,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:20,036] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:30,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:30,037] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:40,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:40,036] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:00:50,015] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:00:50,046] ERROR kr.go.kofiu.ctr.service.HeartBeatJob 실행 중에 오류가 발생하였습니다.
+[2014/12/08 16:03:15,419] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:03:15,429] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:03:15,429] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:03:15 KST 2014
+[2014/12/08 16:03:15,429] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:03:15,429] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:03:15,429] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:03:16,019] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:03:16,019] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:03:16,019] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:03:16 KST 2014
+[2014/12/08 16:03:16,019] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:03:16,019] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:03:16,019] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:03:27,710] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:03:27,710] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:03:27,720] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:03:27 KST 2014
+[2014/12/08 16:03:27,720] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:03:27,720] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:03:27,720] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:03:29,000] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:03:29,371] INFO Time : 08:00
+[2014/12/08 16:03:29,371] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:03:29,371] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:03:29,401] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:03:29,401] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:03:29,401] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:03:29,431] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:03:29,451] INFO RAMJobStore initialized.
+[2014/12/08 16:03:29,451] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:03:29,451] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:03:29,461] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:03:29,461] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:03:30,011] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:03:30,492] INFO ESB에 주기적 신호 송신
+[2014/12/08 16:03:30,572] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 16:03:40,016] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:03:40,479] INFO ESB에 주기적 신호 송신
+[2014/12/08 16:03:40,559] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 16:03:50,017] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:03:50,245] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/08 16:03:50,245] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/08 16:03:50,246] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/08 16:03:50,246] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/08 16:13:23,486] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:13:23,502] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:13:23,502] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:13:23 KST 2014
+[2014/12/08 16:13:23,502] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:13:23,502] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:13:23,502] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:13:24,204] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:13:24,204] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:13:24,204] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:13:24 KST 2014
+[2014/12/08 16:13:24,204] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:13:24,204] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:13:24,204] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:13:56,087] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:13:56,087] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:13:56,087] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:13:56 KST 2014
+[2014/12/08 16:13:56,087] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:13:56,087] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:13:56,087] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:13:57,600] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:13:57,976] INFO Time : 08:00
+[2014/12/08 16:13:57,976] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:13:57,976] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:13:58,069] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:13:58,069] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:13:58,069] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:13:58,100] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:13:58,116] INFO RAMJobStore initialized.
+[2014/12/08 16:13:58,116] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:13:58,116] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:13:58,147] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:13:58,147] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:14:00,019] INFO HeartBeat 전송 주기  : 0
+[2014/12/08 16:14:00,473] INFO ESB에 주기적 신호 송신
+[2014/12/08 16:14:00,566] INFO HeartBeat Signal 전송 성공
+OK
+[2014/12/08 16:14:14,592] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:14:14,607] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:14:14,607] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:14:14 KST 2014
+[2014/12/08 16:14:14,607] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:14:14,607] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:14:14,607] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:14:16,121] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:14:16,262] INFO Time : 08:00
+[2014/12/08 16:14:16,262] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:14:16,262] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:14:16,293] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:14:16,293] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:14:16,293] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:14:16,324] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:14:16,340] INFO RAMJobStore initialized.
+[2014/12/08 16:14:16,340] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:14:16,340] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:14:16,356] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:14:16,356] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:14:28,399] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 3 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:60)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:15:28,440] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 2 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:60)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:16:28,516] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 1 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:60)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:16:28,516] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/08 16:16:28,516] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/08 16:16:28,516] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/08 16:16:28,516] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/08 16:23:21,748] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:23:21,748] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:23:21,764] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:23:21 KST 2014
+[2014/12/08 16:23:21,764] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:23:21,764] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:23:21,764] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:23:22,419] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:23:22,419] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:23:22,419] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:23:22 KST 2014
+[2014/12/08 16:23:22,419] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:23:22,419] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:23:22,419] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:23:30,065] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:23:30,065] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:23:30,065] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:23:30 KST 2014
+[2014/12/08 16:23:30,065] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:23:30,065] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:23:30,081] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:23:31,469] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:23:31,849] INFO Time : 08:00
+[2014/12/08 16:23:31,849] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:23:31,849] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:23:31,880] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:23:31,880] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:23:31,880] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:23:31,911] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:23:31,927] INFO RAMJobStore initialized.
+[2014/12/08 16:23:31,927] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:23:31,927] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:23:31,942] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:23:31,958] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:23:42,207] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 3 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:108)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:60)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	... 7 more
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:24:28,120] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:24:28,120] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:24:28,120] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:24:28 KST 2014
+[2014/12/08 16:24:28,120] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:24:28,120] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:24:28,120] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:24:28,775] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:24:28,775] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:24:28,775] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:24:28 KST 2014
+[2014/12/08 16:24:28,775] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:24:28,775] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:24:28,775] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:24:33,785] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:24:33,785] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:24:33,800] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:24:33 KST 2014
+[2014/12/08 16:24:33,800] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:24:33,800] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:24:33,800] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:24:35,158] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:24:35,533] INFO Time : 08:00
+[2014/12/08 16:24:35,533] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:24:35,533] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:24:35,564] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:24:35,564] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:24:35,564] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:24:35,595] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:24:35,611] INFO RAMJobStore initialized.
+[2014/12/08 16:24:35,611] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:24:35,611] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:24:35,673] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:24:35,673] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:24:59,978] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 3 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:108)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:60)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	... 7 more
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:26:31,038] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:26:31,038] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:26:31,053] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:26:31 KST 2014
+[2014/12/08 16:26:31,053] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:26:31,053] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:26:31,053] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:26:34,393] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:26:34,393] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:26:34,408] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:26:34 KST 2014
+[2014/12/08 16:26:34,408] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:26:34,408] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:26:34,408] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:26:35,781] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:26:36,141] INFO Time : 08:00
+[2014/12/08 16:26:36,141] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:26:36,141] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:26:36,172] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:26:36,172] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:26:36,172] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:26:36,203] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:26:36,219] INFO RAMJobStore initialized.
+[2014/12/08 16:26:36,219] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:26:36,219] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:26:36,266] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:26:36,266] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:26:45,423] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 3 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:69)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:108)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:61)
+	... 6 more
+Caused by: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	... 7 more
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:27:00,511] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:27:00,511] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:00,527] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:27:00 KST 2014
+[2014/12/08 16:27:00,527] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:00,527] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:27:00,527] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:27:01,104] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:27:01,104] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:27:01,119] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:27:01 KST 2014
+[2014/12/08 16:27:01,119] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:27:01,119] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:27:01,119] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:27:03,448] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:27:03,448] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:03,448] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:27:03 KST 2014
+[2014/12/08 16:27:03,448] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:03,448] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:27:03,448] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:27:04,087] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:27:04,087] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:27:04,103] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:27:04 KST 2014
+[2014/12/08 16:27:04,103] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:27:04,103] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:27:04,103] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:27:08,864] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:27:08,864] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:08,864] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:27:08 KST 2014
+[2014/12/08 16:27:08,864] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:27:08,864] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:27:08,864] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:27:10,268] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:27:10,423] INFO Time : 08:00
+[2014/12/08 16:27:10,423] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:27:10,423] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:27:10,455] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:27:10,455] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:27:10,455] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:27:10,470] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:27:10,501] INFO RAMJobStore initialized.
+[2014/12/08 16:27:10,501] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:27:10,501] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:27:10,595] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:27:10,595] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:27:21,858] INFO kr.go.kofiu.ctr.service.CGMessagePollerCommand , 남은 재시도 횟수 : 3 60초 뒤에 다시 시도합니다.
+kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:69)
+	at kr.go.kofiu.ctr.util.RetryCommand.invoke(RetryCommand.java:132)
+	at kr.go.kofiu.ctr.service.CGMessagePollerJob.doRetryJob(CGMessagePollerJob.java:95)
+	at kr.go.kofiu.ctr.service.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: kr.go.kofiu.ctr.util.RetryException: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:108)
+	at kr.go.kofiu.ctr.service.CGMessagePollerCommand.action(CGMessagePollerCommand.java:61)
+	... 6 more
+Caused by: kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:152)
+	at kr.go.kofiu.ctr.service.JMSSOAPService.pollingRespDocument(JMSSOAPService.java:99)
+	... 7 more
+Caused by: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1414/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:196)
+	at com.ibm.mq.jms.context.WMQInitialContextFactory.getInitialContext(WMQInitialContextFactory.java:29)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.getInitialContext(JmsMQLib.java:605)
+	at kr.go.kofiu.ctr.conf.JmsMQLib.init(JmsMQLib.java:129)
+	... 8 more
+Caused by: com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537'
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:247)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11._createManagedConnection(MQClientManagedConnectionFactoryJ11.java:588)
+	at com.ibm.mq.MQClientManagedConnectionFactoryJ11.createManagedConnection(MQClientManagedConnectionFactoryJ11.java:630)
+	at com.ibm.mq.StoredManagedConnection.<init>(StoredManagedConnection.java:107)
+	at com.ibm.mq.MQSimpleConnectionManager.allocateConnection(MQSimpleConnectionManager.java:205)
+	at com.ibm.mq.MQQueueManagerFactory.obtainBaseMQQueueManager(MQQueueManagerFactory.java:911)
+	at com.ibm.mq.MQQueueManagerFactory.procure(MQQueueManagerFactory.java:799)
+	at com.ibm.mq.MQQueueManagerFactory.constructQueueManager(MQQueueManagerFactory.java:750)
+	at com.ibm.mq.MQQueueManagerFactory.createQueueManager(MQQueueManagerFactory.java:157)
+	at com.ibm.mq.MQQueueManager.<init>(MQQueueManager.java:757)
+	at com.ibm.mq.pcf.PCFAgent.connect(PCFAgent.java:230)
+	at com.ibm.mq.pcf.PCFAgent.<init>(PCFAgent.java:163)
+	at com.ibm.mq.pcf.PCFMessageAgent.<init>(PCFMessageAgent.java:140)
+	at com.ibm.mq.jms.context.MQContext.<init>(MQContext.java:183)
+	... 15 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9204: '192.168.2.33(1414)' ??½ºÆ®·??? ¿?°??? °?º???¾?½?´?´?. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]],3=192.168.2.33(1414),5=RemoteConnection.analyseErrorSegment]
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:2050)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1223)
+	at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:311)
+	at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:337)
+	at com.ibm.mq.MQSESSION.MQCONNX_j(MQSESSION.java:923)
+	at com.ibm.mq.MQManagedConnectionJ11.<init>(MQManagedConnectionJ11.java:236)
+	... 28 more
+Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2537;AMQ9558: '' ??½ºÆ®?? ¿ø°? ?¤³? 'SYSTEM.ADMIN.SVRCONN'??(¸?) ???? ??¿??? ¼? ¾ø½?´?´?. [3=SYSTEM.ADMIN.SVRCONN]
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.analyseErrorSegment(RemoteConnection.java:3818)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.receiveTSH(RemoteConnection.java:2725)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.initSess(RemoteConnection.java:1020)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:713)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:400)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:299)
+	at com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:164)
+	at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1595)
+	... 33 more
+[2014/12/08 16:29:48,360] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:29:48,360] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:29:48,360] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:29:48 KST 2014
+[2014/12/08 16:29:48,360] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:29:48,360] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:29:48,360] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:29:48,969] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/08 16:29:48,969] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:29:48,969] INFO *  CTR 연계 모듈  (Ver : 201410.01.06) stop Mon Dec 08 16:29:48 KST 2014
+[2014/12/08 16:29:48,969] INFO *----------------------------------------------------------------------------*
+[2014/12/08 16:29:48,969] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/08 16:29:48,969] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/08 16:29:57,691] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 16:29:57,691] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:29:57,707] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 16:29:57 KST 2014
+[2014/12/08 16:29:57,707] INFO *---------------------------------------------------------------------------*
+[2014/12/08 16:29:57,707] INFO CTR Agent를 기동합니다.
+[2014/12/08 16:29:57,707] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/08 16:29:59,142] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/08 16:29:59,736] INFO Time : 08:00
+[2014/12/08 16:29:59,736] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/08 16:29:59,736] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2014/12/08 16:29:59,767] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/08 16:29:59,767] INFO 보고문서 권한을 변경합니다.
+[2014/12/08 16:29:59,767] INFO 보고문서 권한을 변경완료
+[2014/12/08 16:29:59,782] INFO Job execution threads will use class loader of thread: main
+[2014/12/08 16:29:59,798] INFO RAMJobStore initialized.
+[2014/12/08 16:29:59,798] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/08 16:29:59,798] INFO Quartz scheduler version: 1.4.5
+[2014/12/08 16:29:59,814] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/08 16:29:59,814] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/08 16:30:07,380] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/08 16:30:07,380] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/08 16:30:07,380] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/08 16:30:07,380] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/08 17:37:52,170] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/08 17:37:52,185] INFO *---------------------------------------------------------------------------*
+[2014/12/08 17:37:52,185] INFO *   CTR 연계 모듈  (Ver : 201410.01.06) init  Mon Dec 08 17:37:52 KST 2014
+[2014/12/08 17:37:52,185] INFO *---------------------------------------------------------------------------*
+[2014/12/08 17:37:52,185] INFO CTR Agent를 기동합니다.
+[2014/12/08 17:37:52,185] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...

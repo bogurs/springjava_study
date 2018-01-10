@@ -1,0 +1,174 @@
+[2014/12/20 12:52:56,823] INFO configuration file: ./str_config/config.xml
+[2014/12/20 12:52:56,901] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 12:52:56,917] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:52:56,917] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 12:52:56 KST 2014
+[2014/12/20 12:52:56,917] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:52:56,917] INFO STR Agent를 기동합니다.
+[2014/12/20 12:52:56,948] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 12:52:56,964] INFO RAMJobStore initialized.
+[2014/12/20 12:52:56,964] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 12:52:56,964] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 12:52:56,995] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 12:52:56,995] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 12:54:20,877] INFO configuration file: ./str_config/config.xml
+[2014/12/20 12:54:20,987] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 12:54:20,987] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:54:20,987] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 12:54:20 KST 2014
+[2014/12/20 12:54:20,987] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:54:20,987] INFO STR Agent를 기동합니다.
+[2014/12/20 12:54:21,033] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 12:54:21,049] INFO RAMJobStore initialized.
+[2014/12/20 12:54:21,049] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 12:54:21,049] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 12:54:21,080] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 12:54:21,080] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 12:58:06,050] INFO configuration file: ./str_config/config.xml
+[2014/12/20 12:58:06,144] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 12:58:06,144] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:58:06,144] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 12:58:06 KST 2014
+[2014/12/20 12:58:06,144] INFO *---------------------------------------------------------------------------*
+[2014/12/20 12:58:06,144] INFO STR Agent를 기동합니다.
+[2014/12/20 12:58:06,191] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 12:58:06,206] INFO RAMJobStore initialized.
+[2014/12/20 12:58:06,206] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 12:58:06,206] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 12:58:06,237] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 12:58:06,237] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 12:58:20,028] INFO STR 문서 정형성 검사 수행
+[2014/12/20 12:58:20,076] INFO STR 문서 정형성 검사 수행
+[2014/12/20 12:58:20,732] INFO Proc 파일이동 성공
+[2014/12/20 12:58:20,732] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220125820||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/20 13:00:26,218] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/20 13:00:26,218] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220130026||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/20 13:04:14,854] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:04:14,948] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:04:14,948] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:04:14,948] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:04:14 KST 2014
+[2014/12/20 13:04:14,948] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:04:14,948] INFO STR Agent를 기동합니다.
+[2014/12/20 13:04:15,010] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:04:15,026] INFO RAMJobStore initialized.
+[2014/12/20 13:04:15,042] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:04:15,042] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:04:15,088] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:04:15,088] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:04:50,010] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:04:50,041] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:04:50,512] INFO Proc 파일이동 성공
+[2014/12/20 13:04:50,528] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220130450||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/20 13:08:45,394] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/20 13:08:45,394] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220130845||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/20 13:11:24,048] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:11:24,126] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:11:24,126] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:11:24,126] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:11:24 KST 2014
+[2014/12/20 13:11:24,126] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:11:24,126] INFO STR Agent를 기동합니다.
+[2014/12/20 13:11:24,189] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:11:24,220] INFO RAMJobStore initialized.
+[2014/12/20 13:11:24,220] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:11:24,220] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:11:24,267] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:11:24,267] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:11:40,023] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:11:40,038] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:11:40,086] INFO 중복 파일명 체크
+[2014/12/20 13:11:40,086] INFO 사용자 검증 수행
+[2014/12/20 13:11:40,757] INFO 중복 파일명 체크
+[2014/12/20 13:11:40,757] INFO 사용자 검증 수행
+[2014/12/20 13:12:08,605] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:12:08,683] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:12:08,683] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:12:08,698] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:12:08 KST 2014
+[2014/12/20 13:12:08,698] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:12:08,698] INFO STR Agent를 기동합니다.
+[2014/12/20 13:12:08,730] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:12:08,745] INFO RAMJobStore initialized.
+[2014/12/20 13:12:08,745] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:12:08,745] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:12:08,776] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:12:08,776] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:12:10,056] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:12:10,651] INFO 중복 파일명 체크
+[2014/12/20 13:12:10,666] INFO 사용자 검증 수행
+[2014/12/20 13:12:58,809] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:12:58,887] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:12:58,887] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:12:58,903] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:12:58 KST 2014
+[2014/12/20 13:12:58,903] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:12:58,903] INFO STR Agent를 기동합니다.
+[2014/12/20 13:12:58,934] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:12:58,950] INFO RAMJobStore initialized.
+[2014/12/20 13:12:58,950] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:12:58,950] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:12:58,981] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:12:58,981] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:13:00,026] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:13:00,620] INFO 중복 파일명 체크
+[2014/12/20 13:13:00,620] INFO 사용자 검증 수행
+[2014/12/20 13:13:53,256] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:13:53,334] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:13:53,349] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:13:53,349] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:13:53 KST 2014
+[2014/12/20 13:13:53,349] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:13:53,349] INFO STR Agent를 기동합니다.
+[2014/12/20 13:13:53,380] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:13:53,396] INFO RAMJobStore initialized.
+[2014/12/20 13:13:53,396] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:13:53,396] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:13:53,427] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:13:53,427] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:14:00,042] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:14:00,573] INFO Proc 파일이동 성공
+[2014/12/20 13:14:00,573] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220131400||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/20 13:14:50,010] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:14:50,042] INFO Proc 파일이동 성공
+[2014/12/20 13:14:50,042] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220131450||97||기준정보 Vaildation 에러((STRValidation) 거래자 실명번호invalid : 실명번호구분코드가 '01','02','03'일 경우 실명번호를 확인 하십시오. <RealNumber> 제약조건을 확인 하십시오..)||STREND
+[2014/12/20 13:16:10,023] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:16:10,090] INFO 중복 파일명 체크
+[2014/12/20 13:16:10,090] INFO 사용자 검증 수행
+[2014/12/20 13:17:11,991] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:17:12,069] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:17:12,069] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:17:12,085] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:17:12 KST 2014
+[2014/12/20 13:17:12,085] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:17:12,085] INFO STR Agent를 기동합니다.
+[2014/12/20 13:17:12,116] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:17:12,132] INFO RAMJobStore initialized.
+[2014/12/20 13:17:12,132] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:17:12,132] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:17:12,163] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:17:12,163] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:17:20,041] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:17:20,606] INFO 중복 파일명 체크
+[2014/12/20 13:17:20,621] INFO 사용자 검증 수행
+[2014/12/20 13:17:38,908] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:17:39,002] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:17:39,002] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:17:39,002] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:17:39 KST 2014
+[2014/12/20 13:17:39,002] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:17:39,002] INFO STR Agent를 기동합니다.
+[2014/12/20 13:17:39,033] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:17:39,049] INFO RAMJobStore initialized.
+[2014/12/20 13:17:39,049] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:17:39,049] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:17:39,080] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:17:39,080] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:17:40,031] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:17:40,614] INFO 중복 파일명 체크
+[2014/12/20 13:17:40,629] INFO 사용자 검증 수행
+[2014/12/20 13:18:20,676] INFO configuration file: ./str_config/config.xml
+[2014/12/20 13:18:20,769] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/20 13:18:20,769] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:18:20,785] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Sat Dec 20 13:18:20 KST 2014
+[2014/12/20 13:18:20,785] INFO *---------------------------------------------------------------------------*
+[2014/12/20 13:18:20,785] INFO STR Agent를 기동합니다.
+[2014/12/20 13:18:20,832] INFO Job execution threads will use class loader of thread: main
+[2014/12/20 13:18:20,847] INFO RAMJobStore initialized.
+[2014/12/20 13:18:20,847] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/20 13:18:20,847] INFO Quartz scheduler version: 1.4.5
+[2014/12/20 13:18:20,878] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/20 13:18:20,878] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/20 13:18:20,910] INFO STR 문서 정형성 검사 수행
+[2014/12/20 13:18:21,471] INFO Proc 파일이동 성공
+[2014/12/20 13:18:21,471] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141220131821||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in RealNumberCodeType in namespace http://www.kofiu.go.kr/str)||STREND

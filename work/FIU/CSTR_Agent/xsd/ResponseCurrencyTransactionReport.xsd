@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<xsd:schema targetNamespace="urn:kr:gov:kofiu:data:RootSchemaModule:1:1" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:rsm="urn:kr:gov:kofiu:data:RootSchemaModule:1:1" xmlns:qdt="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ram="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1" xmlns:ccts="urn:un:unece:uncefact:documentation:CoreComponentTypeSchemaModule:1:1">
+	<xsd:import namespace="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1" schemaLocation="AggregateBusinessInformationEntities.xsd"/>
+	<xsd:import namespace="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" schemaLocation="QualifiedDataTypes.xsd"/>
+	<xsd:element name="ResponseCurrencyTransactionReport" type="rsm:ResponseCurrencyTransactionReportType"/>
+	<xsd:complexType name="ResponseCurrencyTransactionReportType">
+		<xsd:sequence>
+			<xsd:element name="MessageCode" type="qdt:TypeCodeType"/>
+			<xsd:element name="ReportTypeCode" type="qdt:TypeCodeType"/>
+			<xsd:element name="DocumentID" type="qdt:DocumentIdentifierType"/>
+			<xsd:element name="Date" type="qdt:YearMonthDayDateType"/>
+			<xsd:element name="ReceiptDateTime" type="qdt:YearMonthDayTimeDateTimeType"/>
+			<xsd:element name="TypeCode" type="qdt:TypeCodeType"/>
+			<xsd:element name="Type" type="qdt:FreeTextType"/>
+			<xsd:element name="ReportAdministrationPartyCode" type="qdt:OrganizationCodeType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

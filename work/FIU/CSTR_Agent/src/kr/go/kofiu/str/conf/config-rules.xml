@@ -1,0 +1,188 @@
+<digester-rules>
+	<object-create-rule pattern="agent"
+		classname="kr.go.kofiu.str.conf.STRAgentInfo" />
+	<pattern value="agent">
+		<set-properties-rule />
+
+		<pattern value="ReportOrg">
+			<object-create-rule classname="kr.go.kofiu.str.conf.ReportOrgInfo" />
+			<set-properties-rule />
+			
+			<pattern value="Validation">
+				<object-create-rule classname="kr.go.kofiu.str.conf.ValidationInfo" />
+				<set-properties-rule />
+				<set-next-rule methodname="setValidationInfo"
+					paramtype="kr.go.kofiu.str.conf.ValidationInfo" />
+			</pattern>
+
+			<pattern value="Encryption">
+				<object-create-rule classname="kr.go.kofiu.str.conf.EncryptionInfo" />
+				<set-properties-rule />
+
+				<pattern value="signing">
+					<object-create-rule classname="kr.go.kofiu.str.conf.SigningInfo" />
+					<set-properties-rule />
+					<bean-property-setter-rule pattern="certificate" />
+					<bean-property-setter-rule pattern="key" />
+					<bean-property-setter-rule pattern="pin" />
+					<set-next-rule methodname="setSigningInfo"
+						paramtype="kr.go.kofiu.str.conf.SigningInfo" />
+				</pattern>
+				`
+				<pattern value="keyManage">
+					<object-create-rule classname="kr.go.kofiu.str.conf.KeyManageInfo" />
+					<set-properties-rule />
+					<bean-property-setter-rule pattern="certificate" />
+					<bean-property-setter-rule pattern="key" />
+					<bean-property-setter-rule pattern="pin" />
+					<set-next-rule methodname="setKeyManageInfo"
+						paramtype="kr.go.kofiu.str.conf.KeyManageInfo" />
+				</pattern>
+				<set-next-rule methodname="setEncryptionInfo"
+					paramtype="kr.go.kofiu.str.conf.EncryptionInfo" />
+
+			</pattern>
+			<set-next-rule methodname="addReportOrgInfo"
+				paramtype="kr.go.kofiu.str.conf.ReportOrgInfo" />
+
+		</pattern>
+
+		<pattern value="FIU">
+			<object-create-rule classname="kr.go.kofiu.str.conf.FiuInfo" />
+
+			<pattern value="Encryption">
+				<object-create-rule classname="kr.go.kofiu.str.conf.EncryptionInfo" />
+
+				<pattern value="signing">
+					<object-create-rule classname="kr.go.kofiu.str.conf.SigningInfo" />
+					<set-properties-rule />
+					<bean-property-setter-rule pattern="certificate" />
+					<bean-property-setter-rule pattern="key" />
+					<bean-property-setter-rule pattern="pin" />
+					<set-next-rule methodname="setSigningInfo"
+						paramtype="kr.go.kofiu.str.conf.SigningInfo" />
+				</pattern>
+				`
+				<pattern value="keyManage">
+					<object-create-rule classname="kr.go.kofiu.str.conf.KeyManageInfo" />
+					<set-properties-rule />
+					<bean-property-setter-rule pattern="certificate" />
+					<bean-property-setter-rule pattern="key" />
+					<bean-property-setter-rule pattern="pin" />
+					<set-next-rule methodname="setKeyManageInfo"
+						paramtype="kr.go.kofiu.str.conf.KeyManageInfo" />
+				</pattern>
+
+				<set-next-rule methodname="setEncryptionInfo"
+					paramtype="kr.go.kofiu.str.conf.EncryptionInfo" />
+			</pattern>
+
+			<set-next-rule methodname="setFiuInfo"
+				paramtype="kr.go.kofiu.str.conf.FiuInfo" />
+		</pattern>
+		
+		 <pattern value="STRJMSInfo">
+			<object-create-rule classname="kr.go.kofiu.str.conf.STRJMSInfo" />
+			<set-properties-rule />
+			<bean-property-setter-rule pattern="INITIAL_CONTEXT_FACTORY"/>
+			<bean-property-setter-rule pattern="CONNECTION_FACTORY"/>
+			<bean-property-setter-rule pattern="PROVIDER_URL"/>
+			<bean-property-setter-rule pattern="SND_REQUEST_Q_NAME"/>
+			<bean-property-setter-rule pattern="SND_RESPONSE_Q_NAME"/>
+			<bean-property-setter-rule pattern="RCV_RESPONSE_Q_NAME"/>
+			<bean-property-setter-rule pattern="USR_REQUEST_Q_NAME"/>
+			<bean-property-setter-rule pattern="USR_RESPONSE_Q_NAME"/>
+			<bean-property-setter-rule pattern="HEART_REQUEST_Q_NAME"/>
+			<bean-property-setter-rule pattern="HEART_RESPONSE_Q_NAME"/>
+			<bean-property-setter-rule pattern="RETRY_WAIT_TIME"/>
+			<bean-property-setter-rule pattern="GET_WAIT_TIME"/>
+			<bean-property-setter-rule pattern="RETRY_COUNT"/>
+			<bean-property-setter-rule pattern="SLEEP_TIME"/>
+			
+			<set-next-rule methodname="setSTRJMSInfo"	paramtype="kr.go.kofiu.str.conf.STRJMSInfo" />
+		</pattern>
+				
+		<pattern value="FilePathInfo">
+			<object-create-rule classname="kr.go.kofiu.str.conf.FilePathInfo" />
+			<set-properties-rule />
+			<bean-property-setter-rule pattern="HOME"/>
+			<bean-property-setter-rule pattern="MESSAGE"/>
+			<bean-property-setter-rule pattern="OUTBOX"/>
+			<bean-property-setter-rule pattern="PROC"/>
+			<bean-property-setter-rule pattern="INBOX"/>
+			<bean-property-setter-rule pattern="REPORT"/>
+			<bean-property-setter-rule pattern="ARCHIVE"/>
+			<bean-property-setter-rule pattern="STATUS"/>
+			<bean-property-setter-rule pattern="GPKICONF"/>
+			<set-next-rule methodname="setFilePathInfo"	paramtype="kr.go.kofiu.str.conf.FilePathInfo" />
+		</pattern>
+		
+	<!-- 	<pattern value="FilePathInfo">
+			<object-create-rule classname="kr.go.kofiu.str.conf.FilePathInfo" />
+			<set-properties-rule />
+			<bean-property-setter-rule pattern="snd_dir_name"/>
+			<bean-property-setter-rule pattern="snd_attach_dir_name"/>
+			<bean-property-setter-rule pattern="snd_attach_proc_dir_name"/>
+			<bean-property-setter-rule pattern="snd_log_dir_name"/>
+			<bean-property-setter-rule pattern="snd_log_success_dir_name"/>
+			<bean-property-setter-rule pattern="snd_log_error_dir_name"/>
+			<bean-property-setter-rule pattern="rcv_dir_name"/>
+			<bean-property-setter-rule pattern="rcv_attach_dir_name"/>
+			<bean-property-setter-rule pattern="rcv_log_dir_name"/>
+			<bean-property-setter-rule pattern="rcv_log_success_dir_name"/>
+			<bean-property-setter-rule pattern="rcv_log_error_dir_name"/>
+			<bean-property-setter-rule pattern="archive_dir_name"/>
+			<bean-property-setter-rule pattern="archive_success_dir_name"/>
+			<bean-property-setter-rule pattern="archive_error_dir_name"/>
+			<bean-property-setter-rule pattern="archive_success_snd_dir_name"/>
+			<bean-property-setter-rule pattern="archive_success_rcv_dir_name"/>
+			<bean-property-setter-rule pattern="archive_error_snd_dir_name"/>
+			<bean-property-setter-rule pattern="archive_error_rcv_dir_name"/>
+			<set-next-rule methodname="setFilePathInfo"	paramtype="kr.go.kofiu.str.conf.FilePathInfo" />
+		</pattern> -->
+		
+<!-- 		14.09.24 STR Agent에 schedule 추가 -->
+		<pattern value="schedule/job">
+			<object-create-rule classname="kr.go.kofiu.str.conf.JobInfo"/>
+			<set-properties-rule/>
+			<bean-property-setter-rule pattern="clazzname"/>
+			<bean-property-setter-rule pattern="timeformat"/>
+			<bean-property-setter-rule pattern="param"/>
+			<bean-property-setter-rule pattern="desc"/>
+			<set-next-rule methodname="addJobInfo" paramtype="kr.go.kofiu.str.conf.JobInfo"/>
+		</pattern>
+		
+<!-- 		14.09.24 STR Agent에 ThreadExecutor 추ㄱ -->
+		<pattern value="ThreadExecutor">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.ThreadExecutorInfo"/>
+		  <set-properties-rule/>
+		  <bean-property-setter-rule pattern="corePoolSize"/>
+		  <bean-property-setter-rule pattern="maximumPoolSize"/>
+		  <bean-property-setter-rule pattern="keepAliveTime"/>
+		  <set-next-rule methodname="setThreadExecutorInfo" paramtype="kr.go.kofiu.ctr.conf.ThreadExecutorInfo"/>
+		</pattern>
+		
+		<!--  HUB용 인증서 ( 암복호화 테스트용 ) -->
+		<pattern value="FIU/signing">
+			<object-create-rule classname="fiuft.str.userclass.hub.conf.SigningInfo" />
+			<set-properties-rule />
+			<bean-property-setter-rule pattern="certificate" />
+			<bean-property-setter-rule pattern="key" />
+			<bean-property-setter-rule pattern="pin" />
+			<set-next-rule methodname="setFiuSigningInfo"
+				paramtype="fiuft.str.userclass.hub.conf.SigningInfo" />
+		</pattern>
+		`
+		<pattern value="FIU/keyManage">
+			<object-create-rule classname="fiuft.str.userclass.hub.conf.KeyManageInfo" />
+			<set-properties-rule />
+			<bean-property-setter-rule pattern="certificate" />
+			<bean-property-setter-rule pattern="key" />
+			<bean-property-setter-rule pattern="pin" />
+			<set-next-rule methodname="setFiuKeyManageInfo"
+				paramtype="fiuft.str.userclass.hub.conf.KeyManageInfo" />
+		</pattern>
+		
+		
+	</pattern>
+</digester-rules>

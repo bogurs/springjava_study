@@ -1,0 +1,295 @@
+[2015/01/06 09:42:33,704] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 09:42:33,720] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:42:33,720] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 09:42:33 KST 2015
+[2015/01/06 09:42:33,720] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:42:33,720] INFO CTR Agent를 기동합니다.
+[2015/01/06 09:42:33,720] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 09:42:35,296] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 09:42:36,389] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 09:42:36,421] INFO Time : 00:00
+[2015/01/06 09:42:36,421] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 09:42:36,421] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 09:42:36,468] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 09:42:36,499] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 09:42:36,514] INFO RAMJobStore initialized.
+[2015/01/06 09:42:36,514] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 09:42:36,514] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 09:42:36,546] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 09:42:36,546] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 09:42:48,621] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 09:42:48,621] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:42:48,621] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 09:42:48 KST 2015
+[2015/01/06 09:42:48,621] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:42:48,621] INFO CTR Agent를 기동합니다.
+[2015/01/06 09:42:48,621] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 09:42:50,462] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 09:42:50,588] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 09:42:50,634] INFO Time : 00:00
+[2015/01/06 09:42:50,634] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 09:42:50,634] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 09:42:50,666] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 09:42:50,681] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 09:42:50,712] INFO RAMJobStore initialized.
+[2015/01/06 09:42:50,712] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 09:42:50,712] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 09:42:50,759] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 09:42:50,759] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 09:43:01,336] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:43:21,665] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 09:43:21,665] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:43:21,680] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 09:43:21 KST 2015
+[2015/01/06 09:43:21,680] INFO *---------------------------------------------------------------------------*
+[2015/01/06 09:43:21,680] INFO CTR Agent를 기동합니다.
+[2015/01/06 09:43:21,680] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 09:43:22,991] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 09:43:23,101] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 09:43:23,148] INFO Time : 00:00
+[2015/01/06 09:43:23,148] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 09:43:23,148] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 09:43:23,179] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 09:43:23,210] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 09:43:23,226] INFO RAMJobStore initialized.
+[2015/01/06 09:43:23,226] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 09:43:23,226] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 09:43:23,273] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 09:43:23,273] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 09:43:30,776] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:43:45,894] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:44:00,793] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:44:15,739] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:44:30,700] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:44:45,693] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:45:00,966] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:45:15,693] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:45:30,686] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:45:45,663] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:46:01,170] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:46:15,681] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 09:46:30,673] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:57:07,352] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 10:57:07,352] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:07,367] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 10:57:07 KST 2015
+[2015/01/06 10:57:07,367] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:07,367] INFO CTR Agent를 기동합니다.
+[2015/01/06 10:57:07,367] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 10:57:08,631] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 10:57:09,209] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 10:57:09,256] INFO Time : 00:00
+[2015/01/06 10:57:09,256] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 10:57:09,256] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 10:57:09,287] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 10:57:09,303] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 10:57:09,318] INFO RAMJobStore initialized.
+[2015/01/06 10:57:09,318] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 10:57:09,318] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 10:57:09,350] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 10:57:09,350] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 10:57:16,199] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 10:57:16,199] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:16,199] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 10:57:16 KST 2015
+[2015/01/06 10:57:16,199] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:16,199] INFO CTR Agent를 기동합니다.
+[2015/01/06 10:57:16,199] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 10:57:17,509] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 10:57:17,636] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 10:57:17,667] INFO Time : 00:00
+[2015/01/06 10:57:17,667] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 10:57:17,667] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 10:57:17,699] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 10:57:17,730] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 10:57:17,745] INFO RAMJobStore initialized.
+[2015/01/06 10:57:17,745] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 10:57:17,745] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 10:57:17,777] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 10:57:17,777] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 10:57:32,972] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 10:57:32,972] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:32,972] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 10:57:32 KST 2015
+[2015/01/06 10:57:32,972] INFO *---------------------------------------------------------------------------*
+[2015/01/06 10:57:32,972] INFO CTR Agent를 기동합니다.
+[2015/01/06 10:57:32,972] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 10:57:34,314] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 10:57:34,439] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 10:57:34,486] INFO Time : 00:00
+[2015/01/06 10:57:34,486] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 10:57:34,486] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 10:57:34,517] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 10:57:34,533] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 10:57:34,549] INFO RAMJobStore initialized.
+[2015/01/06 10:57:34,549] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 10:57:34,564] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 10:57:34,595] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 10:57:34,595] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 10:57:45,812] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:58:00,711] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:58:15,969] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:58:30,543] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:58:45,535] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:59:00,528] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:59:15,520] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:59:30,965] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 10:59:45,521] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:00:00,530] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:00:15,554] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:00:30,532] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:00:41,907] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 11:00:41,907] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:00:41,907] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 11:00:41 KST 2015
+[2015/01/06 11:00:41,907] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:00:41,907] INFO CTR Agent를 기동합니다.
+[2015/01/06 11:00:41,922] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 11:00:43,264] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 11:00:43,811] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 11:00:43,842] INFO Time : 00:00
+[2015/01/06 11:00:43,842] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 11:00:43,842] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 11:00:43,873] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 11:00:43,905] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 11:00:43,920] INFO RAMJobStore initialized.
+[2015/01/06 11:00:43,920] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 11:00:43,920] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 11:00:43,967] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 11:00:43,967] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 11:00:45,558] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:01:00,560] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:01:15,553] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:01:30,545] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:01:45,538] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:02:00,728] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:02:15,534] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:02:30,526] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:02:45,535] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:03:00,512] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:03:16,003] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:03:30,512] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:03:45,521] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:04:00,513] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:04:15,932] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:04:30,519] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:04:45,521] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:05:00,514] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:05:15,522] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:05:30,733] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:05:45,554] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:06:00,734] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:06:15,524] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:06:30,516] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:06:45,713] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:07:00,518] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:07:15,511] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:07:30,535] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:07:45,512] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:08:00,754] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:08:15,513] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:08:30,552] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:08:45,513] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:09:00,524] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:09:15,860] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:09:30,510] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:09:45,518] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:10:00,511] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:10:15,519] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:10:30,745] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:10:45,520] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:11:00,516] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:11:15,613] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:11:30,590] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:11:45,786] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:12:00,716] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:12:15,599] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:12:30,592] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:12:45,600] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:13:00,889] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:13:15,586] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:13:44,136] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 11:13:44,136] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:13:44,151] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 11:13:44 KST 2015
+[2015/01/06 11:13:44,151] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:13:44,151] INFO CTR Agent를 기동합니다.
+[2015/01/06 11:13:44,151] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 11:13:45,602] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 11:13:45,728] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 11:13:45,775] INFO Time : 00:00
+[2015/01/06 11:13:45,775] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 11:13:45,775] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 11:13:45,790] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 11:13:45,821] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 11:13:45,837] INFO RAMJobStore initialized.
+[2015/01/06 11:13:45,837] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 11:13:45,853] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 11:13:45,899] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 11:13:45,899] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 11:13:46,523] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:13:55,322] INFO CTR_9400_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2015/01/06 11:13:55,459] INFO \tools\db2inst1\FIUCSTR\CTR\Message_dev\OUTBOX\9400\CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 성공
+[2015/01/06 11:13:55,459] INFO checkValidate 실행됨_1.
+[2015/01/06 11:13:55,459] INFO versionType [089]
+[2015/01/06 11:13:55,459] INFO 한글 유효성 체크 START 
+[2015/01/06 11:13:55,459] INFO 거래국가코드 체크 START 
+[2015/01/06 11:13:55,459] INFO 거래국가코드 체크 END 
+[2015/01/06 11:13:55,459] ERROR CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:143)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:83)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2015/01/06 11:14:48,813] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 11:14:48,813] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:14:48,813] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 11:14:48 KST 2015
+[2015/01/06 11:14:48,813] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:14:48,813] INFO CTR Agent를 기동합니다.
+[2015/01/06 11:14:48,828] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 11:14:50,248] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 11:14:50,998] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 11:14:51,044] INFO Time : 00:00
+[2015/01/06 11:14:51,044] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 11:14:51,044] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 11:14:51,060] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 11:14:51,091] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 11:14:51,107] INFO RAMJobStore initialized.
+[2015/01/06 11:14:51,107] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 11:14:51,107] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 11:14:51,138] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 11:14:51,138] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 11:15:00,896] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:15:15,624] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:15:24,876] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/06 11:15:24,892] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:15:24,892] INFO *   CTR 연계 모듈  (Ver : 201410.01.27) init  Tue Jan 06 11:15:24 KST 2015
+[2015/01/06 11:15:24,892] INFO *---------------------------------------------------------------------------*
+[2015/01/06 11:15:24,892] INFO CTR Agent를 기동합니다.
+[2015/01/06 11:15:24,892] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/01/06 11:15:26,343] INFO ESB를 통해 Agent 유효성을 Check
+[2015/01/06 11:15:26,469] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/01/06 11:15:26,515] INFO Time : 00:00
+[2015/01/06 11:15:26,515] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/01/06 11:15:26,515] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/01/06 11:15:26,531] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2015/01/06 11:15:26,562] INFO Job execution threads will use class loader of thread: main
+[2015/01/06 11:15:26,578] INFO RAMJobStore initialized.
+[2015/01/06 11:15:26,578] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/06 11:15:26,578] INFO Quartz scheduler version: 1.4.5
+[2015/01/06 11:15:26,640] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/06 11:15:26,640] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/06 11:15:30,618] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:15:45,629] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:15:48,017] INFO CTR_TST2_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2015/01/06 11:15:48,145] INFO \tools\db2inst1\FIUCSTR\CTR\Message_dev\OUTBOX\9400\CTR_TST2_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2015/01/06 11:15:48,145] INFO checkValidate 실행됨_1.
+[2015/01/06 11:15:48,145] INFO versionType [089]
+[2015/01/06 11:15:48,145] INFO 한글 유효성 체크 START 
+[2015/01/06 11:15:48,145] INFO 거래국가코드 체크 START 
+[2015/01/06 11:15:48,145] INFO 거래국가코드 체크 END 
+[2015/01/06 11:15:48,160] INFO \tools\db2inst1\FIUCSTR\CTR\Message_dev\OUTBOX\9400\CTR_TST2_20110316_0000001.SND을 /tools/db2inst1/FIUCSTR/CTR/Message_dev/PROC/SEND로 이동합니다.
+[2015/01/06 11:16:00,859] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:16:15,789] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/06 11:16:24,479] INFO CTR_TST2_20110316_0000001.SND 보고 문서 전송 큐에 등록
+[2015/01/06 11:16:24,495] INFO \tools\db2inst1\FIUCSTR\CTR\Message_dev\PROC\SEND\CTR_TST2_20110316_0000001.SND 전송 시작
+[2015/01/06 11:16:24,573] INFO CTR_TST2_20110316_0000001.SND 파일은 84개의 필드를 가지고 있습니다.
+[2015/01/06 11:16:24,588] INFO v0.89을 사용한 방법
+[2015/01/06 11:16:26,049] INFO 발송증서 처리 결과 : TST2 코드 값은 접근이 허용되지 않습니다. FIU 사업단에 문의하시기 바랍니다.
+[2015/01/06 11:16:26,065] INFO \tools\db2inst1\FIUCSTR\CTR\Message_dev\PROC\SEND\CTR_TST2_20110316_0000001.SND 보고 문서 전송 실패, TST2 코드 값은 접근이 허용되지 않습니다. FIU 사업단에 문의하시기 바랍니다.
+[2015/01/06 11:16:30,605] INFO CTR HEARTBEAT 15초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)

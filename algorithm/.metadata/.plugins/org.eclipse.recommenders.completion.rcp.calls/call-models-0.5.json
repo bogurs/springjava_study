@@ -1,0 +1,7 @@
+{
+  "D:\\Program Files\\Java\\jdk1.8.0_45\\jre\\lib\\rt.jar": {
+    "location": "D:\\Program Files\\Java\\jdk1.8.0_45\\jre\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "Could not transfer artifact jre:jre:zip:call:1.0.0 from/to remote-models (http://download.eclipse.org/recommenders/models/kepler/): Error transferring file, server returned status code 307"
+  }
+}

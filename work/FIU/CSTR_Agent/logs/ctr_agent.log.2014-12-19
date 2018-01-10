@@ -1,0 +1,309 @@
+[2014/12/19 00:07:32,964] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 00:07:32,979] INFO *---------------------------------------------------------------------------*
+[2014/12/19 00:07:32,979] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 00:07:32 KST 2014
+[2014/12/19 00:07:32,979] INFO *---------------------------------------------------------------------------*
+[2014/12/19 00:07:32,979] INFO CTR Agent를 기동합니다.
+[2014/12/19 00:07:32,979] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 00:07:34,726] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 00:07:35,086] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 00:07:35,117] INFO Time : 00:00
+[2014/12/19 00:07:35,117] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 00:07:35,195] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 00:07:35,227] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 00:07:35,242] INFO RAMJobStore initialized.
+[2014/12/19 00:07:35,242] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 00:07:35,242] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 00:07:35,289] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 00:07:35,289] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 00:08:00,857] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:09:00,622] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:10:00,605] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:11:00,619] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:17:53,858] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 00:17:53,873] INFO *---------------------------------------------------------------------------*
+[2014/12/19 00:17:53,873] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 00:17:53 KST 2014
+[2014/12/19 00:17:53,873] INFO *---------------------------------------------------------------------------*
+[2014/12/19 00:17:53,873] INFO CTR Agent를 기동합니다.
+[2014/12/19 00:17:53,873] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 00:17:55,465] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 00:17:55,840] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 00:17:55,856] INFO Time : 00:00
+[2014/12/19 00:17:55,856] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 00:17:55,887] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 00:17:55,918] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 00:17:55,934] INFO RAMJobStore initialized.
+[2014/12/19 00:17:55,934] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 00:17:55,934] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 00:17:55,965] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 00:17:55,965] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 00:18:00,785] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:19:00,628] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:20:00,627] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:21:00,602] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:22:00,601] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:23:01,052] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:24:00,632] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:25:00,693] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:26:00,613] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:27:00,628] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:28:00,611] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:29:00,610] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:30:00,608] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:31:00,623] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:32:00,590] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:33:00,604] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:34:00,603] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:35:00,617] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:36:00,616] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:37:00,604] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:38:00,603] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 00:39:00,596] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 01:06:42,161] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:06:42,161] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:06:42,177] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:06:42 KST 2014
+[2014/12/19 01:06:42,177] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:06:42,177] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:06:42,177] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:07:08,330] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/19 01:07:08,339] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/19 01:07:08,339] INFO *----------------------------------------------------------------------------*
+[2014/12/19 01:07:08,339] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Fri Dec 19 01:07:08 KST 2014
+[2014/12/19 01:07:08,340] INFO *----------------------------------------------------------------------------*
+[2014/12/19 01:07:08,340] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/19 01:07:08,340] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/19 01:13:13,734] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:13:13,738] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:13:13,743] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:13:13 KST 2014
+[2014/12/19 01:13:13,744] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:13:13,744] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:13:13,744] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:13:15,167] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 01:13:15,546] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 01:13:15,565] INFO Time : 00:00
+[2014/12/19 01:13:15,565] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 01:13:15,652] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 01:13:15,687] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 01:13:15,723] INFO RAMJobStore initialized.
+[2014/12/19 01:13:15,723] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 01:13:15,723] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 01:13:15,793] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 01:13:15,793] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 01:14:24,746] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:14:24,749] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:14:24,753] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:14:24 KST 2014
+[2014/12/19 01:14:24,754] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:14:24,754] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:14:24,754] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:14:26,291] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 01:14:26,626] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 01:14:26,645] INFO Time : 00:00
+[2014/12/19 01:14:26,645] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 01:14:26,670] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 01:14:26,697] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 01:14:26,711] INFO RAMJobStore initialized.
+[2014/12/19 01:14:26,712] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 01:14:26,712] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 01:14:26,759] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 01:14:26,759] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 01:15:00,864] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 01:16:32,940] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:16:32,944] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:16:32,948] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:16:32 KST 2014
+[2014/12/19 01:16:32,949] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:16:32,949] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:16:32,949] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:16:34,330] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 01:16:34,893] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 01:16:34,911] INFO Time : 00:00
+[2014/12/19 01:16:34,911] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 01:16:34,934] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 01:16:34,960] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 01:16:34,974] INFO RAMJobStore initialized.
+[2014/12/19 01:16:34,974] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 01:16:34,975] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 01:16:35,013] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 01:16:35,013] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 01:17:00,891] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 01:19:19,178] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:19:19,181] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:19:19,186] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:19:19 KST 2014
+[2014/12/19 01:19:19,186] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:19:19,186] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:19:19,187] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:19:20,545] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 01:19:21,095] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 01:19:21,113] INFO Time : 00:00
+[2014/12/19 01:19:21,113] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 01:19:21,137] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 01:19:21,163] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 01:19:21,177] INFO RAMJobStore initialized.
+[2014/12/19 01:19:21,177] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 01:19:21,178] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 01:19:21,218] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 01:19:21,218] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 01:35:30,169] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 01:35:30,169] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:35:30,169] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 01:35:30 KST 2014
+[2014/12/19 01:35:30,169] INFO *---------------------------------------------------------------------------*
+[2014/12/19 01:35:30,169] INFO CTR Agent를 기동합니다.
+[2014/12/19 01:35:30,169] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 01:35:31,466] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 01:35:31,810] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 01:35:31,826] INFO Time : 00:00
+[2014/12/19 01:35:31,826] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 01:35:31,857] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 01:35:31,872] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 01:35:31,888] INFO RAMJobStore initialized.
+[2014/12/19 01:35:31,888] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 01:35:31,888] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 01:35:31,919] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 01:35:31,919] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 02:11:07,866] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 02:11:07,881] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:11:07,881] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 02:11:07 KST 2014
+[2014/12/19 02:11:07,881] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:11:07,881] INFO CTR Agent를 기동합니다.
+[2014/12/19 02:11:07,881] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 02:11:34,378] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/19 02:11:34,384] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/19 02:11:34,385] INFO *----------------------------------------------------------------------------*
+[2014/12/19 02:11:34,386] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Fri Dec 19 02:11:34 KST 2014
+[2014/12/19 02:11:34,386] INFO *----------------------------------------------------------------------------*
+[2014/12/19 02:11:34,386] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/19 02:11:34,386] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/19 02:15:44,044] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 02:15:44,044] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:15:44,060] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 02:15:44 KST 2014
+[2014/12/19 02:15:44,060] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:15:44,060] INFO CTR Agent를 기동합니다.
+[2014/12/19 02:15:44,060] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 02:17:11,393] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 02:17:11,409] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:17:11,409] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 02:17:11 KST 2014
+[2014/12/19 02:17:11,409] INFO *---------------------------------------------------------------------------*
+[2014/12/19 02:17:11,409] INFO CTR Agent를 기동합니다.
+[2014/12/19 02:17:11,409] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 02:17:12,945] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 02:17:13,325] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 02:17:13,340] INFO Time : 00:00
+[2014/12/19 02:17:13,340] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 02:17:13,434] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 02:17:13,465] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 02:17:13,481] INFO RAMJobStore initialized.
+[2014/12/19 02:17:13,481] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 02:17:13,481] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 02:17:13,512] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 02:17:13,512] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 02:18:00,947] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:19:00,655] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:20:00,625] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:21:00,624] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:22:00,671] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:23:00,607] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:24:00,620] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 02:25:00,638] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:21:43,842] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:21:43,842] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:21:43,842] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:21:43 KST 2014
+[2014/12/19 12:21:43,842] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:21:43,842] INFO CTR Agent를 기동합니다.
+[2014/12/19 12:21:43,842] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 12:21:45,558] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 12:21:45,933] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 12:21:45,965] INFO Time : 00:00
+[2014/12/19 12:21:45,965] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 12:21:46,058] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 12:21:46,089] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:21:46,105] INFO RAMJobStore initialized.
+[2014/12/19 12:21:46,105] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:21:46,105] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:21:46,183] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:21:46,183] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:22:00,779] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:23:00,638] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:24:00,617] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:25:00,597] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:26:00,609] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:27:37,450] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:27:37,450] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:27:37,466] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:27:37 KST 2014
+[2014/12/19 12:27:37,466] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:27:37,466] INFO CTR Agent를 기동합니다.
+[2014/12/19 12:27:37,466] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 12:27:38,823] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 12:27:39,183] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 12:27:39,198] INFO Time : 00:00
+[2014/12/19 12:27:39,198] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 12:27:39,229] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 12:27:39,261] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:27:39,276] INFO RAMJobStore initialized.
+[2014/12/19 12:27:39,276] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:27:39,276] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:27:39,323] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:27:39,323] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:28:00,856] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:29:00,545] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:29:00,545] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:29:00,545] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:29:00 KST 2014
+[2014/12/19 12:29:00,545] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:29:00,545] INFO CTR Agent를 기동합니다.
+[2014/12/19 12:29:00,545] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 12:29:01,856] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 12:29:02,200] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 12:29:02,215] INFO Time : 00:00
+[2014/12/19 12:29:02,215] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 12:29:02,247] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 12:29:02,278] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:29:02,293] INFO RAMJobStore initialized.
+[2014/12/19 12:29:02,293] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:29:02,293] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:29:02,340] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:29:02,340] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:30:00,868] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 15:29:37,286] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:29:37,301] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:29:37,301] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 15:29:37 KST 2014
+[2014/12/19 15:29:37,301] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:29:37,301] INFO CTR Agent를 기동합니다.
+[2014/12/19 15:29:37,301] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 15:29:38,754] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 15:29:38,927] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 15:29:38,958] INFO Time : 00:00
+[2014/12/19 15:29:38,958] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 15:29:39,051] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 15:29:39,067] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 15:29:39,083] INFO RAMJobStore initialized.
+[2014/12/19 15:29:39,083] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 15:29:39,083] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 15:29:39,145] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 15:29:39,145] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 15:29:54,852] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:29:54,852] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:29:54,852] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 15:29:54 KST 2014
+[2014/12/19 15:29:54,852] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:29:54,852] INFO CTR Agent를 기동합니다.
+[2014/12/19 15:29:54,852] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 15:29:56,118] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/19 15:29:56,134] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/19 15:29:56,134] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:29:56,134] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Fri Dec 19 15:29:56 KST 2014
+[2014/12/19 15:29:56,134] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:29:56,134] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/19 15:29:56,134] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/19 15:30:11,165] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:30:11,165] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:30:11,181] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 15:30:11 KST 2014
+[2014/12/19 15:30:11,181] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:30:11,181] INFO CTR Agent를 기동합니다.
+[2014/12/19 15:30:11,181] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/19 15:30:12,990] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/19 15:30:13,851] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/19 15:30:13,883] INFO Time : 00:00
+[2014/12/19 15:30:13,883] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/19 15:30:13,929] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/19 15:30:13,945] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 15:30:13,961] INFO RAMJobStore initialized.
+[2014/12/19 15:30:13,961] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 15:30:13,961] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 15:30:14,023] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 15:30:14,023] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.

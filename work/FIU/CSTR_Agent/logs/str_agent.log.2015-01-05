@@ -1,0 +1,484 @@
+[2015/01/05 10:24:30,575] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:24:31,230] ERROR Parse Fatal Error at line 17000 column 27: Attribute name "waitTwoMini" associated with an element type "FilePathInfo" must be followed by the ' = ' character.
+org.xml.sax.SAXParseException: Attribute name "waitTwoMini" associated with an element type "FilePathInfo" must be followed by the ' = ' character.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.str.conf.STRConfigure.refresh(STRConfigure.java:74)
+	at kr.go.kofiu.str.conf.STRConfigure.<init>(STRConfigure.java:49)
+	at kr.go.kofiu.str.conf.STRConfigure.<clinit>(STRConfigure.java:35)
+	at kr.go.kofiu.common.agent.STRAgent.<init>(STRAgent.java:231)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:107)
+[2015/01/05 10:24:31,230] ERROR Error while Parsinng config.xml file!
+org.xml.sax.SAXParseException: Attribute name "waitTwoMini" associated with an element type "FilePathInfo" must be followed by the ' = ' character.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1666)
+	at kr.go.kofiu.str.conf.STRConfigure.refresh(STRConfigure.java:74)
+	at kr.go.kofiu.str.conf.STRConfigure.<init>(STRConfigure.java:49)
+	at kr.go.kofiu.str.conf.STRConfigure.<clinit>(STRConfigure.java:35)
+	at kr.go.kofiu.common.agent.STRAgent.<init>(STRAgent.java:231)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:107)
+[2015/01/05 10:24:31,230] INFO 
+[2015/01/05 10:24:31,230] INFO *----------------------------------------------------------------------------*
+[2015/01/05 10:24:31,245] INFO *  STR 연계 모듈  (Ver : 201410.01.26) stop Mon Jan 05 10:24:31 KST 2015
+[2015/01/05 10:24:31,245] INFO *----------------------------------------------------------------------------*
+[2015/01/05 10:24:31,261] INFO STR 연계 모듈을 종료합니다.
+[2015/01/05 10:24:31,265] ERROR STR 연계 모듈 종료 프로세스 실행 중에 오류가 발생하였습니다. 무시하고  강제로 종료 됩니다.
+java.lang.NullPointerException
+	at kr.go.kofiu.common.agent.STRAgent.shutdown(STRAgent.java:201)
+	at kr.go.kofiu.common.agent.STRAgent.shutdown(STRAgent.java:80)
+	at kr.go.kofiu.common.agent.STRAgent.<init>(STRAgent.java:242)
+	at kr.go.kofiu.common.agent.Agent.main(Agent.java:107)
+[2015/01/05 10:24:31,266] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2015/01/05 10:25:47,085] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:25:47,928] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:25:47,928] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:25:47,928] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:25:47,943] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:25:50,035] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:25:50,083] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:25:50,083] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:25:50,083] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:25:50 KST 2015
+[2015/01/05 10:25:50,083] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:25:50,083] INFO STR Agent를 기동합니다.
+[2015/01/05 10:25:50,114] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:25:50,129] INFO RAMJobStore initialized.
+[2015/01/05 10:25:50,129] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:25:50,129] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:25:50,161] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:25:50,161] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 10:30:55,109] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:30:55,842] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:30:55,842] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:30:55,842] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:30:55,842] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:30:57,886] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:30:57,934] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:30:57,934] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:30:57,934] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:30:57 KST 2015
+[2015/01/05 10:30:57,934] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:30:57,934] INFO STR Agent를 기동합니다.
+[2015/01/05 10:30:57,981] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:30:57,997] INFO RAMJobStore initialized.
+[2015/01/05 10:30:57,997] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:30:57,997] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:30:58,043] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:30:58,043] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 10:31:00,040] INFO STR 문서 정형성 검사 수행
+[2015/01/05 10:31:00,759] INFO 중복 파일명 체크
+[2015/01/05 10:31:00,759] INFO 사용자 검증 수행
+[2015/01/05 10:31:04,084] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2015/01/05 10:31:04,084] INFO STR 첨부파일 검증 수행
+[2015/01/05 10:31:04,397] INFO STR 문서 정형성 검사 수행 완료
+[2015/01/05 10:31:04,397] INFO 송신 프로세스 ebXML 생성 시작
+[2015/01/05 10:31:04,412] INFO STR ebXML 전송 수행
+[2015/01/05 10:31:08,813] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2015/01/05 10:31:33,130] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:31:33,817] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:31:33,817] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:31:33,817] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:31:33,832] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:31:35,190] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:31:35,254] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:31:35,254] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:31:35,254] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:31:35 KST 2015
+[2015/01/05 10:31:35,254] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:31:35,254] INFO STR Agent를 기동합니다.
+[2015/01/05 10:31:35,285] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:31:35,285] INFO RAMJobStore initialized.
+[2015/01/05 10:31:35,285] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:31:35,285] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:31:35,332] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:31:35,332] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 10:31:45,021] INFO STR 문서 정형성 검사 수행
+[2015/01/05 10:31:45,646] INFO 중복 파일명 체크
+[2015/01/05 10:31:45,646] INFO 사용자 검증 수행
+[2015/01/05 10:31:46,192] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2015/01/05 10:31:46,192] INFO STR 첨부파일 검증 수행
+[2015/01/05 10:31:46,474] INFO STR 문서 정형성 검사 수행 완료
+[2015/01/05 10:31:46,490] INFO 송신 프로세스 ebXML 생성 시작
+[2015/01/05 10:31:46,490] INFO STR ebXML 전송 수행
+[2015/01/05 10:32:24,235] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:32:24,906] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:32:24,922] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:32:24,922] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:32:24,922] INFO C:\tools\db2inst1/STR/message폴더가  존재하지 않습니다.
+[2015/01/05 10:32:24,922] INFO *----------------------------------------------------------------------------*
+[2015/01/05 10:32:24,922] INFO *  STR 연계 모듈  (Ver : 201410.01.26) stop Mon Jan 05 10:32:24 KST 2015
+[2015/01/05 10:32:24,922] INFO *----------------------------------------------------------------------------*
+[2015/01/05 10:32:24,922] INFO STR 연계 모듈을 종료합니다.
+[2015/01/05 10:32:24,922] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2015/01/05 10:32:43,430] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:32:44,117] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:32:44,117] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:32:44,117] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:32:44,132] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:32:45,912] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:32:45,959] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:32:45,959] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:32:45,959] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:32:45 KST 2015
+[2015/01/05 10:32:45,959] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:32:45,959] INFO STR Agent를 기동합니다.
+[2015/01/05 10:32:46,004] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:32:46,004] INFO RAMJobStore initialized.
+[2015/01/05 10:32:46,004] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:32:46,004] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:32:46,050] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:32:46,050] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 10:33:12,312] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:33:13,077] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:33:13,077] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:33:13,077] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:33:13,092] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:33:14,560] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:33:14,606] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:33:14,606] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:33:14,622] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:33:14 KST 2015
+[2015/01/05 10:33:14,623] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:33:14,623] INFO STR Agent를 기동합니다.
+[2015/01/05 10:33:14,639] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:33:14,670] INFO RAMJobStore initialized.
+[2015/01/05 10:33:14,670] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:33:14,670] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:33:14,717] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:33:14,717] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 10:33:37,032] INFO configuration file: ./str_config/config.xml
+[2015/01/05 10:33:37,781] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 10:33:37,796] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 10:33:37,796] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 10:33:37,796] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 10:33:39,404] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 10:33:39,452] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 10:33:39,452] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:33:39,452] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 10:33:39 KST 2015
+[2015/01/05 10:33:39,452] INFO *---------------------------------------------------------------------------*
+[2015/01/05 10:33:39,452] INFO STR Agent를 기동합니다.
+[2015/01/05 10:33:39,483] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 10:33:39,514] INFO RAMJobStore initialized.
+[2015/01/05 10:33:39,514] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 10:33:39,514] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 10:33:39,592] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 10:33:39,592] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:23:38,095] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:23:38,173] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:23:38,173] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:23:38,173] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:23:38,189] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:23:40,217] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 11:23:40,249] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 11:23:40,249] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:23:40,265] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 11:23:40 KST 2015
+[2015/01/05 11:23:40,265] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:23:40,265] INFO STR Agent를 기동합니다.
+[2015/01/05 11:23:40,280] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 11:23:40,296] INFO RAMJobStore initialized.
+[2015/01/05 11:23:40,296] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 11:23:40,296] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 11:23:40,327] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 11:23:40,327] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:23:46,022] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:23:53,590] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:23:53,668] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:23:53,668] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:23:53,668] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:23:53,684] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:23:55,291] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 11:23:55,385] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 11:23:55,385] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:23:55,401] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 11:23:55 KST 2015
+[2015/01/05 11:23:55,401] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:23:55,401] INFO STR Agent를 기동합니다.
+[2015/01/05 11:23:55,416] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 11:23:55,448] INFO RAMJobStore initialized.
+[2015/01/05 11:23:55,448] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 11:23:55,448] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 11:23:55,510] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 11:23:55,510] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:24:00,801] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:24:16,037] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:24:30,670] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:24:46,069] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:25:01,097] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:25:15,897] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:25:30,705] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:25:45,966] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:26:52,620] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:26:52,698] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:26:52,698] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:26:52,698] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:26:52,714] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:26:55,757] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:26:55,835] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:26:55,835] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:26:55,835] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:26:55,835] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:26:57,738] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 11:26:57,786] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 11:26:57,786] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:26:57,786] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 11:26:57 KST 2015
+[2015/01/05 11:26:57,786] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:26:57,801] INFO STR Agent를 기동합니다.
+[2015/01/05 11:26:57,817] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 11:26:57,848] INFO RAMJobStore initialized.
+[2015/01/05 11:26:57,848] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 11:26:57,848] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 11:26:57,926] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 11:26:57,926] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:27:01,031] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:27:13,062] INFO 진행 디렉토리에 STR_9400_20141226_00000013.xml 파일 이동.
+[2015/01/05 11:27:13,062] INFO 진행 디렉토리에 STR_9400_20141226_00000014.xml 파일 이동.
+[2015/01/05 11:27:13,062] INFO 진행 디렉토리에 STR_9400_20141226_00000015.xml 파일 이동.
+[2015/01/05 11:27:13,062] INFO 진행 디렉토리에 STR_9400_20141226_00000016.xml 파일 이동.
+[2015/01/05 11:27:13,062] INFO 진행 디렉토리에 STR_9400_20141228_00000017.xml 파일 이동.
+[2015/01/05 11:27:15,044] INFO STR 문서 정형성 검사 수행
+[2015/01/05 11:33:40,346] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:33:40,424] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:33:40,424] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:33:40,424] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:33:40,440] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:33:46,602] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2015/01/05 11:33:46,602] INFO kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.34:1424/SYSTEM.AUTO.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2538']
+[2015/01/05 11:33:46,602] INFO *----------------------------------------------------------------------------*
+[2015/01/05 11:33:46,618] INFO *  STR 연계 모듈  (Ver : 201410.01.26) stop Mon Jan 05 11:33:46 KST 2015
+[2015/01/05 11:33:46,618] INFO *----------------------------------------------------------------------------*
+[2015/01/05 11:33:46,618] INFO STR 연계 모듈을 종료합니다.
+[2015/01/05 11:33:46,618] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2015/01/05 11:34:03,723] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:34:03,801] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:34:03,801] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:34:03,801] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:34:03,816] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:34:05,876] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 11:34:05,908] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 11:34:05,908] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:34:05,908] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 11:34:05 KST 2015
+[2015/01/05 11:34:05,908] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:34:05,908] INFO STR Agent를 기동합니다.
+[2015/01/05 11:34:05,939] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 11:34:05,955] INFO RAMJobStore initialized.
+[2015/01/05 11:34:05,955] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 11:34:05,955] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 11:34:05,986] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 11:34:05,986] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:34:15,018] INFO 진행 디렉토리에 STR_9400_20141228_00000018.xml 파일 이동.
+[2015/01/05 11:34:15,034] INFO STR 문서 정형성 검사 수행
+[2015/01/05 11:34:15,721] INFO 중복 파일명 체크
+[2015/01/05 11:34:15,721] INFO 사용자 검증 수행
+[2015/01/05 11:34:16,096] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:34:16,627] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2015/01/05 11:34:16,627] INFO STR 첨부파일 검증 수행
+[2015/01/05 11:34:16,908] INFO STR 문서 정형성 검사 수행 완료
+[2015/01/05 11:34:16,908] INFO 송신 프로세스 ebXML 생성 시작
+[2015/01/05 11:34:16,923] INFO STR ebXML 전송 수행
+[2015/01/05 11:34:21,214] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2015/01/05 11:34:34,302] INFO configuration file: ./str_config/config.xml
+[2015/01/05 11:34:34,364] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 11:34:34,364] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 11:34:34,364] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 11:34:34,380] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 11:34:35,987] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 11:34:36,035] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 11:34:36,035] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:34:36,035] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 11:34:36 KST 2015
+[2015/01/05 11:34:36,035] INFO *---------------------------------------------------------------------------*
+[2015/01/05 11:34:36,035] INFO STR Agent를 기동합니다.
+[2015/01/05 11:34:36,066] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 11:34:36,081] INFO RAMJobStore initialized.
+[2015/01/05 11:34:36,081] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 11:34:36,081] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 11:34:36,113] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 11:34:36,113] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/01/05 11:34:45,878] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:35:00,782] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:35:15,977] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/01/05 11:35:33,610] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2015/01/05 11:35:43,704] INFO [Fail] Rollback!
+[2015/01/05 11:35:43,720] FATAL [Fail] Resource Release!JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+[2015/01/05 11:35:43,720] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2015/01/05 11:35:43,720] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 11:35:43,736] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:35:43,736] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:35:43,736] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:35:43,736] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 11:35:49,524] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:35:49,524] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:35:49,524] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:35:49,524] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 11:45:43,740] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 11:45:49,368] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 11:45:49,368] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:45:49,368] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:45:49,368] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:45:49,368] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 11:45:49,525] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 11:45:55,593] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:45:55,593] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:45:55,593] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:45:55,593] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 11:55:49,370] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 11:55:55,003] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 11:55:55,003] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:55:55,003] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:55:55,003] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:55:55,003] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 11:55:55,596] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 11:56:05,549] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 11:56:05,549] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 11:56:05,549] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 11:56:05,549] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:05:55,004] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:06:00,656] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:06:00,656] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:06:00,656] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:06:00,656] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:06:00,656] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:06:05,559] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:06:15,579] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:06:15,579] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:06:15,579] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:06:15,579] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:16:00,658] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:16:06,243] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:16:06,243] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:16:06,243] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:16:06,243] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:16:06,243] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:16:15,589] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:16:21,206] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:16:21,206] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:16:21,206] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:16:21,206] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:26:06,245] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:26:11,831] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:26:11,831] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:26:11,831] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:26:11,831] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:26:11,831] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:26:21,209] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:26:27,014] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:26:27,014] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:26:27,014] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:26:27,014] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:36:11,837] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:36:17,487] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:36:17,487] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:36:17,487] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:36:17,487] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:36:17,487] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:36:27,035] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:36:32,621] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:36:32,621] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:36:32,621] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:36:32,621] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:46:17,498] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:46:23,131] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:46:23,131] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:46:23,131] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:46:23,131] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:46:23,131] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:46:32,632] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:46:38,222] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:46:38,222] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:46:38,222] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:46:38,222] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:56:23,140] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:56:28,710] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 12:56:28,710] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:56:28,710] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:56:28,710] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:56:28,710] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 12:56:38,229] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 12:56:43,801] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 12:56:43,801] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 12:56:43,801] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 12:56:43,801] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:06:28,716] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:06:34,302] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 13:06:34,302] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:06:34,302] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:06:34,302] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:06:34,302] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:06:43,803] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:06:49,438] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:06:49,438] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:06:49,438] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:06:49,438] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:16:34,314] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:16:39,901] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 13:16:39,901] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:16:39,901] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:16:39,901] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:16:39,901] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:16:49,451] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:16:55,092] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:16:55,092] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:16:55,092] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:16:55,092] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:26:39,916] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:26:45,517] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 13:26:45,517] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:26:45,517] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:26:45,517] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:26:45,517] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:26:55,101] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:27:00,686] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:27:00,686] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:27:00,686] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:27:00,686] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:36:45,528] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:36:51,176] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 13:36:51,176] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:36:51,176] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:36:51,176] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:36:51,176] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:37:00,693] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:37:06,330] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:37:06,330] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:37:06,330] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:37:06,330] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:46:51,180] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:46:51,213] INFO STR 문서 정형성 검사 수행
+[2015/01/05 13:46:51,961] INFO Proc 파일이동 성공
+[2015/01/05 13:46:51,961] INFO 발송증서수신 = STRSTART||05||01||9400||94005108923333||20091014||20150105134651||97||기준정보 Vaildation 에러(Expected attribute: Code in element Channel)||STREND
+[2015/01/05 13:46:56,751] INFO STR HEARTBEAT 15초 주기 서비스 처리 (코드 : 99 | 결과 : ESB Server Fail)
+[2015/01/05 13:46:56,751] ERROR 현재 중계 기관의  보고 문서 접수 서비스(HeartBeat) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:46:56,751] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:46:56,751] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:46:56,751] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:47:06,348] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/01/05 13:47:12,121] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/01/05 13:47:12,121] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/01/05 13:47:12,121] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/01/05 13:47:12,121] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/01/05 13:55:31,450] INFO configuration file: ./str_config/config.xml
+[2015/01/05 13:55:31,559] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/01/05 13:55:31,559] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/01/05 13:55:31,559] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/01/05 13:55:31,575] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.26)             ****
+[2015/01/05 13:55:33,151] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.26))
+[2015/01/05 13:55:33,198] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2015/01/05 13:55:33,198] INFO *---------------------------------------------------------------------------*
+[2015/01/05 13:55:33,198] INFO *   STR 연계 모듈  (Ver : 201410.01.26) init  Mon Jan 05 13:55:33 KST 2015
+[2015/01/05 13:55:33,198] INFO *---------------------------------------------------------------------------*
+[2015/01/05 13:55:33,198] INFO STR Agent를 기동합니다.
+[2015/01/05 13:55:33,230] INFO Job execution threads will use class loader of thread: main
+[2015/01/05 13:55:33,245] INFO RAMJobStore initialized.
+[2015/01/05 13:55:33,245] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/01/05 13:55:33,245] INFO Quartz scheduler version: 1.4.5
+[2015/01/05 13:55:33,308] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/01/05 13:55:33,308] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.

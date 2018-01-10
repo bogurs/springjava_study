@@ -1,0 +1,1028 @@
+[2014/12/11 00:00:00,553] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:00:00,617] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 00:00:00,632] INFO 증서수신 = STRSTART||07||01||9400||94005107900108||20091014||20141211000545||11||가접수실패(접수 Deamon RA DB 처리 에러)||STREND
+[2014/12/11 00:00:00,648] INFO csv 저장 성공 - "2014.12.11 00:00:00.632","STR091094005107900108000820081125107.xml ","000820081125107","ERROR","가접수실패(접수 Deamon RA DB 처리 에러)"
+
+[2014/12/11 00:00:00,648] INFO *** HeartBeat OK ***
+[2014/12/11 00:00:00,648] INFO csv 저장 성공 - "2014.12.11 00:00:00.648" ,"00","ESB Server OK"
+
+[2014/12/11 00:04:41,840] INFO configuration file: null/str_config/config.xml
+[2014/12/11 00:04:41,903] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 00:04:41,918] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 00:04:41,918] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 00:04:41,965] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 00:04:43,416] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:04:43,448] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 00:04:43,448] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 00:04:43,479] INFO csv 저장 성공 - "2014.12.11 00:04:43.464" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 00:04:43,479] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 00:04:43,479] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 00:04:43,479] INFO 보고문서 권한을 변경완료
+[2014/12/11 00:04:43,479] INFO *---------------------------------------------------------------------------*
+[2014/12/11 00:04:43,479] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 00:04:43 KST 2014
+[2014/12/11 00:04:43,479] INFO *---------------------------------------------------------------------------*
+[2014/12/11 00:04:43,479] INFO STR Agent를 기동합니다.
+[2014/12/11 00:04:43,511] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 00:04:43,526] INFO RAMJobStore initialized.
+[2014/12/11 00:04:43,526] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 00:04:43,526] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 00:04:43,557] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 00:04:43,557] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 00:10:00,484] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:10:00,516] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 00:10:00,532] INFO *** HeartBeat OK ***
+[2014/12/11 00:10:00,532] INFO csv 저장 성공 - "2014.12.11 00:10:00.532" ,"00","ESB Server OK"
+
+[2014/12/11 00:20:00,480] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:20:03,507] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 00:20:16,518] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 00:20:34,069] INFO [Fail] Rollback!
+[2014/12/11 00:20:34,069] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 00:20:34,069] FATAL [Fail] Resource Release!
+[2014/12/11 00:20:34,069] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 00:20:34,069] INFO csv 저장 성공 - "2014.12.11 00:20:34.069" ,"99","ESB Server Fail"
+
+[2014/12/11 00:20:34,085] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 00:20:34,085] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 00:20:34,085] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 00:20:34,085] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 00:30:33,096] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 00:30:33,658] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:30:36,685] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 00:30:49,696] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 00:31:02,708] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 3 , 총 회수 : 5 )
+[2014/12/11 00:31:25,734] INFO [Fail] Rollback!
+[2014/12/11 00:31:25,734] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 00:31:25,734] FATAL [Fail] Resource Release!
+[2014/12/11 00:31:25,734] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 00:31:25,734] INFO csv 저장 성공 - "2014.12.11 00:31:25.734" ,"99","ESB Server Fail"
+
+[2014/12/11 00:31:25,750] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 00:31:25,750] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 00:31:25,750] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 00:31:25,750] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 00:41:24,757] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 00:41:25,320] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:41:28,346] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 00:41:41,358] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 00:41:54,369] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 3 , 총 회수 : 5 )
+[2014/12/11 00:42:07,381] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 4 , 총 회수 : 5 )
+[2014/12/11 00:42:20,392] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 5 , 총 회수 : 5 )
+[2014/12/11 00:42:34,932] INFO [Fail] Rollback!
+[2014/12/11 00:42:34,932] FATAL kr.go.kofiu.common.agent.AgentException: kr.go.kofiu.common.agent.AgentException: JMS | ESB 수신 실패 | Agent의 작동을 10분간 정지합니다.
+[2014/12/11 00:42:34,932] FATAL [Fail] Resource Release!
+[2014/12/11 00:42:34,932] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 00:42:34,932] INFO csv 저장 성공 - "2014.12.11 00:42:34.932" ,"99","ESB Server Fail"
+
+[2014/12/11 00:42:34,948] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 00:42:34,948] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 00:42:34,948] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 00:42:34,948] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 00:52:33,960] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 00:52:34,522] INFO JMS | STR UTIL SEND OK
+[2014/12/11 00:52:37,533] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 00:52:50,545] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 00:53:13,571] INFO [Fail] Rollback!
+[2014/12/11 00:53:13,571] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 00:53:13,571] FATAL [Fail] Resource Release!
+[2014/12/11 00:53:13,571] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 00:53:13,571] INFO csv 저장 성공 - "2014.12.11 00:53:13.571" ,"99","ESB Server Fail"
+
+[2014/12/11 00:53:13,587] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 00:53:13,587] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 00:53:13,587] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 00:53:13,587] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 01:03:12,598] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 01:03:13,145] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:03:16,171] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 01:03:29,183] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 01:03:52,209] INFO [Fail] Rollback!
+[2014/12/11 01:03:52,209] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 01:03:52,209] FATAL [Fail] Resource Release!
+[2014/12/11 01:03:52,209] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 01:03:52,209] INFO csv 저장 성공 - "2014.12.11 01:03:52.209" ,"99","ESB Server Fail"
+
+[2014/12/11 01:03:52,225] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 01:03:52,225] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 01:03:52,225] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 01:03:52,225] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 01:13:51,236] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 01:13:51,783] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:13:54,809] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 01:14:07,821] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 01:14:30,847] INFO [Fail] Rollback!
+[2014/12/11 01:14:30,847] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 01:14:30,847] FATAL [Fail] Resource Release!
+[2014/12/11 01:14:30,847] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 01:14:30,847] INFO csv 저장 성공 - "2014.12.11 01:14:30.847" ,"99","ESB Server Fail"
+
+[2014/12/11 01:14:30,847] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 01:14:30,863] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 01:14:30,863] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 01:14:30,863] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 01:24:29,874] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 01:24:30,436] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:24:33,463] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 01:24:46,474] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 01:25:09,488] INFO [Fail] Rollback!
+[2014/12/11 01:25:09,488] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 01:25:09,488] FATAL [Fail] Resource Release!
+[2014/12/11 01:25:09,488] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 01:25:09,488] INFO csv 저장 성공 - "2014.12.11 01:25:09.488" ,"99","ESB Server Fail"
+
+[2014/12/11 01:25:09,498] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 01:25:09,498] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 01:25:09,498] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 01:25:09,498] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 01:35:08,507] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 01:35:09,054] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:35:12,081] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/11 01:35:25,326] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/11 01:35:38,337] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 3 , 총 회수 : 5 )
+[2014/12/11 01:35:51,349] INFO JMS | AGENTCHECK 수신에 실패하였습니다. 10초후 수신을 재시도 합니다. ( 시도 회수 : 4 , 총 회수 : 5 )
+[2014/12/11 01:36:14,375] INFO [Fail] Rollback!
+[2014/12/11 01:36:14,375] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.mq.MQException: JMSCMQ0001: WebSphere MQ 호출에 실패했습니다. compcode '2'('MQCC_FAILED'), 이유 '2009'('MQRC_CONNECTION_BROKEN')
+[2014/12/11 01:36:14,375] FATAL [Fail] Resource Release!
+[2014/12/11 01:36:14,375] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSCMQ0002: 메소드 'MQBACK'에 실패했습니다.
+WebSphere MQ 호출에 실패했습니다.
+자세한 정보는 링크된 예외를 참조하십시오.
+[2014/12/11 01:36:14,375] INFO csv 저장 성공 - "2014.12.11 01:36:14.375" ,"99","ESB Server Fail"
+
+[2014/12/11 01:36:14,391] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/11 01:36:14,391] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/11 01:36:14,391] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/11 01:36:14,391] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/11 01:46:13,406] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/11 01:46:13,968] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:46:14,000] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 01:46:14,031] INFO *** HeartBeat OK ***
+[2014/12/11 01:46:14,031] INFO csv 저장 성공 - "2014.12.11 01:46:14.031" ,"00","ESB Server OK"
+
+[2014/12/11 01:50:00,519] INFO JMS | STR UTIL SEND OK
+[2014/12/11 01:50:00,535] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 01:50:00,567] INFO *** HeartBeat OK ***
+[2014/12/11 01:50:00,567] INFO csv 저장 성공 - "2014.12.11 01:50:00.567" ,"00","ESB Server OK"
+
+[2014/12/11 02:00:00,534] INFO JMS | STR UTIL SEND OK
+[2014/12/11 02:00:00,565] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 02:00:00,581] INFO *** HeartBeat OK ***
+[2014/12/11 02:00:00,581] INFO csv 저장 성공 - "2014.12.11 02:00:00.581" ,"00","ESB Server OK"
+
+[2014/12/11 05:00:00,147] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:00:00,256] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 05:00:00,272] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:00:00,272] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:00:00,350] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:00:02,456] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:00:02,504] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:00:02,535] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 05:00:02,566] INFO csv 저장 성공 - "2014.12.11 05:00:02.566" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 05:00:02,566] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 05:00:02,566] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 05:00:02,566] INFO 보고문서 권한을 변경완료
+[2014/12/11 05:00:02,566] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:00:02,582] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 05:00:02 KST 2014
+[2014/12/11 05:00:02,582] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:00:02,582] INFO STR Agent를 기동합니다.
+[2014/12/11 05:00:02,613] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 05:00:02,629] INFO RAMJobStore initialized.
+[2014/12/11 05:00:02,629] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 05:00:02,629] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 05:00:02,660] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 05:00:02,660] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 05:01:02,629] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:01:02,723] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 05:01:02,723] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:01:02,723] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:01:02,785] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:01:04,610] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:01:04,658] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:01:04,674] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 05:01:04,721] INFO csv 저장 성공 - "2014.12.11 05:01:04.705" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 05:01:04,721] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 05:01:04,721] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 05:01:04,721] INFO 보고문서 권한을 변경완료
+[2014/12/11 05:01:04,721] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:01:04,721] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 05:01:04 KST 2014
+[2014/12/11 05:01:04,721] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:01:04,721] INFO STR Agent를 기동합니다.
+[2014/12/11 05:01:04,752] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 05:01:04,767] INFO RAMJobStore initialized.
+[2014/12/11 05:01:04,767] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 05:01:04,767] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 05:01:04,799] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 05:01:04,799] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 05:01:15,046] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:01:24,798] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:01:24,830] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:01:24,846] INFO csv 저장 성공 - "2014.12.11 05:01:24.846" ,"00","사용자 검증 성공"
+
+[2014/12/11 05:01:25,189] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 05:01:25,189] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 05:01:38,029] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:01:38,107] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 05:01:38,122] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:01:38,122] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:01:38,232] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:01:40,135] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:01:40,183] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:01:40,198] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 05:01:40,229] INFO csv 저장 성공 - "2014.12.11 05:01:40.229" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 05:01:40,229] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 05:01:40,229] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 05:01:40,229] INFO 보고문서 권한을 변경완료
+[2014/12/11 05:01:40,229] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:01:40,245] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 05:01:40 KST 2014
+[2014/12/11 05:01:40,245] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:01:40,245] INFO STR Agent를 기동합니다.
+[2014/12/11 05:01:40,276] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 05:01:40,292] INFO RAMJobStore initialized.
+[2014/12/11 05:01:40,292] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 05:01:40,292] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 05:01:40,339] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 05:01:40,339] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 05:01:45,034] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:01:56,674] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:02:06,675] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:02:06,753] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 05:02:06,753] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:02:06,753] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:02:06,816] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:02:08,625] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:02:08,673] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:02:08,689] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 05:02:08,720] INFO csv 저장 성공 - "2014.12.11 05:02:08.720" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 05:02:08,736] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 05:02:08,736] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 05:02:08,736] INFO 보고문서 권한을 변경완료
+[2014/12/11 05:02:08,736] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:02:08,736] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 05:02:08 KST 2014
+[2014/12/11 05:02:08,736] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:02:08,736] INFO STR Agent를 기동합니다.
+[2014/12/11 05:02:08,767] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 05:02:08,782] INFO RAMJobStore initialized.
+[2014/12/11 05:02:08,782] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 05:02:08,782] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 05:02:08,814] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 05:02:08,814] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 05:02:15,038] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:02:26,022] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob 실행 중에 오류가 발생하였습니다.
+kr.go.kofiu.common.agent.AgentException: java.lang.NullPointerException
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:290)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.NullPointerException
+	at kr.go.kofiu.str.util.StrSendTest.action(StrSendTest.java:82)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:87)
+	... 4 more
+[2014/12/11 05:02:30,024] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:03:24,939] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:03:25,017] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 05:03:25,017] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:03:25,017] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:03:25,079] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:03:26,733] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:03:26,781] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:03:26,812] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 05:03:26,843] INFO csv 저장 성공 - "2014.12.11 05:03:26.843" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 05:03:26,843] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 05:03:26,843] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 05:03:26,843] INFO 보고문서 권한을 변경완료
+[2014/12/11 05:03:26,843] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:03:26,859] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 05:03:26 KST 2014
+[2014/12/11 05:03:26,859] INFO *---------------------------------------------------------------------------*
+[2014/12/11 05:03:26,859] INFO STR Agent를 기동합니다.
+[2014/12/11 05:03:26,874] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 05:03:26,906] INFO RAMJobStore initialized.
+[2014/12/11 05:03:26,906] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 05:03:26,906] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 05:03:26,937] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 05:03:26,937] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 05:03:30,041] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:03:37,173] INFO JMS | STR UTIL SEND OK
+[2014/12/11 05:03:37,220] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 05:03:37,283] INFO csv 저장 성공 - "2014.12.11 05:03:37.267" ,"00","사용자 검증 성공"
+
+[2014/12/11 05:03:37,564] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 05:03:37,564] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 05:03:43,585] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 05:03:43,633] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 05:03:43,695] INFO 송신 프로세스 ebXML 생성 완료
+[2014/12/11 05:03:43,695] INFO csv 저장 성공 - "2014.12.11 05:03:43.695","STR_9400_20091020_94005107.xml","000820081125107","OK","발송증서수신성공"
+
+[2014/12/11 05:03:43,695] INFO Proc 파일이동 성공
+[2014/12/11 05:04:00,013] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 05:04:05,381] INFO csv 저장 성공 - "2014.12.11 05:04:05.366","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 05:04:05,381] INFO Proc 파일이동 성공
+[2014/12/11 05:51:58,911] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:52:23,106] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:52:23,200] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 05:52:23,200] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 05:52:23,278] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 05:53:24,603] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:53:24,681] ERROR AGENT 시작 실패. 동작을 정지합니다. : STR 연계 모듈이 작동하고 있거나 비정상적으로 종료 되었습니다.
+먼저 동작 중인 프로세스가 있는지 체크하십시요.
+프로세스가 없다면 force를 인자로 넘겨서 다음처럼 실행하시기 바랍니다. "start.sh CTR force"
+[2014/12/11 05:53:24,681] INFO *---------------------------------------------------*
+[2014/12/11 05:53:24,696] INFO *      AGENT 연계 모듈  Thu Dec 11 05:53:24 KST 2014
+[2014/12/11 05:53:24,696] INFO *---------------------------------------------------*
+[2014/12/11 05:53:24,696] INFO shutdown ......
+[2014/12/11 05:53:37,348] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:53:45,163] INFO configuration file: null/str_config/config.xml
+[2014/12/11 05:53:45,241] ERROR AGENT 시작 실패. 동작을 정지합니다. : STR 연계 모듈이 작동하고 있거나 비정상적으로 종료 되었습니다.
+먼저 동작 중인 프로세스가 있는지 체크하십시요.
+프로세스가 없다면 force를 인자로 넘겨서 다음처럼 실행하시기 바랍니다. "start.sh CTR force"
+[2014/12/11 05:53:45,241] INFO *---------------------------------------------------*
+[2014/12/11 05:53:45,241] INFO *      AGENT 연계 모듈  Thu Dec 11 05:53:45 KST 2014
+[2014/12/11 05:53:45,241] INFO *---------------------------------------------------*
+[2014/12/11 05:53:45,241] INFO shutdown ......
+[2014/12/11 06:11:06,842] INFO configuration file: null/str_config/config.xml
+[2014/12/11 06:11:06,920] ERROR AGENT 시작 실패. 동작을 정지합니다. : STR 연계 모듈이 작동하고 있거나 비정상적으로 종료 되었습니다.
+먼저 동작 중인 프로세스가 있는지 체크하십시요.
+프로세스가 없다면 force를 인자로 넘겨서 다음처럼 실행하시기 바랍니다. "start.sh STR force"
+[2014/12/11 06:11:06,920] INFO *---------------------------------------------------*
+[2014/12/11 06:11:06,920] INFO *      AGENT 연계 모듈  Thu Dec 11 06:11:06 KST 2014
+[2014/12/11 06:11:06,920] INFO *---------------------------------------------------*
+[2014/12/11 06:11:06,920] INFO shutdown ......
+[2014/12/11 06:11:47,698] INFO configuration file: null/str_config/config.xml
+[2014/12/11 06:11:47,761] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:11:47,761] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:11:47,823] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:11:49,555] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:11:49,587] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:11:49,618] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:11:49,649] INFO csv 저장 성공 - "2014.12.11 06:11:49.649" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:11:49,649] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:11:49,649] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:11:49,649] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:11:49,649] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:11:49,665] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:11:49 KST 2014
+[2014/12/11 06:11:49,665] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:11:49,665] INFO STR Agent를 기동합니다.
+[2014/12/11 06:11:49,680] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:11:49,696] INFO RAMJobStore initialized.
+[2014/12/11 06:11:49,696] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:11:49,696] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:11:49,727] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:11:49,727] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:11:55,375] INFO configuration file: null/str_config/config.xml
+[2014/12/11 06:11:55,453] ERROR AGENT 시작 실패. 동작을 정지합니다. : STR 연계 모듈이 작동하고 있거나 비정상적으로 종료 되었습니다.
+먼저 동작 중인 프로세스가 있는지 체크하십시요.
+프로세스가 없다면 force를 인자로 넘겨서 다음처럼 실행하시기 바랍니다. "start.sh STR force"
+[2014/12/11 06:11:55,453] INFO *---------------------------------------------------*
+[2014/12/11 06:11:55,453] INFO *      AGENT 연계 모듈  Thu Dec 11 06:11:55 KST 2014
+[2014/12/11 06:11:55,453] INFO *---------------------------------------------------*
+[2014/12/11 06:11:55,453] INFO shutdown ......
+[2014/12/11 06:12:06,951] INFO configuration file: null/str_config/config.xml
+[2014/12/11 06:12:07,013] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:12:07,013] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:12:07,013] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:12:07,075] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:12:08,807] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:12:08,855] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:12:08,886] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:12:08,917] INFO csv 저장 성공 - "2014.12.11 06:12:08.917" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:12:08,917] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:12:08,917] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:12:08,917] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:12:08,917] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:12:08,933] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:12:08 KST 2014
+[2014/12/11 06:12:08,933] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:12:08,933] INFO STR Agent를 기동합니다.
+[2014/12/11 06:12:08,948] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:12:08,964] INFO RAMJobStore initialized.
+[2014/12/11 06:12:08,964] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:12:08,964] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:12:08,995] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:12:08,995] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:41:14,690] INFO configuration file: ./str_config/config.xml
+[2014/12/11 06:41:14,768] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:41:14,768] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:41:14,768] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:41:14,830] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:41:16,687] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:41:16,735] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:41:16,750] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:41:16,797] INFO csv 저장 성공 - "2014.12.11 06:41:16.781" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:41:16,797] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:41:16,797] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:41:16,797] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:41:16,797] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:41:16,797] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:41:16 KST 2014
+[2014/12/11 06:41:16,797] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:41:16,797] INFO STR Agent를 기동합니다.
+[2014/12/11 06:41:16,828] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:41:16,844] INFO RAMJobStore initialized.
+[2014/12/11 06:41:16,844] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:41:16,844] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:41:16,859] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:41:16,859] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:52:43,132] INFO configuration file: ./str_config/config.xml
+[2014/12/11 06:52:43,210] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:52:43,210] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:52:43,210] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:52:43,288] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:52:45,035] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:52:45,083] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:52:45,099] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:52:45,146] INFO csv 저장 성공 - "2014.12.11 06:52:45.146" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:52:45,146] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:52:45,146] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:52:45,146] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:52:45,146] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:52:45,146] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:52:45 KST 2014
+[2014/12/11 06:52:45,146] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:52:45,146] INFO STR Agent를 기동합니다.
+[2014/12/11 06:52:45,177] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:52:45,192] INFO RAMJobStore initialized.
+[2014/12/11 06:52:45,192] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:52:45,192] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:52:45,224] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:52:45,224] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:53:15,035] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 06:53:16,488] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:53:16,536] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:53:16,583] INFO csv 저장 성공 - "2014.12.11 06:53:16.583" ,"00","사용자 검증 성공"
+
+[2014/12/11 06:53:16,895] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 06:53:16,895] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 06:53:18,439] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 06:53:18,502] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 06:53:18,549] INFO csv 저장 성공 - "2014.12.11 06:53:18.549","STR_9400_20091020_94005107.xml","000820081125107","ERROR","알수없는 에러가 발생하였습니다.(SYSTEM_ERROR)"
+
+[2014/12/11 06:53:19,641] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 06:53:30,016] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 06:53:30,890] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:53:30,937] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:53:30,984] INFO csv 저장 성공 - "2014.12.11 06:53:30.984" ,"00","사용자 검증 성공"
+
+[2014/12/11 06:53:31,202] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 06:53:31,202] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 06:53:32,406] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 06:53:32,453] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 06:53:32,516] INFO csv 저장 성공 - "2014.12.11 06:53:32.516","STR_9400_20091020_94005107.xml","000820081125107","ERROR","알수없는 에러가 발생하였습니다.(SYSTEM_ERROR)"
+
+[2014/12/11 06:53:33,608] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 06:53:50,115] INFO configuration file: ./str_config/config.xml
+[2014/12/11 06:53:50,177] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:53:50,193] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:53:50,193] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:53:50,255] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:53:52,018] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:53:52,066] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:53:52,081] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:53:52,128] INFO csv 저장 성공 - "2014.12.11 06:53:52.128" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:53:52,128] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:53:52,128] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:53:52,128] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:53:52,128] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:53:52,128] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:53:52 KST 2014
+[2014/12/11 06:53:52,128] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:53:52,128] INFO STR Agent를 기동합니다.
+[2014/12/11 06:53:52,159] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:53:52,175] INFO RAMJobStore initialized.
+[2014/12/11 06:53:52,175] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:53:52,175] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:53:52,190] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:53:52,190] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:54:00,030] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 06:54:01,942] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:54:01,993] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:54:02,040] INFO csv 저장 성공 - "2014.12.11 06:54:02.040" ,"00","사용자 검증 성공"
+
+[2014/12/11 06:54:02,337] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 06:54:02,337] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 06:54:03,914] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 06:54:03,977] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 06:54:04,024] INFO csv 저장 성공 - "2014.12.11 06:54:04.024","STR_9400_20091020_94005107.xml","000820081125107","ERROR","알수없는 에러가 발생하였습니다.(SYSTEM_ERROR)"
+
+[2014/12/11 06:54:04,024] INFO Proc 파일이동 성공
+[2014/12/11 06:55:07,190] INFO configuration file: ./str_config/config.xml
+[2014/12/11 06:55:07,268] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:55:07,268] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:55:07,268] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:55:07,330] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 06:55:09,264] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:55:09,312] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:55:09,343] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 06:55:09,375] INFO csv 저장 성공 - "2014.12.11 06:55:09.375" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 06:55:09,375] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 06:55:09,375] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 06:55:09,375] INFO 보고문서 권한을 변경완료
+[2014/12/11 06:55:09,375] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:55:09,390] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 06:55:09 KST 2014
+[2014/12/11 06:55:09,390] INFO *---------------------------------------------------------------------------*
+[2014/12/11 06:55:09,390] INFO STR Agent를 기동합니다.
+[2014/12/11 06:55:09,421] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 06:55:09,421] INFO RAMJobStore initialized.
+[2014/12/11 06:55:09,421] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 06:55:09,421] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 06:55:09,453] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 06:55:09,453] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 06:55:45,018] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 06:55:46,362] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:55:46,394] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:55:46,456] INFO csv 저장 성공 - "2014.12.11 06:55:46.456" ,"00","사용자 검증 성공"
+
+[2014/12/11 06:55:46,721] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 06:55:46,721] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 06:55:48,235] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 06:55:48,282] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 06:55:48,345] INFO csv 저장 성공 - "2014.12.11 06:55:48.345","STR_9400_20091020_94005107.xml","000820081125107","ERROR","알수없는 에러가 발생하였습니다.(SYSTEM_ERROR)"
+
+[2014/12/11 06:55:49,437] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 06:55:49,906] INFO 증서수신 = STRSTART||06||01||9400||94005107900108||20091014||20141211070142||01||도착증서발송성공||STREND
+[2014/12/11 06:55:49,906] INFO csv 저장 성공 - "2014.12.11 06:55:49.906","STR091094005107900108000820081125107.xml ","000820081125107","ERROR","도착증서발송성공"
+
+[2014/12/11 06:56:00,015] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 06:56:00,906] INFO JMS | STR UTIL SEND OK
+[2014/12/11 06:56:00,953] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 06:56:00,999] INFO csv 저장 성공 - "2014.12.11 06:56:00.999" ,"00","사용자 검증 성공"
+
+[2014/12/11 06:56:01,202] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 06:56:01,202] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 06:56:02,365] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 06:56:02,428] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 06:56:02,490] INFO 송신 프로세스 ebXML 생성 완료
+[2014/12/11 06:56:02,490] INFO csv 저장 성공 - "2014.12.11 06:56:02.490","STR_9400_20091020_94005107.xml","000820081125107","OK","발송증서수신성공"
+
+[2014/12/11 06:56:02,490] INFO Proc 파일이동 성공
+[2014/12/11 06:56:02,771] INFO 증서수신 = STRSTART||06||01||9400||94005107900108||20091014||20141211070156||01||도착증서발송성공||STREND
+[2014/12/11 06:56:02,771] INFO csv 저장 성공 - "2014.12.11 06:56:02.771","STR091094005107900108000820081125107.xml ","000820081125107","ERROR","도착증서발송성공"
+
+[2014/12/11 06:59:58,334] INFO configuration file: ./str_config/config.xml
+[2014/12/11 06:59:58,427] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 06:59:58,427] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 06:59:58,427] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 06:59:58,521] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:00:00,377] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:00:00,441] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:00:00,456] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:00:00,505] INFO csv 저장 성공 - "2014.12.11 07:00:00.505" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:00:00,515] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:00:00,515] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:00:00,515] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:00:00,515] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:00:00,515] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:00:00 KST 2014
+[2014/12/11 07:00:00,515] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:00:00,515] INFO STR Agent를 기동합니다.
+[2014/12/11 07:00:00,545] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:00:00,565] INFO RAMJobStore initialized.
+[2014/12/11 07:00:00,565] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:00:00,565] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:00:00,585] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:00:00,585] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:00:01,412] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:00:01,444] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:00:01,506] INFO *** HeartBeat OK ***
+[2014/12/11 07:00:01,506] INFO csv 저장 성공 - "2014.12.11 07:00:01.506" ,"00","ESB Server OK"
+
+[2014/12/11 07:01:15,824] INFO configuration file: ./str_config/config.xml
+[2014/12/11 07:01:15,902] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 07:01:15,902] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 07:01:15,902] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 07:01:15,965] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:01:17,883] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:01:17,931] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:01:17,947] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:01:17,994] INFO csv 저장 성공 - "2014.12.11 07:01:17.994" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:01:17,994] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:01:17,994] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:01:17,994] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:01:17,994] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:01:17,994] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:01:17 KST 2014
+[2014/12/11 07:01:17,994] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:01:17,994] INFO STR Agent를 기동합니다.
+[2014/12/11 07:01:18,025] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:01:18,040] INFO RAMJobStore initialized.
+[2014/12/11 07:01:18,040] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:01:18,040] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:01:18,072] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:01:18,072] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:01:30,021] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:01:30,596] INFO csv 저장 성공 - "2014.12.11 07:01:30.596","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:01:31,688] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 07:01:43,663] INFO configuration file: ./str_config/config.xml
+[2014/12/11 07:01:43,741] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 07:01:43,741] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 07:01:43,741] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 07:01:43,804] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:01:45,567] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:01:45,614] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:01:45,630] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:01:45,677] INFO csv 저장 성공 - "2014.12.11 07:01:45.661" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:01:45,677] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:01:45,677] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:01:45,677] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:01:45,677] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:01:45,677] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:01:45 KST 2014
+[2014/12/11 07:01:45,677] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:01:45,677] INFO STR Agent를 기동합니다.
+[2014/12/11 07:01:45,708] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:01:45,724] INFO RAMJobStore initialized.
+[2014/12/11 07:01:45,724] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:01:45,724] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:01:45,755] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:01:45,755] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:01:45,786] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:01:46,489] INFO csv 저장 성공 - "2014.12.11 07:01:46.489","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:01:47,581] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 07:02:00,015] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:02:00,063] INFO csv 저장 성공 - "2014.12.11 07:02:00.063","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:02:01,156] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 07:02:15,013] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:02:15,046] INFO csv 저장 성공 - "2014.12.11 07:02:15.046","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:02:16,138] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/11 07:02:59,961] INFO configuration file: ./str_config/config.xml
+[2014/12/11 07:03:00,039] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 07:03:00,039] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 07:03:00,039] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 07:03:00,101] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:03:01,895] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:03:01,943] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:03:01,959] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:03:01,990] INFO csv 저장 성공 - "2014.12.11 07:03:01.990" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:03:01,990] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:03:02,006] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:03:02,006] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:03:02,006] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:03:02,006] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:03:02 KST 2014
+[2014/12/11 07:03:02,006] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:03:02,006] INFO STR Agent를 기동합니다.
+[2014/12/11 07:03:02,037] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:03:02,052] INFO RAMJobStore initialized.
+[2014/12/11 07:03:02,052] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:03:02,052] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:03:02,084] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:03:02,084] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:03:15,032] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:03:22,927] INFO csv 저장 성공 - "2014.12.11 07:03:22.912","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:05:32,706] INFO configuration file: ./str_config/config.xml
+[2014/12/11 07:05:32,784] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 07:05:32,784] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 07:05:32,784] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 07:05:32,846] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:05:34,781] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:05:34,828] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:05:34,844] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:05:34,891] INFO csv 저장 성공 - "2014.12.11 07:05:34.891" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:05:34,891] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:05:34,891] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:05:34,891] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:05:34,891] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:05:34,891] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:05:34 KST 2014
+[2014/12/11 07:05:34,891] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:05:34,891] INFO STR Agent를 기동합니다.
+[2014/12/11 07:05:34,922] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:05:34,938] INFO RAMJobStore initialized.
+[2014/12/11 07:05:34,938] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:05:34,938] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:05:34,969] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:05:34,969] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:05:45,031] INFO STR 문서 정형성 검사 수행 시작
+[2014/12/11 07:05:45,704] INFO csv 저장 성공 - "2014.12.11 07:05:45.704","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 07:05:45,704] INFO Proc 파일이동 성공
+[2014/12/11 07:10:00,843] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:10:00,891] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:10:00,938] INFO *** HeartBeat OK ***
+[2014/12/11 07:10:00,953] INFO csv 저장 성공 - "2014.12.11 07:10:00.953" ,"00","ESB Server OK"
+
+[2014/12/11 07:12:06,207] INFO configuration file: ./str_config/config.xml
+[2014/12/11 07:12:06,269] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 07:12:06,285] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 07:12:06,285] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 07:12:06,332] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 07:12:08,079] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:12:08,127] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:12:08,142] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 07:12:08,189] INFO csv 저장 성공 - "2014.12.11 07:12:08.173" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 07:12:08,189] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 07:12:08,189] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 07:12:08,189] INFO 보고문서 권한을 변경완료
+[2014/12/11 07:12:08,189] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:12:08,189] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 07:12:08 KST 2014
+[2014/12/11 07:12:08,189] INFO *---------------------------------------------------------------------------*
+[2014/12/11 07:12:08,189] INFO STR Agent를 기동합니다.
+[2014/12/11 07:12:08,220] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 07:12:08,236] INFO RAMJobStore initialized.
+[2014/12/11 07:12:08,236] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 07:12:08,236] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 07:12:08,251] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 07:12:08,251] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 07:12:30,034] INFO STR 문서 정형성 검사 수행
+[2014/12/11 07:12:30,597] INFO 중복 파일명 체크
+[2014/12/11 07:12:30,613] INFO 사용자 검증 수행
+[2014/12/11 07:12:31,455] INFO JMS | STR UTIL SEND OK
+[2014/12/11 07:12:31,503] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 07:12:31,550] INFO csv 저장 성공 - "2014.12.11 07:12:31.550" ,"00","사용자 검증 성공"
+
+[2014/12/11 07:12:31,550] INFO STR 첨부파일 검증 수행
+[2014/12/11 07:12:31,846] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 07:12:31,846] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 07:12:31,862] INFO STR ebXML 전송 수행
+[2014/12/11 07:12:33,375] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 07:12:33,423] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 07:12:33,470] INFO 송신 프로세스 ebXML 생성 완료
+[2014/12/11 07:12:33,470] INFO csv 저장 성공 - "2014.12.11 07:12:33.470","STR_9400_20091020_94005107.xml","000820081125107","OK","발송증서수신성공"
+
+[2014/12/11 07:12:33,485] INFO Proc 파일이동 성공
+[2014/12/11 07:12:35,888] INFO 증서수신 = STRSTART||06||01||9400||94005107900108||20091014||20141211071827||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/11 07:12:35,903] INFO csv 저장 성공 - "2014.12.11 07:12:35.903","STR091094005107900108000820081125107.xml ","000820081125107","ERROR","문서번호(FiuDocNum) 중복 에러"
+
+[2014/12/11 16:08:59,088] INFO configuration file: ./str_config/config.xml
+[2014/12/11 16:08:59,212] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 16:08:59,212] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 16:08:59,212] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 16:08:59,290] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 16:09:01,038] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:09:01,070] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:09:01,085] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 16:09:01,101] INFO csv 저장 성공 - "2014.12.11 16:09:01.101" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 16:09:01,101] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 16:09:01,101] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 16:09:01,101] INFO 보고문서 권한을 변경완료
+[2014/12/11 16:09:01,101] INFO *---------------------------------------------------------------------------*
+[2014/12/11 16:09:01,101] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 16:09:01 KST 2014
+[2014/12/11 16:09:01,101] INFO *---------------------------------------------------------------------------*
+[2014/12/11 16:09:01,101] INFO STR Agent를 기동합니다.
+[2014/12/11 16:09:01,148] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 16:09:01,163] INFO RAMJobStore initialized.
+[2014/12/11 16:09:01,163] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 16:09:01,163] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 16:09:01,195] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 16:09:01,195] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 16:10:00,537] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:10:00,553] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:10:00,585] INFO *** HeartBeat OK ***
+[2014/12/11 16:10:00,585] INFO csv 저장 성공 - "2014.12.11 16:10:00.585" ,"00","ESB Server OK"
+
+[2014/12/11 16:20:00,515] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:20:00,531] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:20:00,547] INFO *** HeartBeat OK ***
+[2014/12/11 16:20:00,563] INFO csv 저장 성공 - "2014.12.11 16:20:00.563" ,"00","ESB Server OK"
+
+[2014/12/11 16:30:00,482] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:30:00,515] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:30:00,530] INFO *** HeartBeat OK ***
+[2014/12/11 16:30:00,530] INFO csv 저장 성공 - "2014.12.11 16:30:00.530" ,"00","ESB Server OK"
+
+[2014/12/11 16:40:00,493] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:40:00,508] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:40:00,540] INFO *** HeartBeat OK ***
+[2014/12/11 16:40:00,540] INFO csv 저장 성공 - "2014.12.11 16:40:00.540" ,"00","ESB Server OK"
+
+[2014/12/11 16:50:00,518] INFO JMS | STR UTIL SEND OK
+[2014/12/11 16:50:00,551] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 16:50:00,566] INFO *** HeartBeat OK ***
+[2014/12/11 16:50:00,566] INFO csv 저장 성공 - "2014.12.11 16:50:00.566" ,"00","ESB Server OK"
+
+[2014/12/11 17:00:00,529] INFO JMS | STR UTIL SEND OK
+[2014/12/11 17:00:00,561] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 17:00:00,577] INFO *** HeartBeat OK ***
+[2014/12/11 17:00:00,577] INFO csv 저장 성공 - "2014.12.11 17:00:00.577" ,"00","ESB Server OK"
+
+[2014/12/11 17:10:00,504] INFO JMS | STR UTIL SEND OK
+[2014/12/11 17:10:00,536] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 17:10:00,552] INFO *** HeartBeat OK ***
+[2014/12/11 17:10:00,552] INFO csv 저장 성공 - "2014.12.11 17:10:00.552" ,"00","ESB Server OK"
+
+[2014/12/11 17:20:00,482] INFO JMS | STR UTIL SEND OK
+[2014/12/11 17:20:00,514] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 17:20:00,530] INFO *** HeartBeat OK ***
+[2014/12/11 17:20:00,530] INFO csv 저장 성공 - "2014.12.11 17:20:00.530" ,"00","ESB Server OK"
+
+[2014/12/11 17:27:53,151] INFO configuration file: ./str_config/config.xml
+[2014/12/11 17:27:53,244] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 17:27:53,244] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 17:27:53,244] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 17:27:53,307] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 17:27:54,711] INFO JMS | STR UTIL SEND OK
+[2014/12/11 17:27:54,743] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 17:27:54,743] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 17:27:54,758] INFO csv 저장 성공 - "2014.12.11 17:27:54.758" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 17:27:54,758] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 17:27:54,758] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 17:27:54,758] INFO 보고문서 권한을 변경완료
+[2014/12/11 17:27:54,758] INFO *---------------------------------------------------------------------------*
+[2014/12/11 17:27:54,774] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 17:27:54 KST 2014
+[2014/12/11 17:27:54,774] INFO *---------------------------------------------------------------------------*
+[2014/12/11 17:27:54,774] INFO STR Agent를 기동합니다.
+[2014/12/11 17:27:54,805] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 17:27:54,805] INFO RAMJobStore initialized.
+[2014/12/11 17:27:54,805] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 17:27:54,805] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 17:27:54,836] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 17:27:54,836] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 20:30:01,273] INFO configuration file: ./str_config/config.xml
+[2014/12/11 20:30:01,366] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 20:30:01,382] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 20:30:01,382] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 20:30:01,460] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 20:30:03,051] INFO JMS | STR UTIL SEND OK
+[2014/12/11 20:30:03,083] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 20:30:03,099] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 20:30:03,115] INFO csv 저장 성공 - "2014.12.11 20:30:03.115" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 20:30:03,115] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 20:30:03,115] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 20:30:03,115] INFO 보고문서 권한을 변경완료
+[2014/12/11 20:30:03,115] INFO *---------------------------------------------------------------------------*
+[2014/12/11 20:30:03,115] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 20:30:03 KST 2014
+[2014/12/11 20:30:03,115] INFO *---------------------------------------------------------------------------*
+[2014/12/11 20:30:03,115] INFO STR Agent를 기동합니다.
+[2014/12/11 20:30:03,146] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 20:30:03,161] INFO RAMJobStore initialized.
+[2014/12/11 20:30:03,161] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 20:30:03,161] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 20:30:03,193] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 20:30:03,193] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 20:30:45,039] INFO STR 문서 정형성 검사 수행
+[2014/12/11 20:30:45,649] INFO 중복 파일명 체크
+[2014/12/11 20:30:45,665] INFO csv 저장 성공 - "2014.12.11 20:30:45.665","STR_9400_20091020_94005107.xml","000820081125107","ERROR","이미 처리된 파일이 존재합니다."
+
+[2014/12/11 20:30:45,665] INFO Proc 파일이동 성공
+[2014/12/11 20:31:00,013] INFO STR 문서 정형성 검사 수행
+[2014/12/11 20:31:00,061] INFO 중복 파일명 체크
+[2014/12/11 20:31:00,061] INFO 사용자 검증 수행
+[2014/12/11 20:31:00,842] INFO JMS | STR UTIL SEND OK
+[2014/12/11 20:31:00,857] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 20:31:00,888] INFO csv 저장 성공 - "2014.12.11 20:31:00.888" ,"00","사용자 검증 성공"
+
+[2014/12/11 20:31:00,888] INFO STR 첨부파일 검증 수행
+[2014/12/11 20:31:01,169] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/11 20:31:01,169] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/11 20:31:01,185] INFO STR ebXML 전송 수행
+[2014/12/11 20:31:02,449] INFO JMS | SEND PROCESS SEND OK
+[2014/12/11 20:31:03,199] INFO JMS | SEND PROCESS RECEIVE OK
+[2014/12/11 20:31:03,230] INFO csv 저장 성공 - "2014.12.11 20:31:03.230","STR_9400_20091020_94005107.xml","000820081125107","OK","발송증서수신성공"
+
+[2014/12/11 20:31:03,230] INFO Proc 파일이동 성공
+[2014/12/11 20:31:03,589] INFO 증서수신 = STRSTART||06||01||9400||94005107900108||20091014||20141211203656||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/11 20:31:03,589] INFO csv 저장 성공 - "2014.12.11 20:31:03.589","STR091094005107900108000820081125107.xml ","000820081125107","ERROR","문서번호(FiuDocNum) 중복 에러"
+
+[2014/12/11 20:38:10,236] INFO configuration file: ./str_config/config.xml
+[2014/12/11 20:38:10,346] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/11 20:38:10,346] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/11 20:38:10,346] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/11 20:38:10,424] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.13)             ****
+[2014/12/11 20:38:11,859] INFO JMS | STR UTIL SEND OK
+[2014/12/11 20:38:11,874] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 20:38:11,891] INFO ***	수신 모듈 버전 : 201410.01.13        ****
+[2014/12/11 20:38:11,907] INFO csv 저장 성공 - "2014.12.11 20:38:11.907" ,"OK","ModuleVersion OK (NowVersion:201410.01.13)"
+
+[2014/12/11 20:38:11,907] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/11 20:38:11,907] INFO 보고문서 권한을 변경합니다.
+[2014/12/11 20:38:11,907] INFO 보고문서 권한을 변경완료
+[2014/12/11 20:38:11,907] INFO *---------------------------------------------------------------------------*
+[2014/12/11 20:38:11,922] INFO *   STR 연계 모듈  (Ver : 201410.01.13) init  Thu Dec 11 20:38:11 KST 2014
+[2014/12/11 20:38:11,922] INFO *---------------------------------------------------------------------------*
+[2014/12/11 20:38:11,922] INFO STR Agent를 기동합니다.
+[2014/12/11 20:38:11,938] INFO Job execution threads will use class loader of thread: main
+[2014/12/11 20:38:11,953] INFO RAMJobStore initialized.
+[2014/12/11 20:38:11,953] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/11 20:38:11,953] INFO Quartz scheduler version: 1.4.5
+[2014/12/11 20:38:11,985] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/11 20:38:11,985] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/11 20:40:00,483] INFO JMS | STR UTIL SEND OK
+[2014/12/11 20:40:00,515] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 20:40:00,531] INFO *** HeartBeat OK ***
+[2014/12/11 20:40:00,531] INFO csv 저장 성공 - "2014.12.11 20:40:00.531" ,"00","ESB Server OK"
+
+[2014/12/11 20:50:00,524] INFO JMS | STR UTIL SEND OK
+[2014/12/11 20:50:00,556] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 20:50:00,572] INFO *** HeartBeat OK ***
+[2014/12/11 20:50:00,572] INFO csv 저장 성공 - "2014.12.11 20:50:00.572" ,"00","ESB Server OK"
+
+[2014/12/11 21:00:00,522] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:00:00,554] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:00:00,570] INFO *** HeartBeat OK ***
+[2014/12/11 21:00:00,570] INFO csv 저장 성공 - "2014.12.11 21:00:00.570" ,"00","ESB Server OK"
+
+[2014/12/11 21:10:00,516] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:10:00,531] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:10:00,563] INFO *** HeartBeat OK ***
+[2014/12/11 21:10:00,563] INFO csv 저장 성공 - "2014.12.11 21:10:00.563" ,"00","ESB Server OK"
+
+[2014/12/11 21:20:00,528] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:20:00,559] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:20:00,576] INFO *** HeartBeat OK ***
+[2014/12/11 21:20:00,576] INFO csv 저장 성공 - "2014.12.11 21:20:00.576" ,"00","ESB Server OK"
+
+[2014/12/11 21:30:00,522] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:30:00,538] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:30:00,570] INFO *** HeartBeat OK ***
+[2014/12/11 21:30:00,570] INFO csv 저장 성공 - "2014.12.11 21:30:00.570" ,"00","ESB Server OK"
+
+[2014/12/11 21:40:00,517] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:40:00,533] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:40:00,565] INFO *** HeartBeat OK ***
+[2014/12/11 21:40:00,565] INFO csv 저장 성공 - "2014.12.11 21:40:00.565" ,"00","ESB Server OK"
+
+[2014/12/11 21:50:00,512] INFO JMS | STR UTIL SEND OK
+[2014/12/11 21:50:00,544] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 21:50:00,560] INFO *** HeartBeat OK ***
+[2014/12/11 21:50:00,560] INFO csv 저장 성공 - "2014.12.11 21:50:00.560" ,"00","ESB Server OK"
+
+[2014/12/11 22:00:00,493] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:00:00,508] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:00:00,525] INFO *** HeartBeat OK ***
+[2014/12/11 22:00:00,525] INFO csv 저장 성공 - "2014.12.11 22:00:00.525" ,"00","ESB Server OK"
+
+[2014/12/11 22:10:00,518] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:10:00,533] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:10:00,565] INFO *** HeartBeat OK ***
+[2014/12/11 22:10:00,565] INFO csv 저장 성공 - "2014.12.11 22:10:00.565" ,"00","ESB Server OK"
+
+[2014/12/11 22:20:00,528] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:20:00,543] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:20:00,560] INFO *** HeartBeat OK ***
+[2014/12/11 22:20:00,560] INFO csv 저장 성공 - "2014.12.11 22:20:00.560" ,"00","ESB Server OK"
+
+[2014/12/11 22:30:00,523] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:30:00,538] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:30:00,570] INFO *** HeartBeat OK ***
+[2014/12/11 22:30:00,570] INFO csv 저장 성공 - "2014.12.11 22:30:00.570" ,"00","ESB Server OK"
+
+[2014/12/11 22:40:00,485] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:40:00,516] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:40:00,533] INFO *** HeartBeat OK ***
+[2014/12/11 22:40:00,533] INFO csv 저장 성공 - "2014.12.11 22:40:00.533" ,"00","ESB Server OK"
+
+[2014/12/11 22:50:00,519] INFO JMS | STR UTIL SEND OK
+[2014/12/11 22:50:00,551] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 22:50:00,567] INFO *** HeartBeat OK ***
+[2014/12/11 22:50:00,567] INFO csv 저장 성공 - "2014.12.11 22:50:00.567" ,"00","ESB Server OK"
+
+[2014/12/11 23:00:00,513] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:00:00,528] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:00:00,561] INFO *** HeartBeat OK ***
+[2014/12/11 23:00:00,561] INFO csv 저장 성공 - "2014.12.11 23:00:00.561" ,"00","ESB Server OK"
+
+[2014/12/11 23:10:00,497] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:10:00,528] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:10:00,545] INFO *** HeartBeat OK ***
+[2014/12/11 23:10:00,545] INFO csv 저장 성공 - "2014.12.11 23:10:00.545" ,"00","ESB Server OK"
+
+[2014/12/11 23:20:00,507] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:20:00,522] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:20:00,539] INFO *** HeartBeat OK ***
+[2014/12/11 23:20:00,554] INFO csv 저장 성공 - "2014.12.11 23:20:00.539" ,"00","ESB Server OK"
+
+[2014/12/11 23:30:00,488] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:30:00,520] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:30:00,535] INFO *** HeartBeat OK ***
+[2014/12/11 23:30:00,535] INFO csv 저장 성공 - "2014.12.11 23:30:00.535" ,"00","ESB Server OK"
+
+[2014/12/11 23:40:00,498] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:40:00,733] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:40:00,748] INFO *** HeartBeat OK ***
+[2014/12/11 23:40:00,748] INFO csv 저장 성공 - "2014.12.11 23:40:00.748" ,"00","ESB Server OK"
+
+[2014/12/11 23:50:00,540] INFO JMS | STR UTIL SEND OK
+[2014/12/11 23:50:00,572] INFO JMS | STR UTIL RECEIVE OK
+[2014/12/11 23:50:00,588] INFO *** HeartBeat OK ***
+[2014/12/11 23:50:00,588] INFO csv 저장 성공 - "2014.12.11 23:50:00.588" ,"00","ESB Server OK"
+

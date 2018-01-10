@@ -1,0 +1,21 @@
+<project name="Agent" default="build">
+	<path id="lib.path">
+	      <fileset dir="./lib" includes="*.jar"/>
+	</path>
+	
+	<target name="compile">
+        <javac srcdir="./src/" destdir="./bin" encoding="euc-kr">
+            <classpath refid="lib.path"/>
+        </javac>
+	</target>
+	
+	<target name="build" depends="compile">
+		<!-- make jar -->
+		<jar jarfile="./dist/agent.jar" 
+			basedir="./bin"
+			update="yes">
+		</jar>						
+	 </target>
+	
+ </project>
+

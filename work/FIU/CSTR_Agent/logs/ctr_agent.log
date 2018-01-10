@@ -1,0 +1,115 @@
+[2015/04/08 13:30:12,830] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/08 13:30:12,845] INFO *---------------------------------------------------------------------------*
+[2015/04/08 13:30:12,851] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Wed Apr 08 13:30:12 KST 2015
+[2015/04/08 13:30:12,851] INFO *---------------------------------------------------------------------------*
+[2015/04/08 13:30:12,851] INFO CTR Agent를 기동합니다.
+[2015/04/08 13:30:12,852] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/04/08 13:30:14,927] INFO ESB를 통해 Agent 유효성을 Check
+[2015/04/08 13:30:15,154] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/04/08 13:30:15,207] INFO Time : 00:00
+[2015/04/08 13:30:15,207] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/04/08 13:30:15,566] ERROR AGENT 시작 실패. 동작을 정지합니다. : java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+[2015/04/08 13:30:15,567] INFO *---------------------------------------------------*
+[2015/04/08 13:30:15,567] INFO *      AGENT 연계 모듈  Wed Apr 08 13:30:15 KST 2015
+[2015/04/08 13:30:15,568] INFO *---------------------------------------------------*
+[2015/04/08 13:30:15,568] INFO shutdown ......
+[2015/04/08 16:17:41,235] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/08 16:17:41,240] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:17:41,246] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Wed Apr 08 16:17:41 KST 2015
+[2015/04/08 16:17:41,246] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:17:41,246] INFO CTR Agent를 기동합니다.
+[2015/04/08 16:17:41,247] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/04/08 16:17:42,533] INFO ESB를 통해 Agent 유효성을 Check
+[2015/04/08 16:17:42,723] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/04/08 16:17:42,747] INFO Time : 00:00
+[2015/04/08 16:17:42,748] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/04/08 16:17:42,786] ERROR AGENT 시작 실패. 동작을 정지합니다. : java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+[2015/04/08 16:17:42,786] INFO *---------------------------------------------------*
+[2015/04/08 16:17:42,786] INFO *      AGENT 연계 모듈  Wed Apr 08 16:17:42 KST 2015
+[2015/04/08 16:17:42,786] INFO *---------------------------------------------------*
+[2015/04/08 16:17:42,787] INFO shutdown ......
+[2015/04/08 16:18:05,424] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/08 16:18:05,440] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:18:05,450] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Wed Apr 08 16:18:05 KST 2015
+[2015/04/08 16:18:05,450] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:18:05,450] INFO CTR Agent를 기동합니다.
+[2015/04/08 16:18:05,451] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/04/08 16:18:06,915] INFO ESB를 통해 Agent 유효성을 Check
+[2015/04/08 16:18:07,116] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/04/08 16:18:07,147] INFO Time : 00:00
+[2015/04/08 16:18:07,147] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/04/08 16:18:07,180] INFO Job execution threads will use class loader of thread: main
+[2015/04/08 16:18:07,198] INFO RAMJobStore initialized.
+[2015/04/08 16:18:07,198] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/04/08 16:18:07,198] INFO Quartz scheduler version: 1.4.5
+[2015/04/08 16:18:07,252] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/04/08 16:18:07,253] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/04/08 16:19:00,303] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/04/08 16:20:00,294] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/04/08 16:20:45,020] INFO CTR_TST1_20150408_0010140.SND파일 OUTBOX에서 검사 시작
+[2015/04/08 16:20:45,178] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20150408_0010140.SND CTR 보고문서 파일 형식 검증 성공
+[2015/04/08 16:20:45,183] ERROR CTR_TST1_20150408_0010140.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: CTR 보고문서 항목 거래자 우편번호(12) 값의 문자 길이는 6와 일치 해야합니다. 그러나 현재 문자(41222) 길이가 5 입니다.
+	at kr.go.kofiu.ctr.util.Field.validate(Field.java:500)
+	at kr.go.kofiu.ctr.util.Message.validatePlainTextMessage(Message.java:208)
+	at kr.go.kofiu.ctr.util.FlatFileChecker.checkMessageFormat(FlatFileChecker.java:295)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:111)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:83)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2015/04/08 16:21:00,436] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2015/04/08 16:21:11,821] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/08 16:21:11,826] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:21:11,831] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Wed Apr 08 16:21:11 KST 2015
+[2015/04/08 16:21:11,831] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:21:11,831] INFO CTR Agent를 기동합니다.
+[2015/04/08 16:21:11,832] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/04/08 16:21:13,455] INFO ESB를 통해 Agent 유효성을 Check
+[2015/04/08 16:21:13,669] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/04/08 16:21:13,782] INFO Time : 00:00
+[2015/04/08 16:21:13,782] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/04/08 16:21:13,836] INFO Job execution threads will use class loader of thread: main
+[2015/04/08 16:21:13,861] INFO RAMJobStore initialized.
+[2015/04/08 16:21:13,861] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/04/08 16:21:13,861] INFO Quartz scheduler version: 1.4.5
+[2015/04/08 16:21:13,926] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/04/08 16:21:13,926] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/04/08 16:21:45,021] INFO CTR_TST1_20150408_0010140.SND파일 OUTBOX에서 검사 시작
+[2015/04/08 16:21:45,219] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20150408_0010140.SND CTR 보고문서 파일 형식 검증 성공
+[2015/04/08 16:21:45,238] INFO checkValidate 실행됨_1.
+[2015/04/08 16:21:45,239] INFO versionType [088]
+[2015/04/08 16:21:45,243] INFO 한글 유효성 체크 START 
+[2015/04/08 16:21:45,255] INFO 거래국가코드 체크 START 
+[2015/04/08 16:21:45,255] INFO 거래국가코드 체크 END 
+[2015/04/08 16:21:45,275] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20150408_0010140.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2015/04/08 16:22:25,315] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/08 16:22:25,319] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:22:25,324] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Wed Apr 08 16:22:25 KST 2015
+[2015/04/08 16:22:25,325] INFO *---------------------------------------------------------------------------*
+[2015/04/08 16:22:25,325] INFO CTR Agent를 기동합니다.
+[2015/04/08 16:22:25,326] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/04/08 16:22:26,556] INFO ESB를 통해 Agent 유효성을 Check
+[2015/04/08 16:22:26,752] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2015/04/08 16:22:26,812] INFO Time : 00:00
+[2015/04/08 16:22:26,812] INFO ESB 시스템 서비스 접속 테스트 성공
+[2015/04/08 16:22:26,847] INFO Job execution threads will use class loader of thread: main
+[2015/04/08 16:22:26,868] INFO RAMJobStore initialized.
+[2015/04/08 16:22:26,869] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/04/08 16:22:26,869] INFO Quartz scheduler version: 1.4.5
+[2015/04/08 16:22:26,937] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/04/08 16:22:26,937] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/04/08 16:22:30,038] INFO CTR_TST1_20150408_0010140.SND파일 OUTBOX에서 검사 시작
+[2015/04/08 16:22:30,207] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20150408_0010140.SND CTR 보고문서 파일 형식 검증 성공
+[2015/04/08 16:22:30,211] ERROR CTR_TST1_20150408_0010140.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: CTR 보고문서 항목 거래자 우편번호(12) 값의 문자 길이는 6와 일치 해야합니다. 그러나 현재 문자(41222) 길이가 5 입니다.
+	at kr.go.kofiu.ctr.util.Field.validate(Field.java:500)
+	at kr.go.kofiu.ctr.util.Message.validatePlainTextMessage(Message.java:208)
+	at kr.go.kofiu.ctr.util.FlatFileChecker.checkMessageFormat(FlatFileChecker.java:295)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:111)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:83)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)

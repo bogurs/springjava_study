@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<xsd:schema targetNamespace="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:udt="urn:kr:gov:kofiu:data:UnqualifiedDataTypesSchemaModule:1:1" xmlns:qdt="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ram="urn:kr:gov:kofiu:data:AggregateBusinessInformationEntitiesSchemaModule:1:1">
+	<xsd:import namespace="urn:kr:gov:kofiu:data:QualifiedDataTypesSchemaModule:1:1" schemaLocation="QualifiedDataTypes.xsd"/>
+	<xsd:complexType name="ReportAdministrationPartyType">
+		<xsd:sequence>
+			<xsd:element name="Code" type="qdt:OrganizationCodeType"/>
+			<xsd:element name="Name" type="qdt:OrganizationNameType"/>
+			<xsd:element name="Contact">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:ContactType">
+							<xsd:sequence>
+								<xsd:element name="TelephoneID" type="qdt:TelephoneIdentifierType"/>
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TransactionType">
+		<xsd:sequence>
+			<xsd:element name="DateTime"
+				type="qdt:YearMonthDayTimeDateTimeType" />
+			<xsd:element name="TypeCode" type="qdt:TypeCodeType" />
+			<xsd:element name="MeansCode" type="qdt:TypeCodeType" />
+			<xsd:element name="ChannelCode" type="qdt:TypeCodeType" />
+			<xsd:element name="Amount" type="qdt:GeneralAmountType" />
+			<xsd:element name="BranchFinancialUnitName"
+				type="qdt:OrganizationNameType" />
+			<xsd:element name="PersonName" type="qdt:GeneralNameType" />
+			<xsd:element name="BranchAddress">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:AddressType">
+							<xsd:sequence>
+								<xsd:element name="PostCodeID"
+									type="qdt:PostCodeIdentifierType" />
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="AgentExistYN" type="qdt:TypeCodeType"></xsd:element>
+			<xsd:element name="Agent" type="ram:AgentType" minOccurs="0" maxOccurs="1"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TransactionPartyType">
+		<xsd:sequence>
+            <xsd:element name="TypeCode" type="qdt:TypeCodeType"
+				minOccurs="0" />
+			<xsd:element name="ID" type="qdt:GeneralIdentifierType"
+				minOccurs="0" />
+			<xsd:element name="Name" type="qdt:OrganizationNameType"
+				minOccurs="0" maxOccurs="1" />			<xsd:element name="Address" type="ram:AddressType"
+				minOccurs="0" />
+            <xsd:element name="RealAddress" type="ram:AddressType" minOccurs="0" maxOccurs="1"></xsd:element>
+            <xsd:element name="Contact" minOccurs="0">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:ContactType">
+							<xsd:sequence>
+								<xsd:element name="TelephoneID"
+									type="qdt:TelephoneIdentifierType" minOccurs="0" />
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="MixedRealNameID"
+				type="qdt:GeneralIdentifierType" minOccurs="0" />
+			<xsd:element name="PassportID"
+				type="qdt:GeneralIdentifierType" minOccurs="0" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="NationalityCode"
+				type="qdt:CountryCodeType" minOccurs="0" />
+			<xsd:element name="Nationality" type="qdt:CountryNameType"
+				minOccurs="0" />
+			<xsd:element name="BirthDate"
+				type="qdt:YearMonthDayDateType" minOccurs="0" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="Gender" type="qdt:TypeCodeType"
+				minOccurs="0" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="Job" type="ram:JobType" minOccurs="0"
+				maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="Account" type="ram:AccountType"
+				minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AddressType">
+		<xsd:sequence>
+			<xsd:element name="LineOne" type="qdt:GeneralTextType" minOccurs="0"/>
+			<xsd:element name="PostCodeID" type="qdt:PostCodeIdentifierType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AccountType">
+		<xsd:sequence>
+			<xsd:element name="ID" type="qdt:AccountIdentifierType" />
+			<xsd:element name="OpenDate" type="qdt:YearMonthDayDateType"
+				minOccurs="0" />
+			<xsd:element name="BranchFinancialUnitName"
+				type="qdt:OrganizationNameType" minOccurs="0" />
+			<xsd:element name="BranchAddress" minOccurs="0">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:AddressType">
+							<xsd:sequence>
+								<xsd:element name="PostCodeID"
+									type="qdt:PostCodeIdentifierType" />
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="OpenAgentYN" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+			<xsd:element name="OpenAgent" type="ram:OpenAgentType" minOccurs="0" maxOccurs="1"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="EnterpriseOrganizationType">
+		<xsd:sequence>
+			<xsd:element name="EstablishmentDate"
+				type="qdt:YearMonthDayDateType" minOccurs="0" />
+			<xsd:element name="KSICCode" type="qdt:KSICCodeType"
+				minOccurs="0" />
+			<xsd:element name="RepresentativePerson"
+				type="ram:RepresentativePersonType" minOccurs="0" />
+			<xsd:element name="Address" type="ram:AddressType"
+				minOccurs="0" />
+			<xsd:element name="Contact" minOccurs="0">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:ContactType">
+							<xsd:sequence>
+								<xsd:element name="TelephoneID"
+									type="qdt:TelephoneIdentifierType" minOccurs="0" />
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="CorporationID" type="qdt:GeneralIdentifierType" minOccurs="0" maxOccurs="1"></xsd:element>
+			<xsd:element name="ScaleType" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+			<xsd:element name="FinancialInstitutionYN" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+			<xsd:element name="NonprofitYN" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+			<xsd:element name="ListedStocksYN" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ContactType">
+		<xsd:sequence>
+			<xsd:element name="TelephoneID" type="qdt:TelephoneIdentifierType" minOccurs="0"/>
+			<xsd:element name="CellularPhoneID" type="qdt:TelephoneIdentifierType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="CounterPartPartyType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="qdt:OrganizationNameType"/>
+			<xsd:element name="ReceiptOrganizationName" type="qdt:OrganizationNameType"/>
+			<xsd:element name="ReceiptOrganizationCode" type="qdt:OrganizationCodeType"/>
+			<xsd:element name="Account">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:AccountType">
+							<xsd:sequence>
+								<xsd:element name="ID" type="qdt:AccountIdentifierType"/>
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SecuritiesDocumentType">
+		<xsd:sequence>
+			<xsd:element name="TypeCode" type="qdt:TypeCodeType"/>
+			<xsd:element name="StartID" type="qdt:SecuritiesIdentifierType"/>
+			<xsd:element name="EndID" type="qdt:SecuritiesIdentifierType"/>
+			<xsd:element name="PaymentMainFinancialUnitName" type="qdt:OrganizationNameType"/>
+			<xsd:element name="PaymentMainFinancialUnitCode" type="qdt:OrganizationCodeType"/>
+			<xsd:element name="PaymentBranchFinancialUnitName" type="qdt:OrganizationNameType"/>
+			<xsd:element name="BranchAddress">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:AddressType">
+							<xsd:sequence>
+								<xsd:element name="PostCodeID" type="qdt:PostCodeIdentifierType"/>
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RepresentativePersonType">
+		<xsd:sequence>
+			<xsd:element name="TypeCode" type="qdt:TypeCodeType"
+				minOccurs="0" />
+			<xsd:element name="ID" type="qdt:GeneralIdentifierType"
+				minOccurs="0" />
+			<xsd:element name="Name" type="qdt:OrganizationNameType"
+				minOccurs="0" />
+			<xsd:element name="Address" type="ram:AddressType"
+				minOccurs="0" maxOccurs="1">
+			</xsd:element>
+            <xsd:element name="NationalityCode" type="qdt:CountryCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+            <xsd:element name="Nationality" type="qdt:CountryNameType" minOccurs="0" maxOccurs="1"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+    <xsd:element name="NewElement" type="xsd:string"></xsd:element>
+
+    <xsd:complexType name="JobType">
+    	<xsd:sequence>
+            <xsd:element name="TypeCode" type="qdt:TypeCodeType" minOccurs="0" maxOccurs="1"></xsd:element>
+            <xsd:element name="Name" type="qdt:OrganizationNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="DepartmentName"
+    			type="qdt:GeneralNameType" minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="Position" type="qdt:GeneralNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="RepresentativePersonName"
+    			type="qdt:GeneralNameType" minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="BusinessTypeCode" type="qdt:KSICCodeType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="BusinessID"
+    			type="qdt:GeneralIdentifierType" minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="OpenAgentType">
+    	<xsd:sequence>
+    		<xsd:element name="Name" type="qdt:OrganizationNameType"
+    			maxOccurs="1" minOccurs="0">
+    		</xsd:element>
+    		<xsd:element name="TypeCode" type="qdt:TypeCodeType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="ID" type="qdt:GeneralIdentifierType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+            <xsd:element name="Contact" minOccurs="0" maxOccurs="1">
+    			<xsd:complexType>
+    				<xsd:complexContent>
+    					<xsd:restriction base="ram:ContactType">
+    						<xsd:sequence>
+    							<xsd:element name="TelephoneID"
+    								type="qdt:TelephoneIdentifierType" minOccurs="0" />
+    						</xsd:sequence>
+    					</xsd:restriction>
+    				</xsd:complexContent>
+    			</xsd:complexType>
+    		</xsd:element>
+    		<xsd:element name="NationalityCode"
+    			type="qdt:CountryCodeType" minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="Nationality" type="qdt:CountryNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="RelationshipCode" type="qdt:TypeCodeType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="Relationship" type="qdt:GeneralNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="AgentType">
+    	<xsd:sequence>
+    		<xsd:element name="Name" type="qdt:OrganizationNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="TypeCode" type="qdt:TypeCodeType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="ID" type="qdt:GeneralIdentifierType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="NationalityCode"
+    			type="qdt:CountryCodeType" minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="Nationality" type="qdt:CountryNameType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+            <xsd:element name="Contact" minOccurs="0">
+				<xsd:complexType>
+					<xsd:complexContent>
+						<xsd:restriction base="ram:ContactType">
+							<xsd:sequence>
+								<xsd:element name="TelephoneID"
+									type="qdt:TelephoneIdentifierType" minOccurs="0" />
+							</xsd:sequence>
+						</xsd:restriction>
+					</xsd:complexContent>
+				</xsd:complexType>
+			</xsd:element>
+    		<xsd:element name="RelationshipCode" type="qdt:TypeCodeType"
+    			minOccurs="0" maxOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="Relationship" type="qdt:GeneralNameType" minOccurs="0" maxOccurs="1"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

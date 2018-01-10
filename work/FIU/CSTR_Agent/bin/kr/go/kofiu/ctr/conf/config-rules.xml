@@ -1,0 +1,130 @@
+<digester-rules>
+	<object-create-rule pattern="agent" classname="kr.go.kofiu.ctr.conf.AgentInfo" />
+	<pattern value="agent">
+		<set-properties-rule/>		
+		
+		<pattern value="MessageBoxEnv">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.MessageBoxEnv"/>
+		  <set-properties-rule/>
+		  <bean-property-setter-rule pattern="fcltyCode"/>
+		  <set-next-rule methodname="setMessageBoxEnv" paramtype="kr.go.kofiu.ctr.conf.MessageBoxEnv"/>
+		</pattern>
+            
+		<pattern value="CtrAgentEnvInfo">
+            <object-create-rule classname="kr.go.kofiu.ctr.conf.CtrAgentEnvInfo"/>
+            <set-properties-rule/>
+            <bean-property-setter-rule pattern="CERTIFICATE_DIR"/>
+            <bean-property-setter-rule pattern="FIU_PUBLIC_KEY_DIR"/>
+            <bean-property-setter-rule pattern="USER_CERTIFICATE_DIR"/>
+            <bean-property-setter-rule pattern="GPKICONF_DIR"/>
+            <bean-property-setter-rule pattern="FIU_PUBLIC_KEY"/>
+            <bean-property-setter-rule pattern="HOME"/>
+            <bean-property-setter-rule pattern="MESSAGE_DIR"/>
+            <bean-property-setter-rule pattern="INBOX_DIR_NAME"/>
+            <bean-property-setter-rule pattern="OUTBOX_DIR_NAME"/>
+            <bean-property-setter-rule pattern="ARCHIVE_DIR_NAME"/>
+            <bean-property-setter-rule pattern="ARCHIVE_SEND_DIR_NAME"/>
+            <bean-property-setter-rule pattern="ARCHIVE_SEND_ERROR_DIR_NAME"/>
+            <bean-property-setter-rule pattern="ARCHIVE_RECEIVE_DIR_NAME"/>
+            <bean-property-setter-rule pattern="ARCHIVE_RECEIVE_ERROR_DIR_NAME"/>
+            <bean-property-setter-rule pattern="PROC_DIR_NAME"/>
+            <bean-property-setter-rule pattern="PROC_SEND_DIR_NAME"/>
+            <bean-property-setter-rule pattern="PROC_RECEIVE_DIR_NAME"/>
+            <bean-property-setter-rule pattern="REPORT_DIR_NAME"/>
+            <bean-property-setter-rule pattern="REPORT_RESP_DIR_NAME"/>
+            <bean-property-setter-rule pattern="REPORT_SEND_DIR_NAME"/>
+            <bean-property-setter-rule pattern="SND_FILE_SAMPLE"/>
+            <bean-property-setter-rule pattern="RCV_FILE_SAMPLE"/>
+            <bean-property-setter-rule pattern="DOCUMENT_ID_SAMPLE"/>
+            <bean-property-setter-rule pattern="FIUCTRAgentMailFrom"/>
+            <set-next-rule methodname="setCtrAgentEnvInfo" paramtype="kr.go.kofiu.ctr.conf.CtrAgentEnvInfo"/>
+        </pattern>
+        
+        <pattern value="JmsSoapInfo">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.JmsSoapInfo"/>
+		  <set-properties-rule/>
+		  <bean-property-setter-rule pattern="INITIAL_CONTEXT_URL"/>
+		  <bean-property-setter-rule pattern="INITIAL_CONTEXT_FACTORY"/>
+		  <bean-property-setter-rule pattern="QMANAGER"/>
+		  <bean-property-setter-rule pattern="REQUSET_Q_NAME"/>
+		  <bean-property-setter-rule pattern="REPLY_Q_NAME"/>
+		  <bean-property-setter-rule pattern="RESPONSE_Q_NAME"/>
+		  <bean-property-setter-rule pattern="TARGET_SERVICE"/>
+		  
+		  <bean-property-setter-rule pattern="ESBCHECKSERVICE_REQUEST_Q_NAME"/>
+		  <bean-property-setter-rule pattern="ESBCHECKSERVICE_RESPONSE_Q_NAME"/>
+		  
+		  <bean-property-setter-rule pattern="GET_WAIT_TIME"/>
+		  <bean-property-setter-rule pattern="RETRY_WAIT_TIME"/>
+		  <bean-property-setter-rule pattern="RETRY_COUNT"/>
+		  <bean-property-setter-rule pattern="SLEEP_TIME"/>
+		  <set-next-rule methodname="setJmsSoapInfo" paramtype="kr.go.kofiu.ctr.conf.JmsSoapInfo"/>
+		</pattern>
+
+		<pattern value="MailInfo">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.MailInfo"/>
+		  <set-properties-rule/>
+		  <bean-property-setter-rule pattern="host"/>
+		  <bean-property-setter-rule pattern="id"/>
+		  <bean-property-setter-rule pattern="password"/>
+		  <bean-property-setter-rule pattern="from"/>
+		  <bean-property-setter-rule pattern="to"/>
+		  <bean-property-setter-rule pattern="cc"/>
+		  <set-next-rule methodname="setMailInfo" paramtype="kr.go.kofiu.ctr.conf.MailInfo"/>
+		</pattern>
+	
+		<pattern value="ThreadExecutor">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.ThreadExecutorInfo"/>
+		  <set-properties-rule/>
+		  <bean-property-setter-rule pattern="corePoolSize"/>
+		  <bean-property-setter-rule pattern="maximumPoolSize"/>
+		  <bean-property-setter-rule pattern="keepAliveTime"/>
+		  <set-next-rule methodname="setThreadExecutorInfo" paramtype="kr.go.kofiu.ctr.conf.ThreadExecutorInfo"/>
+		</pattern>
+	
+		<pattern value="CgServer">
+			<object-create-rule classname="kr.go.kofiu.ctr.conf.CgServer"/>
+			<set-properties-rule/>
+    		<bean-property-setter-rule pattern="ip"/>
+    		<bean-property-setter-rule pattern="port"/>
+			<set-next-rule methodname="setCgServer" paramtype="kr.go.kofiu.ctr.conf.CgServer"/>
+		</pattern>
+		
+		<pattern value="Encryption">
+		  <object-create-rule classname="kr.go.kofiu.ctr.conf.EncryptionInfo"/>
+		  <set-properties-rule/>
+	      <pattern value="signing">
+			  <object-create-rule classname="kr.go.kofiu.ctr.conf.SigningInfo"/>
+			  <set-properties-rule/>
+			  <bean-property-setter-rule pattern="certificate"/>
+			  <bean-property-setter-rule pattern="key"/>
+			  <bean-property-setter-rule pattern="pin"/>
+			  <set-next-rule methodname="setSigningInfo" paramtype="kr.go.kofiu.ctr.conf.SigningInfo"/>
+	      </pattern>
+	      <pattern value="private">
+			  <object-create-rule classname="kr.go.kofiu.ctr.conf.PrivateCertInfo"/>
+			  <set-properties-rule/>
+			  <bean-property-setter-rule pattern="certificate"/>
+			  <bean-property-setter-rule pattern="pin"/>
+			  <set-next-rule methodname="setPrivateCertInfo" paramtype="kr.go.kofiu.ctr.conf.PrivateCertInfo"/>
+	      </pattern>
+		  <set-next-rule methodname="setEncryptionInfo" paramtype="kr.go.kofiu.ctr.conf.EncryptionInfo"/>
+		</pattern>
+			
+		<pattern value="DiskFullMessages/Message">
+			<object-create-rule classname="kr.go.kofiu.ctr.conf.DiskFullMessageInfo"/>
+			<set-properties-rule/>
+			<set-next-rule methodname="addDiskFullMessageInfo" paramtype="kr.go.kofiu.ctr.conf.DiskFullMessageInfo"/>
+		</pattern>
+		
+		<pattern value="schedule/job">
+			<object-create-rule classname="kr.go.kofiu.ctr.conf.JobInfo"/>
+			<set-properties-rule/>
+			<bean-property-setter-rule pattern="clazzname"/>
+			<bean-property-setter-rule pattern="timeformat"/>
+			<bean-property-setter-rule pattern="param"/>
+			<bean-property-setter-rule pattern="desc"/>
+			<set-next-rule methodname="addJobInfo" paramtype="kr.go.kofiu.ctr.conf.JobInfo"/>
+		</pattern>
+	</pattern>
+ </digester-rules>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Messages>
+	<!-- by default fixed="true" -->
+	<message id="100" name="CTR 보고문서 V0.88" >        
+		<field id="1" xmlSeq="1"  docNo="01" tag="MessageCode"        name="메세지타입"         constrain="Mandatory"  type="Code"   codeset="01,02,03,97,98,99" />   
+		<field id="2" xmlSeq="0"  docNo="1" tag="DocumentID"         name="문서번호"              constrain="Mandatory"  type="String" length="13" format="\d{4}-\d{8}" />   
+		<field id="3" xmlSeq="2"  docNo="2" tag="Date"               name="보고일자"              constrain="Mandatory"  type="Date"   length="8"  format="yyyyMMdd" />
+		<field id="4" xmlSeq="3"  docNo="3" tag="FormerDocumentID"   name="취소/정정보고시종전문서번호"  	constrain="Optional"   type="String" length="13" format="\d{4}-\d{8}" />
+		<field id="5" xmlSeq="4"  docNo="4" tag="Order" 			    name="거래순번"  				constrain="Mandatory"  type="String" length="15" fixed="false" format="(\s|\S){1,7}/(\s|\S){1,7}" />
+		<field id="6" xmlSeq="5"  docNo="4-1" tag="MainDocumentID"     name="기본문서번호"           constrain="Mandatory"   type="String" length="13" format="\d{4}-\d{8}" />
+
+		<!-- 보고 기관 정보 -->
+		<field id="7" xmlSeq="8"  docNo="5" tag="ReportAdministrationParty/Name"	 name="보고기관명"   	constrain="Mandatory"  type="String" length="60"  fixed="false"/>
+		<field id="8" xmlSeq="7"  docNo="5-1" tag="ReportAdministrationParty/Code"	 name="보고기관코드"  constrain="Mandatory"  type="String" length="4"  />
+		<field id="9" xmlSeq="6"  docNo="6" tag="PersonName"         			 name="보고책임자명"  constrain="Mandatory"  type="String" length="20"   fixed="false" />
+		<field id="10" xmlSeq="37"  docNo="7" tag="Transaction/PersonName"          name="보고담당자명"  constrain="Mandatory"  type="String" length="20"   fixed="false" />
+		<field id="11" xmlSeq="9"  docNo="8" tag="ReportAdministrationParty/Contact/TelephoneID" 	name="보고담당자전화번호" constrain="Mandatory"  type="String" length="40"  fixed="false" />
+
+		<!-- 거래자  정보 - 거래자 기본 정보  -->
+		<field id="12" xmlSeq="12"  docNo="9" tag="TransactionParty/Name"   	name="거래자(사업자)명"            constrain="Mandatory"  type="String" length="60"   fixed="false" />
+		
+		<!--  두개 순서 변경 11/23 -->
+		<field id="13" xmlSeq="10"  docNo="10" tag="TransactionParty/TypeCode" 	name="거래자(사업자)실명 번호 구분"  constrain="Optional"  type="Code" codeset="01,02,03,04,05,06,07,08,09,10,99"  />
+		<field id="14" xmlSeq="11"  docNo="11" tag="TransactionParty/ID"   		name="거래자(사업자)실명 번호"      constrain="Optional"  type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}"  fixed="false" />
+
+		<!-- 거래자  정보 - 개인 거래자 정보  -->
+		<field id="15" xmlSeq="21"  docNo="12" tag="TransactionParty/Address/PostCodeID"   name="거래자 우편번호"      constrain="Optional"   type="Number" length="6"  />
+		<field id="16" xmlSeq="20"  docNo="12-1" tag="TransactionParty/Address/LineOne"      name="거래자 주소"          constrain="Optional"  type="String" length="200"  fixed="false" />
+		<field id="17" xmlSeq="22"  docNo="13" tag="TransactionParty/Contact/TelephoneID"  name="거래자 전화번호"       constrain="Optional"  type="String" length="40"   fixed="false" />
+		<field id="18" xmlSeq="15"  docNo="14" tag="TransactionParty/MixedRealNameID" 	   name="실명조합번호(재외동포/외국인)"   constrain="Optional"  type="String" length="20" fixed="false" />
+		<field id="19" xmlSeq="14"  docNo="15" tag="TransactionParty/Nationality"    	   name="거래자 국적명"    constrain="Optional"  type="String" length="40"   fixed="false" />
+		<field id="20" xmlSeq="13"  docNo="15-1" tag="TransactionParty/NationalityCode"      name="거래자 국적코드"  constrain="Optional"  type="String" length="2" />
+
+		<!-- 거래자  정보 - 법인/단체 거래자 정보-->
+		<field id="21" xmlSeq="27"  docNo="16" tag="EnterpriseOrganization/RepresentativePerson/Name"  name="대표자명"    		 constrain="Optional"   type="String"  length="60"   fixed="false" />
+		<!-- 11/23 일 추가 -->
+		<field id="22" xmlSeq="25"  docNo="17" tag="EnterpriseOrganization/RepresentativePerson/TypeCode"    name="대표자실명번호구분"     constrain="Optional"   type="Code" length="2" codeset="01,04,06,07,99" />
+		<field id="23" xmlSeq="26"  docNo="18" tag="EnterpriseOrganization/RepresentativePerson/ID"    name="대표자실명번호"     constrain="Optional"   type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false"/>
+
+		<field id="24" xmlSeq="23"  docNo="19" tag="EnterpriseOrganization/EstablishmentDate"          name="사업장(단체)설립일"    constrain="Optional"   type="Date"    length="8" format="yyyyMMdd" />
+		<field id="25" xmlSeq="24"  docNo="20" tag="EnterpriseOrganization/KSICCode"                   name="표준산업분류코드"      constrain="Optional"   type="String"  length="5" />
+		<field id="26" xmlSeq="29"  docNo="21" tag="EnterpriseOrganization/Address/PostCodeID"		   name="사업자(단체)우편번호"  constrain="Optional"   type="Number" length="6" />
+		<field id="27" xmlSeq="28"  docNo="21-1" tag="EnterpriseOrganization/Address/LineOne"	       name="사업자(단체)주소"     constrain="Optional"   type="String" length="200" fixed="false"/>
+		<field id="28" xmlSeq="30"  docNo="22" tag="EnterpriseOrganization/Contact/TelephoneID"		   name="사업자(단체)전화번호"  constrain="Optional"   type="String" length="40" fixed="false"/>
+
+		<!-- 거래  정보 - 기본거래내용 -->
+		<field id="29" xmlSeq="31"  docNo="23" tag="Transaction/DateTime"                  name="거래발생일시"         constrain="Mandatory"  type="Date"   length="14"   format="yyyyMMddHHmmss"  />
+		<field id="30" xmlSeq="36"  docNo="24" tag="Transaction/BranchOfficeName"           name="거래영업점명"         constrain="Mandatory"  type="String" length="60"   fixed="false" />
+		<field id="31" xmlSeq="38"  docNo="24-1" tag="Transaction/BranchAddress/PostCodeID"	name="거래영업점 우편번호"    constrain="Mandatory"  type="Number" length="6" />
+		<field id="32" xmlSeq="34"  docNo="25" tag="Transaction/MethodCode"                 name="거래채널"          constrain="Mandatory"  type="Code"   codeset="01,02,99" />
+		<field id="33" xmlSeq="33"  docNo="26" tag="Transaction/MeansCode"                  name="거래수단"             constrain="Mandatory"  type="Code"   codeset="01"/>
+		<field id="34" xmlSeq="35"  docNo="27" tag="Transaction/Amount"                     name="거래금액(원화)"             constrain="Mandatory"  type="Number" length="20"   fixed="false" />
+		<field id="35" xmlSeq="32"  docNo="28" tag="Transaction/TypeCode"                   name="거래종류"             constrain="Mandatory"  type="Code"   codeset="11,12,21,22,23,24,25,26,98,99" />
+
+		<!-- 거래  정보 - 계좌 정보  -->
+		<field id="36" xmlSeq="16"  docNo="29" tag="TransactionParty/Account/ID"          name="관련계좌번호"   constrain="Optional"  type="String" length="20"   fixed="false" />
+		<field id="37" xmlSeq="18"  docNo="30" tag="TransactionParty/Account/OpenPlace"   name="계좌개설점"    constrain="Optional"   type="String" length="60"   fixed="false" />
+		<field id="38" xmlSeq="19"  docNo="30-1" tag="TTransactionParty/Account/BranchAddress/PostCodeID"	name="계좌개설점 우편번호"  constrain="Optional"  type="Number" length="6" />
+		<field id="39" xmlSeq="17"  docNo="31" tag="TransactionParty/Account/OpenDate"    name="계좌개설일"    constrain="Optional"   type="Date" length="8" format="yyyyMMdd"/>
+
+		<!-- 거래  정보 - 유가 증권 정보  -->
+		<field id="40" xmlSeq="39"  docNo="32" tag="SecuritiesDocument/TypeCode"   name="관련유가증권종류"       constrain="Optional"  type="Code" codeset="01,02,03,04,05,06,07,08,09,10,11,99"/>
+		<field id="41" xmlSeq="40"  docNo="33" tag="SecuritiesDocument/StartID"   	   name="관련유가증권시작번호"    constrain="Optional"  type="String" length="20" fixed="false"/>
+		<field id="42" xmlSeq="41"  docNo="33-1" tag="SecuritiesDocument/EndID"   	   name="관련유가증권끝번호"    constrain="Optional"  type="String" length="20" fixed="false"/>
+
+		<!-- 거래  정보 - 자기앞 수표거래 정보  -->
+		<field id="43" xmlSeq="42"  docNo="34" tag="SecuritiesDocument/FinancialUnitName"		 name="현금지급은행명"   		constrain="Optional"  type="String" length="60"  fixed="false"/>
+		<field id="44" xmlSeq="43"  docNo="34-1" tag="SecuritiesDocument/FinancialUnitCode"		 name="현금지급은행기관코드"   	constrain="Optional"  type="String" length="4"  />
+		<field id="45" xmlSeq="44"  docNo="35" tag="SecuritiesDocument/BranchOfficeName"         name="현금지급영업점명"    constrain="Optional"  type="String" length="60"   fixed="false" />
+		<field id="46" xmlSeq="45"  docNo="35-1" tag="SecuritiesDocument/BranchAddress/PostCodeID" name="현금지급영업점우편번호"  constrain="Optional"  type="Number" length="6" />
+
+		<!-- 수취인 정보  -->
+		<field id="47" xmlSeq="49"  docNo="36" tag="CounterPartParty/Account/ID"          		name="수취인계좌번호"        constrain="Optional"  type="String" length="20"   fixed="false" />
+		<field id="48" xmlSeq="47"  docNo="37" tag="CounterPartParty/ReceiptOrganizationName"	name="수취금융기관명"   	   constrain="Optional"  type="String" length="60"  fixed="false"/>
+		<field id="49" xmlSeq="48"  docNo="37-1" tag="CounterPartParty/ReceiptOrganizationCode"	name="수취금융기관코드"   	   constrain="Optional"  type="String" length="4"  />
+		<field id="50" xmlSeq="46"  docNo="38" tag="CounterPartParty/Name"                      name="수취인(수취계좌주)성명"  constrain="Optional"  type="String" length="60"   fixed="false" />
+		<field id="51" xmlSeq="50"  docNo="39" tag="CancellationReason"                         name="취소 또는 정정 사유"  constrain="Optional"  type="String" length="1000"   fixed="false" />
+
+	</message>
+<!--  보고용 서식 포맷 V0.89  -->	
+	<message id="101" name="CTR 보고문서 V0.89" >    
+		<!-- 문서 기본  정보  --> 
+		 <field id="1" xmlSeq="1" docNo="1" tag="MessageCode" name="메세지타입" constrain="Mandatory" type="Code" codeset="01,02,03,97,98,99" /> 								
+ 		 <field id="2" xmlSeq="0" docNo="2" tag="DocumentID" name="문서번호" constrain="Mandatory" type="String" length="13" format="\d{4}-\d{8}" /> 				
+		 <field id="3" xmlSeq="2" docNo="3" tag="Date" name="보고일자" constrain="Mandatory" type="Date" length="8" format="yyyyMMdd" /> 				
+		 <field id="4" xmlSeq="3" docNo="4" tag="FormerDocumentID" name="취소/정정보고시종전문서번호" constrain="Optional" type="String" length="13" format="\d{4}-\d{8}" />				
+		 <field id="5" xmlSeq="4" docNo="5" tag="Order" name="거래순번" constrain="Mandatory" type="String" length="15" fixed="false" format="(\s|\S){1,7}/(\s|\S){1,7}" />
+		 <field id="6" xmlSeq="5" docNo="6" tag="MainDocumentID" name="기본문서번호" constrain="Mandatory" type="String" length="13" format="\d{4}-\d{8}" /> 				
+		<!-- 보고 기관 정보 -->
+		 <field id="7" xmlSeq="8" docNo="7" tag="ReportAdministrationParty/Name" name="보고기관명" constrain="Mandatory" type="String" length="60" fixed="false"/>						
+		 <field id="8" xmlSeq="7" docNo="8" tag="ReportAdministrationParty/Code" name="보고기관코드" constrain="Mandatory" type="String" length="4" /> 								
+		 <field id="9" xmlSeq="6" docNo="9" tag="PersonName" name="보고책임자명" constrain="Mandatory" type="String" length="20" fixed="false" /> 				
+		 <field id="10" xmlSeq="59" docNo="10" tag="Transaction/PersonName" name="보고담당자명" constrain="Mandatory" type="String" length="20" fixed="false" /> 				
+		 <field id="11" xmlSeq="9" docNo="11" tag="ReportAdministrationParty/Contact/TelephoneID" name="보고담당자전화번호" constrain="Mandatory" type="String" length="40" fixed="false" /> 				
+		<!-- 거래자  정보 - 거래자 기본 정보  -->
+		 <field id="12" xmlSeq="12" docNo="12" tag="TransactionParty/Name" name="거래자(사업자)명" constrain="Mandatory" type="String" length="60" fixed="false" /> 				
+		 <field id="13" xmlSeq="10" docNo="13" tag="TransactionParty/TypeCode" name="거래자(사업자)실명 번호 구분" constrain="Mandatory" type="Code" codeset="01,02,03,04,05,06,07,08,09,11,12,99" /> 								
+		 <field id="14" xmlSeq="11" docNo="14" tag="TransactionParty/ID" name="거래자(사업자)실명 번호" constrain="Mandatory" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false" /> 
+		<!-- 거래자  정보 - 개인 거래자 정보  --> 
+		 <field id="15" xmlSeq="18" docNo="15" tag="TransactionParty/NationalityCode" name="거래자 국적코드" constrain="Optional" type="String" length="2" /> 								
+		 <field id="16" xmlSeq="19" docNo="16" tag="TransactionParty/Nationality" name="거래자 국적명" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		 <field id="17" xmlSeq="14" docNo="17" tag="TransactionParty/Address/PostCodeID" name="거래자 우편번호" constrain="Optional" type="Number" length="6" /> 								
+		 <field id="18" xmlSeq="13" docNo="18" tag="TransactionParty/Address/LineOne" name="거래자 주소" constrain="Optional" type="String" length="200" fixed="false" /> 				
+		 <field id="19" xmlSeq="20" docNo="19" tag="TransactionParty/BirthDate" name="생년월일(재외동포/외국인)" constrain="Optional" type="Date" length="8" format="yyyyMMdd" /> 				
+		 <field id="20" xmlSeq="21" docNo="20" tag="TransactionParty/Gender" name="성별(재외동포/외국인)" constrain="Optional" type="Code" codeset="3,4" /> 								
+		 <field id="21" xmlSeq="15" docNo="21" tag="TransactionParty/Contact/TelephoneID" name="거래자 전화번호" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		 <field id="22" xmlSeq="16" docNo="22" tag="TransactionParty/MixedRealNameID" name="실명조합번호(재외동포/외국인)" constrain="Optional" type="String" length="20" fixed="false" /> 				
+		 <field id="23" xmlSeq="17" docNo="23" tag="TransactionParty/PassportID" name="여권번호(재외동포/외국인)" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false" /> 
+		 <field id="24" xmlSeq="22" docNo="24" tag="TransactionParty/Job/TypeCode" name="거래자직업구분" constrain="Optional" type="Code" codeset="01,02,03,99" /> 								
+		 <field id="25" xmlSeq="23" docNo="25" tag="TransactionParty/Job/Name" name="거래자직장명" constrain="Optional" type="String" length="60" fixed="false" /> 				
+		 <field id="26" xmlSeq="24" docNo="26" tag="TransactionParty/Job/BusinessTypeCode" name="거래자직장 표준산업분류코드" constrain="Optional" type="String" length="5" /> 								
+		 <field id="27" xmlSeq="25" docNo="27" tag="TransactionParty/Job/BusinessID" name="거래자직장 사업자번호" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false" /> 
+		<!-- 거래자  정보 - 법인/단체 거래자 정보-->
+		 <field id="28" xmlSeq="43" docNo="28" tag="EnterpriseOrganization/RepresentativePerson/Name" name="대표자명" constrain="Optional" type="String" length="60" fixed="false" />				
+		 <field id="29" xmlSeq="41" docNo="29" tag="EnterpriseOrganization/RepresentativePerson/TypeCode" name="대표자실명번호구분" constrain="Optional" type="Code" length="2" codeset="01,04,06,07,99" /> 				
+		 <field id="30" xmlSeq="42" docNo="30" tag="EnterpriseOrganization/RepresentativePerson/ID" name="대표자실명번호" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false"/> 		
+		 <field id="31" xmlSeq="44" docNo="31" tag="EnterpriseOrganization/RepresentativePerson/NationalityCode" name="대표자 국적코드" constrain="Optional" type="String" length="2" /> 								
+		 <field id="32" xmlSeq="45" docNo="32" tag="EnterpriseOrganization/RepresentativePerson/Nationality" name="대표자 국적명" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		 <field id="33" xmlSeq="39" docNo="33" tag="EnterpriseOrganization/EstablishmentDate" name="사업장(단체)설립일" constrain="Optional" type="Date" length="8" format="yyyyMMdd" /> 				
+		 <field id="34" xmlSeq="40" docNo="34" tag="EnterpriseOrganization/KSICCode" name="표준산업분류코드" constrain="Optional" type="String" length="5" /> 								
+		 <field id="35" xmlSeq="52" docNo="35" tag="EnterpriseOrganization/CorporationID" name="법인등록번호" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false"/> 		
+		 <field id="36" xmlSeq="47" docNo="36" tag="EnterpriseOrganization/Address/PostCodeID" name="사업자(단체)본점우편번호" constrain="Optional" type="Number" length="6" /> 								
+		 <field id="37" xmlSeq="49" docNo="37" tag="EnterpriseOrganization/BusinessSiteAddress/PostCodeID" name="사업자(단체)사업장우편번호" constrain="Optional" type="Number" length="6" /> 								
+		 <field id="38" xmlSeq="46" docNo="38" tag="EnterpriseOrganization/Address/LineOne" name="사업자(단체)본점주소" constrain="Optional" type="String" length="200" fixed="false"/> 						
+		 <field id="39" xmlSeq="48" docNo="39" tag="EnterpriseOrganization/BusinessSiteAddress/LineOne" name="사업자(단체)사업장주소" constrain="Optional" type="String" length="200" fixed="false"/> 						
+		 <field id="40" xmlSeq="50" docNo="40" tag="EnterpriseOrganization/Contact/TelephoneID" name="사업자(단체)본점전화번호" constrain="Optional" type="String" length="40" fixed="false"/> 				
+		 <field id="41" xmlSeq="51" docNo="41" tag="EnterpriseOrganization/BusinessSiteContact/TelephoneID" name="사업자(단체)사업장전화번호" constrain="Optional" type="String" length="40" fixed="false"/> 				
+		<!-- 거래  정보 - 기본거래내용 --> 
+		 <field id="42" xmlSeq="53" docNo="42" tag="Transaction/DateTime" name="거래발생일시" constrain="Mandatory" type="Date" length="14" format="yyyyMMddHHmmss" /> 		
+		 <field id="43" xmlSeq="58" docNo="43" tag="Transaction/BranchFinancialUnitName" name="거래영업점명" constrain="Mandatory" type="String" length="60" fixed="false" /> 		
+		 <field id="44" xmlSeq="60" docNo="44" tag="Transaction/BranchAddress/PostCodeID" name="거래영업점 우편번호" constrain="Mandatory" type="Number" length="6" /> 						
+		 <field id="45" xmlSeq="56" docNo="45" tag="Transaction/ChannelCode" name="거래채널" constrain="Mandatory" type="Code" codeset="01,02,99" /> 						
+		 <field id="46" xmlSeq="55" docNo="46" tag="Transaction/MeansCode" name="거래수단" constrain="Mandatory" type="Code" codeset="01"/> 								
+		 <field id="47" xmlSeq="57" docNo="47" tag="Transaction/Amount" name="거래금액(원화)" constrain="Mandatory" type="Number" length="20" fixed="false" /> 		
+		 <field id="48" xmlSeq="54" docNo="48" tag="Transaction/TypeCode" name="거래종류" constrain="Mandatory" type="Code" codeset="11,12,21,22,23,24,25,26,98,99" /> 						
+		 <field id="49" xmlSeq="61" docNo="49" tag="Transaction/AgentExistYN" name="거래대리인 존재여부" constrain="Optional" type="Code" codeset="1,2,9" /> 						
+		 <field id="50" xmlSeq="62" docNo="50" tag="Transaction/Agent/Name" name="거래대리인명" constrain="Optional" type="String" length="60" fixed="false" />		
+		 <field id="51" xmlSeq="63" docNo="51" tag="Transaction/Agent/TypeCode" name="거래대리인실명번호구분" constrain="Optional" type="Code" length="2" codeset="01,02,03,04,06,07,08,09,05,11,12,99" /> 		
+		 <field id="52" xmlSeq="64" docNo="52" tag="Transaction/Agent/ID" name="거래대리인실명번호" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false"/> 
+		 <field id="53" xmlSeq="67" docNo="53" tag="Transaction/Agent/Contact/TelephoneID" name="거래대리인 전화번호" constrain="Optional" type="String" length="40" fixed="false" /> 		
+		 <field id="54" xmlSeq="65" docNo="54" tag="Transaction/Agent/NationalityCode" name="거래대리인 국적코드" constrain="Optional" type="String" length="2" /> 						
+		 <field id="55" xmlSeq="66" docNo="55" tag="Transaction/Agent/Nationality" name="거래대리인 국적명" constrain="Optional" type="String" length="40" fixed="false" /> 		
+		 <field id="56" xmlSeq="68" docNo="56" tag="Transaction/Agent/RelationshipCode" name="거래대리인 관계코드" constrain="Optional" type="Code" codeset="02,03,04,05,07,08,12,98,99" /> 								
+		 <field id="57" xmlSeq="69" docNo="57" tag="Transaction/Agent/Relationship" name="거래대리인 관계명" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		<!-- 거래  정보 - 계좌 정보  --> 
+		 <field id="58" xmlSeq="26" docNo="58" tag="TransactionParty/Account/ID" name="관련계좌번호" constrain="Optional" type="String" length="20" fixed="false" /> 				
+		 <field id="59" xmlSeq="28" docNo="59" tag="TransactionParty/Account/BranchFinancialUnitName" name="계좌개설영업점명" constrain="Optional" type="String" length="60" fixed="false" /> 				
+		 <field id="60" xmlSeq="29" docNo="60" tag="TransactionParty/Account/BranchAddress/PostCodeID" name="계좌개설영업점 우편번호" constrain="Optional" type="Number" length="6" /> 								
+		 <field id="61" xmlSeq="27" docNo="61" tag="TransactionParty/Account/OpenDate" name="계좌개설일자" constrain="Optional" type="Date" length="8" format="yyyyMMdd"/> 						
+		 <field id="62" xmlSeq="30" docNo="62" tag="TransactionParty/Account/OpenAgentYN" name="계좌개설대리인 존재여부" constrain="Optional" type="Code" codeset="1,2,9" /> 								
+		 <field id="63" xmlSeq="31" docNo="63" tag="TransactionParty/Account/OpenAgent/Name" name="계좌개설대리인명" constrain="Optional" type="String" length="60" fixed="false" /> 				
+		 <field id="64" xmlSeq="32" docNo="64" tag="TransactionParty/Account/OpenAgent/TypeCode" name="계좌개설대리인 실명번호 구분" constrain="Optional" type="Code" codeset="01,02,03,04,06,07,08,09,99" /> 								
+		 <field id="65" xmlSeq="33" docNo="65" tag="TransactionParty/Account/OpenAgent/ID" name="계좌개설대리인 실명번호" constrain="Optional" type="String" length="15" format="[\S&amp;&amp;[^-]]{0,15}" fixed="false" /> 
+		 <field id="66" xmlSeq="34" docNo="66" tag="TransactionParty/Account/OpenAgent/Contact/TelephoneID" name="계좌개설대리인 전화번호" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		 <field id="67" xmlSeq="35" docNo="67" tag="TransactionParty/Account/OpenAgent/NationalityCode" name="계좌개설대리인 국적코드" constrain="Optional" type="String" length="2" /> 								
+		 <field id="68" xmlSeq="36" docNo="68" tag="TransactionParty/Account/OpenAgent/Nationality" name="계좌개설대리인 국적명" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		 <field id="69" xmlSeq="37" docNo="69" tag="TransactionParty/Account/OpenAgent/RelationshipCode" name="계좌개설대리인 관계코드" constrain="Optional" type="Code" codeset="02,03,04,05,07,08,12,98,99" /> 								
+		 <field id="70" xmlSeq="38" docNo="70" tag="TransactionParty/Account/OpenAgent/Relationship" name="계좌개설대리인 관계명" constrain="Optional" type="String" length="40" fixed="false" /> 				
+		<!-- 거래  정보 - 유가 증권 정보  --> 
+		 <field id="71" xmlSeq="70" docNo="71" tag="SecuritiesDocument/TypeCode" name="관련유가증권종류" constrain="Optional" type="Code" codeset="01,02,03,04,05,06,07,08,09,10,11,99"/> 										
+		 <field id="72" xmlSeq="71" docNo="72" tag="SecuritiesDocument/StartID" name="관련유가증권시작번호" constrain="Optional" type="String" length="20" fixed="false"/> 		
+		 <field id="73" xmlSeq="72" docNo="73" tag="SecuritiesDocument/EndID" name="관련유가증권끝번호" constrain="Optional" type="String" length="20" fixed="false"/> 		
+		<!-- 거래  정보 - 자기앞 수표거래 정보  --> 
+		 <field id="74" xmlSeq="73" docNo="74" tag="SecuritiesDocument/PaymentMainFinancialUnitName" name="현금지급금융기관명" constrain="Optional" type="String" length="60" fixed="false"/>		
+		 <field id="75" xmlSeq="74" docNo="75" tag="SecuritiesDocument/PaymentMainFinancialUnitCode" name="현금지급금융기관코드" constrain="Optional" type="String" length="4" />				
+		 <field id="76" xmlSeq="75" docNo="76" tag="SecuritiesDocument/PaymentBranchFinancialUnitName" name="현금지급영업점명" constrain="Optional" type="String" length="60" fixed="false" /> 
+		 <field id="77" xmlSeq="76" docNo="77" tag="SecuritiesDocument/BranchAddress/PostCodeID" name="현금지급영업점우편번호" constrain="Optional" type="Number" length="6" /> 				
+		 <!-- 수취인 정보  -->
+		 <field id="78" xmlSeq="80" docNo="78" tag="CounterPartParty/Account/ID" name="수취인계좌번호" constrain="Optional" type="String" length="20" fixed="false" /> 
+		 <field id="79" xmlSeq="78" docNo="79" tag="CounterPartParty/ReceiptOrganizationName" name="수취금융기관명" constrain="Optional" type="String" length="60" fixed="false"/>		
+		 <field id="80" xmlSeq="79" docNo="80" tag="CounterPartParty/ReceiptOrganizationCode" name="수취금융기관코드" constrain="Optional" type="String" length="4" />				
+		 <field id="81" xmlSeq="77" docNo="81" tag="CounterPartParty/Name" name="수취인(수취계좌주)성명" constrain="Optional" type="String" length="60" fixed="false" /> 
+		 <field id="82" xmlSeq="81" docNo="82" tag="CancellationReason" name="취소 또는 정정 사유" constrain="Optional" type="String" length="1000" fixed="false" /> 
+</message>
+	<!-- 취소 보고용 서식 포맷 V0.88  -->
+	<message id="110" name="CTR 보고문서(취소) V0.88">        
+		<field id="1" xmlSeq="1"  docNo="01" tag="MessageCode"        name="메세지타입"         constrain="Mandatory"  type="Code"   codeset="01,02,03,97,98,99" />   
+		<field id="2" xmlSeq="0"  docNo="1" tag="DocumentID"         name="문서번호"              constrain="Mandatory"  type="String" length="13" format="\d{4}-\d{8}" />   
+		<field id="3" xmlSeq="2"  docNo="2" tag="Date"               name="보고일자"              constrain="Mandatory"  type="Date"   length="8"  format="yyyyMMdd" />
+		<field id="4" xmlSeq="3"  docNo="3" tag="FormerDocumentID"   name="취소/정정보고시종전문서번호"  	constrain="Optional"   type="String" length="13" format="\d{4}-\d{8}" />
+		<field id="5" xmlSeq="4"  docNo="4" tag="Order" 			    name="거래순번"  				constrain="Mandatory"  type="String" length="15" fixed="false"  format="(\s|\S){1,7}/(\s|\S){1,7}" />
+		<field id="6" xmlSeq="5"  docNo="4-1" tag="MainDocumentID"     name="기본문서번호"           constrain="Mandatory"   type="String" length="13" format="\d{4}-\d{8}" />
+
+		<!-- 보고 기관 정보 -->
+		<field id="7" xmlSeq="8"  docNo="5" tag="ReportAdministrationParty/Name"	 name="보고기관명"   	constrain="Mandatory"  type="String" length="60"  fixed="false"/>
+		<field id="8" xmlSeq="7"  docNo="5-1" tag="ReportAdministrationParty/Code"	 name="보고기관코드"  constrain="Mandatory"  type="String" length="4"  />
+		<field id="9" xmlSeq="6"  docNo="6" tag="PersonName"         			 name="보고책임자명"  constrain="Mandatory"  type="String" length="20"   fixed="false" />
+		<field id="10" xmlSeq="37"  docNo="7" tag="Transaction/PersonName"          name="보고담당자명"  constrain="Mandatory"  type="String" length="20"   fixed="false" />
+		<field id="11" xmlSeq="9"  docNo="8" tag="ReportAdministrationParty/Contact/TelephoneID" 	name="보고담당자전화번호" constrain="Mandatory"  type="String" length="40"  fixed="false" />
+
+		<!-- 거래자  정보 - 거래자 기본 정보  -->
+		<field id="12" xmlSeq="12"  docNo="9" tag="TransactionParty/Name"   	name="거래자(사업자)명"            constrain="Null" />
+		<field id="13" xmlSeq="10"  docNo="10" tag="TransactionParty/TypeCode" 	name="거래자(사업자) 실명 번호 구분"  constrain="Null"  />
+		<field id="14" xmlSeq="11"  docNo="11" tag="TransactionParty/ID"   		name="거래자(사업자) 실명 번호"     constrain="Null" />
+
+		<!-- 거래자  정보 - 개인 거래자 정보  -->
+		<field id="15" xmlSeq="21"  docNo="12" tag="TransactionParty/Address/PostCodeID"   name="거래자 우편번호"    constrain="Null"  />
+		<field id="16" xmlSeq="20"  docNo="12-1" tag="TransactionParty/Address/LineOne"      name="거래자 주소"      constrain="Null" />
+		<field id="17" xmlSeq="22"  docNo="13" tag="TransactionParty/Contact/TelephoneID"  name="거래자 전화번호"     constrain="Null" />
+		<field id="18" xmlSeq="15"  docNo="14" tag="TransactionParty/MixedRealNameID" 	   name="실명조합번호(재외동포/외국인)"  constrain="Null" />
+		<field id="19" xmlSeq="14"  docNo="15" tag="TransactionParty/Nationality"    	   name="거래자 국적명"    constrain="Null" />
+		<field id="20" xmlSeq="13"  docNo="15-1" tag="TransactionParty/NationalityCode"      name="거래자 국적코드"  constrain="Null" />
+
+		<!-- 거래자  정보 - 법인/단체 거래자 정보-->
+		<field id="21" xmlSeq="27"  docNo="16" tag="EnterpriseOrganization/RepresentativePerson/Name"  name="대표자명"    	constrain="Null" />
+		<!-- 11/23 일 추가 -->
+		<field id="22" xmlSeq="25"  docNo="17" tag="EnterpriseOrganization/RepresentativePerson/TypeCode"    name="대표자실명번호구분"     constrain="Null" />
+		<field id="23" xmlSeq="26"  docNo="18" tag="EnterpriseOrganization/RepresentativePerson/ID"    name="대표자실명번호"    constrain="Null" />
+
+		<field id="24" xmlSeq="23"  docNo="19" tag="EnterpriseOrganization/EstablishmentDate"          name="사업장(단체)설립일"   constrain="Null" />
+		<field id="25" xmlSeq="24"  docNo="20" tag="EnterpriseOrganization/KSICCode"                   name="표준산업분류코드"     constrain="Null" />
+		<field id="26" xmlSeq="29"  docNo="21" tag="EnterpriseOrganization/Address/PostCodeID"		   name="사업자(단체)우편번호"  constrain="Null" />
+		<field id="27" xmlSeq="28"  docNo="21-1" tag="EnterpriseOrganization/Address/LineOne"	       name="사업자(단체)주소"     constrain="Null" />
+		<field id="28" xmlSeq="30"  docNo="22" tag="EnterpriseOrganization/Contact/TelephoneID"		   name="사업자(단체)전화번호"  constrain="Null" />
+
+		<!-- 거래  정보 - 기본거래내용 -->
+		<field id="29" xmlSeq="31"  docNo="23" tag="Transaction/DateTime"                  name="거래발생일시"         constrain="Null"  />
+		<field id="30" xmlSeq="36"  docNo="24" tag="Transaction/BranchOfficeName"           name="거래영업점명"        constrain="Null" />
+		<field id="31" xmlSeq="38"  docNo="24-1" tag="Transaction/BranchAddress/PostCodeID"	name="거래영업점 우편번호"    constrain="Null" />
+		<field id="32" xmlSeq="34"  docNo="25" tag="Transaction/MethodCode"                 name="거래채널"          constrain="Null" />
+		<field id="33" xmlSeq="33"  docNo="26" tag="Transaction/MeansCode"                  name="거래수단"            constrain="Null" />
+		<field id="34" xmlSeq="35"  docNo="27" tag="Transaction/Amount"                     name="거래금액(원화)"       constrain="Null" />
+		<field id="35" xmlSeq="32"  docNo="28" tag="Transaction/TypeCode"                   name="거래종류"            constrain="Null" />
+
+		<!-- 거래  정보 - 계좌 정보  -->
+		<field id="36" xmlSeq="16"  docNo="29" tag="TransactionParty/Account/ID"          name="관련계좌번호"   constrain="Null" />
+		<field id="37" xmlSeq="18"  docNo="30" tag="TransactionParty/Account/OpenPlace"   name="계좌개설점"    constrain="Null" />
+		<field id="38" xmlSeq="19"  docNo="30-1" tag="TTransactionParty/Account/BranchAddress/PostCodeID"	name="계좌개설점우편번호"  constrain="Null" />
+		<field id="39" xmlSeq="17"  docNo="31" tag="TransactionParty/Account/OpenDate"    name="계좌개설일"    constrain="Null" />
+
+		<!-- 거래  정보 - 유가 증권 정보  -->
+		<field id="40" xmlSeq="39"  docNo="32" tag="SecuritiesDocument/TypeCode"   name="관련유가증권종류"      constrain="Null" />
+		<field id="41" xmlSeq="40"  docNo="33" tag="SecuritiesDocument/StartID"   	   name="관련유가증권시작번호"    constrain="Null" />
+		<field id="42" xmlSeq="41"  docNo="33-1" tag="SecuritiesDocument/EndID"   	   name="관련유가증권끝번호"    constrain="Null" />
+
+		<!-- 거래  정보 - 자기앞 수표거래 정보  -->
+		<field id="43" xmlSeq="42"  docNo="34" tag="SecuritiesDocument/FinancialUnitName"		 name="현금지급은행명"   		constrain="Null" />
+		<field id="44" xmlSeq="43"  docNo="34-1" tag="SecuritiesDocument/FinancialUnitCode"		 name="현금지급은행기관코드"   constrain="Null"  />
+		<field id="45" xmlSeq="44"  docNo="35" tag="SecuritiesDocument/BranchOfficeName"         name="현급지급영업점명"    constrain="Null" />
+		<field id="46" xmlSeq="45"  docNo="35-1" tag="SecuritiesDocument/BranchAddress/PostCodeID" name="현급지급영업점우편번호"  constrain="Null" />
+
+		<!-- 수취인 정보  -->
+		<field id="47" xmlSeq="49"  docNo="36" tag="CounterPartParty/Account/ID"          		name="수취인계좌번호"        constrain="Null" />
+		<field id="48" xmlSeq="47"  docNo="37" tag="CounterPartParty/ReceiptOrganizationName"	name="수취금융기관명"   	   constrain="Null" />
+		<field id="49" xmlSeq="48"  docNo="37-1" tag="CounterPartParty/ReceiptOrganizationCode"	name="수취금융기관코드"   	   constrain="Null"  />
+		<field id="50" xmlSeq="46"  docNo="38" tag="CounterPartParty/Name"                      name="수취인(수취계좌주)성명"  constrain="Null" />
+		<field id="51" xmlSeq="50"  docNo="39" tag="CancellationReason"                         name="취소 또는 정정 사유"  constrain="Mandatory"  type="String" length="1000"   fixed="false" />
+	</message>
+	
+	<message id="111" name="CTR 보고문서(취소) V0.89">     
+		 <!-- 취소보고서 기본 정보  -->
+		 <field id="1" xmlSeq="1" docNo="1" tag="MessageCode" name="메세지타입" constrain="Mandatory" type="Code" codeset="01,02,03,97,98,99" /> 								
+		 <field id="2" xmlSeq="0" docNo="2" tag="DocumentID" name="문서번호" constrain="Mandatory" type="String" length="13" format="\d{4}-\d{8}" /> 				
+		 <field id="3" xmlSeq="2" docNo="3" tag="Date" name="보고일자" constrain="Mandatory" type="Date" length="8" format="yyyyMMdd" /> 				
+		 <field id="4" xmlSeq="3" docNo="4" tag="FormerDocumentID" name="취소/정정보고시종전문서번호" constrain="Optional" type="String" length="13" format="\d{4}-\d{8}" />				
+		 <field id="5" xmlSeq="4" docNo="5" tag="Order" name="거래순번" constrain="Mandatory" type="String" length="15" fixed="false" format="(\s|\S){1,7}/(\s|\S){1,7}" />
+		 <field id="6" xmlSeq="5" docNo="6" tag="MainDocumentID" name="기본문서번호" constrain="Mandatory" type="String" length="13" format="\d{4}-\d{8}" /> 				
+		 <field id="7" xmlSeq="8" docNo="7" tag="ReportAdministrationParty/Name" name="보고기관명" constrain="Mandatory" type="String" length="60" fixed="false"/>						
+		 <field id="8" xmlSeq="7" docNo="8" tag="ReportAdministrationParty/Code" name="보고기관코드" constrain="Mandatory" type="String" length="4" /> 								
+		 <field id="9" xmlSeq="6" docNo="9" tag="PersonName" name="보고책임자명" constrain="Mandatory" type="String" length="20" fixed="false" /> 				
+		 <field id="10" xmlSeq="59" docNo="10" tag="Transaction/PersonName" name="보고담당자명" constrain="Mandatory" type="String" length="20" fixed="false" /> 				
+		 <field id="11" xmlSeq="9" docNo="11" tag="ReportAdministrationParty/Contact/TelephoneID" name="보고담당자전화번호" constrain="Mandatory" type="String" length="40" fixed="false" /> 				
+		<!-- 취소시 필요하지 않은 필드 - Null --> 
+     <field id="12" xmlSeq="12" docNo="12" tag="TransactionParty/Name" name="거래자(사업자)명" constrain="Null" />																
+		 <field id="13" xmlSeq="10" docNo="13" tag="TransactionParty/TypeCode" name="거래자(사업자)실명 번호 구분" constrain="Null" />																
+		 <field id="14" xmlSeq="11" docNo="14" tag="TransactionParty/ID" name="거래자(사업자)실명 번호" constrain="Null" />																
+		 <field id="15" xmlSeq="19" docNo="15" tag="TransactionParty/Nationality" name="거래자 국적명" constrain="Null" />																
+		 <field id="16" xmlSeq="18" docNo="16" tag="TransactionParty/NationalityCode" name="거래자 국적코드" constrain="Null" />																
+		 <field id="17" xmlSeq="14" docNo="17" tag="TransactionParty/Address/PostCodeID" name="거래자 우편번호" constrain="Null" />																
+		 <field id="18" xmlSeq="13" docNo="18" tag="TransactionParty/Address/LineOne" name="거래자 주소" constrain="Null" />																
+		 <field id="19" xmlSeq="20" docNo="19" tag="TransactionParty/BirthDate" name="생년월일(재외동포/외국인)" constrain="Null" />																
+		 <field id="20" xmlSeq="21" docNo="20" tag="TransactionParty/Gender" name="성별(재외동포/외국인)" constrain="Null" />																
+		 <field id="21" xmlSeq="15" docNo="21" tag="TransactionParty/Contact/TelephoneID" name="거래자 전화번호" constrain="Null" />																
+		 <field id="22" xmlSeq="16" docNo="22" tag="TransactionParty/MixedRealNameID" name="실명조합번호(재외동포/외국인)" constrain="Null" />																
+		 <field id="23" xmlSeq="17" docNo="23" tag="TransactionParty/PassportID" name="여권번호(재외동포/외국인)" constrain="Null" />																
+		 <field id="24" xmlSeq="22" docNo="24" tag="TransactionParty/Job/TypeCode" name="거래자직업구분" constrain="Null" />																
+		 <field id="25" xmlSeq="23" docNo="25" tag="TransactionParty/Job/Name" name="거래자직장명" constrain="Null" />																
+		 <field id="26" xmlSeq="24" docNo="26" tag="TransactionParty/Job/BusinessTypeCode" name="거래자직장 표준산업분류코드" constrain="Null" />																
+		 <field id="27" xmlSeq="25" docNo="27" tag="TransactionParty/Job/BusinessID" name="거래자직장 사업자번호" constrain="Null" /> 																
+		 <field id="28" xmlSeq="43" docNo="28" tag="EnterpriseOrganization/RepresentativePerson/Name" name="대표자명" constrain="Null" />																
+		 <field id="29" xmlSeq="41" docNo="29" tag="EnterpriseOrganization/RepresentativePerson/TypeCode" name="대표자실명번호구분" constrain="Null" />																
+		 <field id="30" xmlSeq="42" docNo="30" tag="EnterpriseOrganization/RepresentativePerson/ID" name="대표자실명번호" constrain="Null" />																
+		 <field id="31" xmlSeq="44" docNo="31" tag="EnterpriseOrganization/RepresentativePerson/NationalityCode" name="대표자 국적코드" constrain="Null" /> 																
+		 <field id="32" xmlSeq="45" docNo="32" tag="EnterpriseOrganization/RepresentativePerson/Nationality" name="대표자 국적명" constrain="Null" />																
+		 <field id="33" xmlSeq="39" docNo="33" tag="EnterpriseOrganization/EstablishmentDate" name="사업장(단체)설립일" constrain="Null" />																
+		 <field id="34" xmlSeq="40" docNo="34" tag="EnterpriseOrganization/KSICCode" name="표준산업분류코드" constrain="Null" />																
+		 <field id="35" xmlSeq="52" docNo="35" tag="EnterpriseOrganization/CorporationID" name="법인등록번호" constrain="Null" />																
+		 <field id="36" xmlSeq="47" docNo="36" tag="EnterpriseOrganization/Address/PostCodeID" name="사업자(단체)본점우편번호" constrain="Null" />																
+		 <field id="37" xmlSeq="49" docNo="37" tag="EnterpriseOrganization/BusinessSiteAddress/PostCodeID" name="사업자(단체)사업장우편번호" constrain="Null" />																
+		 <field id="38" xmlSeq="46" docNo="38" tag="EnterpriseOrganization/Address/LineOne" name="사업자(단체)본점주소" constrain="Null" />																
+		 <field id="39" xmlSeq="48" docNo="39" tag="EnterpriseOrganization/BusinessSiteAddress/LineOne" name="사업자(단체)사업장주소" constrain="Null" />																
+		 <field id="40" xmlSeq="50" docNo="40" tag="EnterpriseOrganization/Contact/TelephoneID" name="사업자(단체)본점전화번호" constrain="Null" />																
+		 <field id="41" xmlSeq="51" docNo="41" tag="EnterpriseOrganization/BusinessSiteContact/TelephoneID" name="사업자(단체)사업장전화번호" constrain="Null" />																
+		 <field id="42" xmlSeq="53" docNo="42" tag="Transaction/DateTime" name="거래발생일시" constrain="Null" />																
+		 <field id="43" xmlSeq="58" docNo="43" tag="Transaction/BranchFinancialUnitName" name="거래영업점명" constrain="Null" />																
+		 <field id="44" xmlSeq="60" docNo="44" tag="Transaction/BranchAddress/PostCodeID" name="거래영업점 우편번호" constrain="Null" />																
+		 <field id="45" xmlSeq="56" docNo="45" tag="Transaction/ChannelCode" name="거래채널" constrain="Null" />																
+		 <field id="46" xmlSeq="55" docNo="46" tag="Transaction/MeansCode" name="거래수단" constrain="Null" />																
+		 <field id="47" xmlSeq="57" docNo="47" tag="Transaction/Amount" name="거래금액(원화)" constrain="Null" />																
+		 <field id="48" xmlSeq="54" docNo="48" tag="Transaction/TypeCode" name="거래종류" constrain="Null" />																
+		 <field id="49" xmlSeq="61" docNo="49" tag="Transaction/AgentExistYN" name="거래대리인 존재여부" constrain="Null" />																
+		 <field id="50" xmlSeq="62" docNo="50" tag="Transaction/Agent/Name" name="거래대리인명" constrain="Null" />																
+		 <field id="51" xmlSeq="63" docNo="51" tag="Transaction/Agent/TypeCode" name="거래대리인실명번호구분" constrain="Null" />																
+		 <field id="52" xmlSeq="64" docNo="52" tag="Transaction/Agent/ID" name="거래대리인실명번호" constrain="Null" />																
+		 <field id="53" xmlSeq="67" docNo="53" tag="Transaction/Agent/NationalityCode" name="거래대리인 국적코드" constrain="Null" />																
+		 <field id="54" xmlSeq="65" docNo="54" tag="Transaction/Agent/Nationality" name="거래대리인 국적명" constrain="Null" />																
+		 <field id="55" xmlSeq="66" docNo="55" tag="TransactionParty/Agent/Contact/TelephoneID" name="거래대리인 전화번호" constrain="Null" />																
+		 <field id="56" xmlSeq="68" docNo="56" tag="TransactionParty/Agent/RelationshipCode" name="거래대리인 관계코드" constrain="Null" />																
+		 <field id="57" xmlSeq="69" docNo="57" tag="TransactionParty/Agent/Relationship" name="거래대리인 관계명" constrain="Null" />																
+		 <field id="58" xmlSeq="26" docNo="58" tag="TransactionParty/Account/ID" name="관련계좌번호" constrain="Null" />																
+		 <field id="59" xmlSeq="28" docNo="59" tag="TransactionParty/Account/BranchFinancialUnitName" name="계좌개설영업점명" constrain="Null" />																
+		 <field id="60" xmlSeq="29" docNo="60" tag="TransactionParty/Account/BranchAddress/PostCodeID" name="계좌개설영업점 우편번호" constrain="Null" />																
+		 <field id="61" xmlSeq="27" docNo="61" tag="TransactionParty/Account/OpenDate" name="계좌개설일자" constrain="Null" />																
+		 <field id="62" xmlSeq="30" docNo="62" tag="TransactionParty/Account/OpenAgentYN" name="계좌개설대리인 존재여부" constrain="Null" />																
+		 <field id="63" xmlSeq="31" docNo="63" tag="TransactionParty/Account/OpenAgent/Name" name="계좌개설대리인명" constrain="Null" />																
+		 <field id="64" xmlSeq="32" docNo="64" tag="TransactionParty/Account/OpenAgent/TypeCode" name="계좌개설대리인 실명번호 구분" constrain="Null" />																
+		 <field id="65" xmlSeq="33" docNo="65" tag="TransactionParty/Account/OpenAgent/ID" name="계좌개설대리인 실명번호" constrain="Null" />																
+		 <field id="66" xmlSeq="34" docNo="66" tag="TransactionParty/Account/OpenAgent/Contact/TelephoneID" name="계좌개설대리인 전화번호" constrain="Null" />																
+		 <field id="67" xmlSeq="35" docNo="67" tag="TransactionParty/Account/OpenAgent/NationalityCode" name="계좌개설대리인 국적코드" constrain="Null" />																
+		 <field id="68" xmlSeq="36" docNo="68" tag="TransactionParty/Account/OpenAgent/Nationality" name="계좌개설대리인 국적명" constrain="Null" />																
+		 <field id="69" xmlSeq="37" docNo="69" tag="TransactionParty/Account/OpenAgent/RelationshipCode" name="계좌개설대리인 관계코드" constrain="Null" />																
+		 <field id="70" xmlSeq="38" docNo="70" tag="TransactionParty/Account/OpenAgent/Relationship" name="계좌개설대리인 관계명" constrain="Null" />																
+		 <field id="71" xmlSeq="70" docNo="71" tag="SecuritiesDocument/TypeCode" name="관련유가증권종류" constrain="Null" />																
+		 <field id="72" xmlSeq="71" docNo="72" tag="SecuritiesDocument/StartID" name="관련유가증권시작번호" constrain="Null" />																
+		 <field id="73" xmlSeq="72" docNo="73" tag="SecuritiesDocument/EndID" name="관련유가증권끝번호" constrain="Null" />																
+		 <field id="74" xmlSeq="73" docNo="74" tag="SecuritiesDocument/PaymentMainFinancialUnitName" name="현금지급금융기관명" constrain="Null" />																
+		 <field id="75" xmlSeq="74" docNo="75" tag="SecuritiesDocument/PaymentMainFinancialUnitCode" name="현금지급금융기관코드" constrain="Null" />																
+		 <field id="76" xmlSeq="75" docNo="76" tag="SecuritiesDocument/PaymentBranchFinancialUnitName" name="현금지급영업점명" constrain="Null" />																
+		 <field id="77" xmlSeq="76" docNo="77" tag="SecuritiesDocument/BranchAddress/PostCodeID" name="현금지급영업점우편번호" constrain="Null" />																
+		 <field id="78" xmlSeq="80" docNo="78" tag="CounterPartParty/Account/ID" name="수취인계좌번호" constrain="Null" />																
+		 <field id="79" xmlSeq="78" docNo="79" tag="CounterPartParty/ReceiptOrganizationName" name="수취금융기관명" constrain="Null" />																
+		 <field id="80" xmlSeq="79" docNo="80" tag="CounterPartParty/ReceiptOrganizationCode" name="수취금융기관코드" constrain="Null" />																
+		 <field id="81" xmlSeq="77" docNo="81" tag="CounterPartParty/Name" name="수취인(수취계좌주)성명" constrain="Null" />																
+		 <!-- 취소보고사유 -->
+		 <field id="82" xmlSeq="81" docNo="82" tag="CancellationReason" name="취소 또는 정정 사유" constrain="Mandatory" type="String" length="1000" fixed="false" />				
+	</message>
+</Messages>

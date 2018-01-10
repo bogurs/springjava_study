@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctr="http://www.kofiu.co.kr/ctr">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctr:processRequestDocument soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <document xsi:type="enc:DocumentObject" xmlns:enc="http://www.kofiu.co.kr/ctr/encodedTypes">
+            <Headers xsi:type="enc:Map">   
+            </Headers>
+            <Bodys xsi:type="enc:Map">  
+            </Bodys>
+            <Attachment xsi:type="xsd:base64Binary"></Attachment>
+         </document>
+      </ctr:processRequestDocument>
+   </soapenv:Body>
+</soapenv:Envelope>

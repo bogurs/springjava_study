@@ -1,0 +1,128 @@
+[2015/02/23 14:18:43,331] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:18:43,533] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:18:43,549] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:18:43,549] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:18:43,549] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:19:27,296] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:19:27,406] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:19:27,406] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:19:27,406] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:19:27,421] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:19:27,421] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:19:27,437] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:19:27 KST 2015
+[2015/02/23 14:19:27,437] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:19:27,437] INFO STR Agent를 기동합니다.
+[2015/02/23 14:19:27,499] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:19:27,515] INFO RAMJobStore initialized.
+[2015/02/23 14:19:27,515] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:19:27,515] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:19:27,733] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:19:27,733] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:19:56,287] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 600초간 중지합니다.
+[2015/02/23 14:19:56,287] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/23 14:19:56,287] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/23 14:19:56,287] INFO 600초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/23 14:20:35,288] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:20:35,381] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:20:35,381] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:20:35,381] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:20:35,397] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:20:35,397] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:20:35,397] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:20:35 KST 2015
+[2015/02/23 14:20:35,397] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:20:35,397] INFO STR Agent를 기동합니다.
+[2015/02/23 14:20:35,459] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:20:35,475] INFO RAMJobStore initialized.
+[2015/02/23 14:20:35,475] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:20:35,475] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:20:35,584] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:20:35,584] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:20:45,043] INFO 진행 디렉토리에 STR_9400_20091020_00000013.xml 파일 이동.
+[2015/02/23 14:21:22,293] ERROR STR_9400_20091020_00000013.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2015/02/23 14:22:30,024] ERROR STR_9400_20091020_00000013.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2015/02/23 14:22:30,024] ERROR 에러 메시지 : org.xml.sax.SAXParseException: The end-tag for element type "InnerCount" must end with a '>' delimiter.
+[2015/02/23 14:23:45,012] ERROR STR_9400_20091020_00000013.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2015/02/23 14:23:45,012] ERROR 에러 메시지 : org.xml.sax.SAXParseException: The element type "InnerCount" must be terminated by the matching end-tag "</InnerCount>".
+[2015/02/23 14:24:59,844] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:24:59,969] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:24:59,969] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:24:59,969] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:24:59,984] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:24:59,984] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:24:59,984] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:24:59 KST 2015
+[2015/02/23 14:24:59,984] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:24:59,984] INFO STR Agent를 기동합니다.
+[2015/02/23 14:25:00,031] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:25:00,078] INFO RAMJobStore initialized.
+[2015/02/23 14:25:00,078] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:25:00,078] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:25:00,125] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:25:00,125] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:25:11,739] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:25:11,833] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:25:11,833] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:25:11,833] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:25:11,848] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:25:11,848] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:25:11,848] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:25:11 KST 2015
+[2015/02/23 14:25:11,848] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:25:11,848] INFO STR Agent를 기동합니다.
+[2015/02/23 14:25:11,911] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:25:11,957] INFO RAMJobStore initialized.
+[2015/02/23 14:25:11,957] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:25:11,957] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:25:12,051] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:25:12,051] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:25:15,049] INFO STR 문서 정형성 검사 수행
+[2015/02/23 14:32:13,003] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:32:13,113] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:32:13,113] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:32:13,113] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:32:13,113] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:32:13,113] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:32:13,128] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:32:13 KST 2015
+[2015/02/23 14:32:13,128] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:32:13,128] INFO STR Agent를 기동합니다.
+[2015/02/23 14:32:13,175] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:32:13,206] INFO RAMJobStore initialized.
+[2015/02/23 14:32:13,206] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:32:13,206] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:32:13,253] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:32:13,253] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:32:15,094] INFO STR 문서 정형성 검사 수행
+[2015/02/23 14:32:32,232] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:32:32,326] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:32:32,326] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:32:32,326] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:32:32,342] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:32:32,342] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:32:32,342] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:32:32 KST 2015
+[2015/02/23 14:32:32,342] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:32:32,342] INFO STR Agent를 기동합니다.
+[2015/02/23 14:32:32,388] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:32:32,435] INFO RAMJobStore initialized.
+[2015/02/23 14:32:32,435] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:32:32,435] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:32:32,513] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:32:32,513] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:32:45,059] INFO STR 문서 정형성 검사 수행
+[2015/02/23 14:34:45,080] INFO configuration file: ./str_config/config.xml
+[2015/02/23 14:34:45,236] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/23 14:34:45,236] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2015/02/23 14:34:45,236] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2015/02/23 14:34:45,236] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.32)             ****
+[2015/02/23 14:34:45,236] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:34:45,252] INFO *   STR 연계 모듈  (Ver : 201410.01.32) init  Mon Feb 23 14:34:45 KST 2015
+[2015/02/23 14:34:45,252] INFO *---------------------------------------------------------------------------*
+[2015/02/23 14:34:45,252] INFO STR Agent를 기동합니다.
+[2015/02/23 14:34:45,283] INFO Job execution threads will use class loader of thread: main
+[2015/02/23 14:34:45,346] INFO RAMJobStore initialized.
+[2015/02/23 14:34:45,346] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/23 14:34:45,346] INFO Quartz scheduler version: 1.4.5
+[2015/02/23 14:34:45,392] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/23 14:34:45,392] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/23 14:34:45,533] ERROR STR_9400_20091020_00000013.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2015/02/23 14:52:30,026] ERROR STR_9400_20091020_00000013.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2015/02/23 14:53:15,010] INFO STR 문서 정형성 검사 수행
+[2015/02/23 14:53:18,958] INFO Proc 파일이동 성공
+[2015/02/23 14:53:18,958] INFO 발송증서수신 = STRSTART||05||99||9400||94005108900111||20091014||20150223145318||97||기준정보 Vaildation 에러(string value '4270' does not match pattern for type of ZipCode attribute in type of Address element in type of Organization element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND

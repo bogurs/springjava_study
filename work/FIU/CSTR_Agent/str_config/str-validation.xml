@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<str-validation>
+   <!-- STR SuspicionReport 체크 -->
+	<item>kr.go.kofiu.str.validation.str.StrSpcRprtValidationItem</item>
+   <!-- STR 통화거래금액 체크 -->
+	<item>kr.go.kofiu.str.validation.str.StrCurrencyAmountValidationItem</item>
+   <!-- STR 지점코드 체크 -->
+	<item>kr.go.kofiu.str.validation.str.StrBranchValidationItem</item>
+   <!-- STR 거래자 역할(UserRelation) 체크 -->
+	<item>kr.go.kofiu.str.validation.str.StrUserRelationValidationItem</item>
+   <!-- STR 유가증권 정보  체크 -->
+	<item>kr.go.kofiu.str.validation.str.StrSecuritiesValidationItem</item>
+   <!-- STR 외환거래체크_ -->
+	<item>kr.go.kofiu.str.validation.str.StrForeignExchangeValidationItem</item>
+   <!-- STR 증권거래체크_ -->
+	<item>kr.go.kofiu.str.validation.str.StrStockExchangeValidationItem</item>
+   <!-- STR 보험거래체크_-->
+	<item>kr.go.kofiu.str.validation.str.StrInsuranceValidationItem</item>
+   <!-- STR 사용자 정보 체크_ -->
+	<item>kr.go.kofiu.str.validation.str.StrUserValidationItem</item>
+   <!-- STR 계좌 정보 체크_ -->
+	<item>kr.go.kofiu.str.validation.str.StrAccountValidationItem</item>
+   <!-- STR 거래자 관계 정보 체크_(InterUserRelation) -->
+	<item>kr.go.kofiu.str.validation.str.StrInterUserRelationValidationItem</item>
+</str-validation>

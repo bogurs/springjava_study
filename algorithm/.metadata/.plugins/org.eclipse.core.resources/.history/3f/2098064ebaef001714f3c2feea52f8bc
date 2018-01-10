@@ -1,0 +1,16 @@
+package com.festival.daemon;
+
+public class Daemon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String caseStr = args[0];
+		String dayStr = args[1];
+		String teamStr = args[2];
+		
+		System.out.println("caseStr : " + caseStr);
+		System.out.println("dayStr : " + dayStr);
+		System.out.println("teamStr : " + teamStr);
+	}
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<attachment-stock-xml-validation kind="stock" type="xml">
+	<!-- 증권거래 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.stock.xml.StockTxValidationItem</item>
+	<!-- 입금,지급 거래 체크 -->
+	<!--<item>kr.go.kofiu.str.validation.attach.stock.xml.StockPayDpstTxValidationItem</item> -->
+</attachment-stock-xml-validation>

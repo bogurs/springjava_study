@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<agent id="TST1" ip="192.168.2.12" inboxEnabled="true" 
+	test="false" csvPerRptDate="false" archiveEnabled="true"
+	archivefolderType="type4" inboxfolderType="type1">
+	
+	<!-- 
+		Archive / Inbox Folder Setting 
+		
+		type0 : /{Archive or Inbox} 
+		type1 : /{Archive or Inbox}/OrgCode 
+		type2 : /{Archive or Inbox}/Date{YYYYMMDD} 
+		type3 : /{Archive or Inbox}/OrgCode/Date{YYYYMMDD} 
+		type4 : /{Archive or Inbox}/Date{YYYYMMDD}/OrgCode 
+	-->
+		
+	<MessageBoxEnv folderPerFcltyCode="true" outboxIOWaitMinutes="0">
+		<fcltyCode>9400</fcltyCode>
+	</MessageBoxEnv>
+	
+	<CtrAgentEnvInfo>
+		<CERTIFICATE_DIR>./ctr_cert</CERTIFICATE_DIR>
+		<FIU_PUBLIC_KEY_DIR>/fiucert</FIU_PUBLIC_KEY_DIR>
+		<USER_CERTIFICATE_DIR>/usercert</USER_CERTIFICATE_DIR>
+ 		<GPKICONF_DIR>./pkilib</GPKICONF_DIR> 
+		<FIU_PUBLIC_KEY>SVR1190103001_env.cer</FIU_PUBLIC_KEY>
+		<HOME>/tools/db2inst1/FIUCSTR</HOME>
+		<MESSAGE_DIR>/CTR/Message</MESSAGE_DIR>
+		<INBOX_DIR_NAME>/INBOX</INBOX_DIR_NAME>
+		<OUTBOX_DIR_NAME>/OUTBOX</OUTBOX_DIR_NAME>
+		<ARCHIVE_DIR_NAME>/ARCHIVE</ARCHIVE_DIR_NAME>
+		<ARCHIVE_SEND_DIR_NAME>/SEND</ARCHIVE_SEND_DIR_NAME>
+		<ARCHIVE_SEND_ERROR_DIR_NAME>/SEND_ERR</ARCHIVE_SEND_ERROR_DIR_NAME>
+		<ARCHIVE_RECEIVE_DIR_NAME>/RCV</ARCHIVE_RECEIVE_DIR_NAME>
+		<ARCHIVE_RECEIVE_ERROR_DIR_NAME>/RCV_ERR</ARCHIVE_RECEIVE_ERROR_DIR_NAME>
+		<PROC_DIR_NAME>/PROC</PROC_DIR_NAME>
+		<PROC_SEND_DIR_NAME>/SEND</PROC_SEND_DIR_NAME>
+		<PROC_RECEIVE_DIR_NAME>/RCV</PROC_RECEIVE_DIR_NAME>
+		<REPORT_DIR_NAME>/REPORT</REPORT_DIR_NAME>
+		<REPORT_RESP_DIR_NAME>/RCV</REPORT_RESP_DIR_NAME>
+		<REPORT_SEND_DIR_NAME>/SEND</REPORT_SEND_DIR_NAME>
+		<SND_FILE_SAMPLE>CTR_0000_00000000_0000000.SND</SND_FILE_SAMPLE>
+		<RCV_FILE_SAMPLE>CTR_0000_00000000_0000000.RCV</RCV_FILE_SAMPLE>
+		<DOCUMENT_ID_SAMPLE>2005-UNKNOWN</DOCUMENT_ID_SAMPLE>
+		<FIUCTRAgentMailFrom>FIUCTRAgent()</FIUCTRAgentMailFrom>
+	</CtrAgentEnvInfo>
+	
+	<JmsSoapInfo>
+<!-- 		<INITIAL_CONTEXT_URL>192.168.2.32:1414/SYSTEM.AUTO.SVRCONN</INITIAL_CONTEXT_URL> -->
+		<INITIAL_CONTEXT_URL>192.168.2.32:1424/SYSTEM.AUTO.SVRCONN</INITIAL_CONTEXT_URL>
+		<INITIAL_CONTEXT_FACTORY>com.ibm.mq.jms.context.WMQInitialContextFactory</INITIAL_CONTEXT_FACTORY>
+<!-- 		<QMANAGER>CSTRQM</QMANAGER> -->
+		<QMANAGER>CSTRDEVQM</QMANAGER>
+		<REQUSET_Q_NAME>REQ.AP.CTR.FIUF9999.R01.LQ</REQUSET_Q_NAME>
+		<REPLY_Q_NAME>RCV.CTR.GUARANTEE.R01.LQ</REPLY_Q_NAME>
+		<RESPONSE_Q_NAME>RPL.AP.CTR.FIUF9999.R01.LQ</RESPONSE_Q_NAME>
+		<TARGET_SERVICE>CTR_FIUF_01</TARGET_SERVICE>
+		
+		<ESBCHECKSERVICE_REQUEST_Q_NAME>REQ.COM.AGENTCHECK.R01.LQ</ESBCHECKSERVICE_REQUEST_Q_NAME>
+		<ESBCHECKSERVICE_RESPONSE_Q_NAME>RPL.COM.AGENTCHECK.R01.LQ</ESBCHECKSERVICE_RESPONSE_Q_NAME>	
+
+		<RETRY_WAIT_TIME>10</RETRY_WAIT_TIME>
+		<RETRY_COUNT>5</RETRY_COUNT>
+		<GET_WAIT_TIME>2</GET_WAIT_TIME>
+		<SLEEP_TIME>599</SLEEP_TIME>
+	</JmsSoapInfo>
+	
+	<MailInfo enabled="false">
+		<host></host>
+		<id></id>
+		<password></password>
+		<to></to>
+		<cc></cc>		
+	</MailInfo>
+
+	<!-- Multi-Thread info -->
+	<ThreadExecutor>
+		<corePoolSize>10</corePoolSize>
+		<maximumPoolSize>100</maximumPoolSize>
+		<keepAliveTime>300</keepAliveTime>
+	</ThreadExecutor>
+	
+	<!-- encrytion properties -->
+	<!-- ( PKCS#7 ) -->
+	<Encryption enabled="true">
+ 		<signing enabled="false"> 
+ 			<certificate>signCert.der</certificate> 
+ 			<key>signPri.key</key> 
+ 			<pin>kofiukofiu</pin> 
+ 		</signing> 
+		
+		<private>
+ 			<certificate>SVR1160131003_env.key</certificate> 
+ 			<pin>fiu_ctr_00</pin> 
+		</private>
+	</Encryption>
+		
+	<DiskFullMessages>
+		<Message message="장치에 공간이 없습니다" description="HP-UX B.11.11 U 9000/800" />
+		<Message message="파일 시스템에 충분한 공간이 없습니다" description="AIX 5.3" />
+	</DiskFullMessages>
+	
+	<!-- 
+		Scheduling Info 
+		#Seconds #Minutes #Hours #Day-of-Month #Month #Day-of-Week 
+	-->
+ <schedule>
+		<job>
+			<clazzname>kr.go.kofiu.ctr.service.SelfMonitorJob</clazzname>
+			<timeformat>0/5 * * * * ?</timeformat>
+			<desc>Agent Monitoring( shutdown, restart action )</desc>
+		</job>
+		<!-- 0 0/10 -->
+ 		<job> 
+ 			<clazzname>kr.go.kofiu.ctr.service.HeartBeatJob</clazzname> 
+ 			<timeformat>0 0/5 * * * ?</timeformat> 
+			<timeformat>0 0/1 * * * ?</timeformat> 
+ 			<desc>param value is heart beat second, but minimum is 1 second because of schduler timer</desc> 
+ 		</job> 
+		<!-- 15 -->
+ 		<job>
+			<clazzname>kr.go.kofiu.ctr.service.OutboxPollerJob</clazzname>
+			<timeformat>0/15 * * * * ?</timeformat> 
+		</job>		
+		<!-- 10 -->
+		 <job> 
+			<clazzname>kr.go.kofiu.ctr.service.CTRMessagePollerJob</clazzname> 
+ 			<timeformat>0/15 * * * * ?</timeformat>  
+ 			<param>3 , 60 </param> 
+ 			<desc>param delimiter ',' , first param means retry number, second param is wait seconds.</desc> 
+  		</job> 
+ 		<!-- 15 -->
+		<job>
+			<clazzname>kr.go.kofiu.ctr.service.MessageSenderJob</clazzname>
+			<timeformat>0/15 * * * * ?</timeformat> 
+			<param>1 , 60 </param>
+			<desc>param delimiter ',' , first param means retry number, second param is wait seconds.</desc>
+		</job>
+		<job>
+			<clazzname>kr.go.kofiu.ctr.service.MessageEraserJob</clazzname>
+			<timeformat>0 0 0/72 * * ?</timeformat>
+			<param>60</param>
+			<desc>param value is keeping day, so not delete files newer than param day</desc>
+		</job>
+	 	<job> 
+	 		<clazzname>kr.go.kofiu.ctr.service.AgentUpdateJob</clazzname> 
+	 		<timeformat>0 0 0 7 * ?</timeformat> 
+	 		<param>3 , 60 </param> 
+	 		<desc>Agent Update Service</desc> 
+	 	</job>  
+	</schedule>
+</agent>

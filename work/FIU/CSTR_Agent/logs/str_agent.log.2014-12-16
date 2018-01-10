@@ -1,0 +1,65 @@
+[2014/12/16 23:58:53,037] INFO configuration file: ./str_config/config.xml
+[2014/12/16 23:58:53,115] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/16 23:58:53,115] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/16 23:58:53,115] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/16 23:58:53,177] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/16 23:58:54,956] INFO ***	수신 모듈 버전 : 201410.01.15        ****
+[2014/12/16 23:58:54,971] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/16 23:58:54,971] INFO 보고문서 권한을 변경합니다.
+[2014/12/16 23:58:54,971] INFO 보고문서 권한을 변경완료
+[2014/12/16 23:58:54,971] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:58:54,988] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Tue Dec 16 23:58:54 KST 2014
+[2014/12/16 23:58:54,988] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:58:54,988] INFO STR Agent를 기동합니다.
+[2014/12/16 23:58:55,003] INFO Job execution threads will use class loader of thread: main
+[2014/12/16 23:58:55,019] INFO RAMJobStore initialized.
+[2014/12/16 23:58:55,019] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/16 23:58:55,019] INFO Quartz scheduler version: 1.4.5
+[2014/12/16 23:58:55,050] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/16 23:58:55,050] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/16 23:59:04,442] INFO configuration file: ./str_config/config.xml
+[2014/12/16 23:59:04,520] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/16 23:59:04,536] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/16 23:59:04,536] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/16 23:59:04,583] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/16 23:59:06,439] INFO ***	수신 모듈 버전 : 201410.01.15        ****
+[2014/12/16 23:59:06,455] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/16 23:59:06,455] INFO 보고문서 권한을 변경합니다.
+[2014/12/16 23:59:06,455] INFO 보고문서 권한을 변경완료
+[2014/12/16 23:59:06,455] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:59:06,455] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Tue Dec 16 23:59:06 KST 2014
+[2014/12/16 23:59:06,455] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:59:06,455] INFO STR Agent를 기동합니다.
+[2014/12/16 23:59:06,487] INFO Job execution threads will use class loader of thread: main
+[2014/12/16 23:59:06,503] INFO RAMJobStore initialized.
+[2014/12/16 23:59:06,503] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/16 23:59:06,503] INFO Quartz scheduler version: 1.4.5
+[2014/12/16 23:59:06,534] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/16 23:59:06,534] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/16 23:59:40,023] INFO STR 문서 정형성 검사 수행
+[2014/12/16 23:59:40,757] INFO 사용자 검증 수행
+[2014/12/16 23:59:41,272] INFO STR 첨부파일 검증 수행
+[2014/12/16 23:59:41,694] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/16 23:59:41,694] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/16 23:59:41,709] INFO STR ebXML 전송 수행
+[2014/12/16 23:59:43,067] INFO 발송증서 수신성공
+[2014/12/16 23:59:43,082] INFO Proc 파일이동 성공
+[2014/12/16 23:59:54,344] INFO configuration file: ./str_config/config.xml
+[2014/12/16 23:59:54,437] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/16 23:59:54,453] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/16 23:59:54,453] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/16 23:59:54,515] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/16 23:59:55,997] INFO ***	수신 모듈 버전 : 201410.01.15        ****
+[2014/12/16 23:59:56,013] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/16 23:59:56,013] INFO 보고문서 권한을 변경합니다.
+[2014/12/16 23:59:56,013] INFO 보고문서 권한을 변경완료
+[2014/12/16 23:59:56,013] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:59:56,013] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Tue Dec 16 23:59:56 KST 2014
+[2014/12/16 23:59:56,013] INFO *---------------------------------------------------------------------------*
+[2014/12/16 23:59:56,013] INFO STR Agent를 기동합니다.
+[2014/12/16 23:59:56,045] INFO Job execution threads will use class loader of thread: main
+[2014/12/16 23:59:56,061] INFO RAMJobStore initialized.
+[2014/12/16 23:59:56,061] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/16 23:59:56,061] INFO Quartz scheduler version: 1.4.5
+[2014/12/16 23:59:56,108] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/16 23:59:56,108] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.

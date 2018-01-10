@@ -1,0 +1,21 @@
+[2015/04/02 15:24:16,202] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/02 15:24:16,210] INFO *---------------------------------------------------------------------------*
+[2015/04/02 15:24:16,217] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Thu Apr 02 15:24:16 KST 2015
+[2015/04/02 15:24:16,217] INFO *---------------------------------------------------------------------------*
+[2015/04/02 15:24:16,217] INFO CTR Agent를 기동합니다.
+[2015/04/02 15:24:16,388] INFO Job execution threads will use class loader of thread: main
+[2015/04/02 15:24:16,406] INFO RAMJobStore initialized.
+[2015/04/02 15:24:16,407] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/04/02 15:24:16,407] INFO Quartz scheduler version: 1.4.5
+[2015/04/02 15:24:16,864] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/04/02 15:24:16,865] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/04/02 15:24:43,985] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/04/02 15:24:43,990] INFO *---------------------------------------------------------------------------*
+[2015/04/02 15:24:43,995] INFO *   CTR 연계 모듈  (Ver : 201410.01.38) init  Thu Apr 02 15:24:43 KST 2015
+[2015/04/02 15:24:43,995] INFO *---------------------------------------------------------------------------*
+[2015/04/02 15:24:43,995] INFO CTR Agent를 기동합니다.
+[2015/04/02 15:24:44,051] ERROR AGENT 시작 실패. 동작을 정지합니다. : java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+[2015/04/02 15:24:44,051] INFO *---------------------------------------------------*
+[2015/04/02 15:24:44,051] INFO *      AGENT 연계 모듈  Thu Apr 02 15:24:44 KST 2015
+[2015/04/02 15:24:44,051] INFO *---------------------------------------------------*
+[2015/04/02 15:24:44,052] INFO shutdown ......

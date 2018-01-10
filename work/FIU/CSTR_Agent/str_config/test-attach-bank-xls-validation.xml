@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<attachment-bank-xls-validation kind="bank" type="xls">
+	<!-- 버전 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmVersionValidationItem</item>
+	<!-- 고객 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmCustomerValidationItem</item>
+	<!-- 계좌 정보 체크 -->
+	<!-- <item>kr.go.kofiu.str.validation.attach.ConFirmAccountValidationItem</item> -->
+	<!-- 조회 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmInquiryValidationItem</item>
+	<!-- 거래 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.ConFirmTransactionValidationItem</item>
+	<!-- 거래 상세 정보 체크 -->
+	<item>kr.go.kofiu.str.validation.attach.bank.excel.BankTransDetailValidationItem</item>
+</attachment-bank-xls-validation>

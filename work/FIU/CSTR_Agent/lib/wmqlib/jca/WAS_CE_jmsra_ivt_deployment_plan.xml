@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   <copyright 
+ notice="lm-source-program" 
+ pids="5724-H72,5655-R36,5724-L26," 
+ years="2011,2012" 
+ crc="895015581" > 
+Licensed Materials - Property of IBM  
+ 
+5724-H72,5655-R36,5724-L26, 
+ 
+(C) Copyright IBM Corp. 2011, 2012 All Rights Reserved.  
+ 
+US Government Users Restricted Rights - Use, duplication or  
+disclosure restricted by GSA ADP Schedule Contract with  
+IBM Corp.  
+ </copyright> 
+-->
+<application xmlns="http://geronimo.apache.org/xml/ns/j2ee/application-2.0"
+	xmlns:sys="http://geronimo.apache.org/xml/ns/deployment-1.2" xmlns:nam="http://geronimo.apache.org/xml/ns/naming-1.1"
+	application-name="WMQRA_IVT">
+
+	<sys:environment>
+		<sys:moduleId>
+			<sys:groupId>com.ibm.mq</sys:groupId>
+			<sys:artifactId>WMQRA_IVT</sys:artifactId>
+			<sys:version>1.0</sys:version>
+			<sys:type>ear</sys:type>
+		</sys:moduleId>
+
+		<sys:dependencies>
+			<sys:dependency>
+				<sys:groupId>com.ibm.mq</sys:groupId>
+				<sys:artifactId>WMQRA</sys:artifactId>
+				<sys:version>7.1.0.0</sys:version>
+				<sys:type>rar</sys:type>
+			</sys:dependency>
+		</sys:dependencies>
+	</sys:environment>
+
+
+	<module>
+		<web>WMQ_IVT.war</web>
+		<web-app xmlns="http://geronimo.apache.org/xml/ns/j2ee/web-2.0.1">
+			<sys:environment>
+				<sys:moduleId>
+					<sys:groupId>com.ibm.mq</sys:groupId>
+					<sys:artifactId>WMQRA_IVT_Servlet</sys:artifactId>
+					<sys:version>1.0</sys:version>
+					<sys:type>war</sys:type>
+				</sys:moduleId>
+			</sys:environment>
+
+			<context-root>/WMQ_IVT</context-root>
+
+			<nam:resource-ref>
+				<nam:ref-name>IVTCF</nam:ref-name>
+				<nam:resource-link>jms/ivt/IVTCF</nam:resource-link>
+			</nam:resource-ref>
+			<nam:resource-env-ref>
+				<nam:ref-name>IVTQueue</nam:ref-name>
+				<nam:message-destination-link>jms/ivt/IVTQueue</nam:message-destination-link>
+			</nam:resource-env-ref>
+		</web-app>
+	</module>
+
+	<module>
+		<ejb>WMQ_IVT_MDB.jar</ejb>
+		<openejb-jar xmlns="http://openejb.apache.org/xml/ns/openejb-jar-2.2">
+			<sys:environment>
+				<sys:moduleId>
+					<sys:groupId>com.ibm.mq</sys:groupId>
+					<sys:artifactId>WMQRA_IVT_MDB</sys:artifactId>
+					<sys:version>1.0</sys:version>
+					<sys:type>jar</sys:type>
+				</sys:moduleId>
+			</sys:environment>
+			<enterprise-beans>
+				<message-driven>
+					<ejb-name>WMQ_IVT_MDB</ejb-name>
+					<nam:resource-adapter>
+						<nam:resource-link>WebSphere MQ Resource Adapter</nam:resource-link>
+					</nam:resource-adapter>
+					<activation-config>
+						<activation-config-property>
+							<activation-config-property-name>applicationName</activation-config-property-name>
+							<activation-config-property-value>WASCE(IVT_MDB)</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>QueueManager</activation-config-property-name>
+							<activation-config-property-value>ExampleQM</activation-config-property-value>
+						</activation-config-property>
+		   			    <activation-config-property>
+                        	<activation-config-property-name>transportType</activation-config-property-name>
+                    		<activation-config-property-value>CLIENT</activation-config-property-value>
+                  		</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>hostName</activation-config-property-name>
+							<activation-config-property-value>localhost</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>port</activation-config-property-name>
+							<activation-config-property-value>1414</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>channel</activation-config-property-name>
+							<activation-config-property-value>SYSTEM.DEF.SVRCONN</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>destination</activation-config-property-name>
+							<activation-config-property-value>TEST.QUEUE</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>destinationType</activation-config-property-name>
+							<activation-config-property-value>javax.jms.Queue</activation-config-property-value>
+						</activation-config-property>
+						<activation-config-property>
+							<activation-config-property-name>useJNDI</activation-config-property-name>
+							<activation-config-property-value>false</activation-config-property-value>
+						</activation-config-property>
+					</activation-config>
+					<resource-ref>
+						<ref-name>IVTCF</ref-name>
+						<resource-link>jms/ivt/IVTCF</resource-link>
+					</resource-ref>
+				</message-driven>
+			</enterprise-beans>
+		</openejb-jar>
+	</module>
+
+</application>

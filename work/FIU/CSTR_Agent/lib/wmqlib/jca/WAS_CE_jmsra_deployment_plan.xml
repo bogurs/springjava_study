@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+   <copyright 
+ notice="lm-source-program" 
+ pids="5724-H72,5655-R36,5724-L26," 
+ years="2011,2012" 
+ crc="3148623684" > 
+Licensed Materials - Property of IBM  
+ 
+5724-H72,5655-R36,5724-L26, 
+ 
+(C) Copyright IBM Corp. 2011, 2012 All Rights Reserved.  
+ 
+US Government Users Restricted Rights - Use, duplication or  
+disclosure restricted by GSA ADP Schedule Contract with  
+IBM Corp.  
+ </copyright> 
+-->
+<!--
+Example .xml deployment plan for installing the WMQ resource adapter on WAS CE 
+Resources necessary to deploy the IVT .ear file are predefined, but may need to
+be edited as appropriate for the queue manager being used.  
+
+This deployment plan assumes that the RA is not being configured for XA. 
+To configure for XA:
+  Uncomment the dependency below
+  Modify the connectiondefinition-instance below to use the section for XA configuration 
+      instead of NonXA
+-->
+
+<conn:connector xmlns:conn="http://geronimo.apache.org/xml/ns/j2ee/connector-1.2"
+    xmlns:dep="http://geronimo.apache.org/xml/ns/deployment-1.2"
+    xmlns:name="http://geronimo.apache.org/xml/ns/naming-1.2">
+
+    <dep:environment>
+        <dep:moduleId>
+            <dep:groupId>com.ibm.mq</dep:groupId>
+            <dep:artifactId>WMQRA</dep:artifactId>
+            <dep:version>7.1.0.0</dep:version>
+            <dep:type>rar</dep:type>
+        </dep:moduleId>
+
+    </dep:environment>
+
+    <conn:resourceadapter>
+
+        <conn:resourceadapter-instance>
+            <conn:resourceadapter-name>WebSphere MQ Resource Adapter</conn:resourceadapter-name>
+            <conn:config-property-setting name="traceEnabled">false</conn:config-property-setting>
+            <conn:config-property-setting name="traceLevel">3</conn:config-property-setting>
+            <conn:config-property-setting name="reconnectionRetryInterval">300000</conn:config-property-setting>
+            <conn:config-property-setting name="reconnectionRetryCount">5</conn:config-property-setting>
+            <name:workmanager>
+                <name:gbean-link>DefaultWorkManager</name:gbean-link>
+            </name:workmanager>
+        </conn:resourceadapter-instance>
+
+        <conn:outbound-resourceadapter>
+            <conn:connection-definition>
+                <conn:connectionfactory-interface>javax.jms.ConnectionFactory</conn:connectionfactory-interface>
+                <conn:connectiondefinition-instance>
+                    <conn:name>jms/ivt/IVTCF</conn:name>
+                    <conn:config-property-setting name="applicationName">WASCE(IVT)</conn:config-property-setting>
+                    <conn:config-property-setting name="queueManager">ExampleQM</conn:config-property-setting>
+                    <conn:config-property-setting name="channel">SYSTEM.DEF.SVRCONN</conn:config-property-setting>
+                    <conn:config-property-setting name="transportType">CLIENT</conn:config-property-setting>
+                    <conn:config-property-setting name="hostName">localhost</conn:config-property-setting>
+                    <conn:config-property-setting name="port">1414</conn:config-property-setting>
+                    <conn:connectionmanager>
+                        <!-- NonXA configuration -->
+                        <conn:local-transaction/>
+                        <!-- NonXA configuration -->
+
+                        <!-- XA configuration -->
+                        <!--
+                        <conn:xa-transaction>
+                            <conn:transaction-caching/>
+                        </conn:xa-transaction>
+                        -->
+                        <!-- XA configuration -->
+                        <conn:single-pool>
+                            <conn:max-size>10</conn:max-size>
+                            <conn:min-size>1</conn:min-size>
+                            <conn:blocking-timeout-milliseconds>5000</conn:blocking-timeout-milliseconds>
+                            <conn:idle-timeout-minutes>2</conn:idle-timeout-minutes>
+                            <conn:match-all />
+                        </conn:single-pool>
+                    </conn:connectionmanager>
+                </conn:connectiondefinition-instance>
+            </conn:connection-definition>
+        </conn:outbound-resourceadapter>
+    </conn:resourceadapter>
+
+    <conn:adminobject>
+        <conn:adminobject-interface>javax.jms.Queue</conn:adminobject-interface>
+        <conn:adminobject-class>com.ibm.mq.connector.outbound.MQQueueProxy</conn:adminobject-class>
+        <conn:adminobject-instance>
+            <conn:message-destination-name>jms/ivt/IVTQueue</conn:message-destination-name>
+            <conn:config-property-setting name="baseQueueName">TEST.QUEUE</conn:config-property-setting>
+            <conn:config-property-setting name="baseQueueManagerName">ExampleQM</conn:config-property-setting>
+        </conn:adminobject-instance>
+    </conn:adminobject>
+</conn:connector>

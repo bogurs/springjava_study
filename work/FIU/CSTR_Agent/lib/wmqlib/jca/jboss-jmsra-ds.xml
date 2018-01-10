@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   <copyright 
+ notice="lm-source-program" 
+ pids="5724-H72,5655-R36,5724-L26," 
+ years="2011,2012" 
+ crc="2523841965" > 
+Licensed Materials - Property of IBM  
+ 
+5724-H72,5655-R36,5724-L26, 
+ 
+(C) Copyright IBM Corp. 2011, 2012 All Rights Reserved.  
+ 
+US Government Users Restricted Rights - Use, duplication or  
+disclosure restricted by GSA ADP Schedule Contract with  
+IBM Corp.  
+ </copyright> 
+-->
+<!--
+Example -ds.xml file for defining the resources resources necessary to deploy 
+the IVT .ear file on JBoss  This file will need to be edited as appropriate 
+for the queue manager being used and then placed in the 
+jboss_install_dir/server/default/deploy directory alongside the wmq.jmsra.rar
+
+This file assumes that the RA is not being configured for XA. 
+To configure for XA:
+  > Comment out the <local-transaction/> element below
+  > Uncomment the <xa-transaction/> element below
+-->
+
+<connection-factories>
+
+    <!-- mbeans defining JCA administered objects -->
+    <mbean code="org.jboss.resource.deployment.AdminObject" name="jca.wmq:name=ivtqueue">
+
+        <!-- Bind this AdminObject  with the JNDI name IVTQueue -->
+        <attribute name="JNDIName">jms/ivt/IVTQueue</attribute>
+
+        <!-- this MBean depends on the WebSphere MQ resource adapter -->
+        <depends optional-attribute-name="RARName">jboss.jca:service=RARDeployment,name='wmq.jmsra.rar'</depends>
+
+        <!-- this admin object is a javax.jms.Queue -->
+        <attribute name="Type">javax.jms.Queue</attribute>
+
+        <!--
+           Configuration for Queue TEST.QUEUE
+           If you need to specify a specific queue manager add the following
+               baseQueueManagerName=ExampleQM
+        -->
+        <attribute name="Properties">
+                    baseQueueName=TEST.QUEUE
+        </attribute>
+    </mbean>
+
+    <!-- JCA Connection factory definitions -->
+    <tx-connection-factory>
+        <!-- Bind this ConnectionFactory with the JNDI name IVTCF -->
+        <jndi-name>jms/ivt/IVTCF</jndi-name>
+
+        <!-- Indicate that the connection factory supports only local transactions -->
+        <local-transaction/>
+        <!-- Indicate that the connection factory supports XA transactions -->
+        <!-- <xa-transaction/> -->
+
+        <!-- rar-name is the actual RAR file name, in this case wmq.jmsra.rar -->
+        <rar-name>wmq.jmsra.rar</rar-name>
+
+        <!-- connection-definition is the ConnectionFactory interface 
+          defined in the ra.xml -->
+        <connection-definition>javax.jms.ConnectionFactory</connection-definition>
+        
+        <!-- Tell JBoss not to prefix the jndi name of the CF with the java: context and thus allow it to be looked up externally-->
+        <use-java-context>false</use-java-context>
+
+        <!--
+            Configuration for the ConnectionFactory. This defines the channel, hostname, port,
+            queueManager, and transportType properties for a client (TCP/IP) connection to WMQ
+        -->
+        <config-property name="channel" type="java.lang.String">SYSTEM.DEF.SVRCONN</config-property>
+        <config-property name="hostName" type="java.lang.String">localhost</config-property>
+        <config-property name="port" type="java.lang.String">1414</config-property>
+        <config-property name="queueManager" type="java.lang.String">ExampleQM</config-property>
+        <config-property name="transportType" type="java.lang.String">CLIENT</config-property>
+
+        <!-- define security domain -->
+        <security-domain-and-application>JmsXARealm</security-domain-and-application>
+    </tx-connection-factory>
+</connection-factories>

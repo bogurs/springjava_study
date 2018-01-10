@@ -1,0 +1,1341 @@
+[2014/12/22 09:52:38,516] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 09:52:38,532] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:52:38,532] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 09:52:38 KST 2014
+[2014/12/22 09:52:38,532] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:52:38,532] INFO CTR Agent를 기동합니다.
+[2014/12/22 09:52:38,532] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 09:52:58,177] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 09:52:58,177] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:52:58,177] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 09:52:58 KST 2014
+[2014/12/22 09:52:58,177] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:52:58,177] INFO CTR Agent를 기동합니다.
+[2014/12/22 09:53:05,135] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 09:53:05,151] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:53:05,151] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 09:53:05 KST 2014
+[2014/12/22 09:53:05,151] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:53:05,151] INFO CTR Agent를 기동합니다.
+[2014/12/22 09:53:05,182] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 09:53:05,197] INFO RAMJobStore initialized.
+[2014/12/22 09:53:05,197] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 09:53:05,197] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 09:53:05,229] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 09:53:05,229] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 09:54:29,319] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 09:54:29,319] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:54:29,319] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 09:54:29 KST 2014
+[2014/12/22 09:54:29,319] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:54:29,319] INFO CTR Agent를 기동합니다.
+[2014/12/22 09:54:29,350] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 09:54:29,365] INFO RAMJobStore initialized.
+[2014/12/22 09:54:29,365] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 09:54:29,365] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 09:54:29,381] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 09:54:29,381] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 09:54:30,021] INFO OutboxPollerJob Processing...
+[2014/12/22 09:54:45,013] INFO OutboxPollerJob Processing...
+[2014/12/22 09:55:00,022] INFO OutboxPollerJob Processing...
+[2014/12/22 09:55:15,024] INFO OutboxPollerJob Processing...
+[2014/12/22 09:55:30,011] INFO OutboxPollerJob Processing...
+[2014/12/22 09:55:30,011] INFO CTR_9400_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,109] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,109] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,109] INFO versionType [089]
+[2014/12/22 09:55:30,109] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,109] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,109] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,109] ERROR CTR_9400_20110316_0000001.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,140] INFO CTR_9400_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,156] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,156] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,156] INFO versionType [089]
+[2014/12/22 09:55:30,156] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,156] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,156] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,156] ERROR CTR_9400_20110316_0000002.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,156] INFO CTR_9400_20110316_0000003..SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,156] ERROR CTR_9400_20110316_0000003..SND 파일 명이 올바르지 않습니다.
+[2014/12/22 09:55:30,172] INFO CTR_9400_20110316_0000004..SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,172] ERROR CTR_9400_20110316_0000004..SND 파일 명이 올바르지 않습니다.
+[2014/12/22 09:55:30,187] INFO CTR_9400_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,187] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,187] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,187] INFO versionType [089]
+[2014/12/22 09:55:30,187] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,187] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,187] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,187] ERROR CTR_9400_20110316_0000005.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,203] INFO CTR_9400_20110316_0000006..SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,203] ERROR CTR_9400_20110316_0000006..SND 파일 명이 올바르지 않습니다.
+[2014/12/22 09:55:30,203] INFO CTR_9400_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,203] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,203] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,203] INFO versionType [089]
+[2014/12/22 09:55:30,203] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,203] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,203] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,203] ERROR CTR_9400_20110316_0000007.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,218] INFO CTR_9400_20110316_0000008.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,218] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,218] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,218] INFO versionType [089]
+[2014/12/22 09:55:30,218] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,218] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,218] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,218] ERROR CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,234] INFO CTR_9400_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,234] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,234] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,234] INFO versionType [089]
+[2014/12/22 09:55:30,234] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,234] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,234] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,234] ERROR CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,250] INFO CTR_9400_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,250] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,250] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,250] INFO versionType [089]
+[2014/12/22 09:55:30,250] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,250] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,250] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,250] ERROR CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,265] INFO CTR_9400_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,265] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,265] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,265] INFO versionType [089]
+[2014/12/22 09:55:30,265] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,265] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,265] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,265] ERROR CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:55:30,265] INFO CTR_9400_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:55:30,265] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:55:30,281] INFO checkValidate 실행됨_1.
+[2014/12/22 09:55:30,281] INFO versionType [089]
+[2014/12/22 09:55:30,281] INFO 한글 유효성 체크 START 
+[2014/12/22 09:55:30,281] INFO 거래국가코드 체크 START 
+[2014/12/22 09:55:30,281] INFO 거래국가코드 체크 END 
+[2014/12/22 09:55:30,281] ERROR CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:56:51,809] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 09:56:51,809] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:56:51,825] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 09:56:51 KST 2014
+[2014/12/22 09:56:51,825] INFO *---------------------------------------------------------------------------*
+[2014/12/22 09:56:51,825] INFO CTR Agent를 기동합니다.
+[2014/12/22 09:56:51,856] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 09:56:51,871] INFO RAMJobStore initialized.
+[2014/12/22 09:56:51,871] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 09:56:51,871] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 09:56:51,887] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 09:56:51,887] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 09:57:00,016] INFO OutboxPollerJob Processing...
+[2014/12/22 09:57:15,012] INFO OutboxPollerJob Processing...
+[2014/12/22 09:57:30,021] INFO OutboxPollerJob Processing...
+[2014/12/22 09:57:45,017] INFO OutboxPollerJob Processing...
+[2014/12/22 09:57:45,017] INFO CTR_9400_20110316_0000008.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,096] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,112] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,112] INFO versionType [089]
+[2014/12/22 09:57:45,112] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,112] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,112] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,112] ERROR CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:57:45,143] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,143] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,143] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,143] INFO versionType [089]
+[2014/12/22 09:57:45,143] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,143] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,143] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,143] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,143] INFO CTR_TST1_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,159] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,159] INFO versionType [089]
+[2014/12/22 09:57:45,159] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,159] INFO CTR_TST1_20110316_0000003.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,159] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,159] INFO versionType [089]
+[2014/12/22 09:57:45,159] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,159] INFO CTR_TST1_20110316_0000004.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,159] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,159] INFO versionType [089]
+[2014/12/22 09:57:45,159] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,159] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,159] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,159] INFO CTR_TST1_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,174] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,174] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,174] INFO versionType [089]
+[2014/12/22 09:57:45,174] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,174] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,174] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,174] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,174] INFO CTR_TST1_20110316_0000006.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,190] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,190] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,190] INFO versionType [089]
+[2014/12/22 09:57:45,190] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,190] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,190] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,190] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,190] INFO CTR_TST1_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,190] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,190] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,190] INFO versionType [089]
+[2014/12/22 09:57:45,190] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,190] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,190] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,190] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,190] INFO CTR_TST1_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,190] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,205] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,205] INFO versionType [089]
+[2014/12/22 09:57:45,205] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,205] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,205] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,205] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,205] INFO CTR_TST1_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,205] ERROR \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+[2014/12/22 09:57:45,205] ERROR CTR_TST1_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:146)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:57:45,221] INFO CTR_TST1_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,221] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,221] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,221] INFO versionType [089]
+[2014/12/22 09:57:45,221] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,221] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,221] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,221] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:57:45,221] INFO CTR_TST1_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:57:45,221] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:57:45,221] INFO checkValidate 실행됨_1.
+[2014/12/22 09:57:45,221] INFO versionType [089]
+[2014/12/22 09:57:45,221] INFO 한글 유효성 체크 START 
+[2014/12/22 09:57:45,221] INFO 거래국가코드 체크 START 
+[2014/12/22 09:57:45,221] INFO 거래국가코드 체크 END 
+[2014/12/22 09:57:45,221] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,012] INFO OutboxPollerJob Processing...
+[2014/12/22 09:58:00,012] INFO CTR_9400_20110316_0000008.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,012] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,012] INFO checkValidate 실행됨_1.
+[2014/12/22 09:58:00,012] INFO versionType [089]
+[2014/12/22 09:58:00,012] INFO 한글 유효성 체크 START 
+[2014/12/22 09:58:00,012] INFO 거래국가코드 체크 START 
+[2014/12/22 09:58:00,012] INFO 거래국가코드 체크 END 
+[2014/12/22 09:58:00,012] ERROR CTR_9400_20110316_0000008.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:128)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:58:00,027] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,027] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,027] ERROR CTR_TST1_20110316_0000001.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,027] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,027] INFO CTR_TST1_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,043] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,043] ERROR CTR_TST1_20110316_0000002.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,044] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,044] INFO CTR_TST1_20110316_0000003.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,044] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,044] ERROR CTR_TST1_20110316_0000003.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,044] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,044] INFO CTR_TST1_20110316_0000004.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,044] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,060] ERROR CTR_TST1_20110316_0000004.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,060] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,060] INFO CTR_TST1_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,060] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,060] ERROR CTR_TST1_20110316_0000005.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,060] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,060] INFO CTR_TST1_20110316_0000006.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,075] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,075] ERROR CTR_TST1_20110316_0000006.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,075] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,075] INFO CTR_TST1_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,075] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,075] ERROR CTR_TST1_20110316_0000007.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,091] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,091] INFO CTR_TST1_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,091] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,091] ERROR CTR_TST1_20110316_0000009.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,106] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,106] INFO CTR_TST1_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,106] ERROR \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+[2014/12/22 09:58:00,106] ERROR CTR_TST1_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:146)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 09:58:00,122] INFO CTR_TST1_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,122] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,122] ERROR CTR_TST1_20110316_0000011.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,122] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:00,122] INFO CTR_TST1_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 09:58:00,122] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 09:58:00,122] ERROR CTR_TST1_20110316_0000012.SND 파일이 이미 존재합니다.
+[2014/12/22 09:58:00,138] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 09:58:15,019] INFO OutboxPollerJob Processing...
+[2014/12/22 09:58:30,014] INFO OutboxPollerJob Processing...
+[2014/12/22 09:58:45,024] INFO OutboxPollerJob Processing...
+[2014/12/22 09:59:00,020] INFO OutboxPollerJob Processing...
+[2014/12/22 09:59:15,015] INFO OutboxPollerJob Processing...
+[2014/12/22 09:59:30,025] INFO OutboxPollerJob Processing...
+[2014/12/22 10:02:46,257] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:02:46,273] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:02:46,273] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:02:46 KST 2014
+[2014/12/22 10:02:46,273] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:02:46,273] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:02:46,304] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:02:46,320] INFO RAMJobStore initialized.
+[2014/12/22 10:02:46,320] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:02:46,320] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:02:46,351] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:02:46,351] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:03:17,129] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:03:17,129] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:03:17,129] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:03:17 KST 2014
+[2014/12/22 10:03:17,129] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:03:17,129] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:03:17,160] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:03:17,176] INFO RAMJobStore initialized.
+[2014/12/22 10:03:17,176] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:03:17,176] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:03:17,191] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:03:17,191] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:03:30,022] INFO OutboxPollerJob Processing...
+[2014/12/22 10:03:45,011] INFO OutboxPollerJob Processing...
+[2014/12/22 10:04:00,024] INFO OutboxPollerJob Processing...
+[2014/12/22 10:04:23,259] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:04:23,259] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:04:23,274] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:04:23 KST 2014
+[2014/12/22 10:04:23,274] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:04:23,274] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:04:23,290] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:04:23,305] INFO RAMJobStore initialized.
+[2014/12/22 10:04:23,305] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:04:23,305] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:04:23,337] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:04:23,337] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:04:30,013] INFO OutboxPollerJob Processing...
+[2014/12/22 10:04:30,013] INFO CTR_9400_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,108] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,124] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,124] INFO versionType [089]
+[2014/12/22 10:04:30,124] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,124] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,124] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,124] ERROR CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:136)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:76)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:04:30,155] INFO CTR_9400_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,155] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,155] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,155] INFO versionType [089]
+[2014/12/22 10:04:30,155] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,155] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,155] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,155] ERROR CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:136)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:76)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:04:30,155] INFO CTR_9400_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,155] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,170] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,170] INFO versionType [089]
+[2014/12/22 10:04:30,170] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,170] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,170] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,170] ERROR CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:136)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:76)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:04:30,186] INFO CTR_9400_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,186] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,186] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,186] INFO versionType [089]
+[2014/12/22 10:04:30,186] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,186] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,186] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,186] ERROR CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:136)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:76)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:04:30,202] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,202] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,202] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,202] INFO versionType [089]
+[2014/12/22 10:04:30,202] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,202] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,202] INFO CTR_TST1_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,202] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,202] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,202] INFO versionType [089]
+[2014/12/22 10:04:30,202] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,202] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,202] INFO CTR_TST1_20110316_0000003.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,202] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,202] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,202] INFO versionType [089]
+[2014/12/22 10:04:30,202] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,202] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,217] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,217] INFO CTR_TST1_20110316_0000004.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,217] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,217] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,217] INFO versionType [089]
+[2014/12/22 10:04:30,217] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,217] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,217] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,217] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,217] INFO CTR_TST1_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,217] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,217] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,217] INFO versionType [089]
+[2014/12/22 10:04:30,217] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,217] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,217] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,217] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,217] INFO CTR_TST1_20110316_0000006.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,233] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,233] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,233] INFO versionType [089]
+[2014/12/22 10:04:30,233] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,233] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,233] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,233] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,233] INFO CTR_TST1_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,233] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,233] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,233] INFO versionType [089]
+[2014/12/22 10:04:30,233] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,233] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,233] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,233] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,233] INFO CTR_TST1_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,233] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,248] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,248] INFO versionType [089]
+[2014/12/22 10:04:30,248] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,248] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,248] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,248] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,248] INFO CTR_TST1_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,248] ERROR \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+[2014/12/22 10:04:30,248] ERROR CTR_TST1_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:154)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:76)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:04:30,248] INFO CTR_TST1_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,264] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,264] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,264] INFO versionType [089]
+[2014/12/22 10:04:30,264] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,264] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,264] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,264] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:30,264] INFO CTR_TST1_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:04:30,264] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:04:30,264] INFO checkValidate 실행됨_1.
+[2014/12/22 10:04:30,264] INFO versionType [089]
+[2014/12/22 10:04:30,264] INFO 한글 유효성 체크 START 
+[2014/12/22 10:04:30,264] INFO 거래국가코드 체크 START 
+[2014/12/22 10:04:30,264] INFO 거래국가코드 체크 END 
+[2014/12/22 10:04:30,264] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:04:45,010] INFO OutboxPollerJob Processing...
+[2014/12/22 10:05:00,023] INFO OutboxPollerJob Processing...
+[2014/12/22 10:05:15,020] INFO OutboxPollerJob Processing...
+[2014/12/22 10:05:30,015] INFO OutboxPollerJob Processing...
+[2014/12/22 10:05:45,011] INFO OutboxPollerJob Processing...
+[2014/12/22 10:06:00,021] INFO OutboxPollerJob Processing...
+[2014/12/22 10:12:56,136] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:12:56,139] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:12:56,144] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:12:56 KST 2014
+[2014/12/22 10:12:56,144] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:12:56,144] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:12:56,173] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:12:56,188] INFO RAMJobStore initialized.
+[2014/12/22 10:12:56,188] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:12:56,188] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:12:56,203] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:12:56,203] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:13:00,019] INFO OutboxPollerJob Processing... (File List = 0 )
+[2014/12/22 10:13:16,915] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:13:16,919] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:13:16,923] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:13:16 KST 2014
+[2014/12/22 10:13:16,923] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:13:16,923] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:13:16,950] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:13:16,964] INFO RAMJobStore initialized.
+[2014/12/22 10:13:16,964] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:13:16,965] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:13:16,980] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:13:16,980] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:13:30,019] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:14:00,011] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:14:30,020] INFO OutboxPollerJob Processing... (File List = 15)
+[2014/12/22 10:14:30,020] INFO CTR_9400_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,125] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,132] INFO checkValidate 실행됨_1.
+[2014/12/22 10:14:30,132] INFO versionType [089]
+[2014/12/22 10:14:30,132] INFO 한글 유효성 체크 START 
+[2014/12/22 10:14:30,133] INFO 거래국가코드 체크 START 
+[2014/12/22 10:14:30,133] INFO 거래국가코드 체크 END 
+[2014/12/22 10:14:30,134] ERROR CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:14:30,162] INFO CTR_9400_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,163] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,165] INFO checkValidate 실행됨_1.
+[2014/12/22 10:14:30,165] INFO versionType [089]
+[2014/12/22 10:14:30,165] INFO 한글 유효성 체크 START 
+[2014/12/22 10:14:30,165] INFO 거래국가코드 체크 START 
+[2014/12/22 10:14:30,165] INFO 거래국가코드 체크 END 
+[2014/12/22 10:14:30,165] ERROR CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:14:30,180] INFO CTR_9400_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,181] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,183] INFO checkValidate 실행됨_1.
+[2014/12/22 10:14:30,183] INFO versionType [089]
+[2014/12/22 10:14:30,183] INFO 한글 유효성 체크 START 
+[2014/12/22 10:14:30,183] INFO 거래국가코드 체크 START 
+[2014/12/22 10:14:30,183] INFO 거래국가코드 체크 END 
+[2014/12/22 10:14:30,183] ERROR CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:14:30,199] INFO CTR_9400_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,201] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,203] INFO checkValidate 실행됨_1.
+[2014/12/22 10:14:30,203] INFO versionType [089]
+[2014/12/22 10:14:30,204] INFO 한글 유효성 체크 START 
+[2014/12/22 10:14:30,204] INFO 거래국가코드 체크 START 
+[2014/12/22 10:14:30,204] INFO 거래국가코드 체크 END 
+[2014/12/22 10:14:30,204] ERROR CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:14:30,215] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,216] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,217] ERROR CTR_TST1_20110316_0000001.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,225] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,225] INFO CTR_TST1_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,227] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,227] ERROR CTR_TST1_20110316_0000002.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,238] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,239] INFO CTR_TST1_20110316_0000003.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,240] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,241] ERROR CTR_TST1_20110316_0000003.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,250] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,250] INFO CTR_TST1_20110316_0000004.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,252] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,252] ERROR CTR_TST1_20110316_0000004.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,262] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,262] INFO CTR_TST1_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,263] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,264] ERROR CTR_TST1_20110316_0000005.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,271] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,271] INFO CTR_TST1_20110316_0000006.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,273] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,273] ERROR CTR_TST1_20110316_0000006.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,281] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,281] INFO CTR_TST1_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,283] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,283] ERROR CTR_TST1_20110316_0000007.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,291] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,291] INFO CTR_TST1_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,292] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,293] ERROR CTR_TST1_20110316_0000009.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,312] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,313] INFO CTR_TST1_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,313] ERROR \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+[2014/12/22 10:14:30,313] ERROR CTR_TST1_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:157)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:14:30,325] INFO CTR_TST1_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,326] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,326] ERROR CTR_TST1_20110316_0000011.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,334] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:14:30,335] INFO CTR_TST1_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:14:30,336] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:14:30,336] ERROR CTR_TST1_20110316_0000012.SND 파일이 이미 존재합니다.
+[2014/12/22 10:14:30,345] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND을 /tools/db2inst1/FIUCSTR/CTR/Message/PROC/SEND로 이동합니다.
+[2014/12/22 10:15:00,011] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:16:40,928] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:16:40,932] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:16:40,937] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:16:40 KST 2014
+[2014/12/22 10:16:40,937] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:16:40,937] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:16:40,973] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:16:41,003] INFO RAMJobStore initialized.
+[2014/12/22 10:16:41,003] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:16:41,003] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:16:41,032] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:16:41,032] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:17:00,018] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:17:30,012] INFO OutboxPollerJob Processing... (File List = 1)
+[2014/12/22 10:17:30,013] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:17:30,136] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:17:30,136] ERROR CTR_TST1_20110316_0000001.SND 파일이 이미 존재합니다.
+[2014/12/22 10:18:23,702] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:18:23,707] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:18:23,712] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:18:23 KST 2014
+[2014/12/22 10:18:23,713] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:18:23,713] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:18:23,741] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:18:23,766] INFO RAMJobStore initialized.
+[2014/12/22 10:18:23,767] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:18:23,767] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:18:23,785] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:18:23,786] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:18:26,386] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:18:26,390] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:18:26,395] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:18:26 KST 2014
+[2014/12/22 10:18:26,395] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:18:26,395] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:18:26,425] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:18:26,440] INFO RAMJobStore initialized.
+[2014/12/22 10:18:26,440] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:18:26,441] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:18:26,457] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:18:26,457] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:18:30,018] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:19:00,019] INFO OutboxPollerJob Processing... (File List = 15)
+[2014/12/22 10:19:00,019] INFO CTR_9400_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,117] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,123] INFO checkValidate 실행됨_1.
+[2014/12/22 10:19:00,123] INFO versionType [089]
+[2014/12/22 10:19:00,123] INFO 한글 유효성 체크 START 
+[2014/12/22 10:19:00,123] INFO 거래국가코드 체크 START 
+[2014/12/22 10:19:00,123] INFO 거래국가코드 체크 END 
+[2014/12/22 10:19:00,131] ERROR CTR_9400_20110316_0000009.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:19:00,162] INFO CTR_9400_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,163] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,164] INFO checkValidate 실행됨_1.
+[2014/12/22 10:19:00,165] INFO versionType [089]
+[2014/12/22 10:19:00,165] INFO 한글 유효성 체크 START 
+[2014/12/22 10:19:00,165] INFO 거래국가코드 체크 START 
+[2014/12/22 10:19:00,165] INFO 거래국가코드 체크 END 
+[2014/12/22 10:19:00,165] ERROR CTR_9400_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:19:00,176] INFO CTR_9400_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,178] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,181] INFO checkValidate 실행됨_1.
+[2014/12/22 10:19:00,181] INFO versionType [089]
+[2014/12/22 10:19:00,181] INFO 한글 유효성 체크 START 
+[2014/12/22 10:19:00,181] INFO 거래국가코드 체크 START 
+[2014/12/22 10:19:00,181] INFO 거래국가코드 체크 END 
+[2014/12/22 10:19:00,181] ERROR CTR_9400_20110316_0000011.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:19:00,204] INFO CTR_9400_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,206] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,208] INFO checkValidate 실행됨_1.
+[2014/12/22 10:19:00,208] INFO versionType [089]
+[2014/12/22 10:19:00,208] INFO 한글 유효성 체크 START 
+[2014/12/22 10:19:00,208] INFO 거래국가코드 체크 START 
+[2014/12/22 10:19:00,208] INFO 거래국가코드 체크 END 
+[2014/12/22 10:19:00,208] ERROR CTR_9400_20110316_0000012.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: 보고문서 파일명의 기관 코드 값 9400이 보고 문서에 기재된 기관 코드 값 TST1과 다릅니다.
+	at kr.go.kofiu.ctr.util.FlatFileChecker089.checkMessageFormat(FlatFileChecker089.java:305)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:139)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:19:00,219] INFO CTR_TST1_20110316_0000001.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,221] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000001.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,221] ERROR CTR_TST1_20110316_0000001.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,230] INFO CTR_TST1_20110316_0000002.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,231] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000002.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,231] ERROR CTR_TST1_20110316_0000002.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,239] INFO CTR_TST1_20110316_0000003.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,241] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000003.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,241] ERROR CTR_TST1_20110316_0000003.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,249] INFO CTR_TST1_20110316_0000004.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,250] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000004.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,251] ERROR CTR_TST1_20110316_0000004.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,259] INFO CTR_TST1_20110316_0000005.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,260] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000005.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,260] ERROR CTR_TST1_20110316_0000005.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,267] INFO CTR_TST1_20110316_0000006.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,268] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000006.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,269] ERROR CTR_TST1_20110316_0000006.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,276] INFO CTR_TST1_20110316_0000007.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,278] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000007.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,278] ERROR CTR_TST1_20110316_0000007.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,286] INFO CTR_TST1_20110316_0000009.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,287] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000009.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,287] ERROR CTR_TST1_20110316_0000009.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,304] INFO CTR_TST1_20110316_0000010.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,305] ERROR \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+[2014/12/22 10:19:00,305] ERROR CTR_TST1_20110316_0000010.SND CTR 보고문서 파일 형식 검증 실패
+kr.go.kofiu.ctr.util.FlatFileDataException: \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000010.SND 파일은 v0.88(53개항목)또는 v0.89(84항목)에 맞지 않는 파일입니다.
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processFileCheck(OutboxPollerJob.java:158)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.processInner(OutboxPollerJob.java:79)
+	at kr.go.kofiu.ctr.service.OutboxPollerJob.doJob(OutboxPollerJob.java:57)
+	at kr.go.kofiu.ctr.service.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+[2014/12/22 10:19:00,316] INFO CTR_TST1_20110316_0000011.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,317] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000011.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,317] ERROR CTR_TST1_20110316_0000011.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:00,325] INFO CTR_TST1_20110316_0000012.SND파일 OUTBOX에서 검사 시작
+[2014/12/22 10:19:00,326] INFO \tools\db2inst1\FIUCSTR\CTR\Message\OUTBOX\9400\CTR_TST1_20110316_0000012.SND CTR 보고문서 파일 형식 검증 성공
+[2014/12/22 10:19:00,326] ERROR CTR_TST1_20110316_0000012.SND 파일이 이미 존재합니다.
+[2014/12/22 10:19:30,018] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:20:00,016] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:20:21,962] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 10:20:21,965] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:20:21,970] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 10:20:21 KST 2014
+[2014/12/22 10:20:21,970] INFO *---------------------------------------------------------------------------*
+[2014/12/22 10:20:21,970] INFO CTR Agent를 기동합니다.
+[2014/12/22 10:20:21,999] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 10:20:22,014] INFO RAMJobStore initialized.
+[2014/12/22 10:20:22,014] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 10:20:22,015] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 10:20:22,030] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 10:20:22,030] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 10:20:30,015] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:21:00,013] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:21:30,015] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:22:00,018] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:22:30,019] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:23:00,013] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:23:30,015] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 10:24:00,016] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:49:31,782] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:49:31,782] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:49:31,798] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:49:31 KST 2014
+[2014/12/22 18:49:31,798] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:49:31,798] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:49:31,829] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 18:49:31,845] INFO RAMJobStore initialized.
+[2014/12/22 18:49:31,845] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 18:49:31,845] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 18:49:31,860] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 18:49:31,860] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 18:50:00,025] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:50:30,023] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:51:00,023] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:51:29,026] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:51:29,041] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:29,041] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:51:29 KST 2014
+[2014/12/22 18:51:29,041] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:29,041] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:51:29,073] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 18:51:29,088] INFO RAMJobStore initialized.
+[2014/12/22 18:51:29,088] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 18:51:29,088] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 18:51:29,135] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 18:51:29,135] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 18:51:30,024] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:51:30,622] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 18:51:30,622] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 18:51:30,622] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 18:51:30,622] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 18:51:37,737] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:51:37,737] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:37,737] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:51:37 KST 2014
+[2014/12/22 18:51:37,737] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:37,737] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:51:37,768] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 18:51:37,783] INFO RAMJobStore initialized.
+[2014/12/22 18:51:37,783] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 18:51:37,783] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 18:51:37,830] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 18:51:37,830] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 18:51:47,987] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:51:47,987] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:48,002] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:51:48 KST 2014
+[2014/12/22 18:51:48,002] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:51:48,002] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:51:48,034] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 18:51:48,049] INFO RAMJobStore initialized.
+[2014/12/22 18:51:48,049] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 18:51:48,049] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 18:51:48,112] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 18:51:48,112] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 18:52:00,012] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:52:00,685] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 99 | 결과 :  ESB Server Fail)
+[2014/12/22 18:52:00,685] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 18:52:00,685] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 18:52:00,685] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 18:52:00,685] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 18:52:00,685] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 18:52:00,685] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 18:52:00,685] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 18:52:00,685] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 18:52:25,725] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:52:25,725] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:52:25,725] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:52:25 KST 2014
+[2014/12/22 18:52:25,725] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:52:25,725] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:52:25,772] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 18:52:25,788] INFO RAMJobStore initialized.
+[2014/12/22 18:52:25,788] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 18:52:25,788] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 18:52:25,866] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 18:52:25,866] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 18:52:30,015] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 18:52:30,625] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 18:52:30,625] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 18:52:30,625] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 18:52:30,625] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 18:53:03,869] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:53:03,885] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:53:03,885] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:53:03 KST 2014
+[2014/12/22 18:53:03,885] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:53:03,885] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:53:03,885] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:53:04,478] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/22 18:53:04,478] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:53:04,478] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:53:04,478] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:53:04 KST 2014
+[2014/12/22 18:53:04,478] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:53:04,478] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:53:04,478] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:53:11,297] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:53:11,297] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:53:11,297] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:53:11 KST 2014
+[2014/12/22 18:53:11,297] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:53:11,297] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:53:11,313] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:53:11,905] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/22 18:53:11,905] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:53:11,905] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:53:11,905] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:53:11 KST 2014
+[2014/12/22 18:53:11,905] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:53:11,905] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:53:11,905] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:54:22,934] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:54:22,934] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:22,934] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:54:22 KST 2014
+[2014/12/22 18:54:22,934] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:22,934] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:54:22,934] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:54:23,589] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/22 18:54:23,589] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:54:23,589] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:23,589] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:54:23 KST 2014
+[2014/12/22 18:54:23,589] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:23,589] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:54:23,589] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:54:30,003] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:54:30,003] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:30,019] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:54:30 KST 2014
+[2014/12/22 18:54:30,019] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:30,019] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:54:30,019] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:54:42,530] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/22 18:54:42,530] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:54:42,530] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:42,545] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:54:42 KST 2014
+[2014/12/22 18:54:42,545] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:42,545] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:54:42,545] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:54:48,429] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:54:48,444] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:48,444] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:54:48 KST 2014
+[2014/12/22 18:54:48,444] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:54:48,444] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:54:48,444] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:54:50,722] INFO CTR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.)
+[2014/12/22 18:54:50,722] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:54:50,722] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:50,722] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:54:50 KST 2014
+[2014/12/22 18:54:50,722] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:54:50,722] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:54:50,722] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:55:19,116] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:55:19,116] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:55:19,132] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:55:19 KST 2014
+[2014/12/22 18:55:19,132] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:55:19,132] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:55:19,132] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:55:23,203] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 18:55:23,766] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 18:55:25,965] INFO Time : 00:00
+[2014/12/22 18:55:25,965] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.17과 다릅니다.
+[2014/12/22 18:55:25,965] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 18:55:25,965] INFO #######################################################
+[2014/12/22 18:55:25,965] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 18:55:25,965] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 18:55:25,965] INFO #######################################################
+[2014/12/22 18:55:25,981] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 18:55:31,333] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 18:55:42,425] INFO CTR MODULEUPATE 서비스 처리  (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/22 18:55:42,425] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:55:42,458] INFO CTR 업데이트에 실패하였습니다. Agent를 종료합니다.
+[2014/12/22 18:55:42,458] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:55:42,458] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:55:42 KST 2014
+[2014/12/22 18:55:42,458] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:55:42,458] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:55:42,458] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 18:55:49,416] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 18:55:49,416] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:55:49,416] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 18:55:49 KST 2014
+[2014/12/22 18:55:49,416] INFO *---------------------------------------------------------------------------*
+[2014/12/22 18:55:49,416] INFO CTR Agent를 기동합니다.
+[2014/12/22 18:55:49,416] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 18:55:50,711] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 18:55:50,837] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 18:55:50,852] INFO Time : 00:00
+[2014/12/22 18:55:50,852] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.17과 다릅니다.
+[2014/12/22 18:55:50,852] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 18:55:50,852] INFO #######################################################
+[2014/12/22 18:55:50,852] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 18:55:50,852] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 18:55:50,852] INFO #######################################################
+[2014/12/22 18:55:50,852] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 18:55:51,289] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 18:56:02,443] INFO CTR MODULEUPATE 서비스 처리  (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/22 18:56:02,443] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 18:56:02,459] INFO CTR 업데이트에 실패하였습니다. Agent를 종료합니다.
+[2014/12/22 18:56:02,459] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:56:02,459] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 18:56:02 KST 2014
+[2014/12/22 18:56:02,459] INFO *----------------------------------------------------------------------------*
+[2014/12/22 18:56:02,459] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 18:56:02,459] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 19:03:35,456] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:03:35,472] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:03:35,472] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:03:35 KST 2014
+[2014/12/22 19:03:35,472] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:03:35,472] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:03:35,472] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:03:37,016] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:03:37,361] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:03:37,376] INFO Time : 00:00
+[2014/12/22 19:03:37,376] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:03:37,376] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:03:37,392] INFO #######################################################
+[2014/12/22 19:03:37,392] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:03:37,392] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:03:37,392] INFO #######################################################
+[2014/12/22 19:03:43,289] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:03:44,163] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:03:55,114] INFO CTR MODULEUPATE 서비스 처리  (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/22 19:03:55,114] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 19:03:55,147] INFO CTR 업데이트에 실패하였습니다. Agent를 종료합니다.
+[2014/12/22 19:03:55,147] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:03:55,147] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 19:03:55 KST 2014
+[2014/12/22 19:03:55,147] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:03:55,147] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 19:03:55,147] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 19:04:04,258] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:04:04,258] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:04,274] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:04:04 KST 2014
+[2014/12/22 19:04:04,274] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:04,274] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:04:04,274] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:04:06,255] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:04:06,381] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:04:06,396] INFO Time : 00:00
+[2014/12/22 19:04:06,396] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:04:06,396] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:04:06,412] INFO #######################################################
+[2014/12/22 19:04:06,412] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:04:06,412] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:04:06,412] INFO #######################################################
+[2014/12/22 19:04:08,019] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:04:08,846] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:04:19,595] INFO CTR MODULEUPATE 서비스 처리  (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/22 19:04:19,595] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 19:04:19,610] INFO CTR 업데이트에 실패하였습니다. Agent를 종료합니다.
+[2014/12/22 19:04:19,610] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:04:19,610] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 19:04:19 KST 2014
+[2014/12/22 19:04:19,610] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:04:19,610] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 19:04:19,610] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 19:04:28,099] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:04:28,099] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:28,099] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:04:28 KST 2014
+[2014/12/22 19:04:28,099] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:28,099] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:04:28,099] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:04:29,487] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:04:29,613] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:04:29,629] INFO Time : 00:00
+[2014/12/22 19:04:29,629] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:04:29,629] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:04:29,644] INFO #######################################################
+[2014/12/22 19:04:29,644] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:04:29,644] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:04:29,644] INFO #######################################################
+[2014/12/22 19:04:34,215] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:04:40,940] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:04:49,849] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:04:49,849] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:49,849] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:04:49 KST 2014
+[2014/12/22 19:04:49,849] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:04:49,865] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:04:49,865] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:04:54,233] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:04:54,390] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:04:54,421] INFO Time : 00:00
+[2014/12/22 19:04:54,421] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:04:54,421] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:04:54,437] INFO #######################################################
+[2014/12/22 19:04:54,437] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:04:54,437] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:04:54,437] INFO #######################################################
+[2014/12/22 19:04:59,912] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:05:08,259] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:05:53,913] INFO CTR MODULEUPATE 서비스 처리  (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/22 19:05:53,913] INFO ESB 수신에 문제가 발생하였습니다. Agent를 구동할 수 없습니다. 관리자에게 문의하세요.
+[2014/12/22 19:05:55,505] FATAL [Fail] Resource Release!
+[2014/12/22 19:05:55,505] FATAL kr.go.kofiu.common.agent.AgentException: com.ibm.msg.client.jms.DetailedJMSException: JMSWMQ2000: 'REQ.COM.AGENTCHECK.R01.LQ' 큐를 닫는 데 실패했습니다.
+JMS가 WebSphere MQ 목적지를 닫으려 했으나 오류가 발생했습니다. 목적지가 이미 닫혀있거나 close()를 호출하는 동안 다른 스레드가 MQGET를 수행하고 있습니다.
+이 오류에 대한 원인을 판별하려면 링크된 예외를 사용하십시오. 나중에 close()를 수행할 수 있습니다.
+[2014/12/22 19:05:55,505] INFO CTR 업데이트에 실패하였습니다. Agent를 종료합니다.
+[2014/12/22 19:05:55,505] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:05:55,505] INFO *  CTR 연계 모듈  (Ver : 201410.01.15) stop Mon Dec 22 19:05:55 KST 2014
+[2014/12/22 19:05:55,505] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:05:55,505] INFO CTR 연계 모듈을 종료합니다.
+[2014/12/22 19:05:55,505] INFO CTR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/22 19:06:00,889] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:06:00,889] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:06:00,889] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:06:00 KST 2014
+[2014/12/22 19:06:00,889] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:06:00,889] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:06:00,889] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:06:03,572] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:06:03,729] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:06:03,760] INFO Time : 00:00
+[2014/12/22 19:06:03,760] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:06:03,760] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:06:03,776] INFO #######################################################
+[2014/12/22 19:06:03,776] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:06:03,776] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:06:03,776] INFO #######################################################
+[2014/12/22 19:06:05,586] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:06:07,271] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:07:45,227] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:07:45,227] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:07:45,243] INFO *   CTR 연계 모듈  (Ver : 201410.01.15) init  Mon Dec 22 19:07:45 KST 2014
+[2014/12/22 19:07:45,243] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:07:45,243] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:07:45,243] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:07:46,631] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:07:46,991] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전 업데이트가 필요합니다.)
+[2014/12/22 19:07:47,022] INFO Time : 00:00
+[2014/12/22 19:07:47,022] INFO 설치된 기관의 CTR 연계 모듈의 버전이  201410.01.15으로 현재 실행 가능한 버젼 201410.01.19과 다릅니다.
+[2014/12/22 19:07:47,022] INFO CTR 연계 모듈 업데이트 시작 
+[2014/12/22 19:07:47,022] INFO #######################################################
+[2014/12/22 19:07:47,022] INFO #### CTR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/22 19:07:47,022] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/22 19:07:47,022] INFO #######################################################
+[2014/12/22 19:07:47,022] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/22 19:07:47,537] INFO ESB를 통해 Agent Update 정보를 확인
+[2014/12/22 19:07:58,301] INFO CTR MODULEUPATE 서비스 처리  (코드 : 00 | 결과 : 모듈 업데이트 응답 수신 성공)
+[2014/12/22 19:07:58,395] INFO 연계 모듈 라이브러리 파일 웹으로 다운로드 완료.
+[2014/12/22 19:07:58,395] INFO CTR 연계 모듈 업데이트 파일 다운로드 시작.
+[2014/12/22 19:07:58,395] INFO CTR 연계 모듈 현재 버젼(201410.01.15)을 새 버젼(201410.01.19)으로 업데이트 합니다.
+[2014/12/22 19:07:58,395] INFO LIB 파일 업데이트 목록  
+[2014/12/22 19:07:58,395] INFO Extracting: schemas.jar ,  size : 1366449
+[2014/12/22 19:07:58,411] INFO Extracting: ctrutil.jar ,  size : 1250735
+[2014/12/22 19:07:58,427] INFO Extracting: agent.jar ,  size : 384528
+[2014/12/22 19:07:58,427] INFO 암호화 공개키 업데이트 
+[2014/12/22 19:07:58,458] INFO #### CTR 연계 모듈 버젼을 201410.01.19 값으로 변경합니다.
+[2014/12/22 19:07:58,458] INFO #### CTR 연계 모듈 업데이트가 성공적으로 완료 되었습니다.
+[2014/12/22 19:07:58,458] INFO #### CTR 연계 모듈을 재시작합니다.
+[2014/12/22 19:07:58,473] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:07:58,473] INFO *  CTR 연계 모듈  (Ver : 201410.01.19) restart Mon Dec 22 19:07:58 KST 2014
+[2014/12/22 19:07:58,473] INFO *----------------------------------------------------------------------------*
+[2014/12/22 19:07:58,473] INFO CTR 연계 모듈을 재 시작 합니다.
+[2014/12/22 19:32:50,114] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:32:50,114] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:32:50,114] INFO *   CTR 연계 모듈  (Ver : 201410.01.19) init  Mon Dec 22 19:32:50 KST 2014
+[2014/12/22 19:32:50,114] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:32:50,114] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:32:50,114] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:33:14,178] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:33:14,193] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:33:14,193] INFO *   CTR 연계 모듈  (Ver : 201410.01.19) init  Mon Dec 22 19:33:14 KST 2014
+[2014/12/22 19:33:14,193] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:33:14,193] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:33:14,193] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:33:15,644] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:33:15,770] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/22 19:33:15,801] INFO Time : 00:00
+[2014/12/22 19:33:15,801] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/22 19:33:15,832] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/22 19:33:15,863] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 19:33:15,879] INFO RAMJobStore initialized.
+[2014/12/22 19:33:15,879] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 19:33:15,879] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 19:33:15,941] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 19:33:15,941] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 19:33:15,941] INFO CTR_9400_20110316_0000009.SND 보고 문서 전송 큐에 등록
+[2014/12/22 19:33:15,957] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 전송 시작
+[2014/12/22 19:33:16,082] INFO CTR_9400_20110316_0000009.SND 파일은 84개의 필드를 가지고 있습니다.
+[2014/12/22 19:33:16,097] INFO v0.89을 사용한 방법
+[2014/12/22 19:33:30,024] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:34:00,023] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:34:00,882] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/22 19:34:30,023] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:35:00,023] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:35:01,647] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/22 19:35:30,024] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:36:00,024] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:36:00,758] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/22 19:36:25,484] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 5, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:28,511] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 4, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:30,010] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:36:32,773] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/22 19:36:32,789] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:36:32,789] INFO *   CTR 연계 모듈  (Ver : 201410.01.19) init  Mon Dec 22 19:36:32 KST 2014
+[2014/12/22 19:36:32,789] INFO *---------------------------------------------------------------------------*
+[2014/12/22 19:36:32,789] INFO CTR Agent를 기동합니다.
+[2014/12/22 19:36:32,789] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2014/12/22 19:36:34,099] INFO ESB를 통해 Agent 유효성을 Check
+[2014/12/22 19:36:34,225] INFO CTR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : 접수 가능한 시간의 보고문서 입니다. / 접수 가능한 IP 입니다. / Agent 모듈 버전이 최신 버전입니다.)
+[2014/12/22 19:36:34,256] INFO Time : 00:00
+[2014/12/22 19:36:34,256] INFO ESB 시스템 서비스 접속 테스트 성공
+[2014/12/22 19:36:34,272] INFO 암호화 및 전자 서명 테스트가 성공하였습니다.
+[2014/12/22 19:36:34,303] INFO Job execution threads will use class loader of thread: main
+[2014/12/22 19:36:34,319] INFO RAMJobStore initialized.
+[2014/12/22 19:36:34,319] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/22 19:36:34,319] INFO Quartz scheduler version: 1.4.5
+[2014/12/22 19:36:34,350] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/22 19:36:34,350] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/22 19:36:35,021] INFO CTR_9400_20110316_0000009.SND 보고 문서 전송 큐에 등록
+[2014/12/22 19:36:35,021] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 전송 시작
+[2014/12/22 19:36:35,130] INFO CTR_9400_20110316_0000009.SND 파일은 84개의 필드를 가지고 있습니다.
+[2014/12/22 19:36:35,130] INFO v0.89을 사용한 방법
+[2014/12/22 19:36:39,171] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 5, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:42,199] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 4, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:45,226] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 3, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:48,254] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 2, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:51,297] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 1, 1초 후에 재시도 합니다.
+[2014/12/22 19:36:54,327] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 19:36:54,327] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 19:36:54,327] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 19:36:54,327] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 19:37:09,335] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/22 19:37:09,351] INFO CTR_9400_20110316_0000009.SND 보고 문서 전송 큐에 등록
+[2014/12/22 19:37:09,351] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 전송 시작
+[2014/12/22 19:37:09,351] INFO CTR_9400_20110316_0000009.SND 파일은 84개의 필드를 가지고 있습니다.
+[2014/12/22 19:37:09,351] INFO v0.89을 사용한 방법
+[2014/12/22 19:37:09,351] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:37:15,061] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/22 19:37:16,186] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:37:16,186] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222192755||00||접수성공||CTREND
+[2014/12/22 19:37:16,186] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:37:16,186] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:37:16,186] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222193616||00||접수성공||CTREND
+[2014/12/22 19:37:16,201] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:37:16,201] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:37:16,201] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222193635||00||접수성공||CTREND
+[2014/12/22 19:37:16,201] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:37:18,636] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 5, 1초 후에 재시도 합니다.
+[2014/12/22 19:37:21,663] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 4, 1초 후에 재시도 합니다.
+[2014/12/22 19:37:24,691] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 3, 1초 후에 재시도 합니다.
+[2014/12/22 19:37:27,718] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 2, 1초 후에 재시도 합니다.
+[2014/12/22 19:37:30,012] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:37:30,746] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 1, 1초 후에 재시도 합니다.
+[2014/12/22 19:37:33,788] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 19:37:33,788] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 19:37:33,788] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 19:37:33,788] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 19:37:48,797] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/22 19:37:48,812] INFO CTR_9400_20110316_0000009.SND 보고 문서 전송 큐에 등록
+[2014/12/22 19:37:48,812] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 전송 시작
+[2014/12/22 19:37:48,812] INFO CTR_9400_20110316_0000009.SND 파일은 84개의 필드를 가지고 있습니다.
+[2014/12/22 19:37:48,812] INFO v0.89을 사용한 방법
+[2014/12/22 19:37:57,424] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 5, 1초 후에 재시도 합니다.
+[2014/12/22 19:38:00,015] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:38:00,453] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 4, 1초 후에 재시도 합니다.
+[2014/12/22 19:38:03,479] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 3, 1초 후에 재시도 합니다.
+[2014/12/22 19:38:06,507] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 2, 1초 후에 재시도 합니다.
+[2014/12/22 19:38:09,534] INFO [발송증서 수신 재시도 알림] 남은 재시도 횟수 : 1, 1초 후에 재시도 합니다.
+[2014/12/22 19:38:12,577] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 15초간 중지합니다.
+[2014/12/22 19:38:12,577] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/22 19:38:12,577] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/22 19:38:12,577] INFO 15초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/22 19:38:13,062] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/22 19:38:27,585] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2014/12/22 19:38:27,601] INFO CTR_9400_20110316_0000009.SND 보고 문서 전송 큐에 등록
+[2014/12/22 19:38:27,601] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 전송 시작
+[2014/12/22 19:38:27,601] INFO CTR_9400_20110316_0000009.SND 파일은 84개의 필드를 가지고 있습니다.
+[2014/12/22 19:38:27,601] INFO v0.89을 사용한 방법
+[2014/12/22 19:38:28,366] INFO 발송증서 처리 결과 : OK
+[2014/12/22 19:38:28,397] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_9400_20110316_0000009.SND 보고 문서 전송 성공
+[2014/12/22 19:38:30,035] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:38:31,846] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:38:31,846] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222193709||00||접수성공||CTREND
+[2014/12/22 19:38:31,862] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:38:31,862] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:38:31,862] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222193748||00||접수성공||CTREND
+[2014/12/22 19:38:31,862] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:38:31,877] INFO CTR_9400_20110316_0000009.SND접수 증서 수신 
+[2014/12/22 19:38:31,877] INFO 접수 증서 수신 결과: CTRSTART||06||01||TST1||2011-00000648||20110316||20141222193827||00||접수성공||CTREND
+[2014/12/22 19:38:31,877] INFO CTR_9400_20110316_0000009.RCV 접수 증서 저장 성공
+[2014/12/22 19:39:00,021] INFO OutboxPollerJob Processing... (File List = 0)
+[2014/12/22 19:39:00,802] INFO CTR HEARTBEAT 60초 주기  서비스 처리 (코드 : 00 | 결과 : ESB Server OK)

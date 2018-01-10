@@ -1,0 +1,289 @@
+[2015/02/18 22:49:55,154] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:49:55,169] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:49:55,185] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:49:55 KST 2015
+[2015/02/18 22:49:55,185] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:49:55,185] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:49:55,185] INFO CTR Agent 환경 구성중입니다. 잠시만 기다려주세요...
+[2015/02/18 22:50:29,892] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:50:29,892] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:50:29,892] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:50:29 KST 2015
+[2015/02/18 22:50:29,892] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:50:29,892] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:50:29,892] INFO ARCHIVE에 성공/실패 보고문서를 적재하지 않습니다.
+[2015/02/18 22:50:30,314] ERROR AGENT 시작 실패. 동작을 정지합니다. : java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+[2015/02/18 22:50:30,314] INFO *---------------------------------------------------*
+[2015/02/18 22:50:30,314] INFO *      AGENT 연계 모듈  Wed Feb 18 22:50:30 KST 2015
+[2015/02/18 22:50:30,314] INFO *---------------------------------------------------*
+[2015/02/18 22:50:30,314] INFO shutdown ......
+[2015/02/18 22:50:47,942] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:50:47,958] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:50:47,958] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:50:47 KST 2015
+[2015/02/18 22:50:47,958] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:50:47,958] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:50:48,005] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 22:50:48,051] INFO RAMJobStore initialized.
+[2015/02/18 22:50:48,051] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 22:50:48,051] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 22:50:48,145] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 22:50:48,145] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 22:51:09,483] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:51:09,498] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:51:09,514] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:51:09 KST 2015
+[2015/02/18 22:51:09,514] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:51:09,514] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:51:09,592] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 22:51:09,607] INFO RAMJobStore initialized.
+[2015/02/18 22:51:09,607] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 22:51:09,607] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 22:51:09,685] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 22:51:09,685] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 22:51:30,010] INFO CTR_1410_20141226_0000003.SND 보고 문서 전송 큐에 등록
+[2015/02/18 22:51:30,026] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_1410_20141226_0000003.SND 전송 시작
+[2015/02/18 22:51:30,183] INFO CTR_1410_20141226_0000003.SND 파일은 84개의 필드를 가지고 있습니다.
+[2015/02/18 22:51:30,198] INFO v0.89을 사용한 방법
+[2015/02/18 22:51:30,822] ERROR kr.go.kofiu.common.agent.AgentException: java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+kr.go.kofiu.common.agent.AgentException: java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+	at kr.go.kofiu.ctr.util.SecurityUtil.encrypt(SecurityUtil.java:77)
+	at kr.go.kofiu.ctr.service.MessageSenderJob$MessageSenderWorker.makeContext089(MessageSenderJob.java:375)
+	at kr.go.kofiu.ctr.service.MessageSenderJob$MessageSenderWorker.processSend(MessageSenderJob.java:202)
+	at kr.go.kofiu.ctr.service.MessageSenderJob$MessageSenderWorker.run(MessageSenderJob.java:121)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:643)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:668)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.io.IOException: com.gpki.gpkiapi.exception.GpkiApiException: ErrCode=1111,ErrMsg=[GPKI_API_Init] The matched macAddress does not exist.
+	at kr.go.kofiu.ctr.util.SgGpkiEncryptor.processs(SgGpkiEncryptor.java:136)
+	at kr.go.kofiu.ctr.util.SecurityUtil.encrypt(SecurityUtil.java:73)
+	... 6 more
+[2015/02/18 22:51:48,112] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:51:48,128] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:51:48,128] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:51:48 KST 2015
+[2015/02/18 22:51:48,128] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:51:48,128] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:51:48,206] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 22:51:48,222] INFO RAMJobStore initialized.
+[2015/02/18 22:51:48,222] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 22:51:48,222] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 22:51:48,346] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 22:51:48,346] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 22:52:00,023] INFO CTR_TST1_20110316_0000001.SND 보고 문서 전송 큐에 등록
+[2015/02/18 22:52:00,055] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_TST1_20110316_0000001.SND 전송 시작
+[2015/02/18 22:52:00,242] INFO CTR_TST1_20110316_0000001.SND 파일은 84개의 필드를 가지고 있습니다.
+[2015/02/18 22:52:00,258] INFO v0.89을 사용한 방법
+[2015/02/18 22:52:16,279] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 22:52:16,279] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 22:52:16,279] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 22:52:16,279] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 22:53:44,711] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 22:53:44,711] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:53:44,711] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 22:53:44 KST 2015
+[2015/02/18 22:53:44,711] INFO *---------------------------------------------------------------------------*
+[2015/02/18 22:53:44,711] INFO CTR Agent를 기동합니다.
+[2015/02/18 22:53:44,774] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 22:53:44,789] INFO RAMJobStore initialized.
+[2015/02/18 22:53:44,789] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 22:53:44,789] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 22:53:44,899] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 22:53:44,899] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 22:53:45,024] INFO CTR_TST1_20110316_0000001.SND 보고 문서 전송 큐에 등록
+[2015/02/18 22:53:45,055] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_TST1_20110316_0000001.SND 전송 시작
+[2015/02/18 22:53:45,227] INFO CTR_TST1_20110316_0000001.SND 파일은 84개의 필드를 가지고 있습니다.
+[2015/02/18 22:53:45,227] INFO v0.89을 사용한 방법
+[2015/02/18 22:54:16,305] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 22:54:16,320] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 22:54:16,320] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 22:54:16,320] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 22:54:46,322] INFO 연계 모듈이 Sleep 모드에서 깨어납니다.
+[2015/02/18 23:00:16,324] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:00:16,340] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:00:16,340] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:00:16 KST 2015
+[2015/02/18 23:00:16,340] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:00:16,340] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:00:16,387] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:00:16,496] INFO RAMJobStore initialized.
+[2015/02/18 23:00:16,496] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:00:16,496] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:00:16,636] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:00:16,636] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:00:21,911] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:00:21,911] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:00:21,911] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:00:21,911] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:02:10,863] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:02:10,863] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:02:10,879] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:02:10 KST 2015
+[2015/02/18 23:02:10,879] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:02:10,879] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:02:10,941] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:02:10,973] INFO RAMJobStore initialized.
+[2015/02/18 23:02:10,973] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:02:10,973] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:02:11,097] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:02:11,097] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:02:12,501] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:02:12,501] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:02:12,501] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:02:12,501] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:02:44,079] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:02:44,079] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:02:44,079] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:02:44 KST 2015
+[2015/02/18 23:02:44,079] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:02:44,079] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:02:44,141] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:02:44,172] INFO RAMJobStore initialized.
+[2015/02/18 23:02:44,172] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:02:44,172] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:02:44,250] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:02:44,266] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:02:51,195] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:02:51,195] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:02:51,195] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:02:51,195] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:03:00,655] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:03:00,655] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:03:00,655] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:03:00 KST 2015
+[2015/02/18 23:03:00,655] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:03:00,655] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:03:00,718] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:03:00,749] INFO RAMJobStore initialized.
+[2015/02/18 23:03:00,749] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:03:00,749] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:03:00,858] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:03:00,874] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:03:07,801] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:03:07,817] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:03:07,817] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:03:07 KST 2015
+[2015/02/18 23:03:07,817] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:03:07,817] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:03:07,895] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:03:07,941] INFO RAMJobStore initialized.
+[2015/02/18 23:03:07,941] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:03:07,941] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:03:08,051] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:03:08,051] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:04:13,025] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:04:13,025] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:04:13,025] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:04:13,025] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:04:20,876] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:04:20,891] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:04:20,891] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:04:20 KST 2015
+[2015/02/18 23:04:20,891] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:04:20,891] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:04:21,032] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:04:21,079] INFO RAMJobStore initialized.
+[2015/02/18 23:04:21,079] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:04:21,079] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:04:21,438] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:04:21,438] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:05:39,137] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:05:39,137] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:05:39,137] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:05:39,137] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:10:15,436] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:10:15,436] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:10:15,452] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:10:15 KST 2015
+[2015/02/18 23:10:15,452] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:10:15,452] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:10:15,499] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:10:15,514] INFO RAMJobStore initialized.
+[2015/02/18 23:10:15,514] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:10:15,514] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:10:15,639] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:10:15,639] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:11:08,516] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:11:08,516] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:11:08,516] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:11:08,516] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:11:24,620] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:11:24,620] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:11:24,635] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:11:24 KST 2015
+[2015/02/18 23:11:24,635] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:11:24,635] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:11:24,729] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:11:24,760] INFO RAMJobStore initialized.
+[2015/02/18 23:11:24,760] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:11:24,760] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:11:24,823] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:11:24,823] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:11:34,636] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:11:34,636] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:11:34,636] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:11:34,636] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:14:22,731] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:14:22,731] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:14:22,746] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:14:22 KST 2015
+[2015/02/18 23:14:22,746] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:14:22,746] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:14:22,793] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:14:22,840] INFO RAMJobStore initialized.
+[2015/02/18 23:14:22,840] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:14:22,840] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:14:22,933] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:14:22,933] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:16:31,242] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:16:31,242] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:16:31,242] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:16:31 KST 2015
+[2015/02/18 23:16:31,242] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:16:31,242] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:16:31,335] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:16:31,351] INFO RAMJobStore initialized.
+[2015/02/18 23:16:31,351] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:16:31,351] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:16:31,476] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:16:31,476] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:17:25,363] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:17:25,363] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:17:25,363] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:17:25,363] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:22:26,243] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:22:26,243] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:22:26,259] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:22:26 KST 2015
+[2015/02/18 23:22:26,259] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:22:26,259] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:22:26,306] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:22:26,337] INFO RAMJobStore initialized.
+[2015/02/18 23:22:26,337] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:22:26,337] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:22:26,473] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:22:26,488] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:22:59,726] ERROR 현재 중계 기관의  보고 문서 접수 서비스(MessagePolling) 제공에 문제가 있습니다. 연계모듈을 30초간 중지합니다.
+[2015/02/18 23:22:59,726] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2015/02/18 23:22:59,726] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2015/02/18 23:22:59,726] INFO 30초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2015/02/18 23:23:58,434] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:23:58,434] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:23:58,450] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:23:58 KST 2015
+[2015/02/18 23:23:58,450] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:23:58,450] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:23:58,497] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:23:58,512] INFO RAMJobStore initialized.
+[2015/02/18 23:23:58,512] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:23:58,512] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:23:58,668] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:23:58,668] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:40:14,450] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:40:14,465] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:40:14,465] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:40:14 KST 2015
+[2015/02/18 23:40:14,465] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:40:14,465] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:40:14,543] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:40:14,590] INFO RAMJobStore initialized.
+[2015/02/18 23:40:14,590] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:40:14,606] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:40:14,699] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:40:14,699] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.
+[2015/02/18 23:40:30,024] INFO CTR_TST1_20110316_0000001.SND 보고 문서 전송 큐에 등록
+[2015/02/18 23:40:30,040] INFO \tools\db2inst1\FIUCSTR\CTR\Message\PROC\SEND\CTR_TST1_20110316_0000001.SND 전송 시작
+[2015/02/18 23:40:30,228] INFO CTR_TST1_20110316_0000001.SND 파일은 84개의 필드를 가지고 있습니다.
+[2015/02/18 23:40:30,228] INFO v0.89을 사용한 방법
+[2015/02/18 23:52:32,821] WARN 강제 시작. 다른 CTR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2015/02/18 23:52:32,837] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:52:32,837] INFO *   CTR 연계 모듈  (Ver : 201410.01.32) init  Wed Feb 18 23:52:32 KST 2015
+[2015/02/18 23:52:32,837] INFO *---------------------------------------------------------------------------*
+[2015/02/18 23:52:32,837] INFO CTR Agent를 기동합니다.
+[2015/02/18 23:52:32,899] INFO Job execution threads will use class loader of thread: main
+[2015/02/18 23:52:32,915] INFO RAMJobStore initialized.
+[2015/02/18 23:52:32,915] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2015/02/18 23:52:32,915] INFO Quartz scheduler version: 1.4.5
+[2015/02/18 23:52:33,055] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2015/02/18 23:52:33,055] INFO CTR 연계 모듈이 성공적으로 시작 되었습니다.

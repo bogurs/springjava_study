@@ -1,0 +1,1531 @@
+[2014/12/23 00:07:21,320] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:07:21,398] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:07:21,398] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:07:21,398] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:07:21,414] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:07:23,098] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:07:23,114] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:07:23,114] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:07:23,114] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:07:23 KST 2014
+[2014/12/23 00:07:23,114] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:07:23,114] INFO STR Agent를 기동합니다.
+[2014/12/23 00:07:23,146] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:07:23,162] INFO RAMJobStore initialized.
+[2014/12/23 00:07:23,162] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:07:23,162] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:07:23,193] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:07:23,193] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:07:30,026] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:07:59,030] INFO 중복 파일명 체크
+[2014/12/23 00:07:59,030] INFO 사용자 검증 수행
+[2014/12/23 00:07:59,624] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:07:59,624] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:07:59,967] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:07:59,967] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:07:59,982] INFO STR ebXML 전송 수행
+[2014/12/23 00:08:00,076] INFO Proc 파일이동 성공
+[2014/12/23 00:08:00,076] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223000800||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 00:08:27,893] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:08:27,971] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:08:27,971] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:08:27,986] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:08:27,986] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:08:29,515] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:08:29,531] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:08:29,531] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:08:29,547] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:08:29 KST 2014
+[2014/12/23 00:08:29,547] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:08:29,547] INFO STR Agent를 기동합니다.
+[2014/12/23 00:08:29,563] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:08:29,579] INFO RAMJobStore initialized.
+[2014/12/23 00:08:29,579] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:08:29,579] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:08:29,610] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:08:29,610] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:08:30,031] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:12:00,085] INFO 중복 파일명 체크
+[2014/12/23 00:12:00,085] INFO 사용자 검증 수행
+[2014/12/23 00:12:00,898] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:12:00,898] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:12:01,210] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:12:01,210] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:12:01,210] INFO STR ebXML 전송 수행
+[2014/12/23 00:12:01,304] INFO Proc 파일이동 성공
+[2014/12/23 00:12:01,304] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001201||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 00:12:10,025] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:12:36,999] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:12:37,077] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:12:37,077] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:12:37,077] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:12:37,093] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:12:38,528] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:12:38,543] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:12:38,559] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:12:38,559] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:12:38 KST 2014
+[2014/12/23 00:12:38,559] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:12:38,559] INFO STR Agent를 기동합니다.
+[2014/12/23 00:12:38,578] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:12:38,593] INFO RAMJobStore initialized.
+[2014/12/23 00:12:38,593] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:12:38,593] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:12:38,624] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:12:38,624] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:12:40,028] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:12:40,435] INFO Proc 파일이동 성공
+[2014/12/23 00:12:40,435] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001240||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in type of RelationRole element in type of UserRelation element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/23 00:15:53,518] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:15:53,611] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:15:53,611] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:15:53,611] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:15:53,627] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:15:55,405] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:15:55,421] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:15:55,421] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:15:55,437] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:15:55 KST 2014
+[2014/12/23 00:15:55,437] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:15:55,437] INFO STR Agent를 기동합니다.
+[2014/12/23 00:15:55,453] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:15:55,484] INFO RAMJobStore initialized.
+[2014/12/23 00:15:55,484] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:15:55,484] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:15:55,515] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:15:55,515] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:16:00,039] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:17:33,968] INFO 중복 파일명 체크
+[2014/12/23 00:17:33,968] INFO 사용자 검증 수행
+[2014/12/23 00:17:34,796] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:17:34,796] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:17:35,092] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:17:35,092] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:17:35,108] INFO STR ebXML 전송 수행
+[2014/12/23 00:17:35,203] INFO Proc 파일이동 성공
+[2014/12/23 00:17:35,203] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001735||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 00:17:50,023] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:17:52,707] INFO 중복 파일명 체크
+[2014/12/23 00:17:52,707] INFO 사용자 검증 수행
+[2014/12/23 00:17:58,339] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:17:58,339] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:17:58,496] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:17:58,496] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:17:58,512] INFO STR ebXML 전송 수행
+[2014/12/23 00:18:00,228] INFO 발송증서 수신성공
+[2014/12/23 00:18:00,244] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001800||00||발송증서수신성공||STREND
+[2014/12/23 00:18:00,244] INFO Proc 파일이동 성공
+[2014/12/23 00:19:00,024] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:19:03,441] INFO 중복 파일명 체크
+[2014/12/23 00:19:03,441] INFO 사용자 검증 수행
+[2014/12/23 00:19:04,285] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:19:04,300] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:19:04,472] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:19:04,472] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:19:04,487] INFO STR ebXML 전송 수행
+[2014/12/23 00:19:05,736] INFO 발송증서 수신성공
+[2014/12/23 00:19:05,752] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001905||00||발송증서수신성공||STREND
+[2014/12/23 00:19:05,752] INFO Proc 파일이동 성공
+[2014/12/23 00:19:20,012] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:19:23,414] INFO 중복 파일명 체크
+[2014/12/23 00:19:23,414] INFO Proc 파일이동 성공
+[2014/12/23 00:19:23,414] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223001923||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:25:30,017] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:25:36,805] INFO 중복 파일명 체크
+[2014/12/23 00:25:36,805] INFO Proc 파일이동 성공
+[2014/12/23 00:25:36,805] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223002536||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:26:00,019] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:26:24,481] INFO 중복 파일명 체크
+[2014/12/23 00:26:24,496] INFO Proc 파일이동 성공
+[2014/12/23 00:26:24,496] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223002624||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:27:00,019] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:27:00,050] INFO Proc 파일이동 성공
+[2014/12/23 00:27:00,050] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223002700||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in type of Method element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/23 00:29:00,015] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:30:38,531] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:30:38,609] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:30:38,625] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:30:38,625] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:30:38,625] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:30:40,356] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:30:40,372] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:30:40,388] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:30:40,389] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:30:40 KST 2014
+[2014/12/23 00:30:40,389] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:30:40,389] INFO STR Agent를 기동합니다.
+[2014/12/23 00:30:40,420] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:30:40,451] INFO RAMJobStore initialized.
+[2014/12/23 00:30:40,451] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:30:40,451] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:30:40,467] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:30:40,467] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:30:40,498] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:30:40,935] INFO Proc 파일이동 성공
+[2014/12/23 00:30:40,935] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003040||97||기준정보 Vaildation 에러(string value '' is not a valid enumeration value for type of Code attribute in type of Method element in type of Transaction element in type of Detail element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/23 00:31:10,013] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:31:16,270] INFO 중복 파일명 체크
+[2014/12/23 00:31:16,270] INFO Proc 파일이동 성공
+[2014/12/23 00:31:16,270] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003116||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:31:40,016] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:31:42,559] INFO 중복 파일명 체크
+[2014/12/23 00:31:42,559] INFO 사용자 검증 수행
+[2014/12/23 00:31:43,356] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:31:43,356] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:31:43,668] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:31:43,668] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:31:43,684] INFO STR ebXML 전송 수행
+[2014/12/23 00:31:45,245] INFO 발송증서 수신성공
+[2014/12/23 00:31:45,245] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003145||00||발송증서수신성공||STREND
+[2014/12/23 00:31:45,245] INFO Proc 파일이동 성공
+[2014/12/23 00:35:20,014] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:35:20,030] INFO 중복 파일명 체크
+[2014/12/23 00:35:20,051] INFO Proc 파일이동 성공
+[2014/12/23 00:35:20,052] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003520||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:35:50,020] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:35:50,036] INFO 중복 파일명 체크
+[2014/12/23 00:35:50,052] INFO Proc 파일이동 성공
+[2014/12/23 00:35:50,052] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003550||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 00:36:20,028] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:36:20,043] INFO 중복 파일명 체크
+[2014/12/23 00:36:20,043] INFO 사용자 검증 수행
+[2014/12/23 00:36:20,824] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:36:20,824] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:36:21,043] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:36:21,043] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:36:21,058] INFO STR ebXML 전송 수행
+[2014/12/23 00:36:21,076] INFO Proc 파일이동 성공
+[2014/12/23 00:36:21,076] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003621||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 00:38:21,415] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:38:21,587] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:38:21,587] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:38:21,587] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:38:21,603] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:38:23,443] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:38:23,459] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:38:23,459] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:38:23,476] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:38:23 KST 2014
+[2014/12/23 00:38:23,476] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:38:23,476] INFO STR Agent를 기동합니다.
+[2014/12/23 00:38:23,507] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:38:23,522] INFO RAMJobStore initialized.
+[2014/12/23 00:38:23,522] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:38:23,522] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:38:23,554] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:38:23,554] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:38:30,028] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:38:30,528] INFO 중복 파일명 체크
+[2014/12/23 00:38:30,528] INFO 사용자 검증 수행
+[2014/12/23 00:38:31,089] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:38:31,089] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:38:31,387] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:38:31,387] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:38:31,402] INFO STR ebXML 전송 수행
+[2014/12/23 00:38:31,496] INFO Proc 파일이동 성공
+[2014/12/23 00:38:31,496] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003831||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 00:39:00,014] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:39:00,061] INFO 중복 파일명 체크
+[2014/12/23 00:39:00,061] INFO 사용자 검증 수행
+[2014/12/23 00:39:00,623] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:39:00,639] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:39:00,826] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:39:00,826] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:39:00,826] INFO STR ebXML 전송 수행
+[2014/12/23 00:39:26,357] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:39:26,357] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob 실행 중에 오류가 발생하였습니다.
+kr.go.kofiu.common.agent.AgentException: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:189)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 16
+	at java.lang.String.substring(Unknown Source)
+	at kr.go.kofiu.str.util.STRDocumentSenderUtil.error(STRDocumentSenderUtil.java:27)
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:84)
+	... 4 more
+[2014/12/23 00:39:30,024] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:39:30,056] INFO 중복 파일명 체크
+[2014/12/23 00:39:30,056] INFO 사용자 검증 수행
+[2014/12/23 00:39:30,633] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:39:30,633] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:39:30,789] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:39:30,789] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:39:30,805] INFO STR ebXML 전송 수행
+[2014/12/23 00:39:51,522] INFO Proc 파일이동 성공
+[2014/12/23 00:39:51,522] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223003951||97||기준정보 Vaildation 에러(null)||STREND
+[2014/12/23 00:42:26,699] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:42:26,777] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:42:26,777] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:42:26,777] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:42:26,793] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:42:28,774] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:42:28,789] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:42:28,789] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:42:28,789] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:42:28 KST 2014
+[2014/12/23 00:42:28,789] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:42:28,789] INFO STR Agent를 기동합니다.
+[2014/12/23 00:42:28,822] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:42:28,837] INFO RAMJobStore initialized.
+[2014/12/23 00:42:28,837] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:42:28,837] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:42:28,868] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:42:28,868] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:42:40,038] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:42:40,538] INFO 중복 파일명 체크
+[2014/12/23 00:42:40,538] INFO 사용자 검증 수행
+[2014/12/23 00:42:41,069] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:42:41,069] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:42:41,382] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:42:41,382] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:42:41,397] INFO STR ebXML 전송 수행
+[2014/12/23 00:42:44,690] INFO Proc 파일이동 성공
+[2014/12/23 00:42:44,690] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223004244||97||기준정보 Vaildation 에러(null)||STREND
+[2014/12/23 00:43:20,025] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:43:20,059] INFO 중복 파일명 체크
+[2014/12/23 00:43:20,060] INFO 사용자 검증 수행
+[2014/12/23 00:43:22,481] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:43:22,481] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:43:22,654] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:43:22,654] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:43:22,654] INFO STR ebXML 전송 수행
+[2014/12/23 00:44:13,449] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:44:13,527] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:44:13,543] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:44:13,543] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:44:13,543] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:44:15,056] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:44:15,072] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:44:15,072] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:44:15,072] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:44:15 KST 2014
+[2014/12/23 00:44:15,072] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:44:15,072] INFO STR Agent를 기동합니다.
+[2014/12/23 00:44:15,104] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:44:15,120] INFO RAMJobStore initialized.
+[2014/12/23 00:44:15,120] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:44:15,120] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:44:15,151] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:44:15,166] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:44:20,049] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:44:20,567] INFO 중복 파일명 체크
+[2014/12/23 00:44:20,567] INFO 사용자 검증 수행
+[2014/12/23 00:44:21,129] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:44:21,129] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:44:21,535] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:44:21,535] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:44:21,551] INFO STR ebXML 전송 수행
+[2014/12/23 00:45:06,637] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:45:06,715] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:45:06,730] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:45:06,730] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:45:06,730] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:45:08,228] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:45:08,260] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:45:08,260] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:45:08,260] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:45:08 KST 2014
+[2014/12/23 00:45:08,260] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:45:08,260] INFO STR Agent를 기동합니다.
+[2014/12/23 00:45:08,276] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:45:08,307] INFO RAMJobStore initialized.
+[2014/12/23 00:45:08,307] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:45:08,307] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:45:08,338] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:45:08,338] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:45:10,054] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:45:10,554] INFO 중복 파일명 체크
+[2014/12/23 00:45:10,554] INFO 사용자 검증 수행
+[2014/12/23 00:45:11,116] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:45:11,116] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:45:11,398] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:45:11,398] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:45:11,413] INFO STR ebXML 전송 수행
+[2014/12/23 00:45:26,156] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:45:26,234] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:45:26,250] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:45:26,250] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:45:26,250] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:45:27,826] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:45:27,841] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:45:27,841] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:45:27,841] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:45:27 KST 2014
+[2014/12/23 00:45:27,841] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:45:27,841] INFO STR Agent를 기동합니다.
+[2014/12/23 00:45:27,873] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:45:27,889] INFO RAMJobStore initialized.
+[2014/12/23 00:45:27,889] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:45:27,889] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:45:27,920] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:45:27,920] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:45:30,042] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:45:30,558] INFO 중복 파일명 체크
+[2014/12/23 00:45:30,558] INFO 사용자 검증 수행
+[2014/12/23 00:45:31,119] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:45:31,119] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:45:31,417] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:45:31,417] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:45:31,417] INFO STR ebXML 전송 수행
+[2014/12/23 00:46:01,760] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:46:01,853] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:46:01,853] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:46:01,853] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:46:01,853] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:46:03,382] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:46:03,398] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:46:03,398] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:46:03,398] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:46:03 KST 2014
+[2014/12/23 00:46:03,398] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:46:03,398] INFO STR Agent를 기동합니다.
+[2014/12/23 00:46:03,430] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:46:03,446] INFO RAMJobStore initialized.
+[2014/12/23 00:46:03,446] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:46:03,446] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:46:03,477] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:46:03,477] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:46:10,044] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:46:10,591] INFO 중복 파일명 체크
+[2014/12/23 00:46:10,591] INFO 사용자 검증 수행
+[2014/12/23 00:46:11,122] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:46:11,122] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:46:11,435] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:46:11,435] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:46:11,435] INFO STR ebXML 전송 수행
+[2014/12/23 00:46:14,586] INFO Proc 파일이동 성공
+[2014/12/23 00:46:14,586] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223004614||97||기준정보 Vaildation 에러(kr.go.kofiu.common.agent.AgentException: 기준정보 필수값이 FiuDocNum 가 누락되었습니다.)||STREND
+[2014/12/23 00:57:07,090] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:57:07,184] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:57:07,184] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:57:07,184] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:57:07,200] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:57:09,243] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:57:09,259] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:57:09,259] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:57:09,259] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:57:09 KST 2014
+[2014/12/23 00:57:09,259] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:57:09,259] INFO STR Agent를 기동합니다.
+[2014/12/23 00:57:09,291] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:57:09,307] INFO RAMJobStore initialized.
+[2014/12/23 00:57:09,307] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:57:09,307] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:57:09,338] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:57:09,338] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:57:20,024] ERROR 기준정보 Parsing 중 에러가 발생했습니다. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 00:57:20,039] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob 실행 중에 오류가 발생하였습니다.
+kr.go.kofiu.common.agent.AgentException: java.lang.NullPointerException
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.NullPointerException
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:91)
+	... 4 more
+[2014/12/23 00:57:30,024] ERROR 기준정보 Parsing 중 에러가 발생했습니다. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 00:57:30,024] ERROR kr.go.kofiu.str.service.STRDocumentSenderJob 실행 중에 오류가 발생하였습니다.
+kr.go.kofiu.common.agent.AgentException: java.lang.NullPointerException
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:205)
+	at kr.go.kofiu.common.agent.RetryJob.doJob(RetryJob.java:42)
+	at kr.go.kofiu.common.agent.ScheduleJob.execute(ScheduleJob.java:52)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:191)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516)
+Caused by: java.lang.NullPointerException
+	at kr.go.kofiu.str.service.STRDocumentSenderJob.doRetryJob(STRDocumentSenderJob.java:91)
+	... 4 more
+[2014/12/23 00:58:02,381] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:58:02,474] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:58:02,474] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:58:02,474] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:58:02,490] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:58:04,128] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:58:04,144] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:58:04,144] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:58:04,144] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:58:04 KST 2014
+[2014/12/23 00:58:04,144] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:58:04,144] INFO STR Agent를 기동합니다.
+[2014/12/23 00:58:04,176] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:58:04,207] INFO RAMJobStore initialized.
+[2014/12/23 00:58:04,207] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:58:04,207] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:58:04,238] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:58:04,238] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:58:10,041] INFO STR 문서 정형성 검사 수행
+[2014/12/23 00:58:10,557] INFO 중복 파일명 체크
+[2014/12/23 00:58:10,557] INFO 사용자 검증 수행
+[2014/12/23 00:58:11,088] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 00:58:11,088] INFO STR 첨부파일 검증 수행
+[2014/12/23 00:58:11,385] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 00:58:11,385] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 00:58:11,401] INFO STR ebXML 전송 수행
+[2014/12/23 00:58:30,575] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:58:30,653] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:58:30,653] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:58:30,653] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:58:30,669] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:58:32,119] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:58:32,152] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:58:32,152] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:58:32,152] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:58:32 KST 2014
+[2014/12/23 00:58:32,152] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:58:32,152] INFO STR Agent를 기동합니다.
+[2014/12/23 00:58:32,183] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:58:32,198] INFO RAMJobStore initialized.
+[2014/12/23 00:58:32,198] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:58:32,198] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:58:32,214] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:58:32,214] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:58:40,030] ERROR 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 00:58:50,015] ERROR 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 00:59:00,015] ERROR 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 00:59:11,967] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:59:12,061] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:59:12,076] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:59:12,076] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:59:12,076] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:59:13,667] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:59:13,683] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:59:13,683] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:59:13,683] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:59:13 KST 2014
+[2014/12/23 00:59:13,683] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:59:13,683] INFO STR Agent를 기동합니다.
+[2014/12/23 00:59:13,715] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:59:13,731] INFO RAMJobStore initialized.
+[2014/12/23 00:59:13,731] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:59:13,731] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:59:13,762] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:59:13,762] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:59:15,969] INFO configuration file: ./str_config/config.xml
+[2014/12/23 00:59:16,047] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 00:59:16,047] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 00:59:16,047] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 00:59:16,062] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 00:59:17,544] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 00:59:17,560] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 00:59:17,560] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:59:17,575] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 00:59:17 KST 2014
+[2014/12/23 00:59:17,575] INFO *---------------------------------------------------------------------------*
+[2014/12/23 00:59:17,575] INFO STR Agent를 기동합니다.
+[2014/12/23 00:59:17,592] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 00:59:17,608] INFO RAMJobStore initialized.
+[2014/12/23 00:59:17,608] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 00:59:17,608] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 00:59:17,623] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 00:59:17,623] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 00:59:20,010] ERROR 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 01:00:03,770] INFO configuration file: ./str_config/config.xml
+[2014/12/23 01:00:03,879] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 01:00:03,879] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 01:00:03,879] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 01:00:03,879] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 01:00:05,533] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.19))
+[2014/12/23 01:00:05,548] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 01:00:05,548] INFO *---------------------------------------------------------------------------*
+[2014/12/23 01:00:05,564] INFO *   STR 연계 모듈  (Ver : 201410.01.19) init  Tue Dec 23 01:00:05 KST 2014
+[2014/12/23 01:00:05,564] INFO *---------------------------------------------------------------------------*
+[2014/12/23 01:00:05,564] INFO STR Agent를 기동합니다.
+[2014/12/23 01:00:05,580] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 01:00:05,596] INFO RAMJobStore initialized.
+[2014/12/23 01:00:05,612] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 01:00:05,612] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 01:00:05,627] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 01:00:05,627] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 01:00:10,027] ERROR STR_9400_20091020_94005111.xml 기준정보 Parsing 중 에러가 발생했습니다. XML 형식이 올바른지 확인하십시오. 파일을 ARCHIVE로 적재합니다.
+[2014/12/23 01:44:30,023] INFO STR 문서 정형성 검사 수행
+[2014/12/23 01:44:30,555] INFO 중복 파일명 체크
+[2014/12/23 01:44:30,570] INFO 사용자 검증 수행
+[2014/12/23 01:44:31,366] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 01:44:31,382] INFO STR 첨부파일 검증 수행
+[2014/12/23 01:44:31,726] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 01:44:31,726] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 01:44:31,726] INFO STR ebXML 전송 수행
+[2014/12/23 01:44:31,819] INFO Proc 파일이동 성공
+[2014/12/23 01:44:31,819] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223014431||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 01:44:50,010] INFO STR 문서 정형성 검사 수행
+[2014/12/23 01:44:50,026] INFO 중복 파일명 체크
+[2014/12/23 01:44:50,026] INFO 사용자 검증 수행
+[2014/12/23 01:44:55,596] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 01:44:55,596] INFO STR 첨부파일 검증 수행
+[2014/12/23 01:44:55,769] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 01:44:55,769] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 01:44:55,769] INFO STR ebXML 전송 수행
+[2014/12/23 01:44:57,219] INFO 발송증서 수신성공
+[2014/12/23 01:44:57,219] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223014457||00||발송증서수신성공||STREND
+[2014/12/23 01:44:57,235] INFO Proc 파일이동 성공
+[2014/12/23 02:03:28,602] INFO configuration file: ./str_config/config.xml
+[2014/12/23 02:03:28,665] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 02:03:28,680] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 02:03:28,680] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 02:03:28,680] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 11:25:37,786] INFO configuration file: ./str_config/config.xml
+[2014/12/23 11:25:37,895] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 11:25:37,895] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 11:25:37,895] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 11:25:37,895] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.19)             ****
+[2014/12/23 11:25:39,361] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ModuleVersion Error (NowVersion:201410.01.19))
+[2014/12/23 11:25:39,393] INFO ***	STR 모듈 버전이 일치하지않습니다. 업데이트를 시행합니다.        ****
+[2014/12/23 11:25:39,393] INFO STR 연계 모듈 업데이트 시작 
+[2014/12/23 11:25:39,456] INFO #######################################################
+[2014/12/23 11:25:39,456] INFO #### STR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/23 11:25:39,456] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/23 11:25:39,456] INFO #######################################################
+[2014/12/23 11:25:39,456] INFO STR 연계 모듈 업데이트 파일 다운로드 시작.
+[2014/12/23 11:25:39,456] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/23 11:25:50,953] INFO STR MODULEUPATE 서비스 처리 (코드 : 00 | 결과 : 모듈 업데이트 응답 수신 성공)
+[2014/12/23 11:25:51,063] INFO 연계 모듈 라이브러리 파일 웹으로 다운로드 완료. Update Response : 0
+New Module Version : 201410.01.20 
+ MdlLib file size : 1728522
+ PblKey file size : 1232
+
+[2014/12/23 11:25:51,063] INFO STR 연계 모듈 현재 버젼(201410.01.19)을 새 버젼(201410.01.20)으로 업데이트 합니다. 
+[2014/12/23 11:25:51,063] INFO LIB 파일 업데이트 목록 
+[2014/12/23 11:25:51,063] INFO Extracting: schemas.jar ,  size : 1366449
+[2014/12/23 11:25:51,063] INFO Extracting: ctrutil.jar ,  size : 1250735
+[2014/12/23 11:25:51,079] INFO Extracting: agent.jar ,  size : 385439
+[2014/12/23 11:25:51,094] INFO 암호화 공개키 업데이트 
+[2014/12/23 11:25:51,110] INFO #### STR 연계 모듈 버젼을 201410.01.20 값으로 변경합니다.
+[2014/12/23 11:25:51,110] INFO #### STR 연계 모듈 업데이트가 성공적으로 완료 되었습니다.
+[2014/12/23 11:25:51,110] INFO #### STR 연계 모듈을 재시작합니다.
+[2014/12/23 11:25:51,110] INFO *----------------------------------------------------------------------------*
+[2014/12/23 11:25:51,126] INFO *  STR 연계 모듈  (Ver : 201410.01.20) restart Tue Dec 23 11:25:51 KST 2014
+[2014/12/23 11:25:51,126] INFO *----------------------------------------------------------------------------*
+[2014/12/23 11:25:51,126] INFO STR 연계 모듈을 재 시작 합니다.
+[2014/12/23 11:25:58,365] INFO configuration file: ./str_config/config.xml
+[2014/12/23 11:25:58,443] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 11:25:58,443] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 11:25:58,443] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 11:25:58,443] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 11:25:59,878] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 11:25:59,894] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 11:25:59,894] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:25:59,894] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 11:25:59 KST 2014
+[2014/12/23 11:25:59,894] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:25:59,894] INFO STR Agent를 기동합니다.
+[2014/12/23 11:25:59,926] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 11:25:59,942] INFO RAMJobStore initialized.
+[2014/12/23 11:25:59,942] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 11:25:59,942] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 11:25:59,957] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 11:25:59,973] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 11:26:34,419] INFO configuration file: ./str_config/config.xml
+[2014/12/23 11:26:34,481] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 11:26:34,497] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 11:26:34,497] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 11:26:34,497] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 11:26:35,979] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 11:26:35,994] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 11:26:35,994] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:26:36,011] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 11:26:35 KST 2014
+[2014/12/23 11:26:36,011] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:26:36,011] INFO STR Agent를 기동합니다.
+[2014/12/23 11:26:36,042] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 11:26:36,058] INFO RAMJobStore initialized.
+[2014/12/23 11:26:36,058] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 11:26:36,058] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 11:26:36,089] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 11:26:36,089] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 11:27:00,654] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 11:28:00,014] INFO 진행 디렉토리에 STR_9400_20091020_94005101.xml 파일 이동.
+[2014/12/23 11:28:00,014] INFO 진행 디렉토리에 STR_9400_20091020_94005102.xml 파일 이동.
+[2014/12/23 11:28:00,014] INFO 진행 디렉토리에 STR_9400_20091020_94005103.xml 파일 이동.
+[2014/12/23 11:28:00,014] INFO 진행 디렉토리에 STR_9400_20091020_94005104.xml 파일 이동.
+[2014/12/23 11:28:00,030] INFO 진행 디렉토리에 STR_9400_20091020_94005105.xml 파일 이동.
+[2014/12/23 11:28:00,030] INFO 진행 디렉토리에 STR_9400_20091020_94005106.xml 파일 이동.
+[2014/12/23 11:28:00,030] INFO 진행 디렉토리에 STR_9400_20091020_94005107.xml 파일 이동.
+[2014/12/23 11:28:00,095] INFO 진행 디렉토리에 STR_9400_20091020_94005108.xml 파일 이동.
+[2014/12/23 11:28:00,096] INFO 진행 디렉토리에 STR_9400_20091020_94005109.xml 파일 이동.
+[2014/12/23 11:28:00,096] INFO 진행 디렉토리에 STR_9400_20091020_94005110.xml 파일 이동.
+[2014/12/23 11:28:00,096] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:00,736] INFO 중복 파일명 체크
+[2014/12/23 11:28:00,752] INFO 사용자 검증 수행
+[2014/12/23 11:28:00,970] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 11:28:01,547] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:01,547] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:02,010] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:02,010] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:02,025] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:03,195] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/23 11:28:03,195] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223112803||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 11:28:03,195] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:03,226] INFO 중복 파일명 체크
+[2014/12/23 11:28:03,226] INFO 사용자 검증 수행
+[2014/12/23 11:28:05,942] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:05,957] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:06,161] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:06,161] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:06,161] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:07,924] INFO 발송증서 수신성공
+[2014/12/23 11:28:07,924] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223112807||00||발송증서수신성공||STREND
+[2014/12/23 11:28:07,940] INFO Proc 파일이동 성공
+[2014/12/23 11:28:07,940] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:07,956] INFO 중복 파일명 체크
+[2014/12/23 11:28:07,956] INFO 사용자 검증 수행
+[2014/12/23 11:28:08,596] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:08,596] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:08,767] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:08,767] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:08,783] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:09,875] INFO 발송증서 수신성공
+[2014/12/23 11:28:09,891] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223112809||00||발송증서수신성공||STREND
+[2014/12/23 11:28:09,891] INFO Proc 파일이동 성공
+[2014/12/23 11:28:09,891] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:09,906] INFO 중복 파일명 체크
+[2014/12/23 11:28:09,906] INFO 사용자 검증 수행
+[2014/12/23 11:28:10,422] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:10,422] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:10,594] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:10,594] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:10,609] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:11,701] INFO 발송증서 수신성공
+[2014/12/23 11:28:11,701] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223112811||00||발송증서수신성공||STREND
+[2014/12/23 11:28:11,701] INFO Proc 파일이동 성공
+[2014/12/23 11:28:11,717] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:11,717] INFO 중복 파일명 체크
+[2014/12/23 11:28:11,732] INFO 사용자 검증 수행
+[2014/12/23 11:28:12,217] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:12,217] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:12,389] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:12,389] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:12,404] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:12,404] INFO Proc 파일이동 성공
+[2014/12/23 11:28:12,404] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223112812||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 11:28:12,420] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:12,435] INFO 중복 파일명 체크
+[2014/12/23 11:28:12,435] INFO 사용자 검증 수행
+[2014/12/23 11:28:12,981] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:12,981] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:13,154] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:13,154] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:13,170] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:14,230] INFO 발송증서 수신성공
+[2014/12/23 11:28:14,246] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223112814||00||발송증서수신성공||STREND
+[2014/12/23 11:28:14,246] INFO Proc 파일이동 성공
+[2014/12/23 11:28:14,246] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:14,262] INFO 중복 파일명 체크
+[2014/12/23 11:28:14,262] INFO 사용자 검증 수행
+[2014/12/23 11:28:14,824] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:14,824] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:14,980] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:14,980] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:14,996] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:14,996] INFO Proc 파일이동 성공
+[2014/12/23 11:28:14,996] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223112814||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 11:28:15,027] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:15,043] INFO 중복 파일명 체크
+[2014/12/23 11:28:15,043] INFO 사용자 검증 수행
+[2014/12/23 11:28:15,620] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:15,635] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:15,888] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:15,888] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:15,888] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:17,229] INFO 발송증서 수신성공
+[2014/12/23 11:28:17,229] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223112817||00||발송증서수신성공||STREND
+[2014/12/23 11:28:17,245] INFO Proc 파일이동 성공
+[2014/12/23 11:28:17,245] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:17,262] INFO 중복 파일명 체크
+[2014/12/23 11:28:17,262] INFO 사용자 검증 수행
+[2014/12/23 11:28:17,745] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:17,745] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:17,917] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:17,917] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:17,932] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:18,978] INFO 발송증서 수신성공
+[2014/12/23 11:28:18,978] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223112818||00||발송증서수신성공||STREND
+[2014/12/23 11:28:18,993] INFO Proc 파일이동 성공
+[2014/12/23 11:28:18,993] INFO STR 문서 정형성 검사 수행
+[2014/12/23 11:28:19,010] INFO 중복 파일명 체크
+[2014/12/23 11:28:19,010] INFO 사용자 검증 수행
+[2014/12/23 11:28:19,493] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 11:28:19,493] INFO STR 첨부파일 검증 수행
+[2014/12/23 11:28:19,665] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 11:28:19,665] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 11:28:19,665] INFO STR ebXML 전송 수행
+[2014/12/23 11:28:20,835] INFO 발송증서 수신성공
+[2014/12/23 11:28:20,835] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223112820||00||발송증서수신성공||STREND
+[2014/12/23 11:28:20,835] INFO Proc 파일이동 성공
+[2014/12/23 11:28:34,048] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223113333||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:28:34,080] INFO 도착증서수신 = STRSTART||06||01||9400||94005110900108||20091014||20141223113337||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:28:34,095] INFO 도착증서수신 = STRSTART||06||01||9400||94005109900108||20091014||20141223113340||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:28:34,111] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223113343||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:28:34,127] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223113343||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:28:34,142] INFO 도착증서수신 = STRSTART||06||01||9400||94005110900108||20091014||20141223113346||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 11:29:00,635] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 11:31:33,243] INFO configuration file: ./str_config/config.xml
+[2014/12/23 11:31:33,337] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 11:31:33,337] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 11:31:33,337] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 11:31:33,353] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 11:31:34,803] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 11:31:34,835] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 11:31:34,835] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:31:34,835] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 11:31:34 KST 2014
+[2014/12/23 11:31:34,835] INFO *---------------------------------------------------------------------------*
+[2014/12/23 11:31:34,835] INFO STR Agent를 기동합니다.
+[2014/12/23 11:31:34,851] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 11:31:34,867] INFO RAMJobStore initialized.
+[2014/12/23 11:31:34,867] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 11:31:34,867] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 11:31:34,898] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 11:31:34,898] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 15:41:37,269] INFO configuration file: ./str_config/config.xml
+[2014/12/23 15:41:37,378] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 15:41:37,378] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 15:41:37,378] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 15:41:37,378] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 15:41:39,188] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 15:41:39,220] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 15:41:39,220] INFO *---------------------------------------------------------------------------*
+[2014/12/23 15:41:39,220] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 15:41:39 KST 2014
+[2014/12/23 15:41:39,220] INFO *---------------------------------------------------------------------------*
+[2014/12/23 15:41:39,220] INFO STR Agent를 기동합니다.
+[2014/12/23 15:41:39,251] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 15:41:39,267] INFO RAMJobStore initialized.
+[2014/12/23 15:41:39,267] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 15:41:39,267] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 15:41:39,314] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 15:41:39,314] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 15:41:40,031] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:41:40,671] INFO 중복 파일명 체크
+[2014/12/23 15:41:40,671] INFO 사용자 검증 수행
+[2014/12/23 15:41:41,327] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 15:41:41,327] INFO STR 첨부파일 검증 수행
+[2014/12/23 15:41:41,670] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 15:41:41,670] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 15:41:41,686] INFO STR ebXML 전송 수행
+[2014/12/23 15:41:41,781] INFO Proc 파일이동 성공
+[2014/12/23 15:41:41,781] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223154141||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 15:42:05,707] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 15:42:10,014] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:42:10,062] INFO 중복 파일명 체크
+[2014/12/23 15:42:10,062] INFO 사용자 검증 수행
+[2014/12/23 15:42:10,717] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 15:42:10,717] INFO STR 첨부파일 검증 수행
+[2014/12/23 15:42:10,904] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 15:42:10,904] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 15:42:10,920] INFO STR ebXML 전송 수행
+[2014/12/23 15:42:12,589] INFO 발송증서 수신성공
+[2014/12/23 15:42:12,589] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223154212||00||발송증서수신성공||STREND
+[2014/12/23 15:42:12,589] INFO Proc 파일이동 성공
+[2014/12/23 15:42:38,811] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223154738||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 15:43:00,745] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 15:43:30,013] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:43:30,062] INFO 중복 파일명 체크
+[2014/12/23 15:43:30,063] INFO 사용자 검증 수행
+[2014/12/23 15:43:34,613] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 15:43:34,613] INFO STR 첨부파일 검증 수행
+[2014/12/23 15:43:34,801] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 15:43:34,801] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 15:43:34,801] INFO STR ebXML 전송 수행
+[2014/12/23 15:43:36,080] INFO 발송증서 수신성공
+[2014/12/23 15:43:36,080] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223154336||00||발송증서수신성공||STREND
+[2014/12/23 15:43:36,080] INFO Proc 파일이동 성공
+[2014/12/23 15:44:12,109] INFO configuration file: ./str_config/config.xml
+[2014/12/23 15:44:12,219] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 15:44:12,219] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 15:44:12,219] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 15:44:12,234] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 15:44:13,638] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 15:44:13,654] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 15:44:13,654] INFO *---------------------------------------------------------------------------*
+[2014/12/23 15:44:13,670] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 15:44:13 KST 2014
+[2014/12/23 15:44:13,670] INFO *---------------------------------------------------------------------------*
+[2014/12/23 15:44:13,670] INFO STR Agent를 기동합니다.
+[2014/12/23 15:44:13,686] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 15:44:13,702] INFO RAMJobStore initialized.
+[2014/12/23 15:44:13,702] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 15:44:13,702] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 15:44:13,733] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 15:44:13,733] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 15:44:20,035] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:44:20,660] INFO 중복 파일명 체크
+[2014/12/23 15:44:20,660] INFO 사용자 검증 수행
+[2014/12/23 15:44:21,378] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 15:44:21,378] INFO STR 첨부파일 검증 수행
+[2014/12/23 15:44:21,660] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 15:44:21,660] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 15:44:21,660] INFO STR ebXML 전송 수행
+[2014/12/23 15:44:23,391] INFO 발송증서 수신성공
+[2014/12/23 15:44:23,391] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223154423||00||발송증서수신성공||STREND
+[2014/12/23 15:44:23,391] INFO Proc 파일이동 성공
+[2014/12/23 15:44:33,830] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223154902||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 15:44:33,846] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223154949||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 15:44:50,017] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:44:50,048] INFO 중복 파일명 체크
+[2014/12/23 15:44:50,048] INFO Proc 파일이동 성공
+[2014/12/23 15:44:50,048] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223154450||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 15:45:00,783] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 15:45:10,012] INFO STR 문서 정형성 검사 수행
+[2014/12/23 15:45:10,028] INFO 중복 파일명 체크
+[2014/12/23 15:45:10,028] INFO 사용자 검증 수행
+[2014/12/23 15:45:10,699] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 15:45:10,699] INFO STR 첨부파일 검증 수행
+[2014/12/23 15:45:10,902] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 15:45:10,902] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 15:45:10,918] INFO STR ebXML 전송 수행
+[2014/12/23 15:45:14,974] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/23 15:45:18,993] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/23 15:45:23,019] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 3 , 총 회수 : 5 )
+[2014/12/23 15:45:27,045] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 4 , 총 회수 : 5 )
+[2014/12/23 15:45:31,070] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 5 , 총 회수 : 5 )
+[2014/12/23 15:45:32,117] ERROR 현재 중계 기관의  보고 문서 접수 서비스 제공에 문제가 있습니다. 연계모듈을 599초간 중지합니다.
+[2014/12/23 15:45:32,117] INFO 연계 모듈 스케줄러가 Sleep 모드로 들어갑니다.
+[2014/12/23 15:45:32,117] INFO 연계 모듈 스케줄러가 성공적으로  Sleep 모드로 되었습니다.
+[2014/12/23 15:45:32,117] INFO 599초 동안 연계 모듈의 동작을 일시 중지 합니다.
+[2014/12/23 17:58:02,797] INFO configuration file: ./str_config/config.xml
+[2014/12/23 17:58:02,891] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 17:58:02,891] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 17:58:02,891] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 17:58:02,907] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 17:58:04,794] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 17:58:04,810] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 17:58:04,810] INFO *---------------------------------------------------------------------------*
+[2014/12/23 17:58:04,825] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 17:58:04 KST 2014
+[2014/12/23 17:58:04,825] INFO *---------------------------------------------------------------------------*
+[2014/12/23 17:58:04,826] INFO STR Agent를 기동합니다.
+[2014/12/23 17:58:04,858] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 17:58:04,873] INFO RAMJobStore initialized.
+[2014/12/23 17:58:04,873] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 17:58:04,873] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 17:58:04,920] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 17:58:04,920] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 17:58:10,030] INFO STR 문서 정형성 검사 수행
+[2014/12/23 17:58:10,772] INFO 중복 파일명 체크
+[2014/12/23 17:58:10,772] INFO 사용자 검증 수행
+[2014/12/23 17:58:11,396] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 17:58:11,396] INFO STR 첨부파일 검증 수행
+[2014/12/23 17:58:11,740] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 17:58:11,740] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 17:58:11,756] INFO STR ebXML 전송 수행
+[2014/12/23 17:58:13,332] INFO 발송증서 수신성공
+[2014/12/23 17:58:13,347] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223175813||00||발송증서수신성공||STREND
+[2014/12/23 17:58:13,347] INFO Proc 파일이동 성공
+[2014/12/23 17:58:38,776] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223172548||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 17:58:38,793] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223180355||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 17:59:00,019] INFO STR 문서 정형성 검사 수행
+[2014/12/23 17:59:00,050] INFO 중복 파일명 체크
+[2014/12/23 17:59:00,050] INFO 사용자 검증 수행
+[2014/12/23 17:59:05,574] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 17:59:06,074] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 17:59:06,074] INFO STR 첨부파일 검증 수행
+[2014/12/23 17:59:06,261] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 17:59:06,261] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 17:59:06,277] INFO STR ebXML 전송 수행
+[2014/12/23 17:59:06,308] INFO Proc 파일이동 성공
+[2014/12/23 17:59:06,308] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223175906||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 17:59:20,020] INFO STR 문서 정형성 검사 수행
+[2014/12/23 17:59:20,036] INFO 중복 파일명 체크
+[2014/12/23 17:59:20,036] INFO 사용자 검증 수행
+[2014/12/23 17:59:20,536] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 17:59:20,536] INFO STR 첨부파일 검증 수행
+[2014/12/23 17:59:20,708] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 17:59:20,708] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 17:59:20,723] INFO STR ebXML 전송 수행
+[2014/12/23 17:59:20,739] INFO Proc 파일이동 성공
+[2014/12/23 17:59:20,739] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223175920||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 17:59:30,021] INFO STR 문서 정형성 검사 수행
+[2014/12/23 17:59:30,052] INFO 중복 파일명 체크
+[2014/12/23 17:59:30,052] INFO 사용자 검증 수행
+[2014/12/23 17:59:34,016] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 17:59:34,016] INFO STR 첨부파일 검증 수행
+[2014/12/23 17:59:34,192] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 17:59:34,192] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 17:59:34,192] INFO STR ebXML 전송 수행
+[2014/12/23 17:59:35,160] INFO 발송증서 수신성공
+[2014/12/23 17:59:35,160] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223175935||00||발송증서수신성공||STREND
+[2014/12/23 17:59:35,160] INFO Proc 파일이동 성공
+[2014/12/23 18:00:00,557] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:00:04,490] INFO 도착증서수신 = STRSTART||06||01||9400||94005109900108||20091014||20141223180522||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 18:00:10,013] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:00:10,029] INFO 중복 파일명 체크
+[2014/12/23 18:00:10,029] INFO 사용자 검증 수행
+[2014/12/23 18:00:14,866] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:00:14,866] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:00:15,040] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:00:15,040] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:00:15,040] INFO STR ebXML 전송 수행
+[2014/12/23 18:00:21,046] INFO 발송증서 수신성공
+[2014/12/23 18:00:21,062] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223180021||00||발송증서수신성공||STREND
+[2014/12/23 18:00:21,062] INFO Proc 파일이동 성공
+[2014/12/23 18:00:24,215] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:00:24,355] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:00:24,355] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:00:24,355] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:00:24,371] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:00:32,420] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:00:32,905] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:00:32,905] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:00:32,905] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:00:32 KST 2014
+[2014/12/23 18:00:32,905] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:00:32,905] INFO STR Agent를 기동합니다.
+[2014/12/23 18:00:32,936] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:00:32,952] INFO RAMJobStore initialized.
+[2014/12/23 18:00:32,952] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:00:32,952] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:00:32,999] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:00:32,999] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:00:40,081] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:00:40,612] INFO 중복 파일명 체크
+[2014/12/23 18:00:40,612] INFO 사용자 검증 수행
+[2014/12/23 18:00:45,292] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:00:45,292] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:00:45,597] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:00:45,597] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:00:45,612] INFO STR ebXML 전송 수행
+[2014/12/23 18:01:09,886] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:01:20,129] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223180557||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 18:02:10,143] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:05:13,296] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:05:13,374] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:05:13,374] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:05:13,374] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:05:13,374] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:05:14,918] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:05:14,934] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:05:14,934] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:05:14,934] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:05:14 KST 2014
+[2014/12/23 18:05:14,934] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:05:14,934] INFO STR Agent를 기동합니다.
+[2014/12/23 18:05:14,966] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:05:14,982] INFO RAMJobStore initialized.
+[2014/12/23 18:05:14,982] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:05:14,982] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:05:15,029] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:05:15,029] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:05:20,036] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:05:20,630] INFO 중복 파일명 체크
+[2014/12/23 18:05:20,630] INFO 사용자 검증 수행
+[2014/12/23 18:05:21,176] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:05:21,176] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:05:21,489] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:05:21,489] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:05:21,505] INFO STR ebXML 전송 수행
+[2014/12/23 18:06:00,801] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:12:59,090] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:12:59,184] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:12:59,184] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:12:59,184] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:12:59,184] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:13:00,806] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:13:00,822] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:13:00,822] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:13:00,822] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:13:00 KST 2014
+[2014/12/23 18:13:00,838] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:13:00,838] INFO STR Agent를 기동합니다.
+[2014/12/23 18:13:00,854] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:13:00,885] INFO RAMJobStore initialized.
+[2014/12/23 18:13:00,885] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:13:00,885] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:13:00,917] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:13:00,917] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:13:08,998] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:13:09,076] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:13:09,092] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:13:09,092] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:13:09,092] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:13:10,699] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:13:10,714] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:13:10,714] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:13:10,714] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:13:10 KST 2014
+[2014/12/23 18:13:10,714] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:13:10,714] INFO STR Agent를 기동합니다.
+[2014/12/23 18:13:10,747] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:13:10,778] INFO RAMJobStore initialized.
+[2014/12/23 18:13:10,778] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:13:10,778] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:13:10,809] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:13:10,809] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:13:10,840] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:13:11,386] INFO 중복 파일명 체크
+[2014/12/23 18:13:11,386] INFO 사용자 검증 수행
+[2014/12/23 18:13:11,960] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:13:11,960] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:13:12,304] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:13:12,304] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:13:12,320] INFO STR ebXML 전송 수행
+[2014/12/23 18:13:16,551] INFO 발송증서 수신성공
+[2014/12/23 18:13:16,567] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223181316||00||발송증서수신성공||STREND
+[2014/12/23 18:13:16,567] INFO Proc 파일이동 성공
+[2014/12/23 18:14:00,613] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:14:10,021] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:14:10,036] INFO 중복 파일명 체크
+[2014/12/23 18:14:10,036] INFO 사용자 검증 수행
+[2014/12/23 18:14:10,537] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:14:10,552] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:14:10,771] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:14:10,771] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:14:10,786] INFO STR ebXML 전송 수행
+[2014/12/23 18:16:27,490] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:16:27,584] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:16:27,584] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:16:27,584] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:16:27,584] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:16:29,159] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:16:29,175] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:16:29,175] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:16:29,191] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:16:29 KST 2014
+[2014/12/23 18:16:29,192] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:16:29,192] INFO STR Agent를 기동합니다.
+[2014/12/23 18:16:29,207] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:16:29,223] INFO RAMJobStore initialized.
+[2014/12/23 18:16:29,223] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:16:29,238] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:16:29,270] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:16:29,270] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:16:30,034] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:16:30,596] INFO 중복 파일명 체크
+[2014/12/23 18:16:30,596] INFO 사용자 검증 수행
+[2014/12/23 18:16:34,060] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:16:34,060] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:16:34,362] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:16:34,362] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:16:34,377] INFO STR ebXML 전송 수행
+[2014/12/23 18:16:50,071] INFO JMS | 송신 프로세스 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/23 18:16:51,133] INFO 발송증서 수신성공
+[2014/12/23 18:16:51,148] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223181651||00||발송증서수신성공||STREND
+[2014/12/23 18:16:51,148] INFO Proc 파일이동 성공
+[2014/12/23 18:17:00,509] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:17:06,002] INFO 도착증서수신 = STRSTART||06||01||9400||94005110900108||20091014||20141223182216||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 18:17:06,018] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223182228||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 18:17:44,614] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:17:44,692] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:17:44,707] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:17:44,707] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:17:44,707] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:17:46,252] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:17:46,267] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:17:46,267] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:17:46,284] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:17:46 KST 2014
+[2014/12/23 18:17:46,284] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:17:46,284] INFO STR Agent를 기동합니다.
+[2014/12/23 18:17:46,299] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:17:46,331] INFO RAMJobStore initialized.
+[2014/12/23 18:17:46,331] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:17:46,331] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:17:46,362] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:17:46,362] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:18:00,039] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:18:00,570] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:18:00,586] INFO 중복 파일명 체크
+[2014/12/23 18:18:00,602] INFO 사용자 검증 수행
+[2014/12/23 18:18:04,580] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:18:04,580] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:18:04,877] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:18:04,877] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:18:04,893] INFO STR ebXML 전송 수행
+[2014/12/23 18:18:08,886] INFO 발송증서 수신성공
+[2014/12/23 18:18:08,886] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223181808||00||발송증서수신성공||STREND
+[2014/12/23 18:18:08,902] INFO Proc 파일이동 성공
+[2014/12/23 18:18:33,629] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223182342||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 18:23:35,675] INFO configuration file: ./str_config/config.xml
+[2014/12/23 18:23:35,769] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 18:23:35,769] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 18:23:35,769] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 18:23:35,785] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 18:23:37,579] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.20))
+[2014/12/23 18:23:37,594] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 18:23:37,594] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:23:37,594] INFO *   STR 연계 모듈  (Ver : 201410.01.20) init  Tue Dec 23 18:23:37 KST 2014
+[2014/12/23 18:23:37,594] INFO *---------------------------------------------------------------------------*
+[2014/12/23 18:23:37,594] INFO STR Agent를 기동합니다.
+[2014/12/23 18:23:37,626] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 18:23:37,642] INFO RAMJobStore initialized.
+[2014/12/23 18:23:37,642] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 18:23:37,642] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 18:23:37,689] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 18:23:37,689] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 18:24:00,590] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:24:20,026] INFO STR 문서 정형성 검사 수행
+[2014/12/23 18:24:20,573] INFO 중복 파일명 체크
+[2014/12/23 18:24:20,573] INFO 사용자 검증 수행
+[2014/12/23 18:24:26,173] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 18:24:26,173] INFO STR 첨부파일 검증 수행
+[2014/12/23 18:24:26,525] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 18:24:26,525] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 18:24:26,525] INFO STR ebXML 전송 수행
+[2014/12/23 18:24:28,007] INFO 발송증서 수신성공
+[2014/12/23 18:24:28,023] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223182428||00||발송증서수신성공||STREND
+[2014/12/23 18:24:28,023] INFO Proc 파일이동 성공
+[2014/12/23 18:25:01,977] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 18:25:15,271] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223183007||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 21:43:54,189] INFO configuration file: ./str_config/config.xml
+[2014/12/23 21:43:54,283] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 21:43:54,283] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 21:43:54,283] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 21:43:54,298] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.20)             ****
+[2014/12/23 21:43:56,077] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ModuleVersion Error (NowVersion:201410.01.20))
+[2014/12/23 21:43:56,109] INFO ***	STR 모듈 버전이 일치하지않습니다. 업데이트를 시행합니다.        ****
+[2014/12/23 21:43:56,124] INFO STR 연계 모듈 업데이트 시작 
+[2014/12/23 21:43:56,187] INFO #######################################################
+[2014/12/23 21:43:56,187] INFO #### STR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/23 21:43:56,187] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/23 21:43:56,187] INFO #######################################################
+[2014/12/23 21:43:56,187] INFO STR 연계 모듈 업데이트 파일 다운로드 시작.
+[2014/12/23 21:43:56,187] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/23 21:44:08,542] INFO STR MODULEUPATE 서비스 처리 (코드 : 00 | 결과 : 모듈 업데이트 응답 수신 성공)
+[2014/12/23 21:44:08,652] INFO 연계 모듈 라이브러리 파일 웹으로 다운로드 완료. Update Response : 0
+New Module Version : 201410.01.21 
+ MdlLib file size : 1725412
+ PblKey file size : 1232
+
+[2014/12/23 21:44:08,652] INFO STR 연계 모듈 현재 버젼(201410.01.20)을 새 버젼(201410.01.21)으로 업데이트 합니다. 
+[2014/12/23 21:44:08,652] INFO LIB 파일 업데이트 목록 
+[2014/12/23 21:44:08,652] INFO Extracting: schemas.jar ,  size : 1366449
+[2014/12/23 21:44:08,668] INFO Extracting: ctrutil.jar ,  size : 1250735
+[2014/12/23 21:44:08,683] INFO Extracting: agent.jar ,  size : 382275
+[2014/12/23 21:44:08,683] INFO 암호화 공개키 업데이트 
+[2014/12/23 21:44:08,761] INFO #### STR 연계 모듈 버젼을 201410.01.21 값으로 변경합니다.
+[2014/12/23 21:44:08,761] INFO #### STR 연계 모듈 업데이트가 성공적으로 완료 되었습니다.
+[2014/12/23 21:44:08,761] INFO #### STR 연계 모듈을 재시작합니다.
+[2014/12/23 21:44:08,761] INFO *----------------------------------------------------------------------------*
+[2014/12/23 21:44:08,761] INFO *  STR 연계 모듈  (Ver : 201410.01.21) restart Tue Dec 23 21:44:08 KST 2014
+[2014/12/23 21:44:08,761] INFO *----------------------------------------------------------------------------*
+[2014/12/23 21:44:08,761] INFO STR 연계 모듈을 재 시작 합니다.
+[2014/12/23 21:44:15,682] INFO configuration file: ./str_config/config.xml
+[2014/12/23 21:44:15,760] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 21:44:15,775] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 21:44:15,775] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 21:44:15,775] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.21)             ****
+[2014/12/23 21:44:17,226] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.21))
+[2014/12/23 21:44:17,242] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 21:44:17,242] INFO *---------------------------------------------------------------------------*
+[2014/12/23 21:44:17,242] INFO *   STR 연계 모듈  (Ver : 201410.01.21) init  Tue Dec 23 21:44:17 KST 2014
+[2014/12/23 21:44:17,242] INFO *---------------------------------------------------------------------------*
+[2014/12/23 21:44:17,242] INFO STR Agent를 기동합니다.
+[2014/12/23 21:44:17,274] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 21:44:17,290] INFO RAMJobStore initialized.
+[2014/12/23 21:44:17,290] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 21:44:17,290] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 21:44:17,352] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 21:44:17,352] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 22:11:43,779] INFO configuration file: ./str_config/config.xml
+[2014/12/23 22:11:43,857] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 22:11:43,857] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 22:11:43,857] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 22:11:43,873] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.21)             ****
+[2014/12/23 22:11:45,246] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.21))
+[2014/12/23 22:11:45,277] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 22:11:45,277] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:11:45,277] INFO *   STR 연계 모듈  (Ver : 201410.01.21) init  Tue Dec 23 22:11:45 KST 2014
+[2014/12/23 22:11:45,277] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:11:45,277] INFO STR Agent를 기동합니다.
+[2014/12/23 22:11:45,294] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 22:11:45,309] INFO RAMJobStore initialized.
+[2014/12/23 22:11:45,309] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 22:11:45,309] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 22:11:45,340] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 22:11:45,340] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 22:12:00,753] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:12:15,029] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:12:15,654] INFO 중복 파일명 체크
+[2014/12/23 22:12:15,654] INFO 사용자 검증 수행
+[2014/12/23 22:12:16,387] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 22:12:16,403] INFO STR 첨부파일 검증 수행
+[2014/12/23 22:12:16,716] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 22:12:16,716] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 22:12:16,732] INFO STR ebXML 전송 수행
+[2014/12/23 22:12:16,825] INFO Proc 파일이동 성공
+[2014/12/23 22:12:16,825] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221216||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 22:12:45,023] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:12:45,038] INFO 중복 파일명 체크
+[2014/12/23 22:12:45,055] INFO 사용자 검증 수행
+[2014/12/23 22:12:45,632] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 22:12:45,632] INFO STR 첨부파일 검증 수행
+[2014/12/23 22:12:45,881] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 22:12:45,881] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 22:12:45,897] INFO STR ebXML 전송 수행
+[2014/12/23 22:12:45,912] INFO Proc 파일이동 성공
+[2014/12/23 22:12:45,912] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221245||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 22:13:02,774] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:13:15,015] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:13:15,047] INFO 중복 파일명 체크
+[2014/12/23 22:13:16,155] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/23 22:13:16,155] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221316||99||이미 처리된 파일이 존재합니다.||STREND
+[2014/12/23 22:13:30,012] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:13:30,060] INFO 중복 파일명 체크
+[2014/12/23 22:13:30,060] INFO 사용자 검증 수행
+[2014/12/23 22:13:34,101] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 22:13:34,116] INFO STR 첨부파일 검증 수행
+[2014/12/23 22:13:34,367] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 22:13:34,367] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 22:13:34,367] INFO STR ebXML 전송 수행
+[2014/12/23 22:13:34,382] INFO Proc 파일이동 성공
+[2014/12/23 22:13:34,382] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221334||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 22:14:00,013] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:14:00,044] INFO 중복 파일명 체크
+[2014/12/23 22:14:00,044] INFO 사용자 검증 수행
+[2014/12/23 22:14:00,981] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:14:01,559] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 22:14:01,559] INFO STR 첨부파일 검증 수행
+[2014/12/23 22:14:01,788] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 22:14:01,788] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 22:14:01,788] INFO STR ebXML 전송 수행
+[2014/12/23 22:14:02,895] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/23 22:14:02,895] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221402||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 22:15:00,757] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:15:16,047] INFO configuration file: ./str_config/config.xml
+[2014/12/23 22:15:16,125] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 22:15:16,125] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 22:15:16,125] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 22:15:16,140] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.21)             ****
+[2014/12/23 22:15:17,498] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.21))
+[2014/12/23 22:15:17,513] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 22:15:17,513] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:15:17,529] INFO *   STR 연계 모듈  (Ver : 201410.01.21) init  Tue Dec 23 22:15:17 KST 2014
+[2014/12/23 22:15:17,529] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:15:17,529] INFO STR Agent를 기동합니다.
+[2014/12/23 22:15:17,545] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 22:15:17,561] INFO RAMJobStore initialized.
+[2014/12/23 22:15:17,561] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 22:15:17,561] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 22:15:17,592] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 22:15:17,592] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 22:15:45,029] INFO STR 문서 정형성 검사 수행
+[2014/12/23 22:15:45,592] INFO 중복 파일명 체크
+[2014/12/23 22:15:45,607] INFO 사용자 검증 수행
+[2014/12/23 22:15:56,153] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 22:15:56,153] INFO STR 첨부파일 검증 수행
+[2014/12/23 22:15:56,482] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 22:15:56,482] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 22:15:56,482] INFO STR ebXML 전송 수행
+[2014/12/23 22:15:57,839] INFO 발송증서 수신성공
+[2014/12/23 22:15:57,839] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223221557||00||발송증서수신성공||STREND
+[2014/12/23 22:16:00,757] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:16:02,973] INFO 파일이동에 실패하였습니다. 파일이 사용중인지 확인 바랍니다.
+[2014/12/23 22:17:00,521] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:55:59,753] INFO configuration file: ./str_config/config.xml
+[2014/12/23 22:55:59,863] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 22:55:59,863] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 22:55:59,863] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 22:55:59,863] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.21)             ****
+[2014/12/23 22:56:01,547] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : ModuleVersion Error (NowVersion:201410.01.21))
+[2014/12/23 22:56:01,579] INFO ***	STR 모듈 버전이 일치하지않습니다. 업데이트를 시행합니다.        ****
+[2014/12/23 22:56:01,579] INFO STR 연계 모듈 업데이트 시작 
+[2014/12/23 22:56:01,658] INFO #######################################################
+[2014/12/23 22:56:01,658] INFO #### STR 연계모듈 업데이트를 시작하는 중입니다.    ####
+[2014/12/23 22:56:01,658] INFO #### 잠시만 기다려주세요.                          ####
+[2014/12/23 22:56:01,658] INFO #######################################################
+[2014/12/23 22:56:01,658] INFO STR 연계 모듈 업데이트 파일 다운로드 시작.
+[2014/12/23 22:56:01,658] INFO 연계 모듈 라이브러리 파일 다운로드 시작
+[2014/12/23 22:56:12,702] INFO STR MODULEUPATE 서비스 처리 (코드 : 00 | 결과 : 모듈 업데이트 응답 수신 성공)
+[2014/12/23 22:56:12,828] INFO 연계 모듈 라이브러리 파일 웹으로 다운로드 완료. Update Response : 0
+New Module Version : 201410.01.22 
+ MdlLib file size : 1725264
+ PblKey file size : 1232
+
+[2014/12/23 22:56:12,828] INFO STR 연계 모듈 현재 버젼(201410.01.21)을 새 버젼(201410.01.22)으로 업데이트 합니다. 
+[2014/12/23 22:56:12,828] INFO LIB 파일 업데이트 목록 
+[2014/12/23 22:56:12,828] INFO Extracting: schemas.jar ,  size : 1366449
+[2014/12/23 22:56:12,891] INFO Extracting: ctrutil.jar ,  size : 1250735
+[2014/12/23 22:56:12,906] INFO Extracting: agent.jar ,  size : 382160
+[2014/12/23 22:56:12,906] INFO 암호화 공개키 업데이트 
+[2014/12/23 22:56:12,969] INFO #### STR 연계 모듈 버젼을 201410.01.22 값으로 변경합니다.
+[2014/12/23 22:56:12,969] INFO #### STR 연계 모듈 업데이트가 성공적으로 완료 되었습니다.
+[2014/12/23 22:56:12,969] INFO #### STR 연계 모듈을 재시작합니다.
+[2014/12/23 22:56:12,969] INFO *----------------------------------------------------------------------------*
+[2014/12/23 22:56:12,969] INFO *  STR 연계 모듈  (Ver : 201410.01.22) restart Tue Dec 23 22:56:12 KST 2014
+[2014/12/23 22:56:12,969] INFO *----------------------------------------------------------------------------*
+[2014/12/23 22:56:12,969] INFO STR 연계 모듈을 재 시작 합니다.
+[2014/12/23 22:56:17,400] INFO configuration file: ./str_config/config.xml
+[2014/12/23 22:56:17,478] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 22:56:17,478] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 22:56:17,478] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 22:56:17,494] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.22)             ****
+[2014/12/23 22:56:18,851] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.22))
+[2014/12/23 22:56:18,866] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 22:56:18,866] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:56:18,883] INFO *   STR 연계 모듈  (Ver : 201410.01.22) init  Tue Dec 23 22:56:18 KST 2014
+[2014/12/23 22:56:18,883] INFO *---------------------------------------------------------------------------*
+[2014/12/23 22:56:18,883] INFO STR Agent를 기동합니다.
+[2014/12/23 22:56:18,914] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 22:56:18,930] INFO RAMJobStore initialized.
+[2014/12/23 22:56:18,930] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 22:56:18,930] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 22:56:18,961] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 22:56:18,961] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 22:57:00,535] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:58:00,518] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 22:59:00,735] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 23:00:00,531] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 23:01:00,717] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/23 23:01:26,144] INFO configuration file: ./str_config/config.xml
+[2014/12/23 23:01:26,222] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 23:01:26,222] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 23:01:26,222] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 23:01:26,222] INFO >/tools/db2inst1/FIUCSTR/STR/message폴더가  존재하지 않습니다.
+[2014/12/23 23:01:26,222] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:26,222] INFO *  STR 연계 모듈  (Ver : 201410.01.22) stop Tue Dec 23 23:01:26 KST 2014
+[2014/12/23 23:01:26,222] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:26,222] INFO STR 연계 모듈을 종료합니다.
+[2014/12/23 23:01:26,237] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/23 23:01:42,029] INFO configuration file: ./str_config/config.xml
+[2014/12/23 23:01:42,107] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 23:01:42,107] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 23:01:42,107] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 23:01:42,107] INFO >/tools/db2inst1/FIUCSTR/STR/Message폴더가  존재하지 않습니다.
+[2014/12/23 23:01:42,107] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:42,107] INFO *  STR 연계 모듈  (Ver : 201410.01.22) stop Tue Dec 23 23:01:42 KST 2014
+[2014/12/23 23:01:42,107] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:42,107] INFO STR 연계 모듈을 종료합니다.
+[2014/12/23 23:01:42,107] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/23 23:01:55,305] INFO configuration file: ./str_config/config.xml
+[2014/12/23 23:01:55,367] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 23:01:55,383] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 23:01:55,383] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 23:01:55,383] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.22)             ****
+[2014/12/23 23:01:55,867] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/23 23:01:55,882] INFO kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.32:1414/SYSTEM.AUTO.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2035']
+[2014/12/23 23:01:55,882] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:55,882] INFO *  STR 연계 모듈  (Ver : 201410.01.22) stop Tue Dec 23 23:01:55 KST 2014
+[2014/12/23 23:01:55,882] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:01:55,882] INFO STR 연계 모듈을 종료합니다.
+[2014/12/23 23:01:55,882] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/23 23:02:37,441] INFO configuration file: ./str_config/config.xml
+[2014/12/23 23:02:37,519] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 23:02:37,519] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 23:02:37,519] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 23:02:37,534] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.22)             ****
+[2014/12/23 23:02:38,938] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.22))
+[2014/12/23 23:02:38,954] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 23:02:38,954] INFO *---------------------------------------------------------------------------*
+[2014/12/23 23:02:38,954] INFO *   STR 연계 모듈  (Ver : 201410.01.22) init  Tue Dec 23 23:02:38 KST 2014
+[2014/12/23 23:02:38,954] INFO *---------------------------------------------------------------------------*
+[2014/12/23 23:02:38,954] INFO STR Agent를 기동합니다.
+[2014/12/23 23:02:38,988] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 23:02:39,004] INFO RAMJobStore initialized.
+[2014/12/23 23:02:39,004] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 23:02:39,004] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 23:02:39,035] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 23:02:39,035] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/23 23:03:15,025] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:15,619] INFO 중복 파일명 체크
+[2014/12/23 23:03:15,619] INFO 사용자 검증 수행
+[2014/12/23 23:03:16,134] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:16,134] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:16,438] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:16,438] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:16,454] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:17,889] INFO 발송증서 수신성공
+[2014/12/23 23:03:17,889] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223230317||00||발송증서수신성공||STREND
+[2014/12/23 23:03:17,905] INFO Proc 파일이동 성공
+[2014/12/23 23:03:17,905] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:17,921] INFO 중복 파일명 체크
+[2014/12/23 23:03:17,921] INFO 사용자 검증 수행
+[2014/12/23 23:03:18,405] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:18,405] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:18,608] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:18,608] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:18,623] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:19,528] INFO 발송증서 수신성공
+[2014/12/23 23:03:19,528] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223230319||00||발송증서수신성공||STREND
+[2014/12/23 23:03:19,528] INFO Proc 파일이동 성공
+[2014/12/23 23:03:19,544] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:19,560] INFO 중복 파일명 체크
+[2014/12/23 23:03:19,576] INFO 사용자 검증 수행
+[2014/12/23 23:03:20,091] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:20,091] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:20,278] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:20,278] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:20,278] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:23,914] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223230844||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:23,929] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223230845||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:24,709] INFO 발송증서 수신성공
+[2014/12/23 23:03:24,725] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223230324||00||발송증서수신성공||STREND
+[2014/12/23 23:03:24,725] INFO Proc 파일이동 성공
+[2014/12/23 23:03:24,725] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:24,756] INFO 중복 파일명 체크
+[2014/12/23 23:03:24,756] INFO 사용자 검증 수행
+[2014/12/23 23:03:25,318] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:25,318] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:25,522] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:25,522] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:25,522] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:26,380] INFO 발송증서 수신성공
+[2014/12/23 23:03:26,395] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223230326||00||발송증서수신성공||STREND
+[2014/12/23 23:03:26,395] INFO Proc 파일이동 성공
+[2014/12/23 23:03:26,395] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:26,427] INFO 중복 파일명 체크
+[2014/12/23 23:03:26,427] INFO 사용자 검증 수행
+[2014/12/23 23:03:26,911] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:26,911] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:27,098] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:27,098] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:27,098] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:27,114] INFO Proc 파일이동 성공
+[2014/12/23 23:03:27,114] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223230327||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 23:03:27,129] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:27,145] INFO 중복 파일명 체크
+[2014/12/23 23:03:27,145] INFO 사용자 검증 수행
+[2014/12/23 23:03:27,644] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:27,644] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:27,819] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:27,819] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:27,819] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:28,708] INFO 발송증서 수신성공
+[2014/12/23 23:03:28,708] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223230328||00||발송증서수신성공||STREND
+[2014/12/23 23:03:28,708] INFO Proc 파일이동 성공
+[2014/12/23 23:03:28,708] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:28,724] INFO 중복 파일명 체크
+[2014/12/23 23:03:28,724] INFO 사용자 검증 수행
+[2014/12/23 23:03:29,208] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:29,224] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:29,380] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:29,380] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:29,395] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:29,395] INFO Proc 파일이동 성공
+[2014/12/23 23:03:29,395] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141223230329||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/23 23:03:29,411] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:29,411] INFO 중복 파일명 체크
+[2014/12/23 23:03:29,427] INFO 사용자 검증 수행
+[2014/12/23 23:03:29,910] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:29,910] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:30,098] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:30,098] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:30,114] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:33,780] INFO 도착증서수신 = STRSTART||06||01||9400||94005109900108||20091014||20141223230850||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:33,796] INFO 도착증서수신 = STRSTART||06||01||9400||94005110900108||20091014||20141223230852||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:33,816] INFO 도착증서수신 = STRSTART||06||01||9400||94005109900108||20091014||20141223230854||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:34,627] INFO 발송증서 수신성공
+[2014/12/23 23:03:34,627] INFO 발송증서수신 = STRSTART||05||01||9400||94005108900108||20091014||20141223230334||00||발송증서수신성공||STREND
+[2014/12/23 23:03:34,643] INFO Proc 파일이동 성공
+[2014/12/23 23:03:34,643] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:34,659] INFO 중복 파일명 체크
+[2014/12/23 23:03:34,659] INFO 사용자 검증 수행
+[2014/12/23 23:03:35,142] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:35,142] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:35,315] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:35,315] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:35,315] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:36,173] INFO 발송증서 수신성공
+[2014/12/23 23:03:36,173] INFO 발송증서수신 = STRSTART||05||01||9400||94005109900108||20091014||20141223230336||00||발송증서수신성공||STREND
+[2014/12/23 23:03:36,173] INFO Proc 파일이동 성공
+[2014/12/23 23:03:36,173] INFO STR 문서 정형성 검사 수행
+[2014/12/23 23:03:36,220] INFO 중복 파일명 체크
+[2014/12/23 23:03:36,222] INFO 사용자 검증 수행
+[2014/12/23 23:03:36,693] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/23 23:03:36,693] INFO STR 첨부파일 검증 수행
+[2014/12/23 23:03:36,880] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/23 23:03:36,880] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/23 23:03:36,880] INFO STR ebXML 전송 수행
+[2014/12/23 23:03:37,754] INFO 발송증서 수신성공
+[2014/12/23 23:03:37,754] INFO 발송증서수신 = STRSTART||05||01||9400||94005110900108||20091014||20141223230337||00||발송증서수신성공||STREND
+[2014/12/23 23:03:37,754] INFO Proc 파일이동 성공
+[2014/12/23 23:03:43,667] INFO 도착증서수신 = STRSTART||06||01||9400||94005108900108||20091014||20141223230900||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:43,683] INFO 도착증서수신 = STRSTART||06||01||9400||94005109900108||20091014||20141223230902||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:03:43,699] INFO 도착증서수신 = STRSTART||06||01||9400||94005110900108||20091014||20141223230903||01||문서번호(FiuDocNum) 중복 에러||STREND
+[2014/12/23 23:04:40,016] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:04:40,016] INFO *  STR 연계 모듈  (Ver : 201410.01.22) stop Tue Dec 23 23:04:40 KST 2014
+[2014/12/23 23:04:40,016] INFO *----------------------------------------------------------------------------*
+[2014/12/23 23:04:40,016] INFO STR 연계 모듈을 종료합니다.
+[2014/12/23 23:04:40,016] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+[2014/12/23 23:04:40,016] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+[2014/12/23 23:04:40,016] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2014/12/23 23:04:40,031] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/23 23:25:26,418] INFO configuration file: ./str_config/config.xml
+[2014/12/23 23:25:26,559] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/23 23:25:26,559] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/23 23:25:26,559] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/23 23:25:26,574] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.22)             ****
+[2014/12/23 23:25:28,041] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.22))
+[2014/12/23 23:25:28,056] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/23 23:25:28,056] INFO *---------------------------------------------------------------------------*
+[2014/12/23 23:25:28,056] INFO *   STR 연계 모듈  (Ver : 201410.01.22) init  Tue Dec 23 23:25:28 KST 2014
+[2014/12/23 23:25:28,056] INFO *---------------------------------------------------------------------------*
+[2014/12/23 23:25:28,056] INFO STR Agent를 기동합니다.
+[2014/12/23 23:25:28,090] INFO Job execution threads will use class loader of thread: main
+[2014/12/23 23:25:28,105] INFO RAMJobStore initialized.
+[2014/12/23 23:25:28,105] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/23 23:25:28,105] INFO Quartz scheduler version: 1.4.5
+[2014/12/23 23:25:28,136] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/23 23:25:28,136] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.

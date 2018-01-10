@@ -1,0 +1,239 @@
+[2014/12/19 12:30:31,205] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:30:31,299] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:30:31,299] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:30:31,299] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:30:31,299] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:30:32,787] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:30:32,802] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:30:32,802] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:30:32,818] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:30:32 KST 2014
+[2014/12/19 12:30:32,818] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:30:32,818] INFO STR Agent를 기동합니다.
+[2014/12/19 12:30:32,834] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:30:32,850] INFO RAMJobStore initialized.
+[2014/12/19 12:30:32,850] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:30:32,850] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:30:32,897] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:30:32,897] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:30:50,050] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:30:50,690] INFO 중복 파일명 체크
+[2014/12/19 12:30:50,706] INFO 사용자 검증 수행
+[2014/12/19 12:30:56,291] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/19 12:30:56,291] INFO STR 첨부파일 검증 수행
+[2014/12/19 12:30:56,641] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/19 12:30:56,641] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/19 12:30:56,656] INFO STR ebXML 전송 수행
+[2014/12/19 12:30:56,734] INFO Proc 파일이동 성공
+[2014/12/19 12:30:56,734] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219123056||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/19 12:31:00,578] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:32:11,933] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:32:12,011] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:32:12,011] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:32:12,011] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:32:12,027] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:32:13,793] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:32:13,824] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:32:13,824] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:32:13,824] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:32:13 KST 2014
+[2014/12/19 12:32:13,824] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:32:13,824] INFO STR Agent를 기동합니다.
+[2014/12/19 12:32:13,859] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:32:13,875] INFO RAMJobStore initialized.
+[2014/12/19 12:32:13,875] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:32:13,875] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:32:13,921] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:32:13,921] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:32:30,057] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:32:30,682] INFO 중복 파일명 체크
+[2014/12/19 12:32:30,682] INFO 사용자 검증 수행
+[2014/12/19 12:32:35,622] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/19 12:32:35,622] INFO STR 첨부파일 검증 수행
+[2014/12/19 12:32:35,997] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/19 12:32:35,997] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/19 12:32:35,997] INFO STR ebXML 전송 수행
+[2014/12/19 12:32:36,091] INFO Proc 파일이동 성공
+[2014/12/19 12:32:36,091] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219123236||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/19 12:33:07,124] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:33:07,218] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:33:07,234] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:33:07,234] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:33:07,234] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:33:08,684] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:33:08,700] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:33:08,700] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:33:08,700] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:33:08 KST 2014
+[2014/12/19 12:33:08,700] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:33:08,700] INFO STR Agent를 기동합니다.
+[2014/12/19 12:33:08,732] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:33:08,732] INFO RAMJobStore initialized.
+[2014/12/19 12:33:08,732] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:33:08,732] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:33:08,763] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:33:08,763] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:33:20,041] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:33:20,416] INFO Proc 파일이동 성공
+[2014/12/19 12:33:20,416] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219123320||97||기준정보 Vaildation 에러(string value '00' is not a valid enumeration value for type of MessageTypeCode element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/19 12:37:54,603] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:37:54,665] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:37:54,681] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:37:54,681] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:37:54,681] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:37:56,522] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:37:56,553] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:37:56,553] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:37:56,553] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:37:56 KST 2014
+[2014/12/19 12:37:56,553] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:37:56,553] INFO STR Agent를 기동합니다.
+[2014/12/19 12:37:56,585] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:37:56,601] INFO RAMJobStore initialized.
+[2014/12/19 12:37:56,601] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:37:56,601] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:37:56,632] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:37:56,632] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:38:00,034] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:38:00,456] INFO Proc 파일이동 성공
+[2014/12/19 12:38:00,456] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219123800||97||기준정보 Vaildation 에러(string value '00' is not a valid enumeration value for type of MessageTypeCode element in type of Master element in type of element STR in namespace http://www.kofiu.go.kr/str)||STREND
+[2014/12/19 12:38:01,002] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:38:20,012] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:38:20,107] INFO Proc 파일이동 성공
+[2014/12/19 12:38:20,107] INFO 발송증서수신 = STRSTART||05||01||9400||94005111900108||20091014||20141219123820||97||기준정보 Vaildation 에러((STRValidation) 거래에대한 거래자역할 실명번호invalid : 실명번호구분코드가 '01','02','03'일 경우 실명번호를 확인 하십시오. <RealNumber> 제약조건을 확인 하십시오.)||STREND
+[2014/12/19 12:39:00,747] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:40:00,765] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:40:51,025] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:40:51,103] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:40:51,103] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:40:51,103] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:40:51,103] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:40:52,803] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:40:52,819] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:40:52,819] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:40:52,835] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:40:52 KST 2014
+[2014/12/19 12:40:52,835] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:40:52,835] INFO STR Agent를 기동합니다.
+[2014/12/19 12:40:52,851] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:40:52,866] INFO RAMJobStore initialized.
+[2014/12/19 12:40:52,866] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:40:52,866] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:40:52,913] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:40:52,913] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:41:00,713] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:41:10,045] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:42:01,259] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 12:42:28,016] INFO configuration file: ./str_config/config.xml
+[2014/12/19 12:42:28,094] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 12:42:28,094] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 12:42:28,094] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 12:42:28,109] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 12:42:29,685] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 12:42:29,717] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 12:42:29,717] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:42:29,717] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 12:42:29 KST 2014
+[2014/12/19 12:42:29,717] INFO *---------------------------------------------------------------------------*
+[2014/12/19 12:42:29,717] INFO STR Agent를 기동합니다.
+[2014/12/19 12:42:29,780] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 12:42:29,795] INFO RAMJobStore initialized.
+[2014/12/19 12:42:29,795] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 12:42:29,795] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 12:42:29,858] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 12:42:29,858] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 12:42:30,045] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:42:30,451] INFO Proc 파일이동 성공
+[2014/12/19 12:42:30,451] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219124230||97||기준정보 Vaildation 에러((STRValidation) 메세지타입코드Invalid : 메세지 타입 코드를 확인하여 주십시오.)||STREND
+[2014/12/19 12:42:40,013] INFO STR 문서 정형성 검사 수행
+[2014/12/19 12:42:40,029] INFO Proc 파일이동 성공
+[2014/12/19 12:42:40,029] INFO 발송증서수신 = STRSTART||05||00||9400||94005111900108||20091014||20141219124240||97||기준정보 Vaildation 에러((STRValidation) 메세지타입코드Invalid : 메세지 타입 코드를 확인하여 주십시오.)||STREND
+[2014/12/19 12:43:00,782] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)
+[2014/12/19 15:21:03,551] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:21:03,645] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:21:03,661] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:21:03,661] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:21:03,676] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:21:08,638] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/19 15:21:12,664] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/19 15:21:16,693] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 3 , 총 회수 : 5 )
+[2014/12/19 15:21:20,710] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 4 , 총 회수 : 5 )
+[2014/12/19 15:21:24,711] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 5 , 총 회수 : 5 )
+[2014/12/19 15:21:25,742] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/19 15:21:25,774] INFO kr.go.kofiu.common.agent.AgentException: kr.go.kofiu.common.agent.AgentException: AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.
+[2014/12/19 15:21:25,774] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:21:25,774] INFO *  STR 연계 모듈  (Ver : 201410.01.15) stop Fri Dec 19 15:21:25 KST 2014
+[2014/12/19 15:21:25,774] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:21:25,774] INFO STR 연계 모듈을 종료합니다.
+[2014/12/19 15:21:25,774] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/19 15:23:14,819] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:23:15,006] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:23:15,006] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:23:15,006] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:23:15,021] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:23:19,895] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/19 15:24:32,239] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:24:32,317] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:24:32,333] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:24:32,333] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:24:32,333] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:24:36,954] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/19 15:24:40,995] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/19 15:24:50,099] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:24:50,177] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:24:50,177] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:24:50,177] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:24:50,192] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:24:50,785] INFO STR CHECKAGENT 서비스 처리 (코드 : 99 | 결과 : AGENT 기동 실패 | ESB 관리자에게 문의하시기 바랍니다.)
+[2014/12/19 15:24:50,785] INFO kr.go.kofiu.common.agent.AgentException: javax.naming.ServiceUnavailableException: Unable to connect to the target queue manager 192.168.2.33:1424/SYSTEM.ADMIN.SVRCONN [Root exception is com.ibm.mq.MQException: MQJE001: 완료 코드 '2', 이유 '2537']
+[2014/12/19 15:24:50,785] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:24:50,801] INFO *  STR 연계 모듈  (Ver : 201410.01.15) stop Fri Dec 19 15:24:50 KST 2014
+[2014/12/19 15:24:50,801] INFO *----------------------------------------------------------------------------*
+[2014/12/19 15:24:50,801] INFO STR 연계 모듈을 종료합니다.
+[2014/12/19 15:24:50,801] INFO STR 연계 모듈을 성공적으로 종료하였습니다.
+[2014/12/19 15:28:49,745] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:28:49,823] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:28:49,839] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:28:49,839] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:28:49,839] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:28:52,104] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 15:28:52,136] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 15:28:52,136] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:28:52,136] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 15:28:52 KST 2014
+[2014/12/19 15:28:52,136] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:28:52,136] INFO STR Agent를 기동합니다.
+[2014/12/19 15:28:52,168] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 15:28:52,183] INFO RAMJobStore initialized.
+[2014/12/19 15:28:52,183] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 15:28:52,183] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 15:28:52,246] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 15:28:52,246] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 15:29:09,411] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:29:09,489] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:29:09,505] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:29:09,505] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:29:09,505] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:29:14,656] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 1 , 총 회수 : 5 )
+[2014/12/19 15:29:18,668] INFO JMS | HEARTBEAT 수신에 실패하였습니다. 1초후 수신을 재시도 합니다. ( 시도 회수 : 2 , 총 회수 : 5 )
+[2014/12/19 15:30:47,551] INFO configuration file: ./str_config/config.xml
+[2014/12/19 15:30:47,645] WARN 강제 시작. 다른 STR 연계 모듈 프로세스가 실행되고 있을 수 있습니다.
+[2014/12/19 15:30:47,645] INFO ***	JMS 모듈을 초기화 합니다.                 ****
+[2014/12/19 15:30:47,645] INFO ***	STR 디렉토리를 체크합니다.                 ****
+[2014/12/19 15:30:47,660] INFO ***	STR 모듈 버전을 체크합니다(현재버전:201410.01.15)             ****
+[2014/12/19 15:30:49,610] INFO STR CHECKAGENT 서비스 처리 (코드 : 00 | 결과 : ModuleVersion OK (NowVersion:201410.01.15))
+[2014/12/19 15:30:49,657] INFO ***	STR 모듈 버전을 체크를 완료했습니다...        ****
+[2014/12/19 15:30:49,657] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:30:49,658] INFO *   STR 연계 모듈  (Ver : 201410.01.15) init  Fri Dec 19 15:30:49 KST 2014
+[2014/12/19 15:30:49,658] INFO *---------------------------------------------------------------------------*
+[2014/12/19 15:30:49,658] INFO STR Agent를 기동합니다.
+[2014/12/19 15:30:49,674] INFO Job execution threads will use class loader of thread: main
+[2014/12/19 15:30:49,705] INFO RAMJobStore initialized.
+[2014/12/19 15:30:49,705] INFO Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[2014/12/19 15:30:49,705] INFO Quartz scheduler version: 1.4.5
+[2014/12/19 15:30:49,736] INFO Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+[2014/12/19 15:30:49,736] INFO STR 연계 모듈이 성공적으로 시작 되었습니다.
+[2014/12/19 15:30:50,048] INFO STR 문서 정형성 검사 수행
+[2014/12/19 15:30:50,766] INFO 중복 파일명 체크
+[2014/12/19 15:30:50,781] INFO 사용자 검증 수행
+[2014/12/19 15:30:51,547] INFO STR USERCHECK 서비스 처리 (코드 : 00 | 결과 : 사용자 검증 성공)
+[2014/12/19 15:30:51,547] INFO STR 첨부파일 검증 수행
+[2014/12/19 15:30:51,843] INFO STR 문서 정형성 검사 수행 완료
+[2014/12/19 15:30:51,843] INFO 송신 프로세스 ebXML 생성 시작
+[2014/12/19 15:30:51,859] INFO STR 문서가 30M이 초과하여 분할 전송을 시행합니다.
+[2014/12/19 15:30:52,390] INFO Proc 파일이동 성공
+[2014/12/19 15:30:52,406] INFO 발송증서수신 = STRSTART||05||01||9400||94005107900108||20091014||20141219153052||97||Vaildation 오류(STR 요약정보 생성중 에러가 발생했습니다.)||STREND
+[2014/12/19 15:31:01,002] INFO STR HEARTBEAT 60초 주기 서비스 처리 (코드 : 00 | 결과 : ESB Server OK)

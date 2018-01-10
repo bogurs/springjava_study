@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<agent id="TST1" ip="192.168.1.101" controlFile="./ctl/version_str.ctl" 
+	csvPerRptDate="false" archiveEnabled="false"
+	archivefolderType="type2" inboxfolderType="type0">
+	<!-- 
+		Archive / Inbox Folder Setting
+		
+		type0 : /{Archive or Inbox}
+		type1 : /{Archive or Inbox}/OrgCode
+		type2 : /{Archive or Inbox}/Date{YYYYMMDD}
+		type3 : /{Archive or Inbox}/OrgCode/Date{YYYYMMDD}
+		type4 : /{Archive or Inbox}/Date{YYYYMMDD}/OrgCode	
+	 -->
+	
+	<ReportOrg orgCd="9400" orgName="보고기관명1" repOrgCd="9400">
+		<Validation strValidationConfig="./str_config/str-validation.xml"
+			xmlAttachmentValidationConfig="./str_config/attach-bank-xml-validation.xml"
+			xlsAttachmentValidationConfig="./str_config/attach-bank-xls-validation.xml" />
+		<!-- AGENT->FIU 인증서 설정 -->
+		<Encryption>
+			<!--
+				보고 기관의 전자 서명용 인증서/개인키/개인키 PIN 번호. 보고 기관이 FIU에 보낼 데이터를 기반으로 PKCS#7
+				디지털 봉투를 생성할 경우, 보고 기관이 FIU에 보낼 data에 전자 서명 시 활용
+			-->
+			<!-- 전자서명시 사용 -->
+			<signing enabled="true">
+                    <certificate>./str_cert/usercert/cert.der</certificate>
+                    <key>./str_cert/usercert/pri.key</key>
+                    <pin>tkdjqroqkf</pin>
+            </signing>
+		</Encryption>
+	</ReportOrg>
+
+ 	<!-- FIU->AGENT 인증서 설정 -->
+	<FIU>
+		<Encryption>
+			<!--
+				FIU의 전자 서명용 인증서/개인키/개인키 PIN 번호. 보고 기관이 FIU가 보낸 데이터의 전자 서명 확인 시(인증서만
+				필요) 활용
+			-->
+			<!-- 전자서명 제거시 사용 -->
+			<signing enabled="true">
+				<certificate>./str_cert/usercert/cert.der</certificate>
+				<key>./str_cert/usercert/pri.key</key>
+				<pin>tkdjqroqkf</pin>
+			</signing>
+			<!--
+				FIU의 비밀 키 교환용 인증서/개인키/개인키 PIN 번호. 보고 기관이 FIU에 보낼 데이터를 기반으로 디지털 봉투를
+				생성할 경우(인증서만 필요)
+			-->
+			<!-- 데이터 암호화시 사용 -->
+			<keyManage enabled="true">
+				<certificate>./str_cert/fiucert/SVR1160131002_env.cer</certificate>
+			</keyManage>
+		</Encryption>
+	</FIU>
+	<STRJMSInfo>
+		<INITIAL_CONTEXT_FACTORY>com.ibm.mq.jms.context.WMQInitialContextFactory</INITIAL_CONTEXT_FACTORY>
+<!-- 		<CONNECTION_FACTORY>CSTRQM</CONNECTION_FACTORY> -->
+<!-- 		<PROVIDER_URL>192.168.2.32:1414/SYSTEM.AUTO.SVRCONN</PROVIDER_URL> -->
+		<CONNECTION_FACTORY>CSTRDEVQM</CONNECTION_FACTORY>
+		<PROVIDER_URL>192.168.2.32:1424/SYSTEM.AUTO.SVRCONN</PROVIDER_URL>
+		<SND_REQUEST_Q_NAME>REQ.AP.STR.FIUF9998.R01.LQ</SND_REQUEST_Q_NAME>
+		<SND_RESPONSE_Q_NAME>RPL.AP.STR.FIUF9998.R01.LQ</SND_RESPONSE_Q_NAME>
+		<RCV_RESPONSE_Q_NAME>RCV.STR.GUARANTEE.R01.LQ</RCV_RESPONSE_Q_NAME>
+		<USR_REQUEST_Q_NAME>REQ.STR.USERCHECK.R01.LQ</USR_REQUEST_Q_NAME>
+		<USR_RESPONSE_Q_NAME>RPL.STR.USERCHECK.R01.LQ</USR_RESPONSE_Q_NAME>
+		<HEART_REQUEST_Q_NAME>REQ.COM.AGENTCHECK.R01.LQ</HEART_REQUEST_Q_NAME>
+		<HEART_RESPONSE_Q_NAME>RPL.COM.AGENTCHECK.R01.LQ</HEART_RESPONSE_Q_NAME>
+		<RETRY_WAIT_TIME>300</RETRY_WAIT_TIME>
+		<RETRY_COUNT>24</RETRY_COUNT>
+		<GET_WAIT_TIME>3</GET_WAIT_TIME>
+		<SLEEP_TIME>600</SLEEP_TIME>
+		<SERVICE_OPERATION>STR_FIUF_01</SERVICE_OPERATION>
+	</STRJMSInfo>
+	
+	<!-- <FilePathInfo outboxIOWaitMinutes="2"> -->
+	<FilePathInfo>
+		<HOME>/tools/db2inst1/FIUCSTR</HOME> 
+		<MESSAGE>/STR/Message</MESSAGE>
+		<OUTBOX>/OUTBOX</OUTBOX>
+		<INBOX>/INBOX</INBOX>
+		<PROC>/PROC</PROC>
+		<ARCHIVE>/ARCHIVE</ARCHIVE>
+		<REPORT>/REPORT</REPORT>
+		<STATUS>/STATUS</STATUS>
+		<GPKICONF>./pkilib</GPKICONF>
+	</FilePathInfo>
+	
+	<schedule>
+		<!-- for Agent control  -->
+	 	<job>
+			<clazzname>kr.go.kofiu.str.service.SelfMonitorJob</clazzname>
+			<timeformat>0/5 * * * * ?</timeformat>
+			<desc>STR Self Monitor Job</desc>
+		</job> 
+		<!-- for check Agent Status  -->
+<!-- 	 	<job> -->
+<!-- 			<clazzname>kr.go.kofiu.str.service.HeartBeatJob</clazzname> -->
+<!-- 			 per 5 minutes -->
+<!-- 			<timeformat>0 0/5 * * * ?</timeformat> -->
+<!-- 			<desc>STR Heart Bear Job</desc> -->
+<!-- 		</job>  -->
+		<!-- for polling outbox  -->
+		<job>
+			<clazzname>kr.go.kofiu.str.service.OutboxPollerJob</clazzname>
+			<timeformat>0/15 * * * * ?</timeformat>
+			<desc>OUTBOX Polling Job</desc>
+		</job>
+		<!-- for polling guarantee document  -->
+<!-- 		<job> -->
+<!-- 			<clazzname>kr.go.kofiu.str.service.ReceiptPollerJob</clazzname> -->
+<!-- 			<timeformat>0/10 * * * * ?</timeformat> -->
+<!-- 			<desc>STR Receipt Poller Job</desc> -->
+<!-- 		</job> -->
+		<!-- for polling proc -->
+		<job>
+			<clazzname>kr.go.kofiu.str.service.STRDocumentSenderJob</clazzname>
+			<timeformat>0/15 * * * * ?</timeformat>
+			<param>3 , 60 </param>
+			<desc>STR Document Sender Job</desc>
+		</job>
+		<!-- for Update Agent module seventh day of every month -->
+<!-- 		<job> -->
+<!--         	<clazzname>kr.go.kofiu.str.service.AgentUpdateJob</clazzname> -->
+<!-- 		    <timeformat>0 0 0 7 * ?</timeformat> -->
+<!-- 		    <param>3, 60</param> -->
+<!-- 		    <desc>Agent Update Service</desc> -->
+<!-- 	    </job> -->
+	    <!-- for erasering archive document -->
+		<job>
+			<clazzname>kr.go.kofiu.ctr.service.MessageEraserJob</clazzname>
+			<timeformat>0 0 0/24 * * ?</timeformat>
+			<param>60</param>
+			<desc>param value is keeping day, so not delete files newer than param day</desc>
+		</job>	
+	</schedule>
+	
+	<!-- Multi-Thread info -->
+	<ThreadExecutor>
+		<corePoolSize>10</corePoolSize>
+		<maximumPoolSize>30</maximumPoolSize>
+		<keepAliveTime>300</keepAliveTime>
+	</ThreadExecutor>
+	
+</agent>
